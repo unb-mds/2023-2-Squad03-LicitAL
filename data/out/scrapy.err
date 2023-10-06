@@ -1,0 +1,1631 @@
+2023-10-06 11:27:28 [scrapy.utils.log] INFO: Scrapy 2.11.0 started (bot: gazette)
+2023-10-06 11:27:28 [scrapy.utils.log] INFO: Versions: lxml 4.9.3.0, libxml2 2.10.3, cssselect 1.2.0, parsel 1.8.1, w3lib 2.1.2, Twisted 22.10.0, Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0], pyOpenSSL 23.2.0 (OpenSSL 3.1.3 19 Sep 2023), cryptography 41.0.4, Platform Linux-6.2.0-34-generic-x86_64-with-glibc2.35
+2023-10-06 11:27:28 [al_associacao_municipios] INFO: Collecting gazettes from 2022-09-06
+2023-10-06 11:27:28 [al_associacao_municipios] INFO: Collecting gazettes until 2022-12-31
+2023-10-06 11:27:28 [scrapy.addons] INFO: Enabled addons:
+[]
+2023-10-06 11:27:28 [py.warnings] WARNING: /home/douglas/MDS/2023-2-Squad03/data/qd/.venv/lib/python3.10/site-packages/scrapy/utils/request.py:254: ScrapyDeprecationWarning: '2.6' is a deprecated value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting.
+
+It is also the default value. In other words, it is normal to get this warning if you have not defined a value for the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting. This is so for backward compatibility reasons, but it will change in a future version of Scrapy.
+
+See the documentation of the 'REQUEST_FINGERPRINTER_IMPLEMENTATION' setting for information on how to handle this deprecation.
+  return cls(crawler)
+
+2023-10-06 11:27:28 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2023-10-06 11:27:28 [scrapy.extensions.telnet] INFO: Telnet Password: 70fafabd62a02ab1
+2023-10-06 11:27:29 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'spidermon.contrib.scrapy.extensions.Spidermon',
+ 'gazette.extensions.StatsPersist']
+2023-10-06 11:27:29 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'gazette',
+ 'DOWNLOAD_TIMEOUT': 360,
+ 'FILES_STORE_S3_ACL': 'public-read',
+ 'NEWSPIDER_MODULE': 'gazette.spiders',
+ 'SPIDER_MODULES': ['gazette.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:108.0) '
+               'Gecko/20100101 Firefox/108.0'}
+2023-10-06 11:27:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy_zyte_smartproxy.ZyteSmartProxyMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-10-06 11:27:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-10-06 11:27:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['gazette.pipelines.GazetteDateFilteringPipeline',
+ 'gazette.pipelines.DefaultValuesPipeline',
+ 'gazette.pipelines.QueridoDiarioFilesPipeline',
+ 'spidermon.contrib.scrapy.pipelines.ItemValidationPipeline',
+ 'gazette.pipelines.SQLDatabasePipeline']
+2023-10-06 11:27:29 [scrapy.core.engine] INFO: Spider opened
+2023-10-06 11:27:30 [gazette.database.models] INFO: Populating 'territories' table - Please wait!
+2023-10-06 11:27:30 [gazette.database.models] INFO: Populating 'territories' table - Done!
+2023-10-06 11:27:30 [gazette.database.models] INFO: Populating 'querido_diario_spider' table - Please wait!
+2023-10-06 11:27:31 [gazette.database.models] INFO: Populating 'querido_diario_spider' table - Done!
+2023-10-06 11:27:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-10-06 11:27:31 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2023-10-06 11:27:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.diariomunicipal.com.br/ama/> from <GET https://www.diariomunicipal.com.br/ama>
+2023-10-06 11:27:35 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://www.diariomunicipal.com.br/ama/> from <GET http://www.diariomunicipal.com.br/ama/>
+2023-10-06 11:27:37 [urllib3.connectionpool] DEBUG: Starting new HTTPS connection (1): publicsuffix.org:443
+2023-10-06 11:27:37 [urllib3.connectionpool] DEBUG: https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 81944
+2023-10-06 11:27:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.diariomunicipal.com.br/ama/> (referer: None)
+2023-10-06 11:27:38 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:38 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-02
+2023-10-06 11:27:39 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:40 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:40 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-27
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-30
+2023-10-06 11:27:41 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-01
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:41 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-01
+2023-10-06 11:27:41 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-29
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-26
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-28
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-25
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-24
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-31
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-31
+2023-10-06 11:27:42 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-25
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-30
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-29
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:43 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-27
+2023-10-06 11:27:43 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-28
+2023-10-06 11:27:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84635_2022-09-26_b1c36742a1f7998673f4951078b2010a.pdf> (referer: None)
+2023-10-06 11:27:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84635_2022-09-26_b1c36742a1f7998673f4951078b2010a.pdf> referred in <None>
+2023-10-06 11:27:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-27',
+ 'edition_number': '1889',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84635_2022-09-26_b1c36742a1f7998673f4951078b2010a.pdf'],
+ 'files': [{'checksum': 'feeb4eadd8eecdcf71bd4333fcce0886',
+            'path': '2700000/2022-09-27/ea8230920a1a1b37426a36d0e2df2f8e76333f05.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84635_2022-09-26_b1c36742a1f7998673f4951078b2010a.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:41.235118Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84637_2022-09-28_07b0f9a74a0c7591a66e3d4f44f42241.pdf> (referer: None)
+2023-10-06 11:27:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84637_2022-09-28_07b0f9a74a0c7591a66e3d4f44f42241.pdf> referred in <None>
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84638_2022-09-29_16149fc9f630707a268cdc8c1214ebc7.pdf> (referer: None)
+2023-10-06 11:27:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84638_2022-09-29_16149fc9f630707a268cdc8c1214ebc7.pdf> referred in <None>
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-26
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-25
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-25
+2023-10-06 11:27:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-29',
+ 'edition_number': '1891',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84637_2022-09-28_07b0f9a74a0c7591a66e3d4f44f42241.pdf'],
+ 'files': [{'checksum': '1361a18f343c8791affebb619d4bdef7',
+            'path': '2700000/2022-09-29/1c23c7fb09f5e69897c33762364af286695c3931.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84637_2022-09-28_07b0f9a74a0c7591a66e3d4f44f42241.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:41.883122Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-30',
+ 'edition_number': '1892',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84638_2022-09-29_16149fc9f630707a268cdc8c1214ebc7.pdf'],
+ 'files': [{'checksum': '1b65bbf2b7efdd6db2656975207981ac',
+            'path': '2700000/2022-09-30/b055ffe4f1d64c0a57d66939fcb4ad23bb9eca39.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84638_2022-09-29_16149fc9f630707a268cdc8c1214ebc7.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:41.864967Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-24
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84634_2022-09-23_f0684e97e098e1c64212269c9d02149a.pdf> (referer: None)
+2023-10-06 11:27:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84634_2022-09-23_f0684e97e098e1c64212269c9d02149a.pdf> referred in <None>
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-24
+2023-10-06 11:27:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-26',
+ 'edition_number': '1888',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84634_2022-09-23_f0684e97e098e1c64212269c9d02149a.pdf'],
+ 'files': [{'checksum': '3190b1a90d74b84d38f9e1716791a614',
+            'path': '2700000/2022-09-26/c0442b3990d31eee877bb71f00c047100b99f292.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84634_2022-09-23_f0684e97e098e1c64212269c9d02149a.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:42.683765Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-23
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-20
+2023-10-06 11:27:44 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-22
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-21
+2023-10-06 11:27:45 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-19
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84694_2022-12-22_312cb4a60aafa10be47c7f7e7d33c18f.pdf> (referer: None)
+2023-10-06 11:27:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84694_2022-12-22_312cb4a60aafa10be47c7f7e7d33c18f.pdf> referred in <None>
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84699_2022-12-29_4a9302b2a75ae083bcf6b028e5ecf5a7.pdf> (referer: None)
+2023-10-06 11:27:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84699_2022-12-29_4a9302b2a75ae083bcf6b028e5ecf5a7.pdf> referred in <None>
+2023-10-06 11:27:45 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-18
+2023-10-06 11:27:45 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-18
+2023-10-06 11:27:45 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-23',
+ 'edition_number': '1949',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84694_2022-12-22_312cb4a60aafa10be47c7f7e7d33c18f.pdf'],
+ 'files': [{'checksum': '073ce0d63faa5cab3d8a8d823be64025',
+            'path': '2700000/2022-12-23/65c7f7e89aba78394e920ad04553c0dd8756445b.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84694_2022-12-22_312cb4a60aafa10be47c7f7e7d33c18f.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:44.416428Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:46 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-30',
+ 'edition_number': '1954',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84699_2022-12-29_4a9302b2a75ae083bcf6b028e5ecf5a7.pdf'],
+ 'files': [{'checksum': '3a3af5818d3c7afe704dabfb79d64fd8',
+            'path': '2700000/2022-12-30/f29c744bd08424eb703e4817474dd5992068b51c.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84699_2022-12-29_4a9302b2a75ae083bcf6b028e5ecf5a7.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:43.177897Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-17
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84698_2022-12-28_d283616bb33c3e76ff089df53f0476c2.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84698_2022-12-28_d283616bb33c3e76ff089df53f0476c2.pdf> referred in <None>
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84697_2022-12-27_701f5538f8631b1bda2196c9e373fadc.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84697_2022-12-27_701f5538f8631b1bda2196c9e373fadc.pdf> referred in <None>
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-17
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-16
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-15
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84696_2022-12-26_92e48b141616576f27cbb70efde3f77d.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84696_2022-12-26_92e48b141616576f27cbb70efde3f77d.pdf> referred in <None>
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84636_2022-09-27_acd106859ef7aaacd8a0945e2c6866ad.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84636_2022-09-27_acd106859ef7aaacd8a0945e2c6866ad.pdf> referred in <None>
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-14
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84692_2022-12-20_e6a4a151acf9fcc4d5376bff8d21a91b.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84692_2022-12-20_e6a4a151acf9fcc4d5376bff8d21a91b.pdf> referred in <None>
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84691_2022-12-19_0e380787484619e8d13211527b5b74a8.pdf> (referer: None)
+2023-10-06 11:27:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84691_2022-12-19_0e380787484619e8d13211527b5b74a8.pdf> referred in <None>
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-29',
+ 'edition_number': '1953',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84698_2022-12-28_d283616bb33c3e76ff089df53f0476c2.pdf'],
+ 'files': [{'checksum': '14660c66d33f345f2a61c1c2ff041736',
+            'path': '2700000/2022-12-29/64f830c067ae6655572f20b3cf081705d6890037.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84698_2022-12-28_d283616bb33c3e76ff089df53f0476c2.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:43.588991Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-28',
+ 'edition_number': '1952',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84697_2022-12-27_701f5538f8631b1bda2196c9e373fadc.pdf'],
+ 'files': [{'checksum': '2d4cf38408448d66f4c4bfe1e9d5a775',
+            'path': '2700000/2022-12-28/973c66d80da18482cdefbc94c96f3886441b860d.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84697_2022-12-27_701f5538f8631b1bda2196c9e373fadc.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:43.592433Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-27',
+ 'edition_number': '1951',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84696_2022-12-26_92e48b141616576f27cbb70efde3f77d.pdf'],
+ 'files': [{'checksum': 'c17a58f6903f00a9afca3a1957d551b7',
+            'path': '2700000/2022-12-27/d4d41855051cc52b251f77c5bedf9e17c2267c42.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84696_2022-12-26_92e48b141616576f27cbb70efde3f77d.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:43.510894Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-28',
+ 'edition_number': '1890',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84636_2022-09-27_acd106859ef7aaacd8a0945e2c6866ad.pdf'],
+ 'files': [{'checksum': '4759ba5af7ec47254f15ae46b59c65a9',
+            'path': '2700000/2022-09-28/7192d5978a80d431d4c0f770e92ad5c3b4fb3d32.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84636_2022-09-27_acd106859ef7aaacd8a0945e2c6866ad.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:39.407097Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-21',
+ 'edition_number': '1947',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84692_2022-12-20_e6a4a151acf9fcc4d5376bff8d21a91b.pdf'],
+ 'files': [{'checksum': '3a3952897aac1884bdc394cba6cd0e4f',
+            'path': '2700000/2022-12-21/7898c9a79aa04b5d2bc8b06532e65a112d50df6a.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84692_2022-12-20_e6a4a151acf9fcc4d5376bff8d21a91b.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:44.950789Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-20',
+ 'edition_number': '1946',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84691_2022-12-19_0e380787484619e8d13211527b5b74a8.pdf'],
+ 'files': [{'checksum': 'a309d3a4fa7fcac83f00d3f0fc801d4b',
+            'path': '2700000/2022-12-20/f4dbd5a0be8e0a527f0a7e8617ccd4aff1fbb2ac.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84691_2022-12-19_0e380787484619e8d13211527b5b74a8.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:45.272309Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-10
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-11
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-10
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-11
+2023-10-06 11:27:47 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-12
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-13
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-08
+2023-10-06 11:27:48 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-09
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:48 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-07
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84693_2022-12-21_9b649cf86d589e5bcecabe28daee73f9.pdf> (referer: None)
+2023-10-06 11:27:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84693_2022-12-21_9b649cf86d589e5bcecabe28daee73f9.pdf> referred in <None>
+2023-10-06 11:27:48 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-22',
+ 'edition_number': '1948',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84693_2022-12-21_9b649cf86d589e5bcecabe28daee73f9.pdf'],
+ 'files': [{'checksum': '07e91912b5a4a4a33a3d5400ac331b0c',
+            'path': '2700000/2022-12-22/ad999963b4e6bb7173b9221530828f6c68975bc4.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84693_2022-12-21_9b649cf86d589e5bcecabe28daee73f9.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:45.039291Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84688_2022-12-14_70231deeb3248465903a1024f8a080e4.pdf> (referer: None)
+2023-10-06 11:27:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84688_2022-12-14_70231deeb3248465903a1024f8a080e4.pdf> referred in <None>
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-06
+2023-10-06 11:27:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-15',
+ 'edition_number': '1943',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84688_2022-12-14_70231deeb3248465903a1024f8a080e4.pdf'],
+ 'files': [{'checksum': '7f73a6e4ea6b34657250064006566107',
+            'path': '2700000/2022-12-15/1d18ee7d002d427549b64d46838177cdd7554651.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84688_2022-12-14_70231deeb3248465903a1024f8a080e4.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:47.075302Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84686_2022-12-12_242b177577cfc7d37e96357337cfe8cc.pdf> (referer: None)
+2023-10-06 11:27:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84686_2022-12-12_242b177577cfc7d37e96357337cfe8cc.pdf> referred in <None>
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84687_2022-12-13_ad8a316378f055ee1af36e7c71ea74c4.pdf> (referer: None)
+2023-10-06 11:27:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84687_2022-12-13_ad8a316378f055ee1af36e7c71ea74c4.pdf> referred in <None>
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-13',
+ 'edition_number': '1941',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84686_2022-12-12_242b177577cfc7d37e96357337cfe8cc.pdf'],
+ 'files': [{'checksum': '140622dbd44a47a0b73b51736631d418',
+            'path': '2700000/2022-12-13/5c7fe56270b5bd7c501e5970cf4ee57f1207f27c.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84686_2022-12-12_242b177577cfc7d37e96357337cfe8cc.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:47.990726Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84690_2022-12-16_b59975b1fa909d834928eac64df68bdb.pdf> (referer: None)
+2023-10-06 11:27:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84690_2022-12-16_b59975b1fa909d834928eac64df68bdb.pdf> referred in <None>
+2023-10-06 11:27:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-14',
+ 'edition_number': '1942',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84687_2022-12-13_ad8a316378f055ee1af36e7c71ea74c4.pdf'],
+ 'files': [{'checksum': '3f934faf89fdce2ed44054bc979516ab',
+            'path': '2700000/2022-12-14/3786f3accbc710b8840ad6ecd6eaff6745079551.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84687_2022-12-13_ad8a316378f055ee1af36e7c71ea74c4.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:47.077034Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-04
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-04
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-05
+2023-10-06 11:27:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-19',
+ 'edition_number': '1945',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84690_2022-12-16_b59975b1fa909d834928eac64df68bdb.pdf'],
+ 'files': [{'checksum': 'f4fd5027d345a730ad7a6991d7d99284',
+            'path': '2700000/2022-12-19/cedeb71e0f456abe7a2e0d651fa0f0bce8992ab9.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84690_2022-12-16_b59975b1fa909d834928eac64df68bdb.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:45.511453Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-03
+2023-10-06 11:27:49 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-12-03
+2023-10-06 11:27:49 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:50 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-02
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84684_2022-12-08_ade3078eb12b53ea1d21b6039475a71e.pdf> (referer: None)
+2023-10-06 11:27:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84684_2022-12-08_ade3078eb12b53ea1d21b6039475a71e.pdf> referred in <None>
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84683_2022-12-07_10716fc22000e3a7a888b43688735db2.pdf> (referer: None)
+2023-10-06 11:27:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84683_2022-12-07_10716fc22000e3a7a888b43688735db2.pdf> referred in <None>
+2023-10-06 11:27:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-09',
+ 'edition_number': '1939',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84684_2022-12-08_ade3078eb12b53ea1d21b6039475a71e.pdf'],
+ 'files': [{'checksum': '4118dda6cd086cb532447b2f2a303573',
+            'path': '2700000/2022-12-09/68a75d8e1445f8bf28e9ae6cd256b8cf0e246910.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84684_2022-12-08_ade3078eb12b53ea1d21b6039475a71e.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:48.683156Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:52 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-08',
+ 'edition_number': '1938',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84683_2022-12-07_10716fc22000e3a7a888b43688735db2.pdf'],
+ 'files': [{'checksum': '02be1d162b54e97696fa598151567f36',
+            'path': '2700000/2022-12-08/0b80ddb1c8307296e3529742f59afd518243bde6.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84683_2022-12-07_10716fc22000e3a7a888b43688735db2.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:48.713692Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-12-01
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-29
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-30
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-28
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-27
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-26
+2023-10-06 11:27:53 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-27
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84689_2022-12-15_1be4a1f5de061c5d0ccd37c93fe5eab9.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84689_2022-12-15_1be4a1f5de061c5d0ccd37c93fe5eab9.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84685_2022-12-09_ef92210c6d8d17d0a51c7c1c8a9c0f16.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84685_2022-12-09_ef92210c6d8d17d0a51c7c1c8a9c0f16.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84680_2022-12-02_4aaf7ff38ba863ad2da522c49ed6e1a2.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84680_2022-12-02_4aaf7ff38ba863ad2da522c49ed6e1a2.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84695_2022-12-23_caf1c5875a53f19d139913ceeb0e9477.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84695_2022-12-23_caf1c5875a53f19d139913ceeb0e9477.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84681_2022-12-05_a06cc6282a6286859a33e4f06121ee4e.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84681_2022-12-05_a06cc6282a6286859a33e4f06121ee4e.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84682_2022-12-06_23be8ca26d40332a7380904404b06177.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84682_2022-12-06_23be8ca26d40332a7380904404b06177.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84678_2022-11-30_c1e3c6d6f36d228e0c76e3760a5d5fc1.pdf> (referer: None)
+2023-10-06 11:27:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84678_2022-11-30_c1e3c6d6f36d228e0c76e3760a5d5fc1.pdf> referred in <None>
+2023-10-06 11:27:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-16',
+ 'edition_number': '1944',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84689_2022-12-15_1be4a1f5de061c5d0ccd37c93fe5eab9.pdf'],
+ 'files': [{'checksum': '1dedf327b21156a59f8521b59fcc120c',
+            'path': '2700000/2022-12-16/fd0a4f53ff56078f73b6ad09a4f09907ce052433.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84689_2022-12-15_1be4a1f5de061c5d0ccd37c93fe5eab9.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:47.071862Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:53 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-12',
+ 'edition_number': '1940',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84685_2022-12-09_ef92210c6d8d17d0a51c7c1c8a9c0f16.pdf'],
+ 'files': [{'checksum': 'df5ee6c5b8e5314f447bee9fb1d09d73',
+            'path': '2700000/2022-12-12/36722430a63e0f9cea5a3718b7c0c9c579b0088d.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84685_2022-12-09_ef92210c6d8d17d0a51c7c1c8a9c0f16.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:47.945467Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-05',
+ 'edition_number': '1935',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84680_2022-12-02_4aaf7ff38ba863ad2da522c49ed6e1a2.pdf'],
+ 'files': [{'checksum': '73bf2d1f8b019e02d4a869c58280ffd8',
+            'path': '2700000/2022-12-05/135be571e798451e426f53a65bc4b1bf7912fd17.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84680_2022-12-02_4aaf7ff38ba863ad2da522c49ed6e1a2.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:49.792781Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-26',
+ 'edition_number': '1950',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84695_2022-12-23_caf1c5875a53f19d139913ceeb0e9477.pdf'],
+ 'files': [{'checksum': '1ac560a6fab85249be7f2da8bd9bb0de',
+            'path': '2700000/2022-12-26/dc5b699e7cab005fe74692e98c40db623e3367b6.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84695_2022-12-23_caf1c5875a53f19d139913ceeb0e9477.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:44.174783Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-06',
+ 'edition_number': '1936',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84681_2022-12-05_a06cc6282a6286859a33e4f06121ee4e.pdf'],
+ 'files': [{'checksum': '6fedf1d573306a112e326343c615b236',
+            'path': '2700000/2022-12-06/3c1c786c9a3be13d9e8468d906831ae354e69555.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84681_2022-12-05_a06cc6282a6286859a33e4f06121ee4e.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:49.586925Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-07',
+ 'edition_number': '1937',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84682_2022-12-06_23be8ca26d40332a7380904404b06177.pdf'],
+ 'files': [{'checksum': '399d56b4c1359924da2b22dde0390d7e',
+            'path': '2700000/2022-12-07/72e8a6c66c2e7434c5c955026af338a18321c630.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84682_2022-12-06_23be8ca26d40332a7380904404b06177.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:48.889531Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-01',
+ 'edition_number': '1933',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84678_2022-11-30_c1e3c6d6f36d228e0c76e3760a5d5fc1.pdf'],
+ 'files': [{'checksum': '8e58bba69bc41b868725ed8a6a6f2f60',
+            'path': '2700000/2022-12-01/0cda007fbc4b49cdc83f8a0126728f749c9e50fc.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84678_2022-11-30_c1e3c6d6f36d228e0c76e3760a5d5fc1.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:50.416072Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84677_2022-11-29_6f4737b53eb9bb3ab9dac910757e1270.pdf> (referer: None)
+2023-10-06 11:27:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84677_2022-11-29_6f4737b53eb9bb3ab9dac910757e1270.pdf> referred in <None>
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84676_2022-11-28_3bc3ffd3f5ed8d8545e06d5255e4f074.pdf> (referer: None)
+2023-10-06 11:27:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84676_2022-11-28_3bc3ffd3f5ed8d8545e06d5255e4f074.pdf> referred in <None>
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84679_2022-12-01_d631fc54616b33908a786b078acd0276.pdf> (referer: None)
+2023-10-06 11:27:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84679_2022-12-01_d631fc54616b33908a786b078acd0276.pdf> referred in <None>
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-26
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-25
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-23
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-22
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-24
+2023-10-06 11:27:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-30',
+ 'edition_number': '1932',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84677_2022-11-29_6f4737b53eb9bb3ab9dac910757e1270.pdf'],
+ 'files': [{'checksum': '380e1537ba77e55e7499c7fb13185bf7',
+            'path': '2700000/2022-11-30/594e72052f82adaabd0f8a9a3a296e708ddb45d3.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84677_2022-11-29_6f4737b53eb9bb3ab9dac910757e1270.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:50.429996Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-29',
+ 'edition_number': '1931',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84676_2022-11-28_3bc3ffd3f5ed8d8545e06d5255e4f074.pdf'],
+ 'files': [{'checksum': '3b3d6638988b127e4185a5f3e13dd236',
+            'path': '2700000/2022-11-29/c05328f3418a4ab2ecf2093d372abecdf62ab121.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84676_2022-11-28_3bc3ffd3f5ed8d8545e06d5255e4f074.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:53.468772Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-12-02',
+ 'edition_number': '1934',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84679_2022-12-01_d631fc54616b33908a786b078acd0276.pdf'],
+ 'files': [{'checksum': '3ef4a24cbfa760bfe5bf22bbe2ced120',
+            'path': '2700000/2022-12-02/8a2e3c97fe8e5627a7cb92ab3f3827c0a45f5e07.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84679_2022-12-01_d631fc54616b33908a786b078acd0276.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:53.467745Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-20
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84675_2022-11-25_f6277eb440af603b82753e3fb38bd947.pdf> (referer: None)
+2023-10-06 11:27:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84675_2022-11-25_f6277eb440af603b82753e3fb38bd947.pdf> referred in <None>
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:56 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-28',
+ 'edition_number': '1930',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84675_2022-11-25_f6277eb440af603b82753e3fb38bd947.pdf'],
+ 'files': [{'checksum': 'a9c3426290daf6028fa9f6e7c3382446',
+            'path': '2700000/2022-11-28/d3b5fdc5965fd1baf9fd91ddcf2a665503bf211a.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84675_2022-11-25_f6277eb440af603b82753e3fb38bd947.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:53.471112Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-21
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-20
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-19
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-19
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-18
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-15
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-16
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:57 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-17
+2023-10-06 11:27:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84673_2022-11-23_e13b1aced716d72270f5a343b24cf3bf.pdf> (referer: None)
+2023-10-06 11:27:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84673_2022-11-23_e13b1aced716d72270f5a343b24cf3bf.pdf> referred in <None>
+2023-10-06 11:27:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84672_2022-11-22_06b758514f08296d80a16f8e0b36daa0.pdf> (referer: None)
+2023-10-06 11:27:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84672_2022-11-22_06b758514f08296d80a16f8e0b36daa0.pdf> referred in <None>
+2023-10-06 11:27:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-24',
+ 'edition_number': '1928',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84673_2022-11-23_e13b1aced716d72270f5a343b24cf3bf.pdf'],
+ 'files': [{'checksum': '1ac8a73b8b71e50d22ead3187c913062',
+            'path': '2700000/2022-11-24/99d88ebf9f593cf9680f3e1521eeee3a9ac6ebf8.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84673_2022-11-23_e13b1aced716d72270f5a343b24cf3bf.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:56.222593Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:27:59 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-23',
+ 'edition_number': '1927',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84672_2022-11-22_06b758514f08296d80a16f8e0b36daa0.pdf'],
+ 'files': [{'checksum': '6cbf93063759bea2cf70316c02b81cb5',
+            'path': '2700000/2022-11-23/f2b49f924343869cd974fa640619c9fbba31d812.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84672_2022-11-22_06b758514f08296d80a16f8e0b36daa0.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:56.218707Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-13
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-14
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-13
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-12
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-15
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-12
+2023-10-06 11:28:01 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-11
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84674_2022-11-24_04e09b120f0254d7b3aeafff10255d0c.pdf> (referer: None)
+2023-10-06 11:28:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84674_2022-11-24_04e09b120f0254d7b3aeafff10255d0c.pdf> referred in <None>
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84670_2022-11-18_58abf12f2146fc7014813f30affefdd2.pdf> (referer: None)
+2023-10-06 11:28:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84670_2022-11-18_58abf12f2146fc7014813f30affefdd2.pdf> referred in <None>
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84671_2022-11-21_c294b58e5401ff87b3dc8d85a285fae0.pdf> (referer: None)
+2023-10-06 11:28:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84671_2022-11-21_c294b58e5401ff87b3dc8d85a285fae0.pdf> referred in <None>
+2023-10-06 11:28:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-25',
+ 'edition_number': '1929',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84674_2022-11-24_04e09b120f0254d7b3aeafff10255d0c.pdf'],
+ 'files': [{'checksum': '14e6dfffb6fd95e49f6425580fe2fcfa',
+            'path': '2700000/2022-11-25/cafa50a4114328d6f695cc42ee655e293ba9f58d.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84674_2022-11-24_04e09b120f0254d7b3aeafff10255d0c.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:56.227924Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-21',
+ 'edition_number': '1925',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84670_2022-11-18_58abf12f2146fc7014813f30affefdd2.pdf'],
+ 'files': [{'checksum': 'cca5e8ced299a358f6e897e23cdb27bb',
+            'path': '2700000/2022-11-21/fb76b3d41faecbb256e3da51003a53fa0c295eae.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84670_2022-11-18_58abf12f2146fc7014813f30affefdd2.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:57.581594Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-22',
+ 'edition_number': '1926',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84671_2022-11-21_c294b58e5401ff87b3dc8d85a285fae0.pdf'],
+ 'files': [{'checksum': 'c900ecf4bf835be431d36447558368d2',
+            'path': '2700000/2022-11-22/23ce20749472e6e7b38e63b0f9e436ab4e41add8.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84671_2022-11-21_c294b58e5401ff87b3dc8d85a285fae0.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:57.584664Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84667_2022-11-14_7943f92c1b93a671933ec581866118c5.pdf> (referer: None)
+2023-10-06 11:28:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84667_2022-11-14_7943f92c1b93a671933ec581866118c5.pdf> referred in <None>
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:01 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-09
+2023-10-06 11:28:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-16',
+ 'edition_number': '1922',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84667_2022-11-14_7943f92c1b93a671933ec581866118c5.pdf'],
+ 'files': [{'checksum': '87f278862832709295e0df4a1b5d45c3',
+            'path': '2700000/2022-11-16/efa78ae27d6f5d0f5f69f93016d2327174b8c127.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84667_2022-11-14_7943f92c1b93a671933ec581866118c5.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:57.763081Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-10
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-07
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84669_2022-11-17_af5a7de75b925b9a827078a12d7985b6.pdf> (referer: None)
+2023-10-06 11:28:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84669_2022-11-17_af5a7de75b925b9a827078a12d7985b6.pdf> referred in <None>
+2023-10-06 11:28:02 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-18',
+ 'edition_number': '1924',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84669_2022-11-17_af5a7de75b925b9a827078a12d7985b6.pdf'],
+ 'files': [{'checksum': '08681355c8f85cc05323bc741d18c0c1',
+            'path': '2700000/2022-11-18/83cf16b8786c07a97c0daa084741d8a8af90f3a2.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84669_2022-11-17_af5a7de75b925b9a827078a12d7985b6.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:57.675222Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-08
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-05
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-06
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:02 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-05
+2023-10-06 11:28:02 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-04
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-06
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84668_2022-11-16_3c51e422643dfb7b3a18ea5a0c273044.pdf> (referer: None)
+2023-10-06 11:28:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84668_2022-11-16_3c51e422643dfb7b3a18ea5a0c273044.pdf> referred in <None>
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-02
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-17',
+ 'edition_number': '1923',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84668_2022-11-16_3c51e422643dfb7b3a18ea5a0c273044.pdf'],
+ 'files': [{'checksum': 'f6edc5392153865c9e3d14004fabd058',
+            'path': '2700000/2022-11-17/b5d3c1de142fac61ed71242379f299bdf48ba90e.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84668_2022-11-16_3c51e422643dfb7b3a18ea5a0c273044.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:27:57.953322Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-03
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-11-02
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-31
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84661_2022-11-04_8bda97d1bde897a3a78bc3c39bae2a5e.pdf> (referer: None)
+2023-10-06 11:28:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84661_2022-11-04_8bda97d1bde897a3a78bc3c39bae2a5e.pdf> referred in <None>
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-07',
+ 'edition_number': '1916',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84661_2022-11-04_8bda97d1bde897a3a78bc3c39bae2a5e.pdf'],
+ 'files': [{'checksum': 'e580695211e3444ada49c7fcc72939e9',
+            'path': '2700000/2022-11-07/226bd4afd3d353d3230ffffff601154b461e52a7.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84661_2022-11-04_8bda97d1bde897a3a78bc3c39bae2a5e.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.820582Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-30
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:03 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-11-01
+2023-10-06 11:28:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84660_2022-11-03_7b378a7fd4e22656631a97b973fc3948.pdf> (referer: None)
+2023-10-06 11:28:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84660_2022-11-03_7b378a7fd4e22656631a97b973fc3948.pdf> referred in <None>
+2023-10-06 11:28:04 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-30
+2023-10-06 11:28:04 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-04',
+ 'edition_number': '1915',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84660_2022-11-03_7b378a7fd4e22656631a97b973fc3948.pdf'],
+ 'files': [{'checksum': '2a5225fbabdd971bb28d621cd632a6a9',
+            'path': '2700000/2022-11-04/796fcdd489890a1303adffbbeddb02a2993906ce.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84660_2022-11-03_7b378a7fd4e22656631a97b973fc3948.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.920552Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:04 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84665_2022-11-10_44c1ff956d2c5cc2a1d667be00443d05.pdf> (referer: None)
+2023-10-06 11:28:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84665_2022-11-10_44c1ff956d2c5cc2a1d667be00443d05.pdf> referred in <None>
+2023-10-06 11:28:04 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-29
+2023-10-06 11:28:04 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-11',
+ 'edition_number': '1920',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84665_2022-11-10_44c1ff956d2c5cc2a1d667be00443d05.pdf'],
+ 'files': [{'checksum': 'bc3726fc721a4729aeeb0fd282ceb3a5',
+            'path': '2700000/2022-11-11/75523379d77dfe4743bcb50e36677b3690f8300a.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84665_2022-11-10_44c1ff956d2c5cc2a1d667be00443d05.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.120969Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-29
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84663_2022-11-08_4db1c8f310edfd802b5e6a5f5c83ca83.pdf> (referer: None)
+2023-10-06 11:28:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84663_2022-11-08_4db1c8f310edfd802b5e6a5f5c83ca83.pdf> referred in <None>
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84664_2022-11-09_7eea6ab35b45281a54241f26c3dfa505.pdf> (referer: None)
+2023-10-06 11:28:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84664_2022-11-09_7eea6ab35b45281a54241f26c3dfa505.pdf> referred in <None>
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84659_2022-10-31_05b5a1168b67fc0febd37fcd332028bc.pdf> (referer: None)
+2023-10-06 11:28:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84659_2022-10-31_05b5a1168b67fc0febd37fcd332028bc.pdf> referred in <None>
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84658_2022-10-28_1d8958a2a8b0d10fb538d3830f672bac.pdf> (referer: None)
+2023-10-06 11:28:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84658_2022-10-28_1d8958a2a8b0d10fb538d3830f672bac.pdf> referred in <None>
+2023-10-06 11:28:05 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-28
+2023-10-06 11:28:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-09',
+ 'edition_number': '1918',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84663_2022-11-08_4db1c8f310edfd802b5e6a5f5c83ca83.pdf'],
+ 'files': [{'checksum': 'a71f77c1d34e5132b683fe179684f1c9',
+            'path': '2700000/2022-11-09/fec416b1517b89a56e476db5e693ce779b3cf86b.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84663_2022-11-08_4db1c8f310edfd802b5e6a5f5c83ca83.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.219318Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-10',
+ 'edition_number': '1919',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84664_2022-11-09_7eea6ab35b45281a54241f26c3dfa505.pdf'],
+ 'files': [{'checksum': '620d19b495228d06f3eeb3947c190a94',
+            'path': '2700000/2022-11-10/7b15bc019c388b13d8a07f2109c3b8663e94566f.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84664_2022-11-09_7eea6ab35b45281a54241f26c3dfa505.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.037889Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-01',
+ 'edition_number': '1913',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84659_2022-10-31_05b5a1168b67fc0febd37fcd332028bc.pdf'],
+ 'files': [{'checksum': 'ecc2e847bf7b27d39bd39e414ffe2cae',
+            'path': '2700000/2022-11-01/f032ece892b15ddd143b6064eb31946b1dfaa475.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84659_2022-10-31_05b5a1168b67fc0febd37fcd332028bc.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:03.576850Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-31',
+ 'edition_number': '1912',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84658_2022-10-28_1d8958a2a8b0d10fb538d3830f672bac.pdf'],
+ 'files': [{'checksum': 'e05d5e28b57583fb68e88ea50ac419db',
+            'path': '2700000/2022-10-31/ae9f426fcc3f96722266734102bb2360afd2965a.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84658_2022-10-28_1d8958a2a8b0d10fb538d3830f672bac.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:04.191041Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:05 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-26
+2023-10-06 11:28:05 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-27
+2023-10-06 11:28:05 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-25
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:05 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-23
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-24
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-23
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-22
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-22
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_89389_2022-11-01_cac00cedd88e87485d92e0084a6f6b05.pdf> (referer: None)
+2023-10-06 11:28:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_89389_2022-11-01_cac00cedd88e87485d92e0084a6f6b05.pdf> referred in <None>
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84666_2022-11-11_8a888282ee6a67e6a32cea19b40cd7a8.pdf> (referer: None)
+2023-10-06 11:28:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84666_2022-11-11_8a888282ee6a67e6a32cea19b40cd7a8.pdf> referred in <None>
+2023-10-06 11:28:06 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-21
+2023-10-06 11:28:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84662_2022-11-07_735754f154c1b231b060d83919b00a91.pdf> (referer: None)
+2023-10-06 11:28:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84662_2022-11-07_735754f154c1b231b060d83919b00a91.pdf> referred in <None>
+2023-10-06 11:28:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-03',
+ 'edition_number': '1914',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_89389_2022-11-01_cac00cedd88e87485d92e0084a6f6b05.pdf'],
+ 'files': [{'checksum': '6087c26c78da2d1699a40d50f03426f5',
+            'path': '2700000/2022-11-03/cecd965470418cf4b3c85ad0bfa41b8cf4c5ee21.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_89389_2022-11-01_cac00cedd88e87485d92e0084a6f6b05.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:03.314232Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-14',
+ 'edition_number': '1921',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84666_2022-11-11_8a888282ee6a67e6a32cea19b40cd7a8.pdf'],
+ 'files': [{'checksum': '3bde99552169a1a77867512afcb89d86',
+            'path': '2700000/2022-11-14/139c6dd0c4c8b07dff22f7c7320c89b85c4d07cd.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84666_2022-11-11_8a888282ee6a67e6a32cea19b40cd7a8.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:01.165072Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84655_2022-10-25_1155ab90f913a8ae13be2b3b4a3d5e2f.pdf> (referer: None)
+2023-10-06 11:28:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84655_2022-10-25_1155ab90f913a8ae13be2b3b4a3d5e2f.pdf> referred in <None>
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-11-08',
+ 'edition_number': '1917',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84662_2022-11-07_735754f154c1b231b060d83919b00a91.pdf'],
+ 'files': [{'checksum': 'a3951a0e49012a4100964327e6508a2f',
+            'path': '2700000/2022-11-08/de4ae463468fd7da933870057e48a98245157b36.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84662_2022-11-07_735754f154c1b231b060d83919b00a91.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:02.040037Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84657_2022-10-27_9e53bc5c4e9af13d1a9b92efd6a5d419.pdf> (referer: None)
+2023-10-06 11:28:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84657_2022-10-27_9e53bc5c4e9af13d1a9b92efd6a5d419.pdf> referred in <None>
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84656_2022-10-26_b64a92c7acf80600c37391c5db9de448.pdf> (referer: None)
+2023-10-06 11:28:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84656_2022-10-26_b64a92c7acf80600c37391c5db9de448.pdf> referred in <None>
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84653_2022-10-21_ffe25fe821b24371cc1a753f6b93092a.pdf> (referer: None)
+2023-10-06 11:28:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84653_2022-10-21_ffe25fe821b24371cc1a753f6b93092a.pdf> referred in <None>
+2023-10-06 11:28:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-26',
+ 'edition_number': '1909',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84655_2022-10-25_1155ab90f913a8ae13be2b3b4a3d5e2f.pdf'],
+ 'files': [{'checksum': 'b316fd6f720eeadc9675d5b7d3380f1a',
+            'path': '2700000/2022-10-26/d20998bca23c774d090d2a4782fc21ef3392598c.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84655_2022-10-25_1155ab90f913a8ae13be2b3b4a3d5e2f.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:05.651323Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:07 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-20
+2023-10-06 11:28:07 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-19
+2023-10-06 11:28:07 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-18
+2023-10-06 11:28:07 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-17
+2023-10-06 11:28:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-28',
+ 'edition_number': '1911',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84657_2022-10-27_9e53bc5c4e9af13d1a9b92efd6a5d419.pdf'],
+ 'files': [{'checksum': '8ca1056ad22ca14e5393e06a71c65b1e',
+            'path': '2700000/2022-10-28/28c09c0b952e872d4f2673ec743a505af44e8d52.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84657_2022-10-27_9e53bc5c4e9af13d1a9b92efd6a5d419.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:05.646505Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84654_2022-10-24_da458cab658ccea89ff61b16e4350a4f.pdf> (referer: None)
+2023-10-06 11:28:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84654_2022-10-24_da458cab658ccea89ff61b16e4350a4f.pdf> referred in <None>
+2023-10-06 11:28:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-27',
+ 'edition_number': '1910',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84656_2022-10-26_b64a92c7acf80600c37391c5db9de448.pdf'],
+ 'files': [{'checksum': 'd90ef0fd46d6ccf2694ca5ada4410f0f',
+            'path': '2700000/2022-10-27/bde4a0f5926666b7d9a6016ffbbe64b0dad8e185.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84656_2022-10-26_b64a92c7acf80600c37391c5db9de448.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:05.422379Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-24',
+ 'edition_number': '1907',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84653_2022-10-21_ffe25fe821b24371cc1a753f6b93092a.pdf'],
+ 'files': [{'checksum': 'ae0861e74459617b7b449ed0b80eeeb5',
+            'path': '2700000/2022-10-24/3c11edb8e773a82b54b8d843f874ecb2476ba356.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84653_2022-10-21_ffe25fe821b24371cc1a753f6b93092a.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:06.168268Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-25',
+ 'edition_number': '1908',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84654_2022-10-24_da458cab658ccea89ff61b16e4350a4f.pdf'],
+ 'files': [{'checksum': '9ff51d749cf8e2fbf6aff52d208b148c',
+            'path': '2700000/2022-10-25/433336dea40d5bb6d42db6fa56e3a49040c585cf.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84654_2022-10-24_da458cab658ccea89ff61b16e4350a4f.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:05.649740Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-16
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-16
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-15
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-15
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-13
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84649_2022-10-17_4074334cda07c2d51767d103373ea5b9.pdf> (referer: None)
+2023-10-06 11:28:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84649_2022-10-17_4074334cda07c2d51767d103373ea5b9.pdf> referred in <None>
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-18',
+ 'edition_number': '1903',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84649_2022-10-17_4074334cda07c2d51767d103373ea5b9.pdf'],
+ 'files': [{'checksum': '57c3f37dd5f8c7909dd50aeb7c6cdd17',
+            'path': '2700000/2022-10-18/877ce9b191684eb75af1a2e86cad61675069bfda.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84649_2022-10-17_4074334cda07c2d51767d103373ea5b9.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:07.730531Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:08 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-14
+2023-10-06 11:28:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84652_2022-10-20_b08465e4039502821be04f4f8048dd3e.pdf> (referer: None)
+2023-10-06 11:28:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84652_2022-10-20_b08465e4039502821be04f4f8048dd3e.pdf> referred in <None>
+2023-10-06 11:28:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-21',
+ 'edition_number': '1906',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84652_2022-10-20_b08465e4039502821be04f4f8048dd3e.pdf'],
+ 'files': [{'checksum': '15e7d97f79e82d6d633720c57019b216',
+            'path': '2700000/2022-10-21/718b39645b0de50df1129aa5a2675fe2a23d0e4a.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84652_2022-10-20_b08465e4039502821be04f4f8048dd3e.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:06.568575Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-12
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-12
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-11
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-09
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-09
+2023-10-06 11:28:09 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:09 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-10
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-08
+2023-10-06 11:28:10 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-10-08
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84651_2022-10-19_18df1488d24ca7bb4ce01e9c22ce7d60.pdf> (referer: None)
+2023-10-06 11:28:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84651_2022-10-19_18df1488d24ca7bb4ce01e9c22ce7d60.pdf> referred in <None>
+2023-10-06 11:28:10 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-07
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84646_2022-10-11_1eeaf4ef82ea37b82057acdd586558b4.pdf> (referer: None)
+2023-10-06 11:28:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84646_2022-10-11_1eeaf4ef82ea37b82057acdd586558b4.pdf> referred in <None>
+2023-10-06 11:28:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-20',
+ 'edition_number': '1905',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84651_2022-10-19_18df1488d24ca7bb4ce01e9c22ce7d60.pdf'],
+ 'files': [{'checksum': 'efc3a93938629b02acb69de79b395791',
+            'path': '2700000/2022-10-20/3eb2ec41324bace6458883f95971ff2064568055.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84651_2022-10-19_18df1488d24ca7bb4ce01e9c22ce7d60.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:07.725829Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:10 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-13',
+ 'edition_number': '1900',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84646_2022-10-11_1eeaf4ef82ea37b82057acdd586558b4.pdf'],
+ 'files': [{'checksum': 'ebeb1b9aaee202a6e0b7d842e0d3b047',
+            'path': '2700000/2022-10-13/4d0ebd8fec74c8cbb6ff05346573a1eb18e73ad9.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84646_2022-10-11_1eeaf4ef82ea37b82057acdd586558b4.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:08.762959Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84648_2022-10-14_0a4c40dc3e0e97095722410fb21af1f7.pdf> (referer: None)
+2023-10-06 11:28:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84648_2022-10-14_0a4c40dc3e0e97095722410fb21af1f7.pdf> referred in <None>
+2023-10-06 11:28:10 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-17',
+ 'edition_number': '1902',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84648_2022-10-14_0a4c40dc3e0e97095722410fb21af1f7.pdf'],
+ 'files': [{'checksum': 'ae9be3d867be432bfc6423ec80855b0c',
+            'path': '2700000/2022-10-17/19ceace28ed14b0cd7e4e67e255f3a19e282b8fd.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84648_2022-10-14_0a4c40dc3e0e97095722410fb21af1f7.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:07.732117Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84650_2022-10-18_6bb65e16b5232d0f8a6d9e271822ad61.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84650_2022-10-18_6bb65e16b5232d0f8a6d9e271822ad61.pdf> referred in <None>
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84647_2022-10-13_94e47e20dc2729da1eea8e6d1cab4ec3.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84647_2022-10-13_94e47e20dc2729da1eea8e6d1cab4ec3.pdf> referred in <None>
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-06
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84645_2022-10-10_191055350a989dc6a50e5c33503644c6.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84645_2022-10-10_191055350a989dc6a50e5c33503644c6.pdf> referred in <None>
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-04
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-05
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-03
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-24
+2023-10-06 11:28:11 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-10-02
+2023-10-06 11:28:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-19',
+ 'edition_number': '1904',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84650_2022-10-18_6bb65e16b5232d0f8a6d9e271822ad61.pdf'],
+ 'files': [{'checksum': '6b0a115f4d2f5502b09b4767900036ac',
+            'path': '2700000/2022-10-19/904cd55415e6422293eb7b9d1d05dad0b48b8be4.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84650_2022-10-18_6bb65e16b5232d0f8a6d9e271822ad61.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:07.728231Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-14',
+ 'edition_number': '1901',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84647_2022-10-13_94e47e20dc2729da1eea8e6d1cab4ec3.pdf'],
+ 'files': [{'checksum': '5171f491d98e484865190c261d90aab0',
+            'path': '2700000/2022-10-14/f8ba699d3670c0df0a0b51ab7723fc192d7a5613.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84647_2022-10-13_94e47e20dc2729da1eea8e6d1cab4ec3.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:08.760314Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-11',
+ 'edition_number': '1899',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84645_2022-10-10_191055350a989dc6a50e5c33503644c6.pdf'],
+ 'files': [{'checksum': 'd06e08df48522e2be280a785b3e6ef04',
+            'path': '2700000/2022-10-11/1fd5ff11d7ef40fbf3fb7b4800bf8ca93de2e5cc.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84645_2022-10-10_191055350a989dc6a50e5c33503644c6.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:10.127055Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84644_2022-10-07_70c5ad8c5a8489a1254dc3f2347c7b76.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84644_2022-10-07_70c5ad8c5a8489a1254dc3f2347c7b76.pdf> referred in <None>
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84643_2022-10-06_71404eabd7b23cc4beda93fd646baa15.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84643_2022-10-06_71404eabd7b23cc4beda93fd646baa15.pdf> referred in <None>
+2023-10-06 11:28:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-10',
+ 'edition_number': '1898',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84644_2022-10-07_70c5ad8c5a8489a1254dc3f2347c7b76.pdf'],
+ 'files': [{'checksum': 'b875f8247d10e27faf9a9710bdb1210d',
+            'path': '2700000/2022-10-10/e8dedb328783d654c7c0b5d2e0bb2191fcb03dc6.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84644_2022-10-07_70c5ad8c5a8489a1254dc3f2347c7b76.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:09.685418Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84642_2022-10-05_6bb430fa0b96e74435bd99b743a77a8b.pdf> (referer: None)
+2023-10-06 11:28:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84642_2022-10-05_6bb430fa0b96e74435bd99b743a77a8b.pdf> referred in <None>
+2023-10-06 11:28:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-07',
+ 'edition_number': '1897',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84643_2022-10-06_71404eabd7b23cc4beda93fd646baa15.pdf'],
+ 'files': [{'checksum': 'f00990bcf112cc37223bd5c17c6fc98e',
+            'path': '2700000/2022-10-07/b6c25566de963bc4abb82afae1dbf360b9310e80.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84643_2022-10-06_71404eabd7b23cc4beda93fd646baa15.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:10.434332Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-06',
+ 'edition_number': '1896',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84642_2022-10-05_6bb430fa0b96e74435bd99b743a77a8b.pdf'],
+ 'files': [{'checksum': '57797dc08eb82bde5535a2cfe5db203b',
+            'path': '2700000/2022-10-06/b595b3badb8243f8d553c9addb5743bc9a79eb38.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84642_2022-10-05_6bb430fa0b96e74435bd99b743a77a8b.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:10.458727Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-22
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-20
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-21
+2023-10-06 11:28:12 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-23
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-18
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:12 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-18
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-19
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84639_2022-09-30_3a03250d2982b06a18cc04ce0e2576ea.pdf> (referer: None)
+2023-10-06 11:28:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84639_2022-09-30_3a03250d2982b06a18cc04ce0e2576ea.pdf> referred in <None>
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-17
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84641_2022-10-04_890b8495dd7f67fb0be3544a12587790.pdf> (referer: None)
+2023-10-06 11:28:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84641_2022-10-04_890b8495dd7f67fb0be3544a12587790.pdf> referred in <None>
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-17
+2023-10-06 11:28:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-03',
+ 'edition_number': '1893',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84639_2022-09-30_3a03250d2982b06a18cc04ce0e2576ea.pdf'],
+ 'files': [{'checksum': '4d5d1ccfb51174108ca6ed742a3c7025',
+            'path': '2700000/2022-10-03/6cc23fe5090c47e8617d4f9e6d9a984669be5e72.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84639_2022-09-30_3a03250d2982b06a18cc04ce0e2576ea.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:11.484936Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-05',
+ 'edition_number': '1895',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84641_2022-10-04_890b8495dd7f67fb0be3544a12587790.pdf'],
+ 'files': [{'checksum': '96e562b59f38b3005a1180a05116e1d0',
+            'path': '2700000/2022-10-05/38e1dae2735d5a7070a54045498fabc159912101.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84641_2022-10-04_890b8495dd7f67fb0be3544a12587790.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:11.480224Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-16
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:13 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-15
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84633_2022-09-22_7c2b22d236f4534c07be28078113ee58.pdf> (referer: None)
+2023-10-06 11:28:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84633_2022-09-22_7c2b22d236f4534c07be28078113ee58.pdf> referred in <None>
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84632_2022-09-21_3fbcb347d6614252c111352231d6dbe8.pdf> (referer: None)
+2023-10-06 11:28:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84632_2022-09-21_3fbcb347d6614252c111352231d6dbe8.pdf> referred in <None>
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84630_2022-09-19_adbf4f656ff45f3409460a7a74a27370.pdf> (referer: None)
+2023-10-06 11:28:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84630_2022-09-19_adbf4f656ff45f3409460a7a74a27370.pdf> referred in <None>
+2023-10-06 11:28:13 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-23',
+ 'edition_number': '1887',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84633_2022-09-22_7c2b22d236f4534c07be28078113ee58.pdf'],
+ 'files': [{'checksum': '11bd6c328a2b8afe25f717020d72f46e',
+            'path': '2700000/2022-09-23/f26463d137571b0dd75d5ef59ef5528b8f75cbef.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84633_2022-09-22_7c2b22d236f4534c07be28078113ee58.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:12.379115Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-22',
+ 'edition_number': '1886',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84632_2022-09-21_3fbcb347d6614252c111352231d6dbe8.pdf'],
+ 'files': [{'checksum': '00dac67c0198139603aa8f0bf3bcec26',
+            'path': '2700000/2022-09-22/7a5b955b8af14d19bae24e26873a1024d414b8b4.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84632_2022-09-21_3fbcb347d6614252c111352231d6dbe8.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:12.356961Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-20',
+ 'edition_number': '1884',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84630_2022-09-19_adbf4f656ff45f3409460a7a74a27370.pdf'],
+ 'files': [{'checksum': 'f31f8ad6e8e8e75c89f400bff208454f',
+            'path': '2700000/2022-09-20/002a78f6df6fb5e75a0791aaa0c45c69c990feb0.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84630_2022-09-19_adbf4f656ff45f3409460a7a74a27370.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:12.235568Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:14 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-14
+2023-10-06 11:28:14 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-13
+2023-10-06 11:28:14 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-12
+2023-10-06 11:28:14 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-11
+2023-10-06 11:28:14 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-11
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84640_2022-10-03_4bf8b634cc477980958da24125e75cb8.pdf> (referer: None)
+2023-10-06 11:28:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84640_2022-10-03_4bf8b634cc477980958da24125e75cb8.pdf> referred in <None>
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84629_2022-09-16_5527b32d862c1c676fac13feb1826e49.pdf> (referer: None)
+2023-10-06 11:28:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84629_2022-09-16_5527b32d862c1c676fac13feb1826e49.pdf> referred in <None>
+2023-10-06 11:28:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84631_2022-09-20_7816e36ca824fe11fd913183fcb4b462.pdf> (referer: None)
+2023-10-06 11:28:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84631_2022-09-20_7816e36ca824fe11fd913183fcb4b462.pdf> referred in <None>
+2023-10-06 11:28:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-10-04',
+ 'edition_number': '1894',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84640_2022-10-03_4bf8b634cc477980958da24125e75cb8.pdf'],
+ 'files': [{'checksum': '8bb2e54f07d7bf955cab04e693813752',
+            'path': '2700000/2022-10-04/76d098b7f34d6d3008f24932ca53f42664df30ea.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84640_2022-10-03_4bf8b634cc477980958da24125e75cb8.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:11.486985Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-19',
+ 'edition_number': '1883',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84629_2022-09-16_5527b32d862c1c676fac13feb1826e49.pdf'],
+ 'files': [{'checksum': '61a8d76501480f4a5fcb531d90c9a17a',
+            'path': '2700000/2022-09-19/d49a5fb4bf5401759fe05afda40d26479f97e5d7.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84629_2022-09-16_5527b32d862c1c676fac13feb1826e49.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:13.000030Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-21',
+ 'edition_number': '1885',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84631_2022-09-20_7816e36ca824fe11fd913183fcb4b462.pdf'],
+ 'files': [{'checksum': '11bd46d78ed7c7132b2b7b7bbba8c4df',
+            'path': '2700000/2022-09-21/c8167b252169cb0f16ec28e04e7b3602a79aceec.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84631_2022-09-20_7816e36ca824fe11fd913183fcb4b462.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:12.161482Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-10
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Regular Gazette not available for 2022-09-07
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-08
+2023-10-06 11:28:15 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-07
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-10
+2023-10-06 11:28:15 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-09
+2023-10-06 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84625_2022-09-12_018508971a1937e73fb374781728aa36.pdf> (referer: None)
+2023-10-06 11:28:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84625_2022-09-12_018508971a1937e73fb374781728aa36.pdf> referred in <None>
+2023-10-06 11:28:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-13',
+ 'edition_number': '1879',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84625_2022-09-12_018508971a1937e73fb374781728aa36.pdf'],
+ 'files': [{'checksum': 'e94982a945f0a59dd9e7a16a90a98a27',
+            'path': '2700000/2022-09-13/8af8457a47e16d8fe3ab0898229a075b678bb6be.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84625_2022-09-12_018508971a1937e73fb374781728aa36.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:14.814813Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <POST https://www.diariomunicipal.com.br/ama/materia/calendario/extra> (referer: https://www.diariomunicipal.com.br/ama/)
+2023-10-06 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84628_2022-09-15_6219e774d9483fc634d36daf65131483.pdf> (referer: None)
+2023-10-06 11:28:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84628_2022-09-15_6219e774d9483fc634d36daf65131483.pdf> referred in <None>
+2023-10-06 11:28:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84627_2022-09-14_7e25f327f838d109fb7640db482b7875.pdf> (referer: None)
+2023-10-06 11:28:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84627_2022-09-14_7e25f327f838d109fb7640db482b7875.pdf> referred in <None>
+2023-10-06 11:28:16 [al_associacao_municipios] DEBUG: Extra Gazette not available for 2022-09-06
+2023-10-06 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-16',
+ 'edition_number': '1882',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84628_2022-09-15_6219e774d9483fc634d36daf65131483.pdf'],
+ 'files': [{'checksum': '812cd65732f0e388fe91b3653e90f077',
+            'path': '2700000/2022-09-16/433e2226286fbf0dfdcabdbe74d52ab560361cc8.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84628_2022-09-15_6219e774d9483fc634d36daf65131483.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:13.308220Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-15',
+ 'edition_number': '1881',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84627_2022-09-14_7e25f327f838d109fb7640db482b7875.pdf'],
+ 'files': [{'checksum': '5941b3f24df5f1c343f3cd748f3b5c7f',
+            'path': '2700000/2022-09-15/7c24bbc2af834371c8907aedac90df2fe8b28b37.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84627_2022-09-14_7e25f327f838d109fb7640db482b7875.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:14.821725Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84622_2022-09-06_4c53b57dafb09714d46aab1cac951663.pdf> (referer: None)
+2023-10-06 11:28:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84622_2022-09-06_4c53b57dafb09714d46aab1cac951663.pdf> referred in <None>
+2023-10-06 11:28:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-08',
+ 'edition_number': '1876',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84622_2022-09-06_4c53b57dafb09714d46aab1cac951663.pdf'],
+ 'files': [{'checksum': 'd05fe10bb154eb4553e1fbbd3bdbb248',
+            'path': '2700000/2022-09-08/530bdc552be77c344f11f65376e7b24ecfd174bd.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84622_2022-09-06_4c53b57dafb09714d46aab1cac951663.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:15.688768Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84626_2022-09-13_0924e74e4dfc2df5393af782d6aaa271.pdf> (referer: None)
+2023-10-06 11:28:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84626_2022-09-13_0924e74e4dfc2df5393af782d6aaa271.pdf> referred in <None>
+2023-10-06 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-14',
+ 'edition_number': '1880',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84626_2022-09-13_0924e74e4dfc2df5393af782d6aaa271.pdf'],
+ 'files': [{'checksum': '0ab67350895b2ffaee1fee0a6bcd721a',
+            'path': '2700000/2022-09-14/5077c5d0179509a18b3dca859ef7650355e6588c.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84626_2022-09-13_0924e74e4dfc2df5393af782d6aaa271.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:14.819389Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84624_2022-09-09_f18e104ec3828d862b64785bf3633d7f.pdf> (referer: None)
+2023-10-06 11:28:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84624_2022-09-09_f18e104ec3828d862b64785bf3633d7f.pdf> referred in <None>
+2023-10-06 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84621_2022-09-05_81521b1c4dbf562e5e3fac68345e5dc9.pdf> (referer: None)
+2023-10-06 11:28:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84621_2022-09-05_81521b1c4dbf562e5e3fac68345e5dc9.pdf> referred in <None>
+2023-10-06 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-12',
+ 'edition_number': '1878',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84624_2022-09-09_f18e104ec3828d862b64785bf3633d7f.pdf'],
+ 'files': [{'checksum': 'ac06c15a38d7654dc6b4b3456b0f3e2f',
+            'path': '2700000/2022-09-12/c326e8c8488889634df4a73a54016d9f807494bb.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84624_2022-09-09_f18e104ec3828d862b64785bf3633d7f.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:14.823217Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-06',
+ 'edition_number': '1875',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84621_2022-09-05_81521b1c4dbf562e5e3fac68345e5dc9.pdf'],
+ 'files': [{'checksum': 'b4a9d77e0e1aa3f5d743516fc147d733',
+            'path': '2700000/2022-09-06/35267e7070ce97a8551bed413f38763a31f1cb49.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84621_2022-09-05_81521b1c4dbf562e5e3fac68345e5dc9.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:16.128998Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84623_2022-09-08_eb0e2e44510d712a3b675206ef5fcc98.pdf> (referer: None)
+2023-10-06 11:28:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84623_2022-09-08_eb0e2e44510d712a3b675206ef5fcc98.pdf> referred in <None>
+2023-10-06 11:28:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.diariomunicipal.com.br/ama/materia/calendario>
+{'date': '2022-09-09',
+ 'edition_number': '1877',
+ 'file_urls': ['https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84623_2022-09-08_eb0e2e44510d712a3b675206ef5fcc98.pdf'],
+ 'files': [{'checksum': 'f2a7059537e616c4969fff5205da5e02',
+            'path': '2700000/2022-09-09/c43df720d30fe6a013d26568ddcfc37463176ca2.pdf',
+            'status': 'downloaded',
+            'url': 'https://www-storage.voxtecnologia.com.br?m=sigpub.publicacao&f=9878&i=publicado_84623_2022-09-08_eb0e2e44510d712a3b675206ef5fcc98.pdf'}],
+ 'is_extra_edition': False,
+ 'power': 'executive_legislative',
+ 'scraped_at': '2023-10-06T14:28:15.635599Z',
+ 'territory_id': '2700000'}
+2023-10-06 11:28:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] ------------------------------ MONITORS ------------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] Comparison Between Executions/Days without gazettes... OK
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] Requests/Items Ratio/Ratio of requests over items scraped count... OK
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] Error Count Monitor/test_stat_monitor... SKIPPED (Unable to find 'log_count/ERROR' in job stats.)
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] Finish Reason Monitor/Should have the expected finished reason(s)... OK
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] Item Validation Monitor/test_stat_monitor... SKIPPED (Unable to find 'spidermon/validation/fields/errors' in job stats.)
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] ----------------------------------------------------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] 5 monitors in 0.003s
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] OK (skipped=2)
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] -------------------------- FINISHED ACTIONS --------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] ----------------------------------------------------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] 0 actions in 0.000s
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] OK
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] --------------------------- PASSED ACTIONS ---------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] ----------------------------------------------------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] 0 actions in 0.000s
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] OK
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] --------------------------- FAILED ACTIONS ---------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] ----------------------------------------------------------------------
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] 1 action in 0.000s
+2023-10-06 11:28:19 [al_associacao_municipios] INFO: [Spidermon] OK (skipped=1)
+2023-10-06 11:28:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 165013,
+ 'downloader/request_count': 317,
+ 'downloader/request_method_count/GET': 83,
+ 'downloader/request_method_count/POST': 234,
+ 'downloader/response_bytes': 155177145,
+ 'downloader/response_count': 317,
+ 'downloader/response_status_count/200': 315,
+ 'downloader/response_status_count/301': 2,
+ 'elapsed_time_seconds': 48.293004,
+ 'file_count': 80,
+ 'file_status_count/downloaded': 80,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 10, 6, 14, 28, 19, 516849, tzinfo=datetime.timezone.utc),
+ 'httpcompression/response_bytes': 99280,
+ 'httpcompression/response_count': 235,
+ 'item_scraped_count': 80,
+ 'log_count/DEBUG': 634,
+ 'log_count/INFO': 35,
+ 'log_count/WARNING': 1,
+ 'memusage/max': 122052608,
+ 'memusage/startup': 122052608,
+ 'request_depth_max': 1,
+ 'response_received_count': 315,
+ 'scheduler/dequeued': 237,
+ 'scheduler/dequeued/memory': 237,
+ 'scheduler/enqueued': 237,
+ 'scheduler/enqueued/memory': 237,
+ 'spidermon/validation/fields': 640,
+ 'spidermon/validation/items': 80,
+ 'spidermon/validation/validators': 1,
+ 'spidermon/validation/validators/item/jsonschema': True,
+ 'start_time': datetime.datetime(2023, 10, 6, 14, 27, 31, 223845, tzinfo=datetime.timezone.utc)}
+2023-10-06 11:28:19 [scrapy.core.engine] INFO: Spider closed (finished)
