@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.resource_clients.deployment_client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.<a href="ai_api_client_sdk.resource_clients.html"><font color="#ffffff">resource_clients</font></a>.deployment_client</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/deployment_client.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/deployment_client.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="re.html">re</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.deployment_client.html#DeploymentClient">DeploymentClient</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="DeploymentClient">class <strong>DeploymentClient</strong></a>(<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#DeploymentClient">DeploymentClient</a>(rest_client:&nbsp;ai_api_client_sdk.helpers.rest_client.RestClient)<br>
+&nbsp;<br>
+<a href="#DeploymentClient">DeploymentClient</a>&nbsp;is&nbsp;a&nbsp;class&nbsp;implemented&nbsp;for&nbsp;interacting&nbsp;with&nbsp;the&nbsp;deployment&nbsp;related&nbsp;endpoints&nbsp;of&nbsp;the&nbsp;server.&nbsp;It<br>
+implements&nbsp;the&nbsp;base&nbsp;class&nbsp;:class:`ai_api_client_sdk.resource_clients.base_client.<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">BaseClient</a>`<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.resource_clients.deployment_client.html#DeploymentClient">DeploymentClient</a></dd>
+<dd><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="DeploymentClient-bulk_modify"><strong>bulk_modify</strong></a>(self, deployments: List[ai_api_client_sdk.models.base_models.BasicModifyRequest], resource_group: str = None) -&gt; ai_api_client_sdk.models.deployment_bulk_modify_response.DeploymentBulkModifyResponse</dt><dd><tt>Modifies&nbsp;the&nbsp;deployments<br>
+:param&nbsp;deployments:&nbsp;List&nbsp;of&nbsp;deployment&nbsp;modify&nbsp;requests<br>
+:type&nbsp;deployments:&nbsp;List[DeploymentModifyRequest]<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.deployment_bulk_modify_response.DeploymentBulkModifyResponse`</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-count"><strong>count</strong></a>(self, scenario_id: str = None, configuration_id: str = None, executable_ids: List[str] = None, status: ai_api_client_sdk.models.status.Status = None, resource_group: str = None) -&gt; int</dt><dd><tt>Counts&nbsp;the&nbsp;number&nbsp;of&nbsp;deployments.<br>
+&nbsp;<br>
+:param&nbsp;scenario_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;scenario,&nbsp;the&nbsp;deployments&nbsp;should&nbsp;belong&nbsp;to,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;scenario_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration,&nbsp;the&nbsp;deployments&nbsp;should&nbsp;be&nbsp;configured&nbsp;by,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configuration_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;executable_ids:&nbsp;IDs&nbsp;of&nbsp;the&nbsp;executables,&nbsp;the&nbsp;deployments&nbsp;should&nbsp;be&nbsp;created&nbsp;from,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;executable_ids:&nbsp;List[str],&nbsp;optional<br>
+:param&nbsp;status:&nbsp;Status&nbsp;which&nbsp;the&nbsp;deployments&nbsp;should&nbsp;currently&nbsp;have<br>
+:type&nbsp;status:&nbsp;class:`ai_api_client_sdk.models.status.Status`,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;int</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-create"><strong>create</strong></a>(self, configuration_id: str, ttl: str = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.deployment_create_response.DeploymentCreateResponse</dt><dd><tt>Creates&nbsp;a&nbsp;deployment.<br>
+&nbsp;<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration,&nbsp;that&nbsp;should&nbsp;configure&nbsp;the&nbsp;deployment<br>
+:type&nbsp;configuration_id:&nbsp;str<br>
+:param&nbsp;ttl:&nbsp;Time&nbsp;to&nbsp;live&nbsp;for&nbsp;deployment&nbsp;and&nbsp;can&nbsp;be&nbsp;none&nbsp;or&nbsp;take&nbsp;&nbsp;a&nbsp;number&nbsp;followed&nbsp;by&nbsp;the&nbsp;unit<br>
+(any&nbsp;of&nbsp;following&nbsp;values,&nbsp;minutes(m|M),&nbsp;hours(h|H)&nbsp;or&nbsp;days(d|D))<br>
+:type&nbsp;ttl:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.deployment_create_response.DeploymentCreateResponse`</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-delete"><strong>delete</strong></a>(self, deployment_id: str, resource_group: str = None) -&gt; ai_api_client_sdk.models.base_models.BasicResponse</dt><dd><tt>Deletes&nbsp;the&nbsp;deployment.<br>
+&nbsp;<br>
+:param&nbsp;deployment_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;deployment&nbsp;to&nbsp;be&nbsp;deleted<br>
+:type&nbsp;deployment_id:&nbsp;str<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.base_models.BasicResponse`</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-get"><strong>get</strong></a>(self, deployment_id: str, resource_group: str = None, select: str = None) -&gt; Union[ai_api_client_sdk.models.deployment.Deployment, ai_api_client_sdk.models.deployment_get_status_response.DeploymentGetStatusResponse]</dt><dd><tt>Retrieves&nbsp;the&nbsp;deployment&nbsp;from&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;deployment_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;deployment&nbsp;to&nbsp;be&nbsp;retrieved<br>
+:type&nbsp;deployment_id:&nbsp;str<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:param&nbsp;select:&nbsp;only&nbsp;status&nbsp;supported.&nbsp;Get&nbsp;deployment&nbsp;for&nbsp;a&nbsp;given&nbsp;deployment&nbsp;id&nbsp;and&nbsp;select&nbsp;status<br>
+:type&nbsp;select:&nbsp;str,&nbsp;optional<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;retrieved&nbsp;deployment<br>
+:rtype:&nbsp;class:Union[`ai_api_client_sdk.models.deployment.Deployment`,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`ai_api_client_sdk.models.deployment_get_status_response.DeploymentGetStatusResponse`]</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-modify"><strong>modify</strong></a>(self, deployment_id: str, target_status: ai_api_client_sdk.models.target_status.TargetStatus = None, configuration_id: str = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.base_models.BasicResponse</dt><dd><tt>Modifies&nbsp;the&nbsp;deployment,&nbsp;by&nbsp;changing&nbsp;either&nbsp;the&nbsp;target&nbsp;status,&nbsp;or&nbsp;the&nbsp;configuration&nbsp;ID.<br>
+&nbsp;<br>
+:param&nbsp;deployment_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;deployment&nbsp;to&nbsp;be&nbsp;modified<br>
+:type&nbsp;deployment_id:&nbsp;str<br>
+:param&nbsp;target_status:&nbsp;Desired&nbsp;target&nbsp;status&nbsp;of&nbsp;the&nbsp;deployment,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;target_status:&nbsp;class:`ai_api_client_sdk.models.target_status.TargetStatus`,&nbsp;optional<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;new&nbsp;configuration&nbsp;to&nbsp;be&nbsp;used&nbsp;by&nbsp;the&nbsp;deployment,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configuration_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.base_models.BasicResponse`</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-query"><strong>query</strong></a>(self, scenario_id: str = None, configuration_id: str = None, executable_ids: List[str] = None, status: ai_api_client_sdk.models.status.Status = None, top: int = None, skip: int = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.deployment_query_response.DeploymentQueryResponse</dt><dd><tt>Queries&nbsp;the&nbsp;deployments.<br>
+&nbsp;<br>
+:param&nbsp;scenario_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;scenario&nbsp;the&nbsp;deployments&nbsp;should&nbsp;belong&nbsp;to,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;scenario_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration,&nbsp;the&nbsp;deployments&nbsp;should&nbsp;be&nbsp;configured&nbsp;by,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configuration_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;executable_ids:&nbsp;IDs&nbsp;of&nbsp;the&nbsp;executables&nbsp;the&nbsp;deployments&nbsp;should&nbsp;be&nbsp;created&nbsp;from,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;executable_ids:&nbsp;List[str],&nbsp;optional<br>
+:param&nbsp;status:&nbsp;Status&nbsp;which&nbsp;the&nbsp;deployments&nbsp;should&nbsp;currently&nbsp;have<br>
+:type&nbsp;status:&nbsp;class:`ai_api_client_sdk.models.status.Status`,&nbsp;optional<br>
+:param&nbsp;top:&nbsp;Number&nbsp;of&nbsp;deployments&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;top:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;skip:&nbsp;Number&nbsp;of&nbsp;deployments&nbsp;to&nbsp;be&nbsp;skipped,&nbsp;from&nbsp;the&nbsp;list&nbsp;of&nbsp;the&nbsp;queried&nbsp;deployments,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;skip:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.deployment_query_response.DeploymentQueryResponse`</tt></dd></dl>
+
+<dl><dt><a name="DeploymentClient-query_logs"><strong>query_logs</strong></a>(self, deployment_id: str, top: int = None, start: datetime.datetime = None, end: datetime.datetime = None, order: ai_api_client_sdk.models.base_models.Order = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.log_response.LogResponse</dt><dd><tt>Queries&nbsp;the&nbsp;logs&nbsp;of&nbsp;the&nbsp;deployment.<br>
+&nbsp;<br>
+:param&nbsp;deployment_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;deployment<br>
+:type&nbsp;deployment_id:&nbsp;str<br>
+:param&nbsp;top:&nbsp;The&nbsp;max&nbsp;number&nbsp;of&nbsp;entries&nbsp;to&nbsp;return.&nbsp;Defaults&nbsp;to&nbsp;1000.&nbsp;Limited&nbsp;to&nbsp;5000&nbsp;max.<br>
+:type&nbsp;top:&nbsp;int<br>
+:param&nbsp;start:&nbsp;The&nbsp;start&nbsp;time&nbsp;for&nbsp;the&nbsp;query.&nbsp;Defaults&nbsp;to&nbsp;one&nbsp;hour&nbsp;ago.<br>
+:type&nbsp;start:&nbsp;datetime<br>
+:param&nbsp;end:&nbsp;The&nbsp;end&nbsp;time&nbsp;for&nbsp;the&nbsp;query.&nbsp;Defaults&nbsp;to&nbsp;now.<br>
+:type&nbsp;end:&nbsp;datetime<br>
+:param&nbsp;order:&nbsp;Determines&nbsp;the&nbsp;sort&nbsp;order&nbsp;with&nbsp;respect&nbsp;to&nbsp;time.&nbsp;Defaults&nbsp;to&nbsp;asc.<br>
+:type&nbsp;order:&nbsp;class:`ai_api_client_sdk.models.base_models.Order`<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;Logs&nbsp;from&nbsp;the&nbsp;execution<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.log_response.LogResponse`</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><a name="DeploymentClient-__init__"><strong>__init__</strong></a>(self, rest_client: ai_api_client_sdk.helpers.rest_client.RestClient)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>List</strong> = typing.List<br>
+<strong>Union</strong> = typing.Union</td></tr></table>
+</body></html>

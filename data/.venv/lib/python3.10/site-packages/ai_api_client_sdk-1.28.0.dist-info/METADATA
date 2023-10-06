@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: ai-api-client-sdk
+Version: 1.28.0
+Summary: AI API Client SDK
+Home-page: https://www.sap.com/
+Download-URL: https://pypi.python.org/pypi/ai-api-client-sdk
+Author: SAP SE
+License: SAP DEVELOPER LICENSE AGREEMENT
+Keywords: SAP AI Core
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: 
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aenum (~=3.1)
+Requires-Dist: pyhumps (~=3.0)
+Requires-Dist: requests (<3.0)
+
+
+# SAP AI API Client SDK
+
+The AI API client SDK is a Python-based SDK that enables you to access the AI API using Python methods and data structures. You can use the Client SDK to test AI API.
+
+The client SDK can be used with any implementation of AI API. Because it is independent of the runtime implementation, it doesn't provide access to runtime-specific APIs. For example, maintaining object store secrets is specific to SAP AI Core and is therefore not included in the AI API client SDK. Check for SDK offerings for your runtime that let you access any runtime-specific APIs. For more information on SAP AI Core SDK see <https://pypi.org/project/ai-core-sdk/>.
+
+For more information on the AI API specification, SAP AI Core and related topics, please refer to <https://help.sap.com/docs/AI_CORE?version=CLOUD>.
+
+## Example Usage
+
+```python
+from ai_api_client_sdk.ai_api_v2_client import AIAPIV2Client
+
+# Instantiate the client
+client = AIAPIV2Client(base_url=AI_API_URL,
+    auth_url=AUTH_URL,
+    client_id=CLIENT_ID,
+    client_secret=CLIENT_SECRET, resource_group=RESOURCE_GROUP)
+
+# Make some queries, e.g.
+scenarios = client.scenario.query()
+
+for scenario in scenarios.resources:
+    print(scenario.id)
+
+# Find a deployable executables in scenario 1111
+executables = client.executable.query(scenario_id="1111")
+for executable in executables.resources:
+    if executable.deployable == False:
+        break
+print(executable.id)
+
+# Inspect the required parameters for the executable
+for parameter in executable.parameters:
+    print("Parameter:{}, Type: {}".format(parameter.name, parameter.type))
+
+# Create a configuration
+parameter_epochs = ParameterBinding(key="training-epochs", value="1")
+myConfiguration = client.configuration.create(name="test", scenario_id="1111" executable_id="argo-mnist-0.2.1", parameter_bindings=[parameter_epochs])
+```

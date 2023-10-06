@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.resource_clients.execution_schedule_client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.<a href="ai_api_client_sdk.resource_clients.html"><font color="#ffffff">resource_clients</font></a>.execution_schedule_client</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/execution_schedule_client.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/execution_schedule_client.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.execution_schedule_client.html#ExecutionScheduleClient">ExecutionScheduleClient</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ExecutionScheduleClient">class <strong>ExecutionScheduleClient</strong></a>(<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ExecutionScheduleClient">ExecutionScheduleClient</a>(rest_client:&nbsp;ai_api_client_sdk.helpers.rest_client.RestClient)<br>
+&nbsp;<br>
+<a href="#ExecutionScheduleClient">ExecutionScheduleClient</a>&nbsp;is&nbsp;a&nbsp;class&nbsp;implemented&nbsp;for&nbsp;interacting&nbsp;with&nbsp;the&nbsp;execution&nbsp;schedules&nbsp;related&nbsp;endpoints&nbsp;of<br>
+the&nbsp;server.&nbsp;It&nbsp;implements&nbsp;the&nbsp;base&nbsp;class&nbsp;:class:`ai_api_client_sdk.resource_clients.base_client.<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">BaseClient</a>`<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.resource_clients.execution_schedule_client.html#ExecutionScheduleClient">ExecutionScheduleClient</a></dd>
+<dd><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ExecutionScheduleClient-count"><strong>count</strong></a>(self, configuration_id: str = None, status: ai_api_client_sdk.models.status.ScheduleStatus = None, resource_group: str = None) -&gt; int</dt><dd><tt>Counts&nbsp;the&nbsp;number&nbsp;of&nbsp;executions&nbsp;schedules.<br>
+&nbsp;<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration,&nbsp;the&nbsp;executions&nbsp;should&nbsp;be&nbsp;configured&nbsp;by,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configuration_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;status:&nbsp;ScheduleStatus&nbsp;which&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;should&nbsp;currently&nbsp;have,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;status:&nbsp;class:`ai_api_client_sdk.models.schedule_status.ScheduleStatus`,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;int</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-create"><strong>create</strong></a>(self, name: str, cron: str, configuration_id: str, start: datetime.datetime = None, end: datetime.datetime = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.execution_schedule_create_response.ExecutionScheduleCreateResponse</dt><dd><tt>Creates&nbsp;an&nbsp;execution&nbsp;schedule.<br>
+&nbsp;<br>
+:param&nbsp;name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule<br>
+:type&nbsp;name:&nbsp;str<br>
+:param&nbsp;cron:&nbsp;Cron&nbsp;defining&nbsp;the&nbsp;schedule&nbsp;to&nbsp;run&nbsp;the&nbsp;executions<br>
+:type&nbsp;name:&nbsp;str<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration&nbsp;for&nbsp;the&nbsp;execution&nbsp;schedule<br>
+:type&nbsp;configuration_id:&nbsp;str<br>
+:param&nbsp;start:&nbsp;Start&nbsp;time&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;in&nbsp;UTC,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;start:&nbsp;datetime,&nbsp;optional<br>
+:param&nbsp;end:&nbsp;End&nbsp;time&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;in&nbsp;UTC&nbsp;e.g.,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;end:&nbsp;datetime,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.execution_schedule_create_response.ExecutionScheduleCreateResponse`</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-delete"><strong>delete</strong></a>(self, execution_schedule_id: str, resource_group: str = None) -&gt; ai_api_client_sdk.models.base_models.BasicResponse</dt><dd><tt>Deletes&nbsp;the&nbsp;execution&nbsp;schedule.<br>
+&nbsp;<br>
+:param&nbsp;execution_schedule_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;to&nbsp;be&nbsp;deleted<br>
+:type&nbsp;execution_schedule_id:&nbsp;str<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.base_models.BasicResponse`</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-get"><strong>get</strong></a>(self, execution_schedule_id: str, resource_group: str = None) -&gt; ai_api_client_sdk.models.execution_schedule.ExecutionSchedule</dt><dd><tt>Retrieves&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;from&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;execution_schedule_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;to&nbsp;be&nbsp;retrieved<br>
+:type&nbsp;execution_schedule_id:&nbsp;str<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;retrieved&nbsp;execution<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.execution.Execution`</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-modify"><strong>modify</strong></a>(self, execution_schedule_id: str, cron: str = None, start: datetime.datetime = None, end: datetime.datetime = None, configurationId: str = None, status: ai_api_client_sdk.models.status.ScheduleStatus = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.base_models.BasicResponse</dt><dd><tt>Modifies&nbsp;the&nbsp;execution&nbsp;schedule.<br>
+&nbsp;<br>
+:param&nbsp;execution_schedule_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution&nbsp;to&nbsp;be&nbsp;modified<br>
+:type&nbsp;execution_schedule_id:&nbsp;str<br>
+:param&nbsp;cron:&nbsp;Cron&nbsp;defining&nbsp;the&nbsp;schedule&nbsp;to&nbsp;run&nbsp;the&nbsp;executions,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;cron:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;configurationId:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration&nbsp;for&nbsp;the&nbsp;execution&nbsp;schedule,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configurationId:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;start:&nbsp;Start&nbsp;time&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;in&nbsp;UTC,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;start:&nbsp;datetime,&nbsp;optional<br>
+:param&nbsp;end:&nbsp;End&nbsp;time&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;in&nbsp;UTC,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;end:&nbsp;datetime,&nbsp;optional<br>
+:param&nbsp;status:&nbsp;pause&nbsp;/&nbsp;resume&nbsp;Status&nbsp;of&nbsp;the&nbsp;execution&nbsp;schedule,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;status:&nbsp;class:`ai_api_client_sdk.models.status.ScheduleStatus`,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.base_models.BasicResponse`</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-query"><strong>query</strong></a>(self, configuration_id: str = None, status: ai_api_client_sdk.models.status.ScheduleStatus = None, top: int = None, skip: int = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.execution_schedule_query_response.ExecutionScheduleQueryResponse</dt><dd><tt>Queries&nbsp;the&nbsp;execution&nbsp;schedules.<br>
+&nbsp;<br>
+:param&nbsp;configuration_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;configuration,&nbsp;the&nbsp;executions&nbsp;should&nbsp;be&nbsp;configured&nbsp;by,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;configuration_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;status:&nbsp;&nbsp;ScheduleStatus&nbsp;which&nbsp;the&nbsp;execution&nbsp;schedule&nbsp;should&nbsp;currently&nbsp;have<br>
+:type&nbsp;status:&nbsp;class:`ai_api_client_sdk.models.schedule_status.ScheduleStatus`,&nbsp;optional<br>
+:param&nbsp;top:&nbsp;Number&nbsp;of&nbsp;executions&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;top:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;skip:&nbsp;Number&nbsp;of&nbsp;executions&nbsp;to&nbsp;be&nbsp;skipped,&nbsp;from&nbsp;the&nbsp;list&nbsp;of&nbsp;the&nbsp;queried&nbsp;executions,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;skip:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.execution_query_response.ExecutionQueryResponse`</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><a name="ExecutionScheduleClient-__init__"><strong>__init__</strong></a>(self, rest_client: ai_api_client_sdk.helpers.rest_client.RestClient)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-bulk_modify"><strong>bulk_modify</strong></a>(self, *args, **kwargs)</dt><dd><tt>Modifies&nbsp;multiple&nbsp;instances&nbsp;of&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="ExecutionScheduleClient-query_logs"><strong>query_logs</strong></a>(self, *args, **kwargs)</dt><dd><tt>Queries&nbsp;the&nbsp;relevant&nbsp;logs.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>DATETIME_FORMAT</strong> = '%Y-%m-%dT%H:%M:%SZ'</td></tr></table>
+</body></html>

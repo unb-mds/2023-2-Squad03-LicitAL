@@ -1,0 +1,2 @@
+[console_scripts]
+aicore-content = ai_core_sdk.content_cli_main:cli [aicore-content]

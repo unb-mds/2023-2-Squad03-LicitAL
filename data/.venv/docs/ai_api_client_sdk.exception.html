@@ -1,0 +1,1086 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.exception</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.exception</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/exception.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/exception.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#Exception">builtins.Exception</a>(<a href="builtins.html#BaseException">builtins.BaseException</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorAuthorizationException">AIAPIAuthenticatorAuthorizationException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorForbiddenException">AIAPIAuthenticatorForbiddenException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorInvalidRequestException">AIAPIAuthenticatorInvalidRequestException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorMethodNotAllowedException">AIAPIAuthenticatorMethodNotAllowedException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorServerException">AIAPIAuthenticatorServerException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorTimeoutException">AIAPIAuthenticatorTimeoutException</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIInvalidInputException">AIAPIInvalidInputException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIRequestException">AIAPIRequestException</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIAuthorizationException">AIAPIAuthorizationException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIInvalidRequestException">AIAPIInvalidRequestException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPINotFoundException">AIAPINotFoundException</a>
+</font></dt><dt><font face="helvetica, arial"><a href="ai_api_client_sdk.exception.html#AIAPIPreconditionFailedException">AIAPIPreconditionFailedException</a>
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorAuthorizationException">class <strong>AIAPIAuthenticatorAuthorizationException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorAuthorizationException">AIAPIAuthenticatorAuthorizationException</a>(error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;unauthorized&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorAuthorizationException">AIAPIAuthenticatorAuthorizationException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__init__"><strong>__init__</strong></a>(self, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorAuthorizationException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorAuthorizationException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorException">class <strong>AIAPIAuthenticatorException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>(status_code:&nbsp;int&nbsp;=&nbsp;None,&nbsp;error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorException-__init__"><strong>__init__</strong></a>(self, status_code: int = None, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorForbiddenException">class <strong>AIAPIAuthenticatorForbiddenException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorForbiddenException">AIAPIAuthenticatorForbiddenException</a>(error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;forbidden&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorForbiddenException">AIAPIAuthenticatorForbiddenException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__init__"><strong>__init__</strong></a>(self, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorForbiddenException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorForbiddenException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorInvalidRequestException">class <strong>AIAPIAuthenticatorInvalidRequestException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorInvalidRequestException">AIAPIAuthenticatorInvalidRequestException</a>(error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;bad&nbsp;request&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorInvalidRequestException">AIAPIAuthenticatorInvalidRequestException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__init__"><strong>__init__</strong></a>(self, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorInvalidRequestException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorInvalidRequestException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorMethodNotAllowedException">class <strong>AIAPIAuthenticatorMethodNotAllowedException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorMethodNotAllowedException">AIAPIAuthenticatorMethodNotAllowedException</a>(error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;method&nbsp;not&nbsp;allowed&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorMethodNotAllowedException">AIAPIAuthenticatorMethodNotAllowedException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__init__"><strong>__init__</strong></a>(self, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorMethodNotAllowedException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorMethodNotAllowedException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorServerException">class <strong>AIAPIAuthenticatorServerException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorServerException">AIAPIAuthenticatorServerException</a>(status_code:&nbsp;int&nbsp;=&nbsp;None,&nbsp;error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;server&nbsp;error&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorServerException">AIAPIAuthenticatorServerException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorServerException-__init__"><strong>__init__</strong></a>(self, status_code: int = None, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorServerException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorServerException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorServerException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorServerException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthenticatorTimeoutException">class <strong>AIAPIAuthenticatorTimeoutException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthenticatorTimeoutException">AIAPIAuthenticatorTimeoutException</a>(error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.authenticator.Authenticator`&nbsp;if<br>
+the&nbsp;XSUAA&nbsp;server&nbsp;responded&nbsp;with&nbsp;request&nbsp;timeout&nbsp;when&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;token<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorTimeoutException">AIAPIAuthenticatorTimeoutException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthenticatorException">AIAPIAuthenticatorException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__init__"><strong>__init__</strong></a>(self, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthenticatorTimeoutException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthenticatorTimeoutException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIAuthorizationException">class <strong>AIAPIAuthorizationException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIAuthorizationException">AIAPIAuthorizationException</a>(description:&nbsp;str,&nbsp;error_message:&nbsp;str,&nbsp;error_code:&nbsp;str&nbsp;=&nbsp;None,&nbsp;request_id:&nbsp;str&nbsp;=&nbsp;None,&nbsp;details:&nbsp;dict&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`&nbsp;if&nbsp;a&nbsp;401&nbsp;response<br>
+is&nbsp;received&nbsp;from&nbsp;the&nbsp;server.&nbsp;This&nbsp;extends&nbsp;the&nbsp;:class:`ai_api_client_sdk.exception.<a href="#AIAPIServerException">AIAPIServerException</a>`,&nbsp;refer&nbsp;there<br>
+for&nbsp;object&nbsp;definition<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIAuthorizationException">AIAPIAuthorizationException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIAuthorizationException-__init__"><strong>__init__</strong></a>(self, description: str, error_message: str, error_code: str = None, request_id: str = None, details: dict = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><a name="AIAPIAuthorizationException-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIAuthorizationException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIAuthorizationException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIAuthorizationException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIAuthorizationException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIClientSDKException">class <strong>AIAPIClientSDKException</strong></a>(<a href="builtins.html#Exception">builtins.Exception</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIClientSDKException">AIAPIClientSDKException</a>(description:&nbsp;str,&nbsp;status_code:&nbsp;int&nbsp;=&nbsp;None,&nbsp;error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+Base&nbsp;<a href="builtins.html#Exception">Exception</a>&nbsp;class&nbsp;for&nbsp;AI&nbsp;API&nbsp;Client&nbsp;SDK&nbsp;exceptions<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIClientSDKException-__init__"><strong>__init__</strong></a>(self, description: str, status_code: int = None, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIClientSDKException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIClientSDKException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIClientSDKException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIClientSDKException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIInvalidInputException">class <strong>AIAPIInvalidInputException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIInvalidInputException">AIAPIInvalidInputException</a>(description:&nbsp;str)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;raised,&nbsp;when&nbsp;the&nbsp;provided&nbsp;input&nbsp;is&nbsp;invalid<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIInvalidInputException">AIAPIInvalidInputException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIInvalidInputException-__init__"><strong>__init__</strong></a>(self, description: str)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIInvalidInputException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIInvalidInputException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidInputException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIInvalidInputException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIInvalidRequestException">class <strong>AIAPIInvalidRequestException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIInvalidRequestException">AIAPIInvalidRequestException</a>(description:&nbsp;str,&nbsp;error_code:&nbsp;str,&nbsp;error_message:&nbsp;str,&nbsp;request_id:&nbsp;str,&nbsp;details:&nbsp;dict&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`&nbsp;if&nbsp;a&nbsp;400&nbsp;response<br>
+is&nbsp;received&nbsp;from&nbsp;the&nbsp;server.&nbsp;This&nbsp;extends&nbsp;the&nbsp;:class:`ai_api_client_sdk.exception.<a href="#AIAPIServerException">AIAPIServerException</a>`,&nbsp;refer&nbsp;there<br>
+for&nbsp;object&nbsp;definition<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIInvalidRequestException">AIAPIInvalidRequestException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIInvalidRequestException-__init__"><strong>__init__</strong></a>(self, description: str, error_code: str, error_message: str, request_id: str, details: dict = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><a name="AIAPIInvalidRequestException-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIInvalidRequestException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIInvalidRequestException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIInvalidRequestException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIInvalidRequestException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPINotFoundException">class <strong>AIAPINotFoundException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPINotFoundException">AIAPINotFoundException</a>(description:&nbsp;str,&nbsp;error_code:&nbsp;str,&nbsp;error_message:&nbsp;str,&nbsp;request_id:&nbsp;str,&nbsp;details:&nbsp;dict&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`&nbsp;if&nbsp;a&nbsp;404&nbsp;response<br>
+is&nbsp;received&nbsp;from&nbsp;the&nbsp;server.&nbsp;This&nbsp;extends&nbsp;the&nbsp;:class:`ai_api_client_sdk.exception.<a href="#AIAPIServerException">AIAPIServerException</a>`,&nbsp;refer&nbsp;there<br>
+for&nbsp;object&nbsp;definition<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPINotFoundException">AIAPINotFoundException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPINotFoundException-__init__"><strong>__init__</strong></a>(self, description: str, error_code: str, error_message: str, request_id: str, details: dict = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><a name="AIAPINotFoundException-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPINotFoundException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPINotFoundException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPINotFoundException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPINotFoundException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPINotFoundException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPINotFoundException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPINotFoundException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPINotFoundException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPINotFoundException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIPreconditionFailedException">class <strong>AIAPIPreconditionFailedException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIPreconditionFailedException">AIAPIPreconditionFailedException</a>(description:&nbsp;str,&nbsp;error_code:&nbsp;str,&nbsp;error_message:&nbsp;str,&nbsp;request_id:&nbsp;str,&nbsp;details:&nbsp;dict&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`&nbsp;if&nbsp;a&nbsp;412&nbsp;response<br>
+is&nbsp;received&nbsp;from&nbsp;the&nbsp;server.&nbsp;This&nbsp;extends&nbsp;the&nbsp;:class:`ai_api_client_sdk.exception.<a href="#AIAPIServerException">AIAPIServerException</a>`,&nbsp;refer&nbsp;there<br>
+for&nbsp;object&nbsp;definition<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIPreconditionFailedException">AIAPIPreconditionFailedException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIPreconditionFailedException-__init__"><strong>__init__</strong></a>(self, description: str, error_code: str, error_message: str, request_id: str, details: dict = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><a name="AIAPIPreconditionFailedException-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIPreconditionFailedException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIPreconditionFailedException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIPreconditionFailedException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIPreconditionFailedException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIRequestException">class <strong>AIAPIRequestException</strong></a>(<a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIRequestException">AIAPIRequestException</a>(description:&nbsp;str,&nbsp;status_code:&nbsp;int&nbsp;=&nbsp;None,&nbsp;error_message:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`&nbsp;if&nbsp;an&nbsp;unexpected<br>
+exception&nbsp;occurs&nbsp;while&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIRequestException">AIAPIRequestException</a></dd>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIRequestException-__init__"><strong>__init__</strong></a>(self, description: str, status_code: int = None, error_message: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.exception.html#AIAPIClientSDKException">AIAPIClientSDKException</a>:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIRequestException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIRequestException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIRequestException-__str__"><strong>__str__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIRequestException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIRequestException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AIAPIServerException">class <strong>AIAPIServerException</strong></a>(<a href="builtins.html#Exception">builtins.Exception</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#AIAPIServerException">AIAPIServerException</a>(description:&nbsp;str,&nbsp;status_code:&nbsp;int,&nbsp;error_message:&nbsp;str,&nbsp;error_code:&nbsp;str&nbsp;=&nbsp;None,&nbsp;request_id:&nbsp;str&nbsp;=&nbsp;None,&nbsp;details:&nbsp;dict&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="builtins.html#Exception">Exception</a>&nbsp;type&nbsp;that&nbsp;is&nbsp;raised&nbsp;by&nbsp;the&nbsp;:class:`ai_api_client_sdk.helpers.rest_client.RestClient`,&nbsp;if&nbsp;a&nbsp;non-2XX<br>
+response&nbsp;is&nbsp;received&nbsp;from&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;description:&nbsp;description&nbsp;of&nbsp;the&nbsp;exception<br>
+:type&nbsp;description:&nbsp;str<br>
+:param&nbsp;status_code:&nbsp;Status&nbsp;code&nbsp;of&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:type&nbsp;status_code:&nbsp;int<br>
+:param&nbsp;error_message:&nbsp;Error&nbsp;message&nbsp;received&nbsp;from&nbsp;the&nbsp;server<br>
+:type&nbsp;error_message:&nbsp;str<br>
+:param&nbsp;error_code:&nbsp;Error&nbsp;code&nbsp;received&nbsp;from&nbsp;the&nbsp;server,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;error_code:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;request_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;request,&nbsp;the&nbsp;response&nbsp;belongs&nbsp;to,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;request_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;details:&nbsp;Error&nbsp;details&nbsp;received&nbsp;from&nbsp;the&nbsp;server,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;details:&nbsp;dict,&nbsp;optional<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.exception.html#AIAPIServerException">AIAPIServerException</a></dd>
+<dd><a href="builtins.html#Exception">builtins.Exception</a></dd>
+<dd><a href="builtins.html#BaseException">builtins.BaseException</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="AIAPIServerException-__init__"><strong>__init__</strong></a>(self, description: str, status_code: int, error_message: str, error_code: str = None, request_id: str = None, details: dict = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Static methods inherited from <a href="builtins.html#Exception">builtins.Exception</a>:<br>
+<dl><dt><a name="AIAPIServerException-__new__"><strong>__new__</strong></a>(*args, **kwargs)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Create&nbsp;and&nbsp;return&nbsp;a&nbsp;new&nbsp;object.&nbsp;&nbsp;See&nbsp;help(type)&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><a name="AIAPIServerException-__delattr__"><strong>__delattr__</strong></a>(self, name, /)</dt><dd><tt>Implement&nbsp;delattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__getattribute__"><strong>__getattribute__</strong></a>(self, name, /)</dt><dd><tt>Return&nbsp;getattr(self,&nbsp;name).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__reduce__"><strong>__reduce__</strong></a>(...)</dt><dd><tt>Helper&nbsp;for&nbsp;pickle.</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__repr__"><strong>__repr__</strong></a>(self, /)</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__setattr__"><strong>__setattr__</strong></a>(self, name, value, /)</dt><dd><tt>Implement&nbsp;setattr(self,&nbsp;name,&nbsp;value).</tt></dd></dl>
+
+<dl><dt><a name="AIAPIServerException-__setstate__"><strong>__setstate__</strong></a>(...)</dt></dl>
+
+<dl><dt><a name="AIAPIServerException-with_traceback"><strong>with_traceback</strong></a>(...)</dt><dd><tt><a href="builtins.html#Exception">Exception</a>.<a href="#AIAPIServerException-with_traceback">with_traceback</a>(tb)&nbsp;--<br>
+set&nbsp;self.<strong>__traceback__</strong>&nbsp;to&nbsp;tb&nbsp;and&nbsp;return&nbsp;self.</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="builtins.html#BaseException">builtins.BaseException</a>:<br>
+<dl><dt><strong>__cause__</strong></dt>
+<dd><tt>exception&nbsp;cause</tt></dd>
+</dl>
+<dl><dt><strong>__context__</strong></dt>
+<dd><tt>exception&nbsp;context</tt></dd>
+</dl>
+<dl><dt><strong>__dict__</strong></dt>
+</dl>
+<dl><dt><strong>__suppress_context__</strong></dt>
+</dl>
+<dl><dt><strong>__traceback__</strong></dt>
+</dl>
+<dl><dt><strong>args</strong></dt>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
