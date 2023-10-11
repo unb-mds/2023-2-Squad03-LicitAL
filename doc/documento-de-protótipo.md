@@ -9,7 +9,7 @@ Neste documento constam os Protótipos de Alta e Baixa Fidelidade desenvolvidos 
 
 ## 2.Protótipo de Baixa Fidelidade
 
-![](./assets/Projeto figma baixa fidelidade.png)
+![](./assets/prototipoBaixaFidelidade.png)
 
 Criado por [Iago Passaglia](https://github.com/Paxxaglia)
 
