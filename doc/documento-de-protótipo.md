@@ -14,6 +14,6 @@ Criado por [Iago Passaglia](https://github.com/Paxxaglia)
 
 Desenvolvido a partir da ideia inicial dos protótipos de baixa fidelidade.
 
-[Clique aqui](https://www.figma.com/proto/4NufbdvSRVBk144XWrsgFA/GuiaUnB?type=design&node-id=8-18934&scaling=scale-down&page-id=1%3A43095&starting-point-node-id=8%3A18934&show-proto-sidebar=1) para acessar o protótipo no Figma.
+[Clique aqui](https://www.figma.com/prot/4NufbdvSRVBk144XWrsgFA/GuiaUnB?type=design&node-id=8-18934&scaling=scale-down&page-id=1%3A43095&starting-point-node-id=8%3A18934&show-proto-sidebar=1) para acessar o protótipo no Figma.
 
-[![Logo](assets/FigmaLogo.svg)](https://www.figma.com/proto/4NufbdvSRVBk144XWrsgFA/GuiaUnB?type=design&node-id=8-18934&scaling=scale-down&page-id=1%3A43095&starting-point-node-id=8%3A18934&show-proto-sidebar=1)
+[![Logo](assets/FigmaLogo.svg)](https://www.figma.com/prto/4NufbdvSRVBk144XWrsgFA/GuiaUnB?type=design&node-id=8-18934&scaling=scale-down&page-id=1%3A43095&starting-point-node-id=8%3A18934&show-proto-sidebar=1)
