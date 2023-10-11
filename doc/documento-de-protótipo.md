@@ -1,6 +1,3 @@
----
-excerpt: ""
----
 
 ## 1.Introdução
 
