@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: scrapy-zyte-smartproxy
+Version: 2.2.0
+Summary: Scrapy middleware for Zyte Smart Proxy Manager
+Home-page: https://github.com/scrapy-plugins/scrapy-zyte-smartproxy
+Author: Zyte
+Author-email: opensource@zyte.com
+Maintainer: Raul Gallegos
+Maintainer-email: raul.ogh@gmail.com
+License: BSD
+Platform: Any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Scrapy
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: scrapy (>=1.4.0)
+Requires-Dist: six
+Requires-Dist: w3lib
+
+======================
+scrapy-zyte-smartproxy
+======================
+
+.. image:: https://img.shields.io/pypi/v/scrapy-zyte-smartproxy.svg
+   :target: https://pypi.python.org/pypi/scrapy-zyte-smartproxy
+   :alt: PyPI Version
+
+.. image:: https://travis-ci.org/scrapy-plugins/scrapy-zyte-smartproxy.svg?branch=master
+   :target: http://travis-ci.org/scrapy-plugins/scrapy-zyte-smartproxy
+   :alt: Build Status
+
+.. image:: http://codecov.io/github/scrapy-plugins/scrapy-zyte-smartproxy/coverage.svg?branch=master
+   :target: http://codecov.io/github/scrapy-plugins/scrapy-zyte-smartproxy?branch=master
+   :alt: Code Coverage
+
+scrapy-zyte-smartproxy provides easy use of `Zyte Smart Proxy Manager
+<https://www.zyte.com/smart-proxy-manager/>`_ (formerly Crawlera) with Scrapy.
+
+Requirements
+============
+
+* Python 2.7 or Python 3.4+
+* Scrapy 1.4+
+
+Installation
+============
+
+You can install scrapy-zyte-smartproxy using pip::
+
+    pip install scrapy-zyte-smartproxy
+
+
+Documentation
+=============
+
+Documentation is available online at
+https://scrapy-zyte-smartproxy.readthedocs.io/ and in the ``docs`` directory.
+
+

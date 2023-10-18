@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.helpers.authenticator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.<a href="ai_api_client_sdk.helpers.html"><font color="#ffffff">helpers</font></a>.authenticator</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/helpers/authenticator.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/helpers/authenticator.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.helpers.authenticator.html#Authenticator">Authenticator</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Authenticator">class <strong>Authenticator</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Authenticator">Authenticator</a>(auth_url:&nbsp;str,&nbsp;client_id:&nbsp;str,&nbsp;client_secret:&nbsp;str)<br>
+&nbsp;<br>
+<a href="#Authenticator">Authenticator</a>&nbsp;class&nbsp;is&nbsp;implemented&nbsp;to&nbsp;retrieve&nbsp;the&nbsp;authorization&nbsp;token&nbsp;from&nbsp;the&nbsp;xsuaa&nbsp;server<br>
+&nbsp;<br>
+:param&nbsp;auth_url:&nbsp;URL&nbsp;of&nbsp;the&nbsp;authorization&nbsp;endpoint.&nbsp;Should&nbsp;be&nbsp;the&nbsp;full&nbsp;URL&nbsp;(including&nbsp;/oauth/token)<br>
+:type&nbsp;auth_url:&nbsp;str<br>
+:param&nbsp;client_id:&nbsp;client&nbsp;id&nbsp;to&nbsp;be&nbsp;used&nbsp;for&nbsp;authorization<br>
+:type&nbsp;client_id:&nbsp;str<br>
+:param&nbsp;client_secret:&nbsp;client&nbsp;secret&nbsp;to&nbsp;be&nbsp;used&nbsp;for&nbsp;authorization<br>
+:type&nbsp;client_secret:&nbsp;str<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Authenticator-__init__"><strong>__init__</strong></a>(self, auth_url: str, client_id: str, client_secret: str)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Authenticator-get_token"><strong>get_token</strong></a>(self) -&gt; str</dt><dd><tt>Retrieves&nbsp;the&nbsp;token&nbsp;from&nbsp;the&nbsp;xsuaa&nbsp;server.<br>
+&nbsp;<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthenticatorException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;retrieve&nbsp;the&nbsp;token<br>
+:return:&nbsp;The&nbsp;Bearer&nbsp;token<br>
+:rtype:&nbsp;str</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

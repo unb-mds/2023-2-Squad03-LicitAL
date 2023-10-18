@@ -1,0 +1,2 @@
+[console_scripts]
+metaflow = metaflow.cmd.main_cli:start

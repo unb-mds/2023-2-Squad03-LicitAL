@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.helpers.rest_client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.<a href="ai_api_client_sdk.helpers.html"><font color="#ffffff">helpers</font></a>.rest_client</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/helpers/rest_client.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/helpers/rest_client.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="humps.html">humps</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.helpers.rest_client.html#RestClient">RestClient</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="RestClient">class <strong>RestClient</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#RestClient">RestClient</a>(base_url:&nbsp;str,&nbsp;get_token:&nbsp;Callable[[],&nbsp;str],&nbsp;resource_group:&nbsp;str&nbsp;=&nbsp;None,&nbsp;client_type:&nbsp;str&nbsp;=&nbsp;None,&nbsp;read_timeout=60,&nbsp;connect_timeout=60,&nbsp;num_request_retries=3)<br>
+&nbsp;<br>
+<a href="#RestClient">RestClient</a>&nbsp;is&nbsp;the&nbsp;class&nbsp;implemented&nbsp;for&nbsp;sending&nbsp;the&nbsp;requests&nbsp;to&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;base_url:&nbsp;Base&nbsp;URL&nbsp;of&nbsp;the&nbsp;server.&nbsp;Should&nbsp;include&nbsp;the&nbsp;base&nbsp;path&nbsp;as&nbsp;well.&nbsp;(i.e.,&nbsp;"&lt;base_url&gt;/scenarios"&nbsp;should<br>
+&nbsp;&nbsp;&nbsp;&nbsp;work)<br>
+:type&nbsp;base_url:&nbsp;str<br>
+:param&nbsp;get_token:&nbsp;the&nbsp;function&nbsp;which&nbsp;returns&nbsp;the&nbsp;Bearer&nbsp;token,&nbsp;when&nbsp;called<br>
+:type&nbsp;get_token:&nbsp;Callable[[],&nbsp;str]<br>
+:param&nbsp;resource_group:&nbsp;The&nbsp;default&nbsp;resource&nbsp;group&nbsp;which&nbsp;will&nbsp;be&nbsp;used&nbsp;while&nbsp;sending&nbsp;the&nbsp;requests&nbsp;to&nbsp;the&nbsp;server,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:param&nbsp;client_type:&nbsp;Used&nbsp;for&nbsp;Metering&nbsp;to&nbsp;distinguish&nbsp;eg&nbsp;AI&nbsp;Launchpad&nbsp;python&nbsp;SDKs&nbsp;etc,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;client_type:&nbsp;str<br>
+:param&nbsp;read_timeout:&nbsp;Read&nbsp;timeout&nbsp;for&nbsp;requests&nbsp;in&nbsp;seconds,&nbsp;defaults&nbsp;to&nbsp;60s<br>
+:type&nbsp;read_timeout:&nbsp;int<br>
+:param&nbsp;connect_timeout:&nbsp;Connect&nbsp;timeout&nbsp;for&nbsp;requests&nbsp;in&nbsp;seconds,&nbsp;defaults&nbsp;to&nbsp;60s<br>
+:type&nbsp;connect_timeout:&nbsp;int<br>
+:param&nbsp;num_request_retries:&nbsp;Number&nbsp;of&nbsp;retries&nbsp;for&nbsp;failing&nbsp;requests&nbsp;with&nbsp;http&nbsp;status&nbsp;code&nbsp;429,&nbsp;500,&nbsp;502,&nbsp;503&nbsp;or&nbsp;504,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;60s<br>
+:type&nbsp;num_request_retries:&nbsp;int<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="RestClient-__init__"><strong>__init__</strong></a>(self, base_url: str, get_token: Callable[[], str], resource_group: str = None, client_type: str = None, read_timeout=60, connect_timeout=60, num_request_retries=3)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="RestClient-delete"><strong>delete</strong></a>(self, path: str, params: Dict[str, str] = None, headers: Dict[str, str] = None, resource_group: str = None) -&gt; dict</dt><dd><tt>Sends&nbsp;a&nbsp;DELETE&nbsp;request&nbsp;to&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;path:&nbsp;path&nbsp;of&nbsp;the&nbsp;endpoint&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;to<br>
+:type&nbsp;path:&nbsp;str<br>
+:param&nbsp;params:&nbsp;parameters&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;params:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;headers:&nbsp;headers&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;headers:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this,&nbsp;or&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource_group&nbsp;property&nbsp;of&nbsp;this&nbsp;class&nbsp;should&nbsp;be&nbsp;set.<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;JSON&nbsp;response&nbsp;from&nbsp;the&nbsp;server&nbsp;(The&nbsp;keys&nbsp;decamelized)<br>
+:rtype:&nbsp;dict</tt></dd></dl>
+
+<dl><dt><a name="RestClient-get"><strong>get</strong></a>(self, path: str, params: Dict[str, str] = None, headers: Dict[str, str] = None, resource_group: str = None) -&gt; Union[dict, int]</dt><dd><tt>Sends&nbsp;a&nbsp;GET&nbsp;request&nbsp;to&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;path:&nbsp;path&nbsp;of&nbsp;the&nbsp;endpoint&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;to<br>
+:type&nbsp;path:&nbsp;str<br>
+:param&nbsp;params:&nbsp;parameters&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;params:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;headers:&nbsp;headers&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;headers:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this,&nbsp;or&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource_group&nbsp;property&nbsp;of&nbsp;this&nbsp;class&nbsp;should&nbsp;be&nbsp;set.<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;JSON&nbsp;response&nbsp;from&nbsp;the&nbsp;server&nbsp;(The&nbsp;keys&nbsp;decamelized)<br>
+:rtype:&nbsp;Union[dict,&nbsp;int]</tt></dd></dl>
+
+<dl><dt><a name="RestClient-patch"><strong>patch</strong></a>(self, path: str, body: Dict[str, Union[str, dict, list]], headers: Dict[str, str] = None, resource_group: str = None) -&gt; dict</dt><dd><tt>Sends&nbsp;a&nbsp;PATCH&nbsp;request&nbsp;to&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;path:&nbsp;path&nbsp;of&nbsp;the&nbsp;endpoint&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;to<br>
+:type&nbsp;path:&nbsp;str<br>
+:param&nbsp;body:&nbsp;body&nbsp;of&nbsp;the&nbsp;request<br>
+:type&nbsp;body:&nbsp;Dict[str,&nbsp;Union[str,&nbsp;dict,&nbsp;list]]<br>
+:param&nbsp;headers:&nbsp;headers&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;headers:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this,&nbsp;or&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource_group&nbsp;property&nbsp;of&nbsp;this&nbsp;class&nbsp;should&nbsp;be&nbsp;set.<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;JSON&nbsp;response&nbsp;from&nbsp;the&nbsp;server&nbsp;(The&nbsp;keys&nbsp;decamelized)<br>
+:rtype:&nbsp;dict</tt></dd></dl>
+
+<dl><dt><a name="RestClient-post"><strong>post</strong></a>(self, path: str, body: Dict[str, Union[str, dict]] = None, headers: Dict[str, str] = None, resource_group: str = None) -&gt; dict</dt><dd><tt>Sends&nbsp;a&nbsp;POST&nbsp;request&nbsp;to&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;path:&nbsp;path&nbsp;of&nbsp;the&nbsp;endpoint&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;to<br>
+:type&nbsp;path:&nbsp;str<br>
+:param&nbsp;body:&nbsp;body&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;body:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;headers:&nbsp;headers&nbsp;of&nbsp;the&nbsp;request,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;headers:&nbsp;Dict[str,&nbsp;str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this,&nbsp;or&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource_group&nbsp;property&nbsp;of&nbsp;this&nbsp;class&nbsp;should&nbsp;be&nbsp;set.<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIPreconditionFailedException`&nbsp;if&nbsp;a&nbsp;412&nbsp;response&nbsp;is&nbsp;received&nbsp;from<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;JSON&nbsp;response&nbsp;from&nbsp;the&nbsp;server&nbsp;(The&nbsp;keys&nbsp;decamelized)<br>
+:rtype:&nbsp;dict</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>Callable</strong> = typing.Callable<br>
+<strong>Dict</strong> = typing.Dict<br>
+<strong>Union</strong> = typing.Union</td></tr></table>
+</body></html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_api_client_sdk.resource_clients.artifact_client</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_api_client_sdk.html"><font color="#ffffff">ai_api_client_sdk</font></a>.<a href="ai_api_client_sdk.resource_clients.html"><font color="#ffffff">resource_clients</font></a>.artifact_client</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/artifact_client.py">/home/jenkins/agent/workspace/ndation_ai-api-client-sdk_master/ai_api_client_sdk/resource_clients/artifact_client.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_api_client_sdk.resource_clients.artifact_client.html#ArtifactClient">ArtifactClient</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ArtifactClient">class <strong>ArtifactClient</strong></a>(<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ArtifactClient">ArtifactClient</a>(rest_client:&nbsp;ai_api_client_sdk.helpers.rest_client.RestClient)<br>
+&nbsp;<br>
+<a href="#ArtifactClient">ArtifactClient</a>&nbsp;is&nbsp;a&nbsp;class&nbsp;implemented&nbsp;for&nbsp;interacting&nbsp;with&nbsp;the&nbsp;artifact&nbsp;related&nbsp;endpoints&nbsp;of&nbsp;the&nbsp;server.&nbsp;It<br>
+implements&nbsp;the&nbsp;base&nbsp;class&nbsp;:class:`ai_api_client_sdk.resource_clients.base_client.<a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">BaseClient</a>`<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_api_client_sdk.resource_clients.artifact_client.html#ArtifactClient">ArtifactClient</a></dd>
+<dd><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="ArtifactClient-count"><strong>count</strong></a>(self, scenario_id: str = None, execution_id: str = None, name: str = None, kind: ai_api_client_sdk.models.artifact.Artifact.Kind = None, artifact_label_selector: List[str] = None, resource_group: str = None) -&gt; int</dt><dd><tt>Counts&nbsp;the&nbsp;artifacts.<br>
+&nbsp;<br>
+:param&nbsp;scenario_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;scenario&nbsp;the&nbsp;artifacts&nbsp;should&nbsp;belong&nbsp;to,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;scenario_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution&nbsp;the&nbsp;artifact&nbsp;should&nbsp;be&nbsp;resulted&nbsp;from,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;execution_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;artifact(s)&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;name:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;kind:&nbsp;Kind&nbsp;of&nbsp;the&nbsp;artifacts&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;kind:&nbsp;class:`ai_api_client_sdk.models.artifact.Artifact.Kind`,&nbsp;optional<br>
+:param&nbsp;artifact_label_selector:&nbsp;list&nbsp;of&nbsp;the&nbsp;label&nbsp;selector&nbsp;strings&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;"key=value"&nbsp;or&nbsp;"key!=value",&nbsp;to&nbsp;filter<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;artifacts&nbsp;with&nbsp;respect&nbsp;to&nbsp;their&nbsp;labels,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;artifact_label_selector:&nbsp;List[str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;int</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-create"><strong>create</strong></a>(self, name: str, kind: ai_api_client_sdk.models.artifact.Artifact.Kind, url: str, scenario_id: str, description: str = None, labels: List[ai_api_client_sdk.models.label.Label] = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.artifact_create_response.ArtifactCreateResponse</dt><dd><tt>Creates&nbsp;an&nbsp;artifact.<br>
+&nbsp;<br>
+:param&nbsp;name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;artifact<br>
+:type&nbsp;name:&nbsp;str<br>
+:param&nbsp;kind:&nbsp;Kind&nbsp;of&nbsp;the&nbsp;artifact<br>
+:type&nbsp;kind:&nbsp;class:`ai_api_client_sdk.models.artifact.Artifact.Kind`<br>
+:param&nbsp;url:&nbsp;URL&nbsp;of&nbsp;the&nbsp;artifact<br>
+:type&nbsp;url:&nbsp;str<br>
+:param&nbsp;scenario_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;scenario&nbsp;which&nbsp;the&nbsp;artifact&nbsp;should&nbsp;belong&nbsp;to<br>
+:type&nbsp;scenario_id:&nbsp;str<br>
+:param&nbsp;description:&nbsp;Description&nbsp;of&nbsp;the&nbsp;artifact,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;description:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;labels:&nbsp;List&nbsp;of&nbsp;the&nbsp;labels&nbsp;of&nbsp;the&nbsp;artifact,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;labels:&nbsp;List[class:`ai_api_client_sdk.models.label.Label`]<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.artifact_create_response.ArtifactCreateResponse`</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-get"><strong>get</strong></a>(self, artifact_id: str, expand: str = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.artifact.Artifact</dt><dd><tt>Retrieves&nbsp;the&nbsp;artifact&nbsp;from&nbsp;the&nbsp;server.<br>
+&nbsp;<br>
+:param&nbsp;artifact_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;artifact&nbsp;to&nbsp;be&nbsp;retrieved<br>
+:type&nbsp;artifact_id:&nbsp;str<br>
+:param&nbsp;expand:&nbsp;Entity&nbsp;whose&nbsp;details&nbsp;to&nbsp;be&nbsp;displayed&nbsp;in&nbsp;the&nbsp;response,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;expand:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;The&nbsp;retrieved&nbsp;artifact<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.artifact.Artifact`</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-query"><strong>query</strong></a>(self, scenario_id: str = None, execution_id: str = None, name: str = None, kind: ai_api_client_sdk.models.artifact.Artifact.Kind = None, artifact_label_selector: List[str] = None, top: int = None, skip: int = None, search: str = None, search_case_insensitive: bool = None, expand: str = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.artifact_query_response.ArtifactQueryResponse</dt><dd><tt>Queries&nbsp;the&nbsp;artifacts.<br>
+&nbsp;<br>
+:param&nbsp;scenario_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;scenario&nbsp;the&nbsp;artifacts&nbsp;should&nbsp;belong&nbsp;to,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;scenario_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution&nbsp;the&nbsp;artifact&nbsp;should&nbsp;be&nbsp;resulted&nbsp;from,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;execution_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;artifact(s)&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;name:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;kind:&nbsp;Kind&nbsp;of&nbsp;the&nbsp;artifacts&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;kind:&nbsp;class:`ai_api_client_sdk.models.artifact.Artifact.Kind`,&nbsp;optional<br>
+:param&nbsp;artifact_label_selector:&nbsp;Query&nbsp;the&nbsp;artifacts&nbsp;based&nbsp;on&nbsp;their&nbsp;labels&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;"key=value"&nbsp;or<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"key!=value"&nbsp;separated&nbsp;by&nbsp;commas,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;artifact_label_selector:&nbsp;list,&nbsp;optional<br>
+:param&nbsp;top:&nbsp;Number&nbsp;of&nbsp;artifacts&nbsp;to&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;top:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;skip:&nbsp;Number&nbsp;of&nbsp;artifacts&nbsp;to&nbsp;be&nbsp;skipped,&nbsp;from&nbsp;the&nbsp;list&nbsp;of&nbsp;the&nbsp;queried&nbsp;artifacts,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;skip:&nbsp;int,&nbsp;optional<br>
+:param&nbsp;search:&nbsp;Generic&nbsp;search&nbsp;term&nbsp;to&nbsp;be&nbsp;looked&nbsp;for&nbsp;in&nbsp;various&nbsp;attributes&nbsp;of&nbsp;artifacts,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;search:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;search_case_insensitive:&nbsp;Indicates&nbsp;whether&nbsp;the&nbsp;search&nbsp;should&nbsp;be&nbsp;case&nbsp;insensitive<br>
+:type&nbsp;search_case_insensitive:&nbsp;bool,&nbsp;optional<br>
+:param&nbsp;expand:&nbsp;Entity&nbsp;whose&nbsp;details&nbsp;to&nbsp;be&nbsp;displayed&nbsp;in&nbsp;the&nbsp;response,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;expand:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.artifact_query_response.ArtifactQueryResponse`</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><a name="ArtifactClient-__init__"><strong>__init__</strong></a>(self, rest_client: ai_api_client_sdk.helpers.rest_client.RestClient)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-bulk_modify"><strong>bulk_modify</strong></a>(self, *args, **kwargs)</dt><dd><tt>Modifies&nbsp;multiple&nbsp;instances&nbsp;of&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-delete"><strong>delete</strong></a>(self, *args, **kwargs)</dt><dd><tt>Deletes&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-modify"><strong>modify</strong></a>(self, *args, **kwargs)</dt><dd><tt>Modifies&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="ArtifactClient-query_logs"><strong>query_logs</strong></a>(self, *args, **kwargs)</dt><dd><tt>Queries&nbsp;the&nbsp;relevant&nbsp;logs.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>List</strong> = typing.List</td></tr></table>
+</body></html>

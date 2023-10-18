@@ -1,0 +1,707 @@
+Metadata-Version: 2.1
+Name: ai-core-sdk
+Version: 1.22.3
+Summary: SAP AI Core SDK
+Home-page: https://www.sap.com/
+Download-URL: https://pypi.python.org/pypi/ai-core-sdk
+Author: SAP SE
+License: SAP DEVELOPER LICENSE AGREEMENT
+Keywords: SAP AI Core SDK,SAP AI Core API,SAP AI Core
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: 
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ai-api-client-sdk (==1.28.0)
+Provides-Extra: aicore-content
+Requires-Dist: sap-ai-core-metaflow[kubernetes] (~=1.1.1) ; extra == 'aicore-content'
+Requires-Dist: click (~=8.0.4) ; extra == 'aicore-content'
+Requires-Dist: awscli (~=1.22.94) ; extra == 'aicore-content'
+Requires-Dist: python-dotenv (~=0.19.2) ; extra == 'aicore-content'
+Provides-Extra: all
+Requires-Dist: sap-ai-core-metaflow[kubernetes] (~=1.1.1) ; extra == 'all'
+Requires-Dist: click (~=8.0.4) ; extra == 'all'
+Requires-Dist: awscli (~=1.22.94) ; extra == 'all'
+Requires-Dist: python-dotenv (~=0.19.2) ; extra == 'all'
+
+# SAP AI Core SDK
+
+The SAP AI Core SDK is a Python-based SDK that lets you access SAP AI Core using Python methods and data structures. It provides tools that help you to manage your scenarios and workflows in SAP AI Core.
+
+
+The SAP AI Core SDK can be used to interact with SAP AI Core. It provides access to all public lifecycle and administration APIs.
+
+For example:
+
+* You can execute pipelines as a batch job to preprocess or train your models, or perform batch inference.
+
+* You can deploy а trained machine learning model as a web service to serve inference requests with high performance.
+
+* You can register your own Docker registry, synchronize your AI content from your own git repository, and register your own object store for training data and trained models.
+
+* You can log metrics within a workflow execution using the SDK. You can use the same code for tracking metrics in both your local environment and in the workflow execution (production).
+
+> **Note**
+>
+> Note that executing online inference is not part of SAP AI Core SDK.
+>
+> Metrics persistence is not currently available in your local environment using the SDK. However, it is available in your productive workflow execution.
+
+## Example Usage
+
+The SDK can, for instance, be used in a Jupyter notebook for convenient interaction with SAP AI Core in a test or development context.
+
+Here are a few examples how to use the SDK. For details on the methods, please refer to the html documentation provided in the `/docs` folder of the wheel file.
+
+### Import Definitions
+
+```python
+from ai_core_sdk.ai_core_v2_client import AICoreV2Client
+```
+
+## Create Client
+
+```python
+client = AICoreV2Client(base_url=AI_API_BASE,
+                        auth_url=AUTH_URL,
+                        client_id=CLIENT_ID,
+                        client_secret=CLIENT_SECRET,
+                        resource_group=resource_group_id)
+```
+
+### Create New Resource Group
+
+```python
+resource_group_create = client.resource_groups.create(resource_group_id=resource_group_id)
+print(resource_group_create.resource_group_id)
+resource_group_details = client.resource_groups.get(resource_group_id=resource_group_id)
+print(f"{resource_group_details.status_message} \n{resource_group_details.resource_group_id}")
+```
+
+### Create Object Store Secret
+
+```python
+# access key and secret are assumed to reside in environment variables OSS_KEY and OSS_SECRET
+object_store_secret_create = client.object_store_secrets.create(
+            name="default",
+            type="S3",
+            bucket="<your S3 bucket>",
+            endpoint="<your S3 host>",
+            path_prefix="<your path prefix in S3>", region="<your S3 region>",
+            data={"AWS_ACCESS_KEY_ID": os.environ.get("OSS_KEY"),
+            "AWS_SECRET_ACCESS_KEY": os.environ.get("OSS_SECRET")})
+
+secret_get = client.object_store_secrets.get(name="default")
+print(f"{secret_get.metadata}")
+```
+
+### List Scenarios
+
+```python
+scenarios = client.scenario.query()
+for scenario in scenarios.resources:
+    print(f"{scenario.name} {scenario.id}")
+```
+
+## AICore Content Packages
+
+ai-core-sdk provides a command-line utility as well as a python library to use AICore content packages.
+
+### Installation
+
+The content functionality should be installed as an optional dependency of ai-core-sdk:
+
+```bash
+pip install ai-core-sdk[aicore-content]
+```
+
+Content packages use Metaflow's Argo Workflows plugin to generate templates for AICore and hence Metaflow should be also configured.
+Run a configuration wizzard:
+
+```bash
+metaflow configure kubernetes
+```
+
+or create a simple configuration file `~/.metaflowconfig/config.json` with a link to the configured in AICore object store:
+
+```bash
+{
+    "METAFLOW_DEFAULT_DATASTORE": "s3",
+    "METAFLOW_DATASTORE_SYSROOT_S3": "s3://<bucket>/<prefix>"
+}
+```
+
+See [Configuring Metaflow](https://outerbounds.com/docs/configure-metaflow) for more details.
+
+### Discover Content Packages and their Content
+
+**CLI**
+
+Echo descriptions of all packages from all registires:
+
+```bash
+aicore-content list
+```
+
+To add custom content package spec the environment variable `AI_CORE_CONTENT_SPECS` ([`.env`](https://pypi.org/project/python-dotenv/) file is also supported ) or the `-c <path to content spec py/yaml>` option can be used:
+
+```bash
+aicore-content -c ai_core_content_spec.py list
+export AI_CORE_CONTENT_SPECS=$PWD/ai_core_content_spec.py && aicore-content show
+echo "AI_CORE_CONTENT_SPECS=$PWD/ai_core_content_spec.py" >> .env && aicore-content show
+```
+
+**Python**
+
+All packages:
+
+```python
+from ai_core_sdk.content import get_content_packages # function to fetch a list of all packages from all registries
+
+for content_pkg in get_content_packages().values():
+    content_pkg.print() # print more details for each package
+```
+
+The content specs can also be used directly:
+
+```python
+from content_package.ai_core_content_spec import package_spec_obj
+package_spec_obj.print()
+```
+
+A content packages consists of multiple *workflows*. **Workflows** can be AI Core **Executions** or **Deployments**.
+
+**CLI**
+
+List of all workflows available:
+
+```bash
+aicore-content list <name of the package>
+```
+
+Details of a specific workflow:
+
+```bash
+aicore-content show <name of the package> <name of the workflow>
+```
+
+**Python**
+
+All packages:
+
+```python
+from ai_core_sdk.content import get_content_packages # function to fetch a list of all packages from all registries
+
+package = [*get_content_packages().values()][0] # Get a ContentPackage object
+workflows = package.workflows # get all workflows from a package
+for flow in workflows:
+    flow.print(compact=True) # Print a compact description of the workflow
+for flow in workflows:
+    flow.print(compact=False) # Print a detailed description of the workflow.
+```
+
+When using `python` a package can also directly used from the `ContentPackage` file without registering:
+
+```python
+# Load the object from the submodule
+from content_package.ai_core_content_spec import package_spec_obj
+[*package_spec_obj.workflows.values()][0].print(compact=True)
+
+# create the object from content package spec yaml
+from ai_core_sdk.content import ContentPackage
+
+package_spec_obj = ContentPackage.from_yaml('<path to package spec yaml>')
+[*package_spec_obj.workflows.values()][0].print(compact=True)
+
+# load content package specs from .py file
+from ai_core_sdk.content import get_content_packages_from_py_file
+list_of_package_specs = get_content_packages_from_py_file('<path to package spec py>') # a .py file can contain multiple package specs
+for package_spec_obj in list_of_package_specs:
+    [*package_spec_obj.workflows.values()][0].print(compact=True)
+```
+
+### User's workflow configuration
+
+Every AICore template has a section with a user-specific information, i.e. scenario, docker repo, secret names, etc.  To generate a template from a content package with user settings, user should create a *workflow configuration*.  This is a yaml file with a following structure:
+
+```bash
+.contentPackage: my-package
+.workflow: my-package-workflow
+.dockerType: gpu
+
+name: "my-executable-id"
+labels:
+  scenarios.ai.sap.com/id: "my-scenario-id"
+  ai.sap.com/version: "0.0.1"
+annotations:
+  scenarios.ai.sap.com/name: "my-scenario-name"
+  executables.ai.sap.com/description: "My description"
+  executables.ai.sap.com/name: "my-executable-name"
+image: "my-docker-image"
+imagePullSecret: "my-docker-registry-secret"
+objectStoreSecret: "default-object-store-secret"
+```
+
+In this config the target content package and workflow can be referenced using the keys `.package` and `.workflow`. If provided those references are used to create the image and template. If not provided the package and the workflow have to be specified with `--package` and `--workflow` options (see following sections for details).
+
+### Create Docker images
+
+To run an execution or start a deployment, at least one docker image is needed. Required docker images could be generated through the CLI/Python calls. Both run a `docker build` internally.
+
+**CLI**
+
+To create docker images:
+
+```bash
+aicore-content create-image [--package=<package name>] [--workflow=<workflow name>] <workflow config>
+```
+The command-line options `--package` and `--workflow` overwrite valudes from the worfklow config.
+
+The building process has to be followed by a `docker push -t <generated-image>` to push the container to the registry.
+
+**Python**
+
+The workflow objects got a function `.create_image(...)`:
+
+```python
+workflow = content_package_spec_obj['batch_processing'] # fetch the workflow object using its name
+docker_tag = 'my-very-own-docker.repo/sap-cv-batch-processing:0.0.1'
+workflow_config = 'my-config.yaml'
+with open(workflow_config) as stream
+    workflow_config = yaml.load(stream)
+cmd = workflow.create_image(workflow_config, return_cmd=True) # perform a dry run and return the cmd
+print(cmd)
+workflow.create_image(workflow_config) # actually build the docker container
+os.system(f'docker push {workflow_config["image"]}') # push the container
+```
+
+### Create AI Core Templates
+
+The template creation is similar for Execution and Deployment templates.
+
+#### Create Execution Templates
+
+To create execution templates the [metaflow argo plugin](https://pypi.org/project/sap-ai-core-metaflow/) is used.
+
+**CLI**
+
+Workflow templates need a workflow config to be provided to the `create-template` subcommand.
+
+```bash
+aicore-content create-template [--package=<package name>] [--workflow=<workflow name>] <workflow config> -o <path to output template.json>
+```
+
+**Python**
+
+The workflow config for execution templates has to be provided to the workflows's `.create_template(...)` function. The output file can be specified through the keyword parameter `target_file`:
+
+```python
+workflow.create_template('my-workflow-config.yaml', target_file='workflow-template.json')
+```
+
+**Additonal Options**
+
+Additional arguments can be defined in the workflow config under the key `additionalOptions`.
+
+```yaml
+...
+additionalOptions:
+    workflow: # list of strings passed as workflow options
+        ...
+    metaflow: # list of strings passed as metaflow options
+        - --package-suffixes=.py,.sh
+```
+
+Strings in the `workflow`/`metaflow` pasted into these positions:
+
+```bash
+python -m flow [metaflow] argo create [workflow]
+```
+
+To check the resulting call an `--dry-run`(CLI)/`return_cmd=True`(Python) option is availble. Alternativly the subcommand `aicore-content <package name> metaflow-cli <workflow name>` or `workflow.raw_metaflow_cli(...)`. Every input after the command is directly passed to the underlying `python -m <flow>` call.
+
+#### Create Serving Templates
+
+**CLI**
+
+Serving templates also need a *workflow config* to be passed to the `create-template` subcommand.
+
+```bash
+aicore-content create-template [--package=<package name>] [--workflow=<workflow name>] <workflow config> -o <path to output template.yaml>
+```
+
+**Python**
+
+The workflow config has to be provided to the workflows's `.create_template(...)` function. The output file can be specified through the keyword parameter `target_file`:
+
+```python
+workflow.create_template('my-workflow-config.yaml', target_file='serving-template.yaml')
+```
+
+### Content Package Creation
+
+A content package needs two additional files: the `ContentPackage` file and a workflows yaml.
+
+#### `ContentPackage`
+
+Content package are defined in a `ContentPackage` instance. This instance can either be loaded from a `.py`file or can be created from a yaml. A typical `.py` file looks like this:
+
+```python
+import pathlib
+import yaml
+from ai_core_sdk.content import ContentPackage
+
+HERE = pathlib.Path(__file__).parent
+
+workflow_yaml = HERE / 'workflows.yaml'
+with workflow_yaml.open() as stream:
+    workflows = yaml.safe_load(stream)
+
+spec = ContentPackage(
+    name='my-package name', # name of the package and the aicore-content cli subcommand
+    workflows_base_path=workflow_yaml.parent, # Base paths for all relative paths in the workflow dict
+    workflows=workflows,
+    description='This is an epic content package.', # Package description
+    examples=HERE / 'examples', # Folder to package related examples [optional]
+    version='0.0.1' # Version of the package
+)
+```
+
+If the package is to be distributed as a python module via Nexus or PyPI and the content package spec python file should be included in the package as `ai_core_content_spec.py`. This allows the CLI to find the package without additional configuration efforts and creates a subcommand using the name from the `ContentPackage.name` attribute.
+
+##### Examples
+
+Examples for the content package can copy by the consumer to a directory using the command `aicore-content examples <package name> <target folder>`. This command creates the target folder and copies all files from the paths set in the `ContentPackage`. If no path is set or the path does not exists the `examples` subcommand is not created.
+
+##### Version
+
+Currently the version in the `ContentPackage` is passed to the docker build call as  `--build-arg pkg_version==={version}`. In the `Dockerfile` this build argument can be used to build the docker container using the local version of the package. This is useful for content packages distributed as module through Nexus or PyPI:
+
+```Dockerfile
+FROM pytorch/pytorch
+ARG pkg_version=
+ENV pkg_version=$pkg_version
+...
+RUN python -m pip install sap-computer-vision-package${pkg_version}
+```
+
+#### Workflows File
+
+The second mandatory file a workflows yaml. This yaml is used to define workflows and is structed like a dictionary:
+Entries of the dict look like this:
+
+```Yaml
+name-of-the-workflow:
+    description: >
+        Description text [optional]
+    dockerfile: ...
+    type: ExecutionMetaflow/DeploymentYAML
+    [... more type specific fields]
+```
+
+It is important that all paths in the workflow yaml are specified as paths relative to the workflow yaml`s path. This also means that all files must be located in the same folder or in subfolders.
+
+#### Dockerfiles
+
+The dockerfile entry can either be a single:
+
+```Yaml
+dockerfile: train_workflow/Dockerfile
+```
+
+or a dictionary of paths:
+
+```Yaml
+dockerfile:
+    cpu: train_workflow/Dockerfile
+    gpu: train_workflow/Dockerfile
+```
+
+This allows to define different Docker container for different node types or multiple containers for cases where different steps use different containers. The different dockerfile can be selected using the option/argument `docker_type` when running the build docker command/function.
+
+#### Types
+
+Currently two types of workflows are supported:
+
+* `ExecutionMetaflow`: exections defined as metaflow flowspecs
+* `DeploymentYaml`: deployment defined as yamls
+
+##### ExecutionMetaflow
+
+Additional fields for a `ExecutionMetaflow` entry are
+
+* `py`: path to the python file containing the `metaflow.FlowSpec` class
+* `className`: name of the `metaflow.FlowSpec` class
+* `additionalOptions` (optional): The section is identical to the `additionalOptions` from the workflow configs.
+
+```Yaml
+train-workflow:
+    description: >
+        Description text [optional]
+    dockerfile:
+        cpu: train/Dockerfile
+        cpu: train/DockerfileGPU
+    type: ExecutionMetaflow
+    py: train/flow.py
+    className: TrainingFlow
+    additionalOptions:
+        annotations:
+            artifacts.ai.sap.com/datain.kind: dataset
+            artifacts.ai.sap.com/trainedmodel.kind: model
+        labels:
+            ...
+        workflow: # list of strings passed as workflow options
+            ...
+        metaflow: # list of strings passed as metaflow options (only valid for ExecutionMetaflow)
+            - --package-suffixes=.py,.sh
+```
+
+##### DeploymentYaml
+
+Additional fields:
+
+* `yaml`: contains a path to a Deployment Template.
+
+```Yaml
+my_deployment:
+  type: DeploymentYaml
+  yaml: deploy/template.yaml
+  dockerfile: deploy/Dockerfile
+```
+
+A Deployment Template is a regular Serving Template.  Data from `name`, `annotations` and `labels` fields from a user-defined
+workflow config would replace correspondent attributes in the template.
+In addition, variables `$image` and `$imagePullSecret` will be replaced with the values from the workflow config.
+
+```Yaml
+apiVersion: ai.sap.com/v1alpha1
+kind: ServingTemplate
+metadata:
+  name: my-serving
+  annotations:
+    executables.ai.sap.com/name: my-serving
+    executables.ai.sap.com/description: "My model serving"
+  labels:
+    ai.sap.com/version: "0.0.1"
+spec:
+  template:
+    apiVersion: serving.kserve.io/v1beta1
+    metadata:
+      labels: |
+        ai.sap.com/resourcePlan: "infer.s"
+    spec: |
+      predictor:
+         imagePullSecrets:
+         - name: $imagePullSecret
+         containers:
+         - name: kserve-container
+           image: $image
+```
+
+##### `ContentPackage` from yaml
+
+The specification of a content package and of the workflows can also be merged into a single yaml file:
+
+```yaml
+name: test-spec-yaml
+examples: examples
+description: |
+  this is a test.
+show_files:
+  test: SHOW_FILE
+workflows:
+  test_execution:
+    type: ExecutionMetaflow
+    className: TestPipeline
+    py: train/flow.py
+    dockerfile:
+      cpu: train/Dockerfile
+      gpu: train/DockerfileGPU
+    annotations:
+      artifacts.ai.sap.com/datain.kind: dataset
+      artifacts.ai.sap.com/trainedmodel.kind: model
+    metaflow:
+      - --package-suffixes=.py,.s
+```
+
+Currently there is no discovery mechanism for yaml specs.
+
+They either have to be consumed in python:
+
+```python
+from ai_core_sdk.content import ContentPackage
+content_package = ContentPackage.from_yaml(spec_yaml)
+```
+
+or made available to the CLI through the `aicore-content -c <path to the spec yaml> ...` option or through the `AI_CORE_CONTENT_SPECS` environment variable.
+
+#### Embedded code packages
+
+Metaflow supports the Data Scientist during the experimentation phase, such that it packs all python files into an archive called "code package" and stores it in the configured S3 bucket. Later, during steps execution, this code package is downloaded into the docker container, unpacked there and the respective step function from the Metaflow python file is executed. This approach helps to iterate faster since there is no need to rebuild the docker image after every code change.
+
+In production, however the ML code will not change often. Therefore, it could be preferable to pack the code into the docker image instead of injecting it for every run. In other words, we want to embed the ML code into the docker image.
+
+When running **aicore-content create-image ...**,	a code package is always generated and placed next to the corresponding Dockerfile under the name `codepkg.tgz`.  This file could be used in the Dockerfile with:
+```
+ADD codepkg.tgz .
+```
+
+In addition, it is necessary to to tell sap-ai-core-metaflow to use the embedded coded package instead of downloading it.
+Add this to the workflow's config file:
+```
+  additionalOptions:
+    workflow:
+      - --embedded
+```
+
+
+## Tracking
+
+ The tracking module of the SAP AI Core SDK can be used to log metrics in both your local environment, and productive workflow executions. Metrics persistence is currently available in your productive environment.
+
+ Here are a few code samples demonstrating how to use the SDK for metrics tracking.
+
+
+### Modify Metrics
+
+ ```
+ from ai_core_sdk.tracking import Tracking
+
+ from ai_core_sdk.models import Metric, MetricTag, MetricCustomInfo
+
+ tracking_client = Tracking()
+
+ tracking_client.modify(
+    tags = [
+        # list
+        MetricTag(name="Our Team Tag", value="Tutorial Team"),
+        MetricTag(name="Stage", value="Development")
+    ],
+    metrics = [
+        Metric(
+            name="Training Loss",
+            value=np.finfo(np.float64).max,
+            timestamp= datetime.now().utcnow(),
+            step = 1, # denotes epoch 1
+            labels = []
+        )
+    ],
+    custom_info = [
+        # list of Custom Information
+         MetricCustomInfo(
+             name = "My Classification Report",
+             # you may convert anything to string and store it
+             value = str('''{
+                 "Cats": {
+                     "Precision": 75,
+                     "Recall": 74
+                 },
+                 "Dogs": {
+                     "Precision": 85,
+                     "Recall": 84
+                 }
+             }''')
+        )
+    ]
+ )
+
+ ```
+
+ ### Log Metrics
+
+ ```
+ tracking_client.log_metrics(
+    metrics = [
+        Metric(
+            name="Training Loss",
+            value=float(86.99),
+            timestamp= datetime.now().utcnow(),
+            step = 1, # denotes epoch 1
+            labels = []
+        ),
+    ],
+ )
+
+ ```
+
+ ### Set Tags
+
+ ```
+ tracking_client.set_tags(
+    tags = [
+        # list
+        MetricTag(name="Our Team Tag", value="Tutorial Team"),
+        MetricTag(name="Stage", value="Development")
+    ]
+ )
+
+ ```
+
+ ### Set Custom Info
+
+ ```
+ tracking_client.set_custom_info(
+    custom_info = [
+        # list of Custom Information
+         MetricCustomInfo(
+             name = "My Classification Report",
+             # you may convert anything to string and store it
+             value = str('''
+             {
+                 "Cats": {
+                     "Precision": 75,
+                     "Recall": 74
+                 },
+                 "Dogs": {
+                     "Precision": 85,
+                     "Recall": 84
+                 }
+             }
+             '''
+             )
+        ),
+    ]
+ )
+
+ ```
+  ### Query Metrics
+
+ ```
+ metrics_response = tracking_client.query(execution_ids = [
+    "test_execution_id"    # Change this with the training execution id
+ ])
+ ```
+
+  ### Delete Metrics
+
+ ```
+ metrics_response = tracking_client.delete(execution_id = "test_execution_id") # Change this with the actual execution id
+ ```

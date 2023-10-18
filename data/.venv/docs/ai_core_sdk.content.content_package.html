@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_core_sdk.content.content_package</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_core_sdk.html"><font color="#ffffff">ai_core_sdk</font></a>.<a href="ai_core_sdk.content.html"><font color="#ffffff">content</font></a>.content_package</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/AI-Foundation_ai-core-sdk_master/ai_core_sdk/content/content_package.py">/home/jenkins/agent/workspace/AI-Foundation_ai-core-sdk_master/ai_core_sdk/content/content_package.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="importlib.html">importlib</a><br>
+<a href="inspect.html">inspect</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+<a href="pathlib.html">pathlib</a><br>
+</td><td width="25%" valign=top><a href="pkgutil.html">pkgutil</a><br>
+<a href="uuid.html">uuid</a><br>
+</td><td width="25%" valign=top><a href="warnings.html">warnings</a><br>
+<a href="yaml.html">yaml</a><br>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_core_sdk.content.content_package.html#ContentPackage">ContentPackage</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="ContentPackage">class <strong>ContentPackage</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#ContentPackage">ContentPackage</a>(name:&nbsp;str,&nbsp;workflows:&nbsp;Optional[Dict[str,&nbsp;Any]],&nbsp;workflows_base_path:&nbsp;Union[str,&nbsp;pathlib.Path],&nbsp;examples:&nbsp;Union[str,&nbsp;pathlib.Path,&nbsp;NoneType]&nbsp;=&nbsp;None,&nbsp;license:&nbsp;Optional[str]&nbsp;=&nbsp;None,&nbsp;description:&nbsp;Optional[str]&nbsp;=&nbsp;None,&nbsp;version:&nbsp;Optional[str]&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+The&nbsp;<a href="#ContentPackage">ContentPackage</a>&nbsp;<a href="builtins.html#object">object</a>&nbsp;defines&nbsp;a&nbsp;content&nbsp;packages<br>
+:param&nbsp;name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;package<br>
+:type&nbsp;name:&nbsp;str<br>
+:param&nbsp;workflows:&nbsp;Dict&nbsp;of&nbsp;workflows&nbsp;see&nbsp;class:`ai_core_sdk.content.workflow.Workflow`&nbsp;for&nbsp;details<br>
+:type&nbsp;workflows:&nbsp;Union[Dict[str,&nbsp;Any],&nbsp;None]<br>
+:param&nbsp;workflows_base_path:&nbsp;Base&nbsp;path&nbsp;for&nbsp;all&nbsp;relative&nbsp;paths&nbsp;in&nbsp;the&nbsp;workflow&nbsp;definition<br>
+:type&nbsp;workflows_base_path:&nbsp;Union[str,&nbsp;pathlib.Path]<br>
+:param&nbsp;examples:&nbsp;Paths&nbsp;to&nbsp;a&nbsp;folder&nbsp;containing&nbsp;examples<br>
+:type&nbsp;examples:&nbsp;Union[str,&nbsp;pathlib.Path,&nbsp;None],&nbsp;optional<br>
+:param&nbsp;license:&nbsp;Name&nbsp;of&nbsp;the&nbsp;content&nbsp;package's&nbsp;license<br>
+:type&nbsp;license:&nbsp;Union[str,&nbsp;None],&nbsp;optional<br>
+:param&nbsp;description:&nbsp;Description&nbsp;text<br>
+:type&nbsp;description:&nbsp;Union[str,&nbsp;None],&nbsp;optional<br>
+:param&nbsp;version:&nbsp;Version&nbsp;str<br>
+:type&nbsp;version:&nbsp;Union[str,&nbsp;None],&nbsp;optional<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="ContentPackage-__getitem__"><strong>__getitem__</strong></a>(self, name: str) -&gt; ai_core_sdk.content.workflow.Workflow</dt><dd><tt>Get&nbsp;Workflow&nbsp;by&nbsp;its&nbsp;name.<br>
+:raises:&nbsp;class:`ai_core_sdk.content.workflow.WorkflowNotFound`<br>
+:return:&nbsp;Workflow<br>
+:rtype:&nbsp;class:`ai_core_sdk.content.workflow.Workflow`</tt></dd></dl>
+
+<dl><dt><a name="ContentPackage-__init__"><strong>__init__</strong></a>(self, name: str, workflows: Optional[Dict[str, Any]], workflows_base_path: Union[str, pathlib.Path], examples: Union[str, pathlib.Path, NoneType] = None, license: Optional[str] = None, description: Optional[str] = None, version: Optional[str] = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="ContentPackage-__repr__"><strong>__repr__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;repr(self).</tt></dd></dl>
+
+<dl><dt><a name="ContentPackage-__str__"><strong>__str__</strong></a>(self) -&gt; str</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="ContentPackage-validate"><strong>validate</strong></a>(self) -&gt; None</dt><dd><tt>Run&nbsp;validationfor&nbsp;the&nbsp;content&nbsp;package&nbsp;definition&nbsp;and&nbsp;its&nbsp;workflows.<br>
+:raises:&nbsp;ValueError&nbsp;when&nbsp;validations&nbsp;fails</tt></dd></dl>
+
+<hr>
+Class methods defined here:<br>
+<dl><dt><a name="ContentPackage-from_yaml"><strong>from_yaml</strong></a>(yaml_path: Union[pathlib.Path, str]) -&gt; 'ContentPackage'<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Initialize&nbsp;a&nbsp;content&nbsp;package&nbsp;from&nbsp;a&nbsp;yaml&nbsp;file.<br>
+:param&nbsp;yaml_path:&nbsp;Path&nbsp;to&nbsp;the&nbsp;yaml&nbsp;file<br>
+:type&nbsp;yaml_path:&nbsp;Union[pathlib.Path,&nbsp;str]<br>
+:raises:&nbsp;class:`FileNotFoundError`,&nbsp;class:`ValueError`<br>
+:return:&nbsp;<a href="#ContentPackage">ContentPackage</a><br>
+:rtype:&nbsp;class:`ai_core_sdk.content.content_package.<a href="#ContentPackage">ContentPackage</a>`</tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="ContentPackage-check_path"><strong>check_path</strong></a>(path: Union[pathlib.Path, str], validate_is_dir: bool = False, validate_is_file: bool = False) -&gt; Optional[str]</dt><dd><tt>Funciton&nbsp;to&nbsp;check&nbsp;the&nbsp;existence&nbsp;of&nbsp;a&nbsp;path.<br>
+:param&nbsp;path:&nbsp;Path,&nbsp;which&nbsp;is&nbsp;transformed&nbsp;into&nbsp;an&nbsp;absolute&nbsp;path&nbsp;by&nbsp;the&nbsp;function&nbsp;prior&nbsp;to&nbsp;validation<br>
+:type&nbsp;path:&nbsp;Union[str,&nbsp;pathlib.Path]<br>
+:param&nbsp;validate_is_file:&nbsp;Bool&nbsp;specifying&nbsp;whether&nbsp;to&nbsp;check&nbsp;if&nbsp;the&nbsp;file&nbsp;is&nbsp;a&nbsp;folder<br>
+:type&nbsp;path:&nbsp;bool,&nbsp;optional<br>
+:param&nbsp;validate_is_dir:&nbsp;Bool&nbsp;specifying&nbsp;whether&nbsp;to&nbsp;check&nbsp;if&nbsp;the&nbsp;path&nbsp;is&nbsp;a&nbsp;folder<br>
+:type&nbsp;path:&nbsp;bool,&nbsp;optional<br>
+:return:&nbsp;str&nbsp;in&nbsp;case&nbsp;of&nbsp;a&nbsp;valid&nbsp;path&nbsp;and&nbsp;None&nbsp;in&nbsp;case&nbsp;of&nbsp;an&nbsp;invalid&nbsp;path<br>
+:rtype:&nbsp;Union[None,&nbsp;str]</tt></dd></dl>
+
+<hr>
+Readonly properties defined here:<br>
+<dl><dt><strong>workflows</strong></dt>
+<dd><tt>Return&nbsp;dict&nbsp;of&nbsp;workflows&nbsp;from&nbsp;the&nbsp;ContentPackage.<br>
+:return:&nbsp;Dict&nbsp;of&nbsp;workflows&nbsp;from&nbsp;the&nbsp;ContentPackage<br>
+:rtype:&nbsp;Dict[str,&nbsp;Workflow]</tt></dd>
+</dl>
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-get_content_packages"><strong>get_content_packages</strong></a>(manual_paths: Optional[List[Union[str, pathlib.Path]]] = None, raise_errors: bool = True) -&gt; Dict[str, ai_core_sdk.content.content_package.ContentPackage]</dt><dd><tt>Retrieve&nbsp;all&nbsp;content&nbsp;packages&nbsp;available.<br>
+If&nbsp;raising&nbsp;errors&nbsp;is&nbsp;turned&nbsp;off,&nbsp;then&nbsp;warnings&nbsp;are&nbsp;sent&nbsp;instead.<br>
+:param&nbsp;manual_paths:&nbsp;Additional&nbsp;paths&nbsp;to&nbsp;content&nbsp;package&nbsp;definitions<br>
+:type&nbsp;manual_paths:&nbsp;Union[None,&nbsp;List[Union[str,&nbsp;pathlib.Path]]],&nbsp;optional<br>
+:param&nbsp;raise_errors:&nbsp;Raise&nbsp;errors&nbsp;instead&nbsp;of&nbsp;warnings<br>
+:type&nbsp;raise_errors:&nbsp;bool,&nbsp;optional<br>
+:raises:&nbsp;class:`ValueError`<br>
+:return:&nbsp;Dictionary&nbsp;of&nbsp;class:`ai_core_sdk.content.content_package.<a href="#ContentPackage">ContentPackage</a>`<br>
+:rtype:&nbsp;List[<a href="#ContentPackage">ContentPackage</a>]</tt></dd></dl>
+ <dl><dt><a name="-get_content_packages_from_module"><strong>get_content_packages_from_module</strong></a>(module: Union[str, module], content_spec_py: str = 'ai_core_content_spec.py') -&gt; List[ai_core_sdk.content.content_package.ContentPackage]</dt><dd><tt>Search&nbsp;for&nbsp;content&nbsp;package&nbsp;definition&nbsp;within&nbsp;a&nbsp;module.<br>
+:param&nbsp;module:&nbsp;Name&nbsp;of&nbsp;a&nbsp;module&nbsp;as&nbsp;str&nbsp;or&nbsp;imported&nbsp;module<br>
+:type&nbsp;module:&nbsp;Union[str,&nbsp;ModuleType]<br>
+:param&nbsp;content_spec_py:&nbsp;file&nbsp;name&nbsp;to&nbsp;search&nbsp;for&nbsp;in&nbsp;the&nbsp;module<br>
+:type&nbsp;content_spec_py:&nbsp;str,&nbsp;optional<br>
+:return:&nbsp;List&nbsp;of&nbsp;content&nbsp;packages&nbsp;class:`ai_core_sdk.content.content_package.<a href="#ContentPackage">ContentPackage</a>`<br>
+:rtype:&nbsp;List[<a href="#ContentPackage">ContentPackage</a>]</tt></dd></dl>
+ <dl><dt><a name="-get_content_packages_from_py_file"><strong>get_content_packages_from_py_file</strong></a>(py_file: Union[str, pathlib.Path]) -&gt; List[ai_core_sdk.content.content_package.ContentPackage]</dt><dd><tt>Load&nbsp;content&nbsp;pacakges&nbsp;from&nbsp;a&nbsp;python&nbsp;file.<br>
+If&nbsp;raising&nbsp;errors&nbsp;is&nbsp;turned&nbsp;off,&nbsp;then&nbsp;warnings&nbsp;are&nbsp;sent&nbsp;instead.<br>
+:raises:&nbsp;class:`ValueError`,&nbsp;class:`FileNotFoundError`<br>
+:return:&nbsp;List&nbsp;of&nbsp;class:`ai_core_sdk.content.content_package.<a href="#ContentPackage">ContentPackage</a>`<br>
+:rtype:&nbsp;List[<a href="#ContentPackage">ContentPackage</a>]</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>__all__</strong> = ['ContentPackage', 'get_content_packages', 'get_content_packages_from_module', 'get_content_packages_from_py_file']</td></tr></table>
+</body></html>

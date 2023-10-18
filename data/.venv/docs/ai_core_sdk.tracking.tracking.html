@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module ai_core_sdk.tracking.tracking</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="ai_core_sdk.html"><font color="#ffffff">ai_core_sdk</font></a>.<a href="ai_core_sdk.tracking.html"><font color="#ffffff">tracking</font></a>.tracking</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/jenkins/agent/workspace/AI-Foundation_ai-core-sdk_master/ai_core_sdk/tracking/tracking.py">/home/jenkins/agent/workspace/AI-Foundation_ai-core-sdk_master/ai_core_sdk/tracking/tracking.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;pylint:&nbsp;disable=C0114</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="ai_core_sdk.resource_clients.metrics_client.html#MetricsCoreClient">ai_core_sdk.resource_clients.metrics_client.MetricsCoreClient</a>(<a href="ai_api_client_sdk.resource_clients.metrics_client.html#MetricsClient">ai_api_client_sdk.resource_clients.metrics_client.MetricsClient</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="ai_core_sdk.tracking.tracking.html#Tracking">Tracking</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Tracking">class <strong>Tracking</strong></a>(<a href="ai_core_sdk.resource_clients.metrics_client.html#MetricsCoreClient">ai_core_sdk.resource_clients.metrics_client.MetricsCoreClient</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Tracking">Tracking</a>(base_url:&nbsp;str&nbsp;=&nbsp;None,&nbsp;auth_url:&nbsp;str&nbsp;=&nbsp;None,&nbsp;client_id:&nbsp;str&nbsp;=&nbsp;None,&nbsp;client_secret:&nbsp;str&nbsp;=&nbsp;None,&nbsp;token_creator:&nbsp;Callable[[],&nbsp;str]&nbsp;=&nbsp;None,&nbsp;resource_group:&nbsp;str&nbsp;=&nbsp;None)<br>
+&nbsp;<br>
+<a href="#Tracking">Tracking</a>&nbsp;is&nbsp;a&nbsp;class&nbsp;implemented&nbsp;for&nbsp;interacting&nbsp;with&nbsp;the&nbsp;metrics&nbsp;related<br>
+endpoints&nbsp;of&nbsp;the&nbsp;server.&nbsp;It&nbsp;is&nbsp;a&nbsp;wrapper&nbsp;around&nbsp;the&nbsp;base&nbsp;class<br>
+:class:`ai_core_sdk.resource_clients.metrics_client.<a href="ai_core_sdk.resource_clients.metrics_client.html#MetricsCoreClient">MetricsCoreClient</a>`<br>
+&nbsp;<br>
+:param&nbsp;base_url:&nbsp;Base&nbsp;URL&nbsp;of&nbsp;the&nbsp;AI&nbsp;Core.&nbsp;Should&nbsp;include&nbsp;the&nbsp;base&nbsp;path&nbsp;as&nbsp;well.&nbsp;(i.e.,&nbsp;"&lt;base_url&gt;/lm/scenarios"<br>
+should&nbsp;work)<br>
+:type&nbsp;base_url:&nbsp;str<br>
+:param&nbsp;auth_url:&nbsp;URL&nbsp;of&nbsp;the&nbsp;authorization&nbsp;endpoint.&nbsp;Should&nbsp;be&nbsp;the&nbsp;full&nbsp;URL&nbsp;(including&nbsp;/oauth/token),&nbsp;defaults&nbsp;to<br>
+&nbsp;&nbsp;&nbsp;&nbsp;None<br>
+:type&nbsp;auth_url:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;client_id:&nbsp;client&nbsp;id&nbsp;to&nbsp;be&nbsp;used&nbsp;for&nbsp;authorization,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;client_id:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;client_secret:&nbsp;client&nbsp;secret&nbsp;to&nbsp;be&nbsp;used&nbsp;for&nbsp;authorization,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;client_secret:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;token_creator:&nbsp;the&nbsp;function&nbsp;which&nbsp;returns&nbsp;the&nbsp;Bearer&nbsp;token,&nbsp;when&nbsp;called.&nbsp;Either&nbsp;this,&nbsp;or<br>
+&nbsp;&nbsp;&nbsp;&nbsp;auth_url&nbsp;&amp;&nbsp;client_id&nbsp;&amp;&nbsp;client_secret&nbsp;should&nbsp;be&nbsp;specified,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;token_creator:&nbsp;Callable[[],&nbsp;str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;The&nbsp;default&nbsp;resource&nbsp;group&nbsp;which&nbsp;will&nbsp;be&nbsp;used&nbsp;while&nbsp;sending&nbsp;the&nbsp;requests&nbsp;to&nbsp;the&nbsp;server.&nbsp;If<br>
+&nbsp;&nbsp;&nbsp;&nbsp;not&nbsp;set,&nbsp;the&nbsp;resource_group&nbsp;should&nbsp;be&nbsp;specified&nbsp;with&nbsp;every&nbsp;request&nbsp;to&nbsp;the&nbsp;server,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str,&nbsp;optional<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="ai_core_sdk.tracking.tracking.html#Tracking">Tracking</a></dd>
+<dd><a href="ai_core_sdk.resource_clients.metrics_client.html#MetricsCoreClient">ai_core_sdk.resource_clients.metrics_client.MetricsCoreClient</a></dd>
+<dd><a href="ai_api_client_sdk.resource_clients.metrics_client.html#MetricsClient">ai_api_client_sdk.resource_clients.metrics_client.MetricsClient</a></dd>
+<dd><a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Tracking-__init__"><strong>__init__</strong></a>(self, base_url: str = None, auth_url: str = None, client_id: str = None, client_secret: str = None, token_creator: Callable[[], str] = None, resource_group: str = None)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Tracking-delete"><strong>delete</strong></a>(self, execution_id: str, resource_group: str = None) -&gt; None</dt><dd><tt>Deletes&nbsp;the&nbsp;metrics.<br>
+&nbsp;<br>
+:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;deleted.<br>
+:type&nbsp;execution_id:&nbsp;str<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPINotFoundException`&nbsp;if&nbsp;a&nbsp;404&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Tracking-log_metrics"><strong>log_metrics</strong></a>(self, metrics: List[ai_api_client_sdk.models.metric.Metric], execution_id: str = '', artifact_name: str = None, resource_group: str = None) -&gt; None</dt><dd><tt>Creates&nbsp;or&nbsp;updates&nbsp;the&nbsp;metrics&nbsp;for&nbsp;an&nbsp;execution.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;metrics:&nbsp;List&nbsp;of&nbsp;the&nbsp;metrics&nbsp;related&nbsp;to&nbsp;the&nbsp;execution,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;metrics:&nbsp;List[class:`ai_api_client_sdk.metric.Metric`]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;modified.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;execution_id:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;artifact_name:&nbsp;Name&nbsp;of&nbsp;the&nbsp;artifact&nbsp;to&nbsp;associate&nbsp;with&nbsp;a&nbsp;metric,&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;artifact_name:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;resource_group:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Tracking-modify"><strong>modify</strong></a>(self, execution_id: str = '', metrics: List[ai_api_client_sdk.models.metric.Metric] = None, tags: List[ai_api_client_sdk.models.metric_tag.MetricTag] = None, custom_info: List[ai_api_client_sdk.models.metric_custom_info.MetricCustomInfo] = None, resource_group: str = None) -&gt; None</dt><dd><tt>Creates&nbsp;or&nbsp;updates&nbsp;the&nbsp;metrics&nbsp;for&nbsp;an&nbsp;execution.<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;modified.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;execution_id:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;metrics:&nbsp;List&nbsp;of&nbsp;the&nbsp;metrics&nbsp;related&nbsp;to&nbsp;the&nbsp;execution,&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;metrics:&nbsp;List[class:`ai_api_client_sdk.metric.Metric`],&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;tags:&nbsp;List&nbsp;of&nbsp;the&nbsp;tags&nbsp;related&nbsp;to&nbsp;the&nbsp;execution,&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;tags:&nbsp;List[class:'ai_api_client_sdk.models.metric_tag.MetricTag'],&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;custom_info:&nbsp;List&nbsp;of&nbsp;custom&nbsp;info&nbsp;related&nbsp;to&nbsp;the&nbsp;execution,&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;custom_info:&nbsp;List[class:`ai_api_client_sdk.models.metric_custom_info.MetricCustomInfo`],&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;resource_group:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Tracking-query"><strong>query</strong></a>(self, filter: str = None, execution_ids: List[str] = None, select: List[str] = None, resource_group: str = None) -&gt; ai_api_client_sdk.models.metrics_query_response.MetricsQueryResponse</dt><dd><tt>Creates&nbsp;or&nbsp;updates&nbsp;the&nbsp;metrics&nbsp;for&nbsp;an&nbsp;execution.<br>
+&nbsp;<br>
+:param&nbsp;filter:&nbsp;Deprecated.&nbsp;Use&nbsp;parameter&nbsp;execution_ids&nbsp;instead.&nbsp;A&nbsp;filter&nbsp;expression&nbsp;that&nbsp;filters&nbsp;the&nbsp;metric<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resources&nbsp;using&nbsp;execution&nbsp;IDs.&nbsp;User&nbsp;can&nbsp;only&nbsp;use&nbsp;in,&nbsp;eq&nbsp;operators&nbsp;in&nbsp;filter&nbsp;expression,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;filter:&nbsp;str,&nbsp;optional<br>
+:param&nbsp;execution_ids:&nbsp;IDs&nbsp;of&nbsp;the&nbsp;executions,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;retrieved,&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;execution_ids:&nbsp;List[str],&nbsp;optional<br>
+:param&nbsp;select:&nbsp;Values&nbsp;of&nbsp;select&nbsp;can&nbsp;be&nbsp;metrics,tags,customInfo&nbsp;or&nbsp;any&nbsp;of&nbsp;the&nbsp;combinations&nbsp;of&nbsp;these&nbsp;or&nbsp;*.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Can&nbsp;be&nbsp;used&nbsp;to&nbsp;select(project)&nbsp;only&nbsp;the&nbsp;resources&nbsp;specified<br>
+:type&nbsp;select:&nbsp;List[str],&nbsp;optional<br>
+:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+:type&nbsp;resource_group:&nbsp;str<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIAuthorizationException`&nbsp;if&nbsp;a&nbsp;401&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server<br>
+:return:&nbsp;An&nbsp;object&nbsp;representing&nbsp;the&nbsp;response&nbsp;from&nbsp;the&nbsp;server<br>
+:rtype:&nbsp;class:`ai_api_client_sdk.models.metrics_query_response.MetricsQueryResponse`</tt></dd></dl>
+
+<dl><dt><a name="Tracking-set_custom_info"><strong>set_custom_info</strong></a>(self, custom_info: List[ai_api_client_sdk.models.metric_custom_info.MetricCustomInfo], execution_id: str = '', resource_group: str = None) -&gt; None</dt><dd><tt>log&nbsp;custom&nbsp;info&nbsp;against&nbsp;the&nbsp;given&nbsp;execution<br>
+&nbsp;&nbsp;&nbsp;&nbsp;captures&nbsp;consumption&nbsp;semantics&nbsp;for&nbsp;the&nbsp;metrics&nbsp;or&nbsp;complex&nbsp;metric&nbsp;in&nbsp;JSON&nbsp;format.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;custom_info:&nbsp;List&nbsp;of&nbsp;custom&nbsp;info&nbsp;related&nbsp;to&nbsp;the&nbsp;execution<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;custom_info:&nbsp;List[class:`ai_api_client_sdk.models.metric_custom_info.MetricCustomInfo`],&nbsp;optional<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;modified.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;execution_id:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;resource_group:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server</tt></dd></dl>
+
+<dl><dt><a name="Tracking-set_tags"><strong>set_tags</strong></a>(self, tags: List[ai_api_client_sdk.models.metric_tag.MetricTag], execution_id: str = '', resource_group: str = None) -&gt; None</dt><dd><tt>log&nbsp;tags&nbsp;against&nbsp;the&nbsp;given&nbsp;execution<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;tags:&nbsp;List&nbsp;of&nbsp;the&nbsp;tags&nbsp;related&nbsp;to&nbsp;the&nbsp;execution,&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;tags:&nbsp;List[class:'ai_api_client_sdk.models.metric_tag.MetricTag']<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;execution_id:&nbsp;ID&nbsp;of&nbsp;the&nbsp;execution,&nbsp;of&nbsp;which&nbsp;the&nbsp;metrics&nbsp;should&nbsp;be&nbsp;modified.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;execution_id:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:param&nbsp;resource_group:&nbsp;Resource&nbsp;Group&nbsp;which&nbsp;the&nbsp;request&nbsp;should&nbsp;be&nbsp;sent&nbsp;on&nbsp;behalf.&nbsp;Either&nbsp;this&nbsp;or&nbsp;a&nbsp;default<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource&nbsp;group&nbsp;in&nbsp;the&nbsp;:class:`ai_api_client_sdk.ai_api_v2_client.AIAPIV2Client`&nbsp;should&nbsp;be&nbsp;specified,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaults&nbsp;to&nbsp;None<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:type&nbsp;resource_group:&nbsp;str<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIInvalidRequestException`&nbsp;if&nbsp;a&nbsp;400&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIServerException`&nbsp;if&nbsp;a&nbsp;non-2XX&nbsp;response&nbsp;is&nbsp;received&nbsp;from&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;server<br>
+&nbsp;&nbsp;&nbsp;&nbsp;:raises:&nbsp;class:`ai_api_client_sdk.exception.AIAPIRequestException`&nbsp;if&nbsp;an&nbsp;unexpected&nbsp;exception&nbsp;occurs&nbsp;while<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;trying&nbsp;to&nbsp;send&nbsp;a&nbsp;request&nbsp;to&nbsp;the&nbsp;server</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><a name="Tracking-bulk_modify"><strong>bulk_modify</strong></a>(self, *args, **kwargs)</dt><dd><tt>Modifies&nbsp;multiple&nbsp;instances&nbsp;of&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="Tracking-count"><strong>count</strong></a>(self, *args, **kwargs)</dt><dd><tt>Counts&nbsp;the&nbsp;relevant&nbsp;resources.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="Tracking-create"><strong>create</strong></a>(self, *args, **kwargs)</dt><dd><tt>Creates&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="Tracking-get"><strong>get</strong></a>(self, *args, **kwargs)</dt><dd><tt>Retrieves&nbsp;the&nbsp;relevant&nbsp;resource.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<dl><dt><a name="Tracking-query_logs"><strong>query_logs</strong></a>(self, *args, **kwargs)</dt><dd><tt>Queries&nbsp;the&nbsp;relevant&nbsp;logs.&nbsp;Will&nbsp;be&nbsp;implemented&nbsp;by&nbsp;the&nbsp;respective&nbsp;resource&nbsp;clients</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="ai_api_client_sdk.resource_clients.base_client.html#BaseClient">ai_api_client_sdk.resource_clients.base_client.BaseClient</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>Callable</strong> = typing.Callable<br>
+<strong>List</strong> = typing.List</td></tr></table>
+</body></html>
