@@ -1,5 +1,6 @@
 #!/bin/bash
-
+#Exemplo de USO:
+#START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
 set -x  # debug
 set -e  # exit on error
 
