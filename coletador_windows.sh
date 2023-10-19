@@ -1,9 +1,9 @@
 #!/bin/bash
+# Exemplo de USO:
+# START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
 
-set -x  # debug
-set -e  # exit on error
-
-START_DATE=${START_DATE:="2014-01-01"}
+# Define as variáveis de ambiente
+START_DATE=${START_DATE:="2023-01-01"}
 END_DATE=${END_DATE:="2023-12-31"}
 ROOT_DIR=${PWD}
 DATA_DIR=${ROOT_DIR}/data
@@ -13,21 +13,23 @@ DATA_COLLECTION_DIR=${REPO_DIR}/data_collection
 QD_DOWNLOAD_DIR=${REPO_DIR}/data_collection/data/2700000
 DOWNLOAD_DIR=${DATA_DIR}/diarios
 
+# Crie diretórios, se não existirem
 mkdir -p ${DATA_DIR}
 cd ${DATA_DIR}
 mkdir -p ${DOWNLOAD_DIR}
 mkdir -p ${OUT_DIR}
 
-# Checando se o docker está rodando antes de iniciar a coleta.
+# Cheque se o Docker está rodando antes de iniciar a coleta.
 docker ps > /dev/null
 
-# Preparando ambiente para coleta.
+# Preparando o ambiente para coleta.
+
 cd ${REPO_DIR} || (git clone https://github.com/okfn-brasil/querido-diario qd && cd ${REPO_DIR})
 python -m venv .venv
 .venv/Scripts/activate
 py -m pip install -r ${DATA_COLLECTION_DIR}/requirements-dev.txt --no-deps
 
-# Coletando diários e movendo para a pasta diários.
+# Coletando diários e movendo para a pasta de diários.
 cd ${DATA_COLLECTION_DIR}
 scrapy crawl al_associacao_municipios -a start_date=${START_DATE} -a end_date=${END_DATE} > ${OUT_DIR}/scrapy.out 2> ${OUT_DIR}/scrapy.err
 for dir in `dir -da ${QD_DOWNLOAD_DIR}/*`
@@ -45,7 +47,7 @@ done
 # Finalizando e saindo do ambiente virtual.
 cd ${REPO_DIR}
 
-# Extraindo texto dos diários e segmentando diários.
+# Extraindo texto dos diários e segmentando os diários.
 cd ${DOWNLOAD_DIR}
 
 # docker pull apache/tika:1.28.4

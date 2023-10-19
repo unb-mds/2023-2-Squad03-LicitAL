@@ -1,5 +1,5 @@
 ## 💻 Visão Geral
-O LicitAl é um projeto da disciplina de Métodos de Desenvolvimento de Software, que visa automatizar a coleta de informações de licitações de todos os municípios de Alagoas a partir dos Diários Oficiais, além de disponibilizar as informações de forma facilitada para qualquer cidadão.
+O LicitAl é um projeto da disciplina de Métodos de Desenvolvimento de Software, que visa automatizar a coleta de informações de licitações de todos os municípios de Alagoas a partir dos Diários Oficiais, além de disponibilizar as informações de forma facilitada para qualquer cidadão. Esse projeto é inspirado no projeto [Exoonero](https://exoonero.org/sobre/), porém com foco em licitações.
 	
 
 ## 💡 Ideia e Incentivo
@@ -8,9 +8,18 @@ O LicitAl é uma ferramenta essencial para quem estuda, trabalha ou está envolv
 ## 🚀 Como executar o projeto
 ### 🛠 Tecnologias e Pré-Requisitos
 
+<p align="center">
+    <img src="https://img.shields.io/badge/python-%230095D5.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+
 ### ✔️ Instalando e executando
 
+
+
 ## Disponível na Gitpage
+https://unb-mds.github.io/squad03-r2/
 
 ## 👨‍💻 Desenvolvedores
 
