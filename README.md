@@ -68,7 +68,7 @@ https://unb-mds.github.io/squad03-r2/
 
 <table>
 	<tr>
-		<td align="center"><a href="https://github.com/M4RINH0"><img src="https://github.com/M4RINH0.png?size=460" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><a href="https://github.com/M4RINH0"></a></td>
+		<td align="center"><a href="https://github.com/M4RINH0"><img src="https://github.com/M4RINH0.png?size=460" width="100px;" alt=""/><br /><sub><b>Douglas</b></sub></a><br /><a href="https://github.com/M4RINH0"></a></td>
         <td align="center"><a href="https://github.com/joycedio"><img src="https://github.com/joycedio.png?size=460" width="100px;" alt=""/><br /><sub><b>Joyce</b></sub></a><br /><a href="https://github.com/joycedio"></a></td>
 		<td align="center"><a href="https://github.com/omascara2"><img src="https://github.com/omascara2.png?size=460" width="100px;" alt=""/><br /><sub><b>Marco</b></sub></a><br /><a href="https://github.com/omascara2"></a></td>
 		<td align="center"><a href="https://github.com/Paxxaglia"><img src="https://github.com/Paxxaglia.png?size=460" width="100px;" alt=""/><br /><sub><b>Iago</b></sub></a><br /><a href="https://github.com/Paxxaglia"></a></td>
