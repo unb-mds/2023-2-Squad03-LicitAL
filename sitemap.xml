@@ -1,247 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://guia-unb.github.io/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/arquitetura/2023-05-06-arquitetura/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/arquitetura/2023-10-20-arquitetura/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/backlog/2023-05-06-backlog/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/backlog/2023-10-20-backlog/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/branches/2023-05-04-branches/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/branches/2023-10-20-branches/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/commits/2023-05-04-commits/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/comunicacao/2023-10-20-plano-de-comunica%C3%A7%C3%A3o/</loc>
+         <lastmod>2023-07-13</lastmod>
+         <changefreq>daily</changefreq>
+     </url>
+    <url>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/personas/2023-10-20-documento-de-personas/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/comunicacao/2023-05-04-plano-de-comunica%C3%A7%C3%A3o/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/prototipo/2023-10-20-documento-de-prototipo/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/conduta/CODE_OF_CONDUCT/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint00/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/contribuicao/CONTRIBUTING/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint00/2023-10-20-resultados/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/gerenciamento/2023-05-04-plano-de-gerenciamento-de-riscos/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint01/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/issue/bug_report/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint01/2023-10-20-resultado/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/issue/custom/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint02/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/issue/feature_request/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint02/2023-10-20-resultado/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/issue/pull_request_template/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint03/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/personas/2023-05-23-documento-de-personas/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint03/2023-10-20-resultados/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/policy/privacy_policy/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint04/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/prototipo/2023-05-11-documento-de-prototipo/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint04/2023-10-20-resultados/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint00/2023-05-06-planejamento/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint05/2023-10-20-planejamento/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint00/2023-05-06-resultados/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint05/2023-10-20-resultados/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint01/2023-05-06-planejamento/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint06/2023-10-20-planejamentos/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint01/2023-05-06-resultado/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint06/2023-10-20-resultados/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint02/2023-05-06-planejamento/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint07/2023-10-20-planejamentos/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint02/2023-05-06-resultado/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/sprints/sprint07/2023-10-20-resultados/</loc>
+         <lastmod>2023-07-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+     <url>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/storyboard/2023-10-20-storyboard/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint03/2023-05-06-planejamento/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint03/2023-05-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint04/2023-05-06-planejamento/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint04/2023-05-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint05/2023-05-06-planejamento/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint05/2023-05-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint06/2023-05-11-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint06/2023-05-11-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint07/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint07/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint08/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint08/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint09/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint09/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint10/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint10/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint11/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint11/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint12/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint12/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint13/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint13/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint14/2023-07-06-planejamentos/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/sprints/sprint14/2023-07-06-resultados/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/storyboard/2023-05-23-storyboard/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/usuario/2023-05-23-perfil-de-usu%C3%A1rio/</loc>
-         <lastmod>2023-07-13</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://guia-unb.github.io/Pages/visao/2023-05-05-documento-de-vis%C3%A3o/</loc>
+         <loc>https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages/Pages/usuario/2023-10-20-perfil-de-usu%C3%A1rio/</loc>
          <lastmod>2023-07-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
