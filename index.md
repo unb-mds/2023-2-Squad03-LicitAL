@@ -6,11 +6,13 @@ O LicitAl é um projeto da disciplina de Métodos de Desenvolvimento de Software
 O LicitAl é uma ferramenta essencial para quem estuda, trabalha ou está envolvido com a Universidade de Brasília. Com informações atualizadas e confiáveis sobre dados públicos e facilita o acesso a importantes informações.
 
 # 🚀 Como executar o projeto
+
 ## 🛠 Tecnologias e Pré-Requisitos
 
 <p align="center">
     <img src="https://img.shields.io/badge/python-%230095D5.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 </p>
+
 <p align="center">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 
@@ -37,6 +39,7 @@ Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições 
 Essa execução irá gerar um conjunto de arquivos no diretório `/data/diarios`. Listamos 2 tipos de arquivos:
 
 - `-extraido.txt`: versão texto do diário da AMA;
+  
 - `-resumo-extracao.json`: resultado da segmentação do diário da AMA em diferentes diários municipais.
 
 Após a coleta, transformação em texto e segmentação do diário em diários, o próximo passo é dividir cada diário municipal em atos (ou ações executivas). Além disso, o script também processa o texto dos atos, por exemplo, realizando a identificação de valores gastos com licitações.
@@ -62,6 +65,7 @@ Esse script irá processar todos os arquivos `-atos.json` e gerar o arquivo `df.
 Os arquivos de análise podem ser encontrados no diretório `analise`.
 
 ## Disponível na Gitpage
+
 https://unb-mds.github.io/squad03-r2/
 
 ## 👨‍💻 Desenvolvedores
