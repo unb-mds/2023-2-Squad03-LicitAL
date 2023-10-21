@@ -1,5 +1,5 @@
 site_name: Guia UnB
-site_url: https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages
+site_url: https://github.com/unb-mds/2023-2-Squad03/
 theme:
   name: material
   features:
@@ -13,16 +13,7 @@ nav:
   - Arquitetura: "docs/Pages/arquitetura/2023-05-06-arquitetura.md"
   - Backlog: "docs/Pages/backlog/2023-05-06-backlog.md"
   - Branches: "docs/Pages/branches/2023-05-04-branches.md"
-  - Commits: "docs/Pages/commits/2023-05-04-commits.md"
   - Comunicação: "docs/Pages/comunicacao/2023-05-04-plano-de-comunicação.md"
-  - Código de Conduta: "docs/Pages/conduta/CODE_OF_CONDUCT.md"
-  - Gerenciamento: "docs/Pages/gerenciamento/2023-05-04-plano-de-gerenciamento-de-riscos.md"
-  - Issue Template:
-    - Custom: "docs/Pages/issue/custom.md"
-    - Pull Request: "docs/Pages/issue/pull_request_template.md"
-    - Feature: "docs/Pages/issue/feature_request.md"
-    - Bug: "docs/Pages/issue/bug_report.md"
-  - Contribuição: "docs/Pages/contribuicao/CONTRIBUTING.md"
   - Personas: "docs/Pages/personas/2023-05-23-documento-de-personas.md"
   - Protótipo: "docs/Pages/prototipo/2023-05-11-documento-de-prototipo.md"
   - Sprints:
@@ -50,29 +41,6 @@ nav:
     - Sprint 7:
       - Planejamento: "docs/Pages/sprints/sprint07/2023-07-06-planejamentos.md"
       - Resultado: "docs/Pages/sprints/sprint07/2023-07-06-resultados.md"
-    - Sprint 8:
-      - Planejamento: "docs/Pages/sprints/sprint08/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint08/2023-07-06-resultados.md"
-    - Sprint 9:
-      - Planejamento: "docs/Pages/sprints/sprint09/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint09/2023-07-06-resultados.md"
-    - Sprint 10:
-      - Planejamento: "docs/Pages/sprints/sprint10/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint10/2023-07-06-resultados.md"
-    - Sprint 11:
-      - Planejamento: "docs/Pages/sprints/sprint11/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint11/2023-07-06-resultados.md"
-    - Sprint 12:
-      - Planejamento: "docs/Pages/sprints/sprint12/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint12/2023-07-06-resultados.md"
-    - Sprint 13:
-      - Planejamento: "docs/Pages/sprints/sprint13/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint13/2023-07-06-resultados.md"
-    - Sprint 14:
-      - Planejamento: "docs/Pages/sprints/sprint14/2023-07-06-planejamentos.md"
-      - Resultado: "docs/Pages/sprints/sprint14/2023-07-06-resultados.md"
   - StoryBoard: "docs/Pages/storyboard/2023-05-23-storyboard.md"
   - Usuário: "docs/Pages/usuario/2023-05-23-perfil-de-usuário.md"
-  - Visão: "docs/Pages/visao/2023-05-05-documento-de-visão.md"
-  - Política de Privacidade: "docs/Pages/policy/privacy_policy.md"
 
