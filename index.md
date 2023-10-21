@@ -11,8 +11,12 @@ O LicitAl é uma ferramenta essencial para quem estuda, trabalha ou está envolv
 <p align="center">
     <img src="https://img.shields.io/badge/python-%230095D5.svg?&style=for-the-badge&logo=python&logoColor=white"/>
 </p>
+
+
 <p align="center">
     <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+
+
 
 ## ✔️ Instalando e executando
 
@@ -28,9 +32,9 @@ O primeiro passo consistem em:
 
 Por exemplo, para coletar e processar os diários entre 01/06/2022 e 31/12/2022, basta executar o seguinte comando.
 
-```
-START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
-```
+
+	START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
+
 
 Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições extras. Isso é tratado com a adição de um número depois da data 
 
@@ -43,9 +47,9 @@ Após a coleta, transformação em texto e segmentação do diário em diários,
 
 O script `extrair_atos.sh` processa todos os arquivos `-resumo-extracao.json`. Ele extrairá os atos de todos os diários municipais segmentados.
 
-```
-./extrair_atos.sh
-```
+
+	./extrair_atos.sh
+
 
 A execução desse script gerará um arquivo `-atos.json` para cada resumo de extração.
 
@@ -53,9 +57,9 @@ A execução desse script gerará um arquivo `-atos.json` para cada resumo de ex
 
 Após realizar a extração dos atos dos diários municipais, basta executar:
 
-```
-python3 criar_dataset_atos.py
-```
+
+	python3 criar_dataset_atos.py
+
 
 Esse script irá processar todos os arquivos `-atos.json` e gerar o arquivo `df.zip` contendo um resumo de todos os dados necessários para análise.
 

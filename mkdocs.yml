@@ -1,5 +1,5 @@
 site_name: Guia UnB
-site_url: https://github.com/unb-mds/2023-2-Squad03/
+site_url: https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages
 theme:
   name: material
   features:
