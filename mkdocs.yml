@@ -1,5 +1,5 @@
 site_name: LicitAL
-site_url: https://github.com/unb-mds/2023-2-Squad03/tree/gh-pages
+site_url: https://github.com/unb-mds/2023-2-Squad03/
 theme:
   name: material
   features:
@@ -10,7 +10,7 @@ plugins:
   - search
 nav:
   - Introdução: "index.md"
-  - Arquitetura: "Pages/arquitetura/2023-10-20-arquitetura.md"
+  - Arquitetura: "docs/Pages/arquitetura/2023-10-20-arquitetura.md"
   - Backlog: "Pages/backlog/2023-10-20-backlog.md"
   - Branches: "Pages/branches/2023-10-20-branches.md"
   - Comunicação: "Pages/comunicacao/2023-10-20-comunicação.md"
