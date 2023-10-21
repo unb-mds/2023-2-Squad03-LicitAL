@@ -19,7 +19,7 @@
     
     
       
-        <title>Guia UnB</title>
+        <title>LicitAL</title>
       
     
     
@@ -1615,13 +1615,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#como-contribuir-para-o-projeto" class="md-nav__link">
-    🤝 Como contribuir para o projeto
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#desenvolvedores" class="md-nav__link">
     👨‍💻 Desenvolvedores
   </a>
@@ -1652,43 +1645,61 @@
 
   <h1>Introdução</h1>
 
-<h2 id="visao-geral">💻 Visão Geral</h2>
-<p>O Guia UnB tem como objetivo auxiliar os estudantes da Universidade de Brasília a compreenderem seus direitos e deveres de maneira prática e intuitiva, combatendo a desinformação e promovendo a transparência na comunicação entre a instituição e seus alunos.</p>
-<h2 id="ideia-e-incentivo">💡 Ideia e Incentivo</h2>
-<p>O Guia UnB é uma ferramenta essencial para quem estuda, trabalha ou está envolvido com a Universidade de Brasília. Com informações atualizadas e confiáveis sobre os serviços oferecidos pela instituição, o aplicativo ajuda a esclarecer dúvidas e facilita o acesso a importantes recursos acadêmicos.</p>
-<h2 id="como-executar-o-projeto">🚀 Como executar o projeto</h2>
-<h3 id="tecnologias-e-pre-requisitos">🛠 Tecnologias e Pré-Requisitos</h3>
-<p>Esse projeto usa algumas ferramentas para o seu desenvolvimento:
-- <a href="https://dart.dev/">Dart</a>
-- <a href="https://docs.flutter.dev/get-started/install">Flutter</a>
-- <a href="https://firebase.google.com/?gad=1&amp;gclid=CjwKCAjwvJyjBhApEiwAWz2nLZcvndRU1oLs0fC5adsWFvX97gOHZ5UMdoVUr6bQ9GjmrJA1xfm-WxoCzmIQAvD_BwE&amp;gclsrc=aw.ds&amp;hl=pt-br">Firebase</a></p>
-<h3 id="instalando-e-executando">✔️ Instalando e executando</h3>
-<p>Baixe o repositório e entre nele</p>
-<pre><code>git clone https://github.com/fga-eps-mds/2023.1-GuiaUnB.git
-cd guia_unb
-</code></pre>
-<p>Em seguida é preciso baixar as dependências do aplicativo</p>
-<pre><code>flutter pub get
-</code></pre>
-<p>Agora você pode executar o aplicativo no seu dispositivo Android ou iOS, ou em um emulador. Para isso, execute o comando:</p>
-<pre><code>flutter run
-</code></pre>
-<h2 id="como-contribuir-para-o-projeto">🤝 Como contribuir para o projeto</h2>
-<p><a href="Pages/contribuicao/CONTRIBUTING/">Guia de Contribuição</a></p>
-<p><a href="Pages/conduta/CODE_OF_CONDUCT/">Código de Conduta</a></p>
-<p><a href="Pages/branches/2023-05-04-branches/">Política de Branches</a></p>
-<p><a href="Pages/commits/2023-05-04-commits/">Políticas de Commits</a></p>
-<p><a href="Pages/issue/custom/">Template para criação de issues</a></p>
-<p><a href="Pages/issue/pull_request_template/">Template para criação de pull requests</a></p>
+  <h2>💻 Visão Geral</h1>
+<p>O LicitAl é um projeto da disciplina de Métodos de Desenvolvimento de Software, que visa automatizar a coleta de informações de licitações de todos os municípios de Alagoas a partir dos Diários Oficiais, além de disponibilizar as informações de forma facilitada para qualquer cidadão. Esse projeto é inspirado no projeto <a href="https://exoonero.org/sobre/">Exoonero</a>, porém com foco em valores gastos com licitações.</p>
+
+<h2>💡 Ideia e Incentivo</h1>
+<p>O LicitAl é uma ferramenta essencial para quem estuda, trabalha ou está envolvido com a Universidade de Brasília. Com informações atualizadas e confiáveis sobre dados públicos e facilita o acesso a importantes informações.</p>
+
+<h2>🚀 Como executar o projeto</h1>
+
+<h3>🛠 Tecnologias e Pré-Requisitos</h2>
+<p align="center">
+    <img src="https://img.shields.io/badge/python-%230095D5.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+</p>
+
+<h2>✔️ Instalando e executando</h2>
+
+<h3>Coletando e extraindo conjuntos de diários</h3>
+<p>O Docker precisa estar corretamente configurado e o daemon em execução (necessário para rodar o Apache Tika).</p>
+<p>O primeiro passo consiste em:</p>
+<ol>
+<li>Coletar os diários da <a href="#">AMA</a> usando o <a href="#">querido diário</a></li>
+<li>Extrair o texto dos diários usando Apache Tika</li>
+<li>Segmentar o diário da AMA() em diversos diários municipais usando o script <code>extrair_diarios.py</code>.</li>
+</ol>
+<p>Por exemplo, para coletar e processar os diários entre 01/06/2022 e 31/12/2022, basta executar o seguinte comando:</p>
+<pre><code>START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh</code></pre>
+<p>Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições extras. Isso é tratado com a adição de um número depois da data</p>
+<p>Essa execução irá gerar um conjunto de arquivos no diretório <code>/data/diarios</code>. Listamos 2 tipos de arquivos:</p>
+<ul>
+<li><code>-extraido.txt</code>: versão texto do diário da AMA;</li>
+<li><code>-resumo-extracao.json</code>: resultado da segmentação do diário da AMA em diferentes diários municipais.</li>
+</ul>
+<p>Após a coleta, transformação em texto e segmentação do diário em diários, o próximo passo é dividir cada diário municipal em atos (ou ações executivas). Além disso, o script também processa o texto dos atos, por exemplo, realizando a identificação de valores gastos com licitações.</p>
+<p>O script <code>extrair_atos.sh</code> processa todos os arquivos <code>-resumo-extracao.json</code>. Ele extrairá os atos de todos os diários municipais segmentados.</p>
+<pre><code>./extrair_atos.sh</code></pre>
+<p>A execução desse script gerará um arquivo <code>-atos.json</code> para cada resumo de extração.</p>
+<h3>Gerando base de dados para análise</h3>
+<p>Após realizar a extração dos atos dos diários municipais, basta executar:</p>
+<pre><code>python3 criar_dataset_atos.py</code></pre>
+<p>Esse script irá processar todos os arquivos <code>-atos.json</code> e gerar o arquivo <code>df.zip</code> contendo um resumo de todos os dados necessários para análise.</p>
+<p>Os arquivos de análise podem ser encontrados no diretório <code>analise</code>.</p>
+<h3>Disponível na Gitpage</h2>
+<a href="https://unb-mds.github.io/squad03-r2/">https://unb-mds.github.io/squad03-r2/</a>
 <h2 id="desenvolvedores">👨‍💻 Desenvolvedores</h2>
 <table>
     <tr>
-        <td align="center"><a href="https://github.com/ArthurGabrieel"><img src="https://avatars.githubusercontent.com/u/78980894?v=4" width="100px;" alt=""/><br /><sub><b>Arthur Gabriel</b></sub></a><br /><a href="https://github.com/ArthurGabrieel"></a></td>
-        <td align="center"><a href="https://github.com/zzzBECK"><img src="https://avatars.githubusercontent.com/u/82113486?v=4" width="100px;" alt=""/><br /><sub><b>Alexandre Beck</b></sub></a><br /><a href="https://github.com/zzzBECK"></a></td>
-        <td align="center"><a href="https://github.com/thiagorfreitas"><img src="https://avatars.githubusercontent.com/u/77907084?v=4" width="100px;" alt=""/><br /><sub><b>Thiago Freitas</b></sub></a><br /><a href="https://github.com/thiagorfreitas"></a></td>
-        <td align="center"><a href="https://github.com/LucasAvelar2711"><img src="https://avatars.githubusercontent.com/u/88166607?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Avelar</b></sub></a><br /><a href="https://github.com/LucasAvelar2711"></a></td>
-        <td align="center"><a href="https://github.com/igor-ribeir0"><img src="https://avatars.githubusercontent.com/u/91838885?v=4" width="100px;" alt=""/><br /><sub><b>Igor Ribeiro </b></sub></a><br /><a href="https://github.com/igor-ribeir0"></a></td>
-        <td align="center"><a href="https://github.com/GenilsonJrs"><img src="https://avatars.githubusercontent.com/u/61212256?v=4" width="100px;" alt=""/><br /><sub><b>Genilson Junior </b></sub></a><br /><a href="https://github.com/GenilsonJrs"></a></td>
+        <td align="center"><a href="https://github.com/M4RINH0"><img src="https://github.com/M4RINH0.png?size=460" width="100px;" alt=""/><br /><sub><b>Douglas</b></sub></a><br /><a href="https://github.com/M4RINH0"></a></td>
+        <td align="center"><a href="https://github.com/joycedio"><img src="https://github.com/joycedio.png?size=460" width="100px;" alt=""/><br /><sub><b>Joyce</b></sub></a><br /><a href="https://github.com/joycedio"></a></td>
+		    <td align="center"><a href="https://github.com/omascara2"><img src="https://github.com/omascara2.png?size=460" width="100px;" alt=""/><br /><sub><b>Marco</b></sub></a><br /><a href="https://github.com/omascara2"></a></td>
+		    <td align="center"><a href="https://github.com/Paxxaglia"><img src="https://github.com/Paxxaglia.png?size=460" width="100px;" alt=""/><br /><sub><b>Iago</b></sub></a><br /><a href="https://github.com/Paxxaglia"></a></td>
+		    <td align="center"><a href="https://github.com/PedroHenrique061"><img src="https://github.com/PedroHenrique061.png?size=460" width="100px;" alt=""/><br /><sub><b>Pedro Henrique </b></sub></a><br /><a href="https://github.com/PedroHenrique061"></a></td>
+        <td align="center"><a href="https://github.com/Sooties"><img src="https://github.com/Sooties.png?size=460" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><a href="https://github.com/Sooties"></a></td>
+	</tr>
     </tr>
 </table>
 
