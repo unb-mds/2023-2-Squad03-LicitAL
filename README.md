@@ -61,7 +61,7 @@ Esse script irá processar todos os arquivos `-atos.json` e gerar o arquivo `df.
 
 Os arquivos de análise podem ser encontrados no diretório `analise`.
 
-## Disponível na Gitpage
+## Disponível no Site
 [LicitAL](https://licital.web.app)
 
 ## 👨‍💻 Desenvolvedores
