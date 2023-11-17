@@ -11,5 +11,5 @@ cd ${DOWNLOAD_DIR}
 
 for resultado in `ls -a *-resumo-extracao.json`
 do
-    python3 ${ROOT_DIR}/extrair_atos.py ${resultado}
+    python3 ${ROOT_DIR}/extrator_valores.py ${resultado}
 done
