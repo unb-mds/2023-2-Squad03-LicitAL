@@ -9,7 +9,8 @@ DOWNLOAD_DIR=${DATA_DIR}/diarios
 
 cd ${DOWNLOAD_DIR}
 
+
 for resultado in `ls -a *-resumo-extracao.json`
 do
-    python3 ${ROOT_DIR}/extrator_valores.py ${resultado}
+    python3 ${ROOT_DIR}/extrator_valores.py ${resultado} ${ROOT_DIR}/api.json
 done

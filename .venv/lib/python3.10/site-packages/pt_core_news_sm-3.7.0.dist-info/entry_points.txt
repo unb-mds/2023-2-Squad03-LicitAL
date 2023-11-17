@@ -1,0 +1,2 @@
+[spacy_models]
+pt_core_news_sm = pt_core_news_sm
