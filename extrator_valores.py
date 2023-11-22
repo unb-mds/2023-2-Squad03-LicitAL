@@ -61,9 +61,9 @@ def extrair_valores(caminho_arquivo, resultado_json):
                     "mes": int(mes_ano[5:])
                 })
 
-        # Salva os resultados no arquivo JSON
+        # Salva os resultados no arquivo JSON com formatação de duas casas decimais
         with open(resultado_json, 'w', encoding='utf-8') as output_file:
-            json.dump(resultados_existente, output_file, ensure_ascii=False, indent=2)
+            json.dump(resultados_existente, output_file, ensure_ascii=False, indent=2, default=lambda x: round(x, 2))
 
     except json.JSONDecodeError:
         # Ignora linhas que não são JSON válido

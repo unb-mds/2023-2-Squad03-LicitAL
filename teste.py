@@ -2,7 +2,7 @@ import json
 import re
 
 # Caminho do arquivo JSON
-caminho_arquivo = r'data/diarios/2023-01-09-1-resumo-extracao.json'
+caminho_arquivo = r'data/diarios/2023-01-12-1-resumo-extracao.json'
 
 # Extrai o mês e ano do nome do arquivo
 match_data = re.match(r'.*(\d{4}-\d{2}).*', caminho_arquivo)

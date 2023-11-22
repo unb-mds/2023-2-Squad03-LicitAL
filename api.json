@@ -1,73 +1,73 @@
 [
   {
     "municipio": "ARAPIRACA",
-    "valores_gastos": 132741210.81,
+    "valores_gastos": 265482421.62,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "ATALAIA",
-    "valores_gastos": 1247.2,
+    "valores_gastos": 2494.4,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "BELO MONTE",
-    "valores_gastos": 10000.0,
+    "valores_gastos": 20000.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "BRANQUINHA",
-    "valores_gastos": 586143.21,
+    "valores_gastos": 1172286.42,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "CANAPI",
-    "valores_gastos": 797728.85,
+    "valores_gastos": 1595457.7,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "CARNEIROS",
-    "valores_gastos": 1239225.8800000001,
+    "valores_gastos": 2478451.7600000002,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "COITÉ DO NÓIA",
-    "valores_gastos": 425228.0,
+    "valores_gastos": 850456.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "CRAÍBAS",
-    "valores_gastos": 86342.37,
+    "valores_gastos": 172684.74,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "DELMIRO GOUVEIA",
-    "valores_gastos": 441859.65,
+    "valores_gastos": 883719.3,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "DOIS RIACHOS",
-    "valores_gastos": 11720975.870000001,
+    "valores_gastos": 23441951.740000002,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "ESTRELA DE ALAGOAS",
-    "valores_gastos": 5338147.6,
+    "valores_gastos": 10676295.2,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "FELIZ DESERTO",
-    "valores_gastos": 1566260.69,
+    "valores_gastos": 3132521.38,
     "ano": 2023,
     "mes": 1
   },
@@ -79,19 +79,19 @@
   },
   {
     "municipio": "IBATEGUARA",
-    "valores_gastos": 184000.0,
+    "valores_gastos": 368000.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "IGACI",
-    "valores_gastos": 143700.5,
+    "valores_gastos": 287401.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "IGREJA NOVA",
-    "valores_gastos": 2884575.26,
+    "valores_gastos": 5769150.52,
     "ano": 2023,
     "mes": 1
   },
@@ -103,19 +103,19 @@
   },
   {
     "municipio": "JAPARATINGA",
-    "valores_gastos": 219175788.09,
+    "valores_gastos": 438351576.18,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "JEQUIÁ DA PRAIA",
-    "valores_gastos": 1688714.0,
+    "valores_gastos": 3377428.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "JUNQUEIRO",
-    "valores_gastos": 3539882.31,
+    "valores_gastos": 7079764.62,
     "ano": 2023,
     "mes": 1
   },
@@ -127,31 +127,31 @@
   },
   {
     "municipio": "MAJOR IZIDORO",
-    "valores_gastos": 529036.8,
+    "valores_gastos": 1058073.6,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MARAGOGI",
-    "valores_gastos": 162100.0,
+    "valores_gastos": 324200.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MARAVILHA",
-    "valores_gastos": 40000.0,
+    "valores_gastos": 80000.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MARECHAL DEODORO",
-    "valores_gastos": 28617440.229999997,
+    "valores_gastos": 57234880.45999999,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MATA GRANDE",
-    "valores_gastos": 13227156.0,
+    "valores_gastos": 26454312.0,
     "ano": 2023,
     "mes": 1
   },
@@ -163,7 +163,7 @@
   },
   {
     "municipio": "NOVO LINO",
-    "valores_gastos": 10593645.72,
+    "valores_gastos": 21187291.44,
     "ano": 2023,
     "mes": 1
   },
@@ -175,19 +175,19 @@
   },
   {
     "municipio": "OURO BRANCO",
-    "valores_gastos": 2067798.87,
+    "valores_gastos": 4135597.74,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "PÃO DE AÇÚCAR",
-    "valores_gastos": 334411.1,
+    "valores_gastos": 668822.2,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "PARICONHA",
-    "valores_gastos": 371151.74,
+    "valores_gastos": 742303.48,
     "ano": 2023,
     "mes": 1
   },
@@ -199,13 +199,13 @@
   },
   {
     "municipio": "PIAÇABUÇU",
-    "valores_gastos": 2413172.67,
+    "valores_gastos": 4826345.34,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "PILAR",
-    "valores_gastos": 1773100.0,
+    "valores_gastos": 3546200.0,
     "ano": 2023,
     "mes": 1
   },
@@ -217,7 +217,7 @@
   },
   {
     "municipio": "PORTO CALVO",
-    "valores_gastos": 544193.12,
+    "valores_gastos": 1088386.24,
     "ano": 2023,
     "mes": 1
   },
@@ -229,19 +229,19 @@
   },
   {
     "municipio": "QUEBRANGULO",
-    "valores_gastos": 403120.0,
+    "valores_gastos": 806240.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "RIO LARGO",
-    "valores_gastos": 18710299.2,
+    "valores_gastos": 37420598.4,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "SANTA LUZIA DO NORTE",
-    "valores_gastos": 1656864.0,
+    "valores_gastos": 3313728.0,
     "ano": 2023,
     "mes": 1
   },
@@ -259,13 +259,13 @@
   },
   {
     "municipio": "TEOTONIO VILELA",
-    "valores_gastos": 92984456.86,
+    "valores_gastos": 185968913.72,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "VIÇOSA",
-    "valores_gastos": 4867105.48,
+    "valores_gastos": 9734210.96,
     "ano": 2023,
     "mes": 1
   },
@@ -277,19 +277,19 @@
   },
   {
     "municipio": "ANADIA",
-    "valores_gastos": 534780.75,
+    "valores_gastos": 1069561.5,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "CAMPO ALEGRE",
-    "valores_gastos": 4486086.83,
+    "valores_gastos": 8972173.66,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "INHAPI",
-    "valores_gastos": 5030600.0,
+    "valores_gastos": 10061200.0,
     "ano": 2023,
     "mes": 1
   },
@@ -301,31 +301,31 @@
   },
   {
     "municipio": "LAGOA DA CANOA",
-    "valores_gastos": 1798000.0,
+    "valores_gastos": 3596000.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MAR VERMELHO",
-    "valores_gastos": 1959567.94,
+    "valores_gastos": 3919135.88,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MESSIAS",
-    "valores_gastos": 13563101.569999998,
+    "valores_gastos": 27126203.139999993,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MINADOR DO NEGRÃO",
-    "valores_gastos": 1618033.65,
+    "valores_gastos": 3236067.3,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "OLHO D'ÁGUA DAS FLORES",
-    "valores_gastos": 433197.2,
+    "valores_gastos": 866394.3999999999,
     "ano": 2023,
     "mes": 1
   },
@@ -343,19 +343,19 @@
   },
   {
     "municipio": "SÃO LUIS DO QUITUNDE",
-    "valores_gastos": 1300788.06,
+    "valores_gastos": 2601576.12,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "SÃO MIGUEL DOS MILAGRES",
-    "valores_gastos": 944500.8099999999,
+    "valores_gastos": 1889001.6199999999,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "SATUBA",
-    "valores_gastos": 6431576.1,
+    "valores_gastos": 12863152.2,
     "ano": 2023,
     "mes": 1
   },
@@ -367,7 +367,7 @@
   },
   {
     "municipio": "BELÉM",
-    "valores_gastos": 1055507.59,
+    "valores_gastos": 2111015.18,
     "ano": 2023,
     "mes": 1
   },
@@ -379,19 +379,19 @@
   },
   {
     "municipio": "CAMPESTRE",
-    "valores_gastos": 453012.42000000004,
+    "valores_gastos": 906024.8400000001,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "COQUEIRO SECO",
-    "valores_gastos": 625483.6,
+    "valores_gastos": 1250967.2,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "MARIBONDO",
-    "valores_gastos": 1940900.0,
+    "valores_gastos": 3881800.0,
     "ano": 2023,
     "mes": 1
   },
@@ -403,7 +403,7 @@
   },
   {
     "municipio": "SANTANA DO MUNDAÚ",
-    "valores_gastos": 211869.0,
+    "valores_gastos": 423738.0,
     "ano": 2023,
     "mes": 1
   },
@@ -415,25 +415,25 @@
   },
   {
     "municipio": "BARRA DE SANTO ANTONIO",
-    "valores_gastos": 3019860.960000002,
+    "valores_gastos": 6039721.920000004,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "BARRA DE SÃO MIGUEL",
-    "valores_gastos": 25557.0,
+    "valores_gastos": 51114.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "BATALHA",
-    "valores_gastos": 96660.0,
+    "valores_gastos": 193320.0,
     "ano": 2023,
     "mes": 1
   },
   {
     "municipio": "CAJUEIRO",
-    "valores_gastos": 315638.4,
+    "valores_gastos": 631276.8,
     "ano": 2023,
     "mes": 1
   },
@@ -445,7 +445,7 @@
   },
   {
     "municipio": "JOAQUIM GOMES",
-    "valores_gastos": 3263121.69,
+    "valores_gastos": 6526243.38,
     "ano": 2023,
     "mes": 1
   },
@@ -457,7 +457,7 @@
   },
   {
     "municipio": "PALESTINA",
-    "valores_gastos": 491136.22,
+    "valores_gastos": 982272.44,
     "ano": 2023,
     "mes": 1
   },
@@ -487,7 +487,7 @@
   },
   {
     "municipio": "FEIRA GRANDE",
-    "valores_gastos": 1494614.05,
+    "valores_gastos": 2989228.1,
     "ano": 2023,
     "mes": 1
   },
