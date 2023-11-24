@@ -1,4 +1,4 @@
-#!/home/douglas/MDS/2023-2-Squad03/data/.venv/bin/python3
+#!/home/douglas/MDS/2023-2-Squad03/data/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
