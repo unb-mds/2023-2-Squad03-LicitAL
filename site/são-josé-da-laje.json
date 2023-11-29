@@ -1,0 +1,44 @@
+{
+  "id": "são-josé-da-laje",
+  "nome": "SÃO JOSÉ DA LAJE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 6344546.22
+      },
+      "2": {
+        "valores_gastos": 488497.33
+      },
+      "3": {
+        "valores_gastos": 1060420.81
+      },
+      "4": {
+        "valores_gastos": 2965722.22
+      },
+      "5": {
+        "valores_gastos": 9829780.370000001
+      },
+      "6": {
+        "valores_gastos": 24498952.77
+      },
+      "7": {
+        "valores_gastos": 2067726.38
+      },
+      "8": {
+        "valores_gastos": 11339532.04
+      },
+      "9": {
+        "valores_gastos": 5967507.859999999
+      },
+      "10": {
+        "valores_gastos": 6086628.8
+      },
+      "11": {
+        "valores_gastos": 4665127.92
+      },
+      "12": {
+        "valores_gastos": 7829513.129999999
+      }
+    }
+  }
+}

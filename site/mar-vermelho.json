@@ -1,0 +1,44 @@
+{
+  "id": "mar-vermelho",
+  "nome": "MAR VERMELHO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 3502986.88
+      },
+      "2": {
+        "valores_gastos": 514919.8
+      },
+      "3": {
+        "valores_gastos": 1420272.1
+      },
+      "4": {
+        "valores_gastos": 11787353.11
+      },
+      "5": {
+        "valores_gastos": 8612271.48
+      },
+      "6": {
+        "valores_gastos": 13103153.2
+      },
+      "7": {
+        "valores_gastos": 616629.54
+      },
+      "8": {
+        "valores_gastos": 7842013.97
+      },
+      "9": {
+        "valores_gastos": 2111413.93
+      },
+      "10": {
+        "valores_gastos": 2337905.8000000003
+      },
+      "11": {
+        "valores_gastos": 9661824.16
+      },
+      "12": {
+        "valores_gastos": 878881.69
+      }
+    }
+  }
+}

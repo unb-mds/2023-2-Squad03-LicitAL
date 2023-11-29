@@ -1,0 +1,44 @@
+{
+  "id": "lagoa-da-canoa",
+  "nome": "LAGOA DA CANOA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 970250.0
+      },
+      "2": {
+        "valores_gastos": 22317257.879999995
+      },
+      "3": {
+        "valores_gastos": 3206564.13
+      },
+      "4": {
+        "valores_gastos": 1648167.5
+      },
+      "5": {
+        "valores_gastos": 652534.96
+      },
+      "6": {
+        "valores_gastos": 2644652.5100000002
+      },
+      "7": {
+        "valores_gastos": 11083868.59
+      },
+      "8": {
+        "valores_gastos": 2680173.19
+      },
+      "9": {
+        "valores_gastos": 310930.79
+      },
+      "10": {
+        "valores_gastos": 1633961.1
+      },
+      "11": {
+        "valores_gastos": 6930287.529999999
+      },
+      "12": {
+        "valores_gastos": 1324573.05
+      }
+    }
+  }
+}

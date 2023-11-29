@@ -1,0 +1,44 @@
+{
+  "id": "campestre",
+  "nome": "CAMPESTRE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 543853.96
+      },
+      "2": {
+        "valores_gastos": 555193.95
+      },
+      "3": {
+        "valores_gastos": 1520416.55
+      },
+      "4": {
+        "valores_gastos": 4237890.04
+      },
+      "5": {
+        "valores_gastos": 7639394.6
+      },
+      "6": {
+        "valores_gastos": 7531939.640000001
+      },
+      "7": {
+        "valores_gastos": 203450.02
+      },
+      "8": {
+        "valores_gastos": 17603764.6
+      },
+      "9": {
+        "valores_gastos": 6729362.5200000005
+      },
+      "10": {
+        "valores_gastos": 369900.0
+      },
+      "11": {
+        "valores_gastos": 17262870.48
+      },
+      "12": {
+        "valores_gastos": 3502898.51
+      }
+    }
+  }
+}

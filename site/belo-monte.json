@@ -1,0 +1,44 @@
+{
+  "id": "belo-monte",
+  "nome": "BELO MONTE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 1997388.0
+      },
+      "2": {
+        "valores_gastos": 1336090.65
+      },
+      "3": {
+        "valores_gastos": 8502194.15
+      },
+      "4": {
+        "valores_gastos": 418016.3
+      },
+      "5": {
+        "valores_gastos": 353250.0
+      },
+      "6": {
+        "valores_gastos": 8055368.4
+      },
+      "7": {
+        "valores_gastos": 66501257.489999995
+      },
+      "8": {
+        "valores_gastos": 226771.06
+      },
+      "9": {
+        "valores_gastos": 90138.68999999999
+      },
+      "10": {
+        "valores_gastos": 274013641.96
+      },
+      "11": {
+        "valores_gastos": 680547.1599999999
+      },
+      "12": {
+        "valores_gastos": 340630.38
+      }
+    }
+  }
+}

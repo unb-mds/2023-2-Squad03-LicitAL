@@ -1,0 +1,44 @@
+{
+  "id": "jaramataia",
+  "nome": "JARAMATAIA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 164710035.29
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 50000.0
+      },
+      "4": {
+        "valores_gastos": 128580.0
+      },
+      "5": {
+        "valores_gastos": 805800.0
+      },
+      "6": {
+        "valores_gastos": 1489532.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 3906798.2800000003
+      },
+      "9": {
+        "valores_gastos": 186427.46000000002
+      },
+      "10": {
+        "valores_gastos": 681088.0699999998
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 6969976.509999999
+      }
+    }
+  }
+}

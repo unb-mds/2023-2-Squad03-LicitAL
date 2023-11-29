@@ -1,0 +1,44 @@
+{
+  "id": "igreja-nova",
+  "nome": "IGREJA NOVA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 408139.76999999996
+      },
+      "2": {
+        "valores_gastos": 4129609.1100000003
+      },
+      "3": {
+        "valores_gastos": 8486620.559999999
+      },
+      "4": {
+        "valores_gastos": 17464.9
+      },
+      "5": {
+        "valores_gastos": 4488624.250000001
+      },
+      "6": {
+        "valores_gastos": 3261816.84
+      },
+      "7": {
+        "valores_gastos": 19172376.990000002
+      },
+      "8": {
+        "valores_gastos": 20938856.939999998
+      },
+      "9": {
+        "valores_gastos": 49296910.400000006
+      },
+      "10": {
+        "valores_gastos": 12242794.049999999
+      },
+      "11": {
+        "valores_gastos": 56209469.06000001
+      },
+      "12": {
+        "valores_gastos": 22059785.5
+      }
+    }
+  }
+}

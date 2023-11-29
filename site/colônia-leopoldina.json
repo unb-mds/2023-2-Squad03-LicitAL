@@ -1,0 +1,44 @@
+{
+  "id": "colônia-leopoldina",
+  "nome": "COLÔNIA LEOPOLDINA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 2323960.25
+      },
+      "2": {
+        "valores_gastos": 4265077.1
+      },
+      "3": {
+        "valores_gastos": 2932332.2300000004
+      },
+      "4": {
+        "valores_gastos": 2395075.58
+      },
+      "5": {
+        "valores_gastos": 7744554.86
+      },
+      "6": {
+        "valores_gastos": 2104569.39
+      },
+      "7": {
+        "valores_gastos": 8137186.54
+      },
+      "8": {
+        "valores_gastos": 9623129.37
+      },
+      "9": {
+        "valores_gastos": 339331.79000000004
+      },
+      "10": {
+        "valores_gastos": 2922779.53
+      },
+      "11": {
+        "valores_gastos": 1695977.51
+      },
+      "12": {
+        "valores_gastos": 2686698.0100000002
+      }
+    }
+  }
+}

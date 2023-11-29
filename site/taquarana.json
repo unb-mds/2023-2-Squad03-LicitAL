@@ -1,0 +1,44 @@
+{
+  "id": "taquarana",
+  "nome": "TAQUARANA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 5678375.0
+      },
+      "2": {
+        "valores_gastos": 6881010.97
+      },
+      "3": {
+        "valores_gastos": 994753.65
+      },
+      "4": {
+        "valores_gastos": 4965998.93
+      },
+      "5": {
+        "valores_gastos": 12198306.39
+      },
+      "6": {
+        "valores_gastos": 18918421.02
+      },
+      "7": {
+        "valores_gastos": 3173619.07
+      },
+      "8": {
+        "valores_gastos": 14997969.6
+      },
+      "9": {
+        "valores_gastos": 1318598.66
+      },
+      "10": {
+        "valores_gastos": 17066613.759999998
+      },
+      "11": {
+        "valores_gastos": 8726210.02
+      },
+      "12": {
+        "valores_gastos": 8396540.770000001
+      }
+    }
+  }
+}

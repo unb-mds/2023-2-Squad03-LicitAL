@@ -1,0 +1,44 @@
+{
+  "id": "major-izidoro",
+  "nome": "MAJOR IZIDORO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 2735420.37
+      },
+      "2": {
+        "valores_gastos": 105.6
+      },
+      "3": {
+        "valores_gastos": 597075.98
+      },
+      "4": {
+        "valores_gastos": 1281739.04
+      },
+      "5": {
+        "valores_gastos": 6934815.42
+      },
+      "6": {
+        "valores_gastos": 7160944.12
+      },
+      "7": {
+        "valores_gastos": 2359350.0
+      },
+      "8": {
+        "valores_gastos": 16444045.48
+      },
+      "9": {
+        "valores_gastos": 4217839.9
+      },
+      "10": {
+        "valores_gastos": 568966.1599999999
+      },
+      "11": {
+        "valores_gastos": 2657455.45
+      },
+      "12": {
+        "valores_gastos": 2600339.85
+      }
+    }
+  }
+}

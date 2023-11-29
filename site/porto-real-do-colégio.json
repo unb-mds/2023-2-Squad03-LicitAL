@@ -1,0 +1,44 @@
+{
+  "id": "porto-real-do-colégio",
+  "nome": "PORTO REAL DO COLÉGIO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 190977060.0
+      },
+      "2": {
+        "valores_gastos": 1220437.76
+      },
+      "3": {
+        "valores_gastos": 245505.59999999998
+      },
+      "4": {
+        "valores_gastos": 886971.8
+      },
+      "5": {
+        "valores_gastos": 450000.0
+      },
+      "6": {
+        "valores_gastos": 2526240.6
+      },
+      "7": {
+        "valores_gastos": 2961694.81
+      },
+      "8": {
+        "valores_gastos": 977801.92
+      },
+      "9": {
+        "valores_gastos": 3080523.06
+      },
+      "10": {
+        "valores_gastos": 209764.75999999998
+      },
+      "11": {
+        "valores_gastos": 1309080.0
+      },
+      "12": {
+        "valores_gastos": 1915184.29
+      }
+    }
+  }
+}

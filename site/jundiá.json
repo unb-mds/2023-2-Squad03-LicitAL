@@ -1,0 +1,44 @@
+{
+  "id": "jundiá",
+  "nome": "JUNDIÁ",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 1752488.7999999998
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 6833891.58
+      },
+      "4": {
+        "valores_gastos": 2146187.8
+      },
+      "5": {
+        "valores_gastos": 12003378.0
+      },
+      "6": {
+        "valores_gastos": 3916099.54
+      },
+      "7": {
+        "valores_gastos": 233607.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 21836603.32
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 14386222.32
+      },
+      "12": {
+        "valores_gastos": 3412566.8
+      }
+    }
+  }
+}

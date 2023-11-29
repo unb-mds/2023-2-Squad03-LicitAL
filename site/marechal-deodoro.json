@@ -1,0 +1,44 @@
+{
+  "id": "marechal-deodoro",
+  "nome": "MARECHAL DEODORO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 42573056.09
+      },
+      "2": {
+        "valores_gastos": 29623565.02
+      },
+      "3": {
+        "valores_gastos": 38333539.199999996
+      },
+      "4": {
+        "valores_gastos": 35162387.839999996
+      },
+      "5": {
+        "valores_gastos": 118546392.60000001
+      },
+      "6": {
+        "valores_gastos": 74419376.98
+      },
+      "7": {
+        "valores_gastos": 138899143.19
+      },
+      "8": {
+        "valores_gastos": 37386306.37999999
+      },
+      "9": {
+        "valores_gastos": 170531105.59
+      },
+      "10": {
+        "valores_gastos": 27857359.51
+      },
+      "11": {
+        "valores_gastos": 44369496.550000004
+      },
+      "12": {
+        "valores_gastos": 1971116746.4300067
+      }
+    }
+  }
+}

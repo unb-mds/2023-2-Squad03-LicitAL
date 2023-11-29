@@ -1,0 +1,44 @@
+{
+  "id": "rio-largo",
+  "nome": "RIO LARGO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 26238706.57
+      },
+      "2": {
+        "valores_gastos": 34835638.010000005
+      },
+      "3": {
+        "valores_gastos": 32345670.57
+      },
+      "4": {
+        "valores_gastos": 21623408.91
+      },
+      "5": {
+        "valores_gastos": 84919084.02000001
+      },
+      "6": {
+        "valores_gastos": 10958632.55
+      },
+      "7": {
+        "valores_gastos": 10505211.510000002
+      },
+      "8": {
+        "valores_gastos": 7159030.94
+      },
+      "9": {
+        "valores_gastos": 42612340.3
+      },
+      "10": {
+        "valores_gastos": 7846352.329999999
+      },
+      "11": {
+        "valores_gastos": 8158786.5
+      },
+      "12": {
+        "valores_gastos": 1394505383.74
+      }
+    }
+  }
+}

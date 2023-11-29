@@ -1,0 +1,44 @@
+{
+  "id": "senador-rui-palmeira",
+  "nome": "SENADOR RUI PALMEIRA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 2363962.7
+      },
+      "2": {
+        "valores_gastos": 891876.0
+      },
+      "3": {
+        "valores_gastos": 2528384.0
+      },
+      "4": {
+        "valores_gastos": 3299980.9699999997
+      },
+      "5": {
+        "valores_gastos": 1287878.51
+      },
+      "6": {
+        "valores_gastos": 23148681.06
+      },
+      "7": {
+        "valores_gastos": 2019218.4
+      },
+      "8": {
+        "valores_gastos": 4016129.26
+      },
+      "9": {
+        "valores_gastos": 14540051.41
+      },
+      "10": {
+        "valores_gastos": 21624312.710000005
+      },
+      "11": {
+        "valores_gastos": 556500.88
+      },
+      "12": {
+        "valores_gastos": 98376.93000000001
+      }
+    }
+  }
+}

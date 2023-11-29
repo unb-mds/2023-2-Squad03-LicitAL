@@ -1,0 +1,44 @@
+{
+  "id": "feira-grande",
+  "nome": "FEIRA GRANDE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 41169.95
+      },
+      "2": {
+        "valores_gastos": 191290.85
+      },
+      "3": {
+        "valores_gastos": 2866035.91
+      },
+      "4": {
+        "valores_gastos": 6433488.26
+      },
+      "5": {
+        "valores_gastos": 14751266.149999999
+      },
+      "6": {
+        "valores_gastos": 2429025.79
+      },
+      "7": {
+        "valores_gastos": 664471.26
+      },
+      "8": {
+        "valores_gastos": 5039875.869999999
+      },
+      "9": {
+        "valores_gastos": 321200.17
+      },
+      "10": {
+        "valores_gastos": 2717826.81
+      },
+      "11": {
+        "valores_gastos": 1793618.95
+      },
+      "12": {
+        "valores_gastos": 6167850.63
+      }
+    }
+  }
+}

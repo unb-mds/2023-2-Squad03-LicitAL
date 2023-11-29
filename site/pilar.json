@@ -1,0 +1,44 @@
+{
+  "id": "pilar",
+  "nome": "PILAR",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 8189149.55
+      },
+      "2": {
+        "valores_gastos": 20855806.009999998
+      },
+      "3": {
+        "valores_gastos": 56387883.559999995
+      },
+      "4": {
+        "valores_gastos": 36503518.70000001
+      },
+      "5": {
+        "valores_gastos": 34145517.36
+      },
+      "6": {
+        "valores_gastos": 26580449.25
+      },
+      "7": {
+        "valores_gastos": 253523150.79000002
+      },
+      "8": {
+        "valores_gastos": 41915526.32
+      },
+      "9": {
+        "valores_gastos": 29046228.58
+      },
+      "10": {
+        "valores_gastos": 17830077.979999997
+      },
+      "11": {
+        "valores_gastos": 57927080.03
+      },
+      "12": {
+        "valores_gastos": 18360609.220000003
+      }
+    }
+  }
+}

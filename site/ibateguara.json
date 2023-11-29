@@ -1,0 +1,44 @@
+{
+  "id": "ibateguara",
+  "nome": "IBATEGUARA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 4620662.8
+      },
+      "2": {
+        "valores_gastos": 424515.95
+      },
+      "3": {
+        "valores_gastos": 479622.0
+      },
+      "4": {
+        "valores_gastos": 9663940.3
+      },
+      "5": {
+        "valores_gastos": 5709863.999999999
+      },
+      "6": {
+        "valores_gastos": 6493394.659999999
+      },
+      "7": {
+        "valores_gastos": 3063128.4
+      },
+      "8": {
+        "valores_gastos": 1920824.6700000002
+      },
+      "9": {
+        "valores_gastos": 6379010.46
+      },
+      "10": {
+        "valores_gastos": 10588585.0
+      },
+      "11": {
+        "valores_gastos": 3175515.99
+      },
+      "12": {
+        "valores_gastos": 21450246.6
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "batalha",
+  "nome": "BATALHA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 2985314.46
+      },
+      "2": {
+        "valores_gastos": 15007406.370000001
+      },
+      "3": {
+        "valores_gastos": 463374.14
+      },
+      "4": {
+        "valores_gastos": 2303635.79
+      },
+      "5": {
+        "valores_gastos": 41577491.86
+      },
+      "6": {
+        "valores_gastos": 157300292.31
+      },
+      "7": {
+        "valores_gastos": 19482510.86
+      },
+      "8": {
+        "valores_gastos": 633508.0
+      },
+      "9": {
+        "valores_gastos": 6306839.35
+      },
+      "10": {
+        "valores_gastos": 1750500.0
+      },
+      "11": {
+        "valores_gastos": 739468.4
+      },
+      "12": {
+        "valores_gastos": 1187252.0
+      }
+    }
+  }
+}

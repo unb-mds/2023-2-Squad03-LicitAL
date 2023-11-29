@@ -1,0 +1,44 @@
+{
+  "id": "messias",
+  "nome": "MESSIAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 454747931.3
+      },
+      "2": {
+        "valores_gastos": 3165183.67
+      },
+      "3": {
+        "valores_gastos": 828142.9299999999
+      },
+      "4": {
+        "valores_gastos": 11878761.8
+      },
+      "5": {
+        "valores_gastos": 4589752.38
+      },
+      "6": {
+        "valores_gastos": 1735049.8399999999
+      },
+      "7": {
+        "valores_gastos": 9283441.52
+      },
+      "8": {
+        "valores_gastos": 531230.7999999999
+      },
+      "9": {
+        "valores_gastos": 3259063.43
+      },
+      "10": {
+        "valores_gastos": 1020189.99
+      },
+      "11": {
+        "valores_gastos": 4320787.63
+      },
+      "12": {
+        "valores_gastos": 1961980.8499999999
+      }
+    }
+  }
+}

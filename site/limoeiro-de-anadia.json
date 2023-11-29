@@ -1,0 +1,44 @@
+{
+  "id": "limoeiro-de-anadia",
+  "nome": "LIMOEIRO DE ANADIA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 18724.55
+      },
+      "2": {
+        "valores_gastos": 2391843.82
+      },
+      "3": {
+        "valores_gastos": 741581.0
+      },
+      "4": {
+        "valores_gastos": 1396594.1400000001
+      },
+      "5": {
+        "valores_gastos": 15092469.219999999
+      },
+      "6": {
+        "valores_gastos": 100000.0
+      },
+      "7": {
+        "valores_gastos": 4603413.430000001
+      },
+      "8": {
+        "valores_gastos": 17561734.04
+      },
+      "9": {
+        "valores_gastos": 3056335.2800000003
+      },
+      "10": {
+        "valores_gastos": 784232.3899999999
+      },
+      "11": {
+        "valores_gastos": 2809117.7
+      },
+      "12": {
+        "valores_gastos": 415011.16000000003
+      }
+    }
+  }
+}

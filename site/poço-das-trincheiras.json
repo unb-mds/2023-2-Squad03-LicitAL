@@ -1,0 +1,44 @@
+{
+  "id": "poço-das-trincheiras",
+  "nome": "POÇO DAS TRINCHEIRAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 178664535.0
+      },
+      "2": {
+        "valores_gastos": 1712988.38
+      },
+      "3": {
+        "valores_gastos": 432388.0
+      },
+      "4": {
+        "valores_gastos": 4940949.75
+      },
+      "5": {
+        "valores_gastos": 1482633.9000000001
+      },
+      "6": {
+        "valores_gastos": 7810213.390000001
+      },
+      "7": {
+        "valores_gastos": 180100.0
+      },
+      "8": {
+        "valores_gastos": 13650009.93
+      },
+      "9": {
+        "valores_gastos": 9554699.28
+      },
+      "10": {
+        "valores_gastos": 1177106.7
+      },
+      "11": {
+        "valores_gastos": 17818977.68
+      },
+      "12": {
+        "valores_gastos": 3971030.66
+      }
+    }
+  }
+}

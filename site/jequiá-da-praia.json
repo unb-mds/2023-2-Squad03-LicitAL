@@ -1,0 +1,44 @@
+{
+  "id": "jequiá-da-praia",
+  "nome": "JEQUIÁ DA PRAIA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 791372926.32
+      },
+      "2": {
+        "valores_gastos": 1276966.36
+      },
+      "3": {
+        "valores_gastos": 80997.48
+      },
+      "4": {
+        "valores_gastos": 1831450.31
+      },
+      "5": {
+        "valores_gastos": 1585766.43
+      },
+      "6": {
+        "valores_gastos": 44273668.099999994
+      },
+      "7": {
+        "valores_gastos": 43932422.53
+      },
+      "8": {
+        "valores_gastos": 23414582.929999996
+      },
+      "9": {
+        "valores_gastos": 3283444.76
+      },
+      "10": {
+        "valores_gastos": 18481662.709999997
+      },
+      "11": {
+        "valores_gastos": 2859378.24
+      },
+      "12": {
+        "valores_gastos": 7903842.41
+      }
+    }
+  }
+}

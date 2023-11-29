@@ -1,0 +1,44 @@
+{
+  "id": "cajueiro",
+  "nome": "CAJUEIRO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 11913224.98
+      },
+      "2": {
+        "valores_gastos": 3522161.5
+      },
+      "3": {
+        "valores_gastos": 1715715.7999999998
+      },
+      "4": {
+        "valores_gastos": 1635531.0
+      },
+      "5": {
+        "valores_gastos": 1606137.5699999998
+      },
+      "6": {
+        "valores_gastos": 1780685.5
+      },
+      "7": {
+        "valores_gastos": 662357.1199999999
+      },
+      "8": {
+        "valores_gastos": 11905156.46
+      },
+      "9": {
+        "valores_gastos": 4492903.0
+      },
+      "10": {
+        "valores_gastos": 20381.15
+      },
+      "11": {
+        "valores_gastos": 302139.5
+      },
+      "12": {
+        "valores_gastos": 5582030.9799999995
+      }
+    }
+  }
+}

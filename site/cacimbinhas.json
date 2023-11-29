@@ -1,0 +1,44 @@
+{
+  "id": "cacimbinhas",
+  "nome": "CACIMBINHAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 5011098.609999999
+      },
+      "2": {
+        "valores_gastos": 424752.07
+      },
+      "3": {
+        "valores_gastos": 3021641.3
+      },
+      "4": {
+        "valores_gastos": 24620745.99000001
+      },
+      "5": {
+        "valores_gastos": 7577144.08
+      },
+      "6": {
+        "valores_gastos": 1002574.78
+      },
+      "7": {
+        "valores_gastos": 7381878.6
+      },
+      "8": {
+        "valores_gastos": 2065121.77
+      },
+      "9": {
+        "valores_gastos": 5883203.369999999
+      },
+      "10": {
+        "valores_gastos": 19749758.83
+      },
+      "11": {
+        "valores_gastos": 4652800.0
+      },
+      "12": {
+        "valores_gastos": 3610579.09
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "coqueiro-seco",
+  "nome": "COQUEIRO SECO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 486262.57
+      },
+      "2": {
+        "valores_gastos": 795285.07
+      },
+      "3": {
+        "valores_gastos": 175234011.82999998
+      },
+      "4": {
+        "valores_gastos": 1950971.2800000003
+      },
+      "5": {
+        "valores_gastos": 8094650.12
+      },
+      "6": {
+        "valores_gastos": 2362703.43
+      },
+      "7": {
+        "valores_gastos": 1232053.3800000001
+      },
+      "8": {
+        "valores_gastos": 251500.0
+      },
+      "9": {
+        "valores_gastos": 1816800.0
+      },
+      "10": {
+        "valores_gastos": 9881442.539999997
+      },
+      "11": {
+        "valores_gastos": 1216753.0
+      },
+      "12": {
+        "valores_gastos": 5483349.640000001
+      }
+    }
+  }
+}

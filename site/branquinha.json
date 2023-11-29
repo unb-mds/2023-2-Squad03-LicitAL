@@ -1,0 +1,44 @@
+{
+  "id": "branquinha",
+  "nome": "BRANQUINHA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 6641425.130000001
+      },
+      "2": {
+        "valores_gastos": 5838393.8
+      },
+      "3": {
+        "valores_gastos": 7313131.060000002
+      },
+      "4": {
+        "valores_gastos": 3433488.23
+      },
+      "5": {
+        "valores_gastos": 3505636.87
+      },
+      "6": {
+        "valores_gastos": 5117626.35
+      },
+      "7": {
+        "valores_gastos": 6473562.49
+      },
+      "8": {
+        "valores_gastos": 2965147.54
+      },
+      "9": {
+        "valores_gastos": 34382.96
+      },
+      "10": {
+        "valores_gastos": 8274888.24
+      },
+      "11": {
+        "valores_gastos": 2392528.38
+      },
+      "12": {
+        "valores_gastos": 7853998.15
+      }
+    }
+  }
+}

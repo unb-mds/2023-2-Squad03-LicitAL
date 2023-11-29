@@ -1,0 +1,44 @@
+{
+  "id": "quebrangulo",
+  "nome": "QUEBRANGULO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 4633482.13
+      },
+      "2": {
+        "valores_gastos": 5698378.18
+      },
+      "3": {
+        "valores_gastos": 5396702.13
+      },
+      "4": {
+        "valores_gastos": 2998976.7199999997
+      },
+      "5": {
+        "valores_gastos": 6703619.199999999
+      },
+      "6": {
+        "valores_gastos": 14545487.84
+      },
+      "7": {
+        "valores_gastos": 9492529.64
+      },
+      "8": {
+        "valores_gastos": 41918832.19
+      },
+      "9": {
+        "valores_gastos": 9978635.43
+      },
+      "10": {
+        "valores_gastos": 5760171.17
+      },
+      "11": {
+        "valores_gastos": 2985680.8600000003
+      },
+      "12": {
+        "valores_gastos": 4890104.630000001
+      }
+    }
+  }
+}

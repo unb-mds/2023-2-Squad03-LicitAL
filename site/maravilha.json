@@ -1,0 +1,44 @@
+{
+  "id": "maravilha",
+  "nome": "MARAVILHA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 15000.0
+      },
+      "2": {
+        "valores_gastos": 2230785.8699999996
+      },
+      "3": {
+        "valores_gastos": 46110.479999999996
+      },
+      "4": {
+        "valores_gastos": 228660.82
+      },
+      "5": {
+        "valores_gastos": 669206.38
+      },
+      "6": {
+        "valores_gastos": 305840.0
+      },
+      "7": {
+        "valores_gastos": 203855.0
+      },
+      "8": {
+        "valores_gastos": 310408.6
+      },
+      "9": {
+        "valores_gastos": 104578.0
+      },
+      "10": {
+        "valores_gastos": 216364.0
+      },
+      "11": {
+        "valores_gastos": 139443.52
+      },
+      "12": {
+        "valores_gastos": 439047024.4
+      }
+    }
+  }
+}

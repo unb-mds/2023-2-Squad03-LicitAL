@@ -1,0 +1,44 @@
+{
+  "id": "carneiros",
+  "nome": "CARNEIROS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 60000.0
+      },
+      "2": {
+        "valores_gastos": 6354516.81
+      },
+      "3": {
+        "valores_gastos": 1132617.5899999999
+      },
+      "4": {
+        "valores_gastos": 18140583.79
+      },
+      "5": {
+        "valores_gastos": 8467502.85
+      },
+      "6": {
+        "valores_gastos": 61781660.99999999
+      },
+      "7": {
+        "valores_gastos": 7649061.100000001
+      },
+      "8": {
+        "valores_gastos": 15658625.360000001
+      },
+      "9": {
+        "valores_gastos": 5399963.149999999
+      },
+      "10": {
+        "valores_gastos": 5827769.66
+      },
+      "11": {
+        "valores_gastos": 5347040.23
+      },
+      "12": {
+        "valores_gastos": 4724518.0
+      }
+    }
+  }
+}

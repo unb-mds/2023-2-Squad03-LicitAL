@@ -1,0 +1,44 @@
+{
+  "id": "teotonio-vilela",
+  "nome": "TEOTONIO VILELA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 54944548.26
+      },
+      "2": {
+        "valores_gastos": 29828083.159999996
+      },
+      "3": {
+        "valores_gastos": 38446529.050000004
+      },
+      "4": {
+        "valores_gastos": 43438247.510000005
+      },
+      "5": {
+        "valores_gastos": 56468224.080000006
+      },
+      "6": {
+        "valores_gastos": 63902417.19000001
+      },
+      "7": {
+        "valores_gastos": 174826709.61
+      },
+      "8": {
+        "valores_gastos": 86449791.93999998
+      },
+      "9": {
+        "valores_gastos": 123118813.64999996
+      },
+      "10": {
+        "valores_gastos": 26125073.000000007
+      },
+      "11": {
+        "valores_gastos": 18316836.310000002
+      },
+      "12": {
+        "valores_gastos": 156737216.67999998
+      }
+    }
+  }
+}

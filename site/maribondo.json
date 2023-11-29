@@ -1,0 +1,44 @@
+{
+  "id": "maribondo",
+  "nome": "MARIBONDO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 8116044.170000001
+      },
+      "3": {
+        "valores_gastos": 2993230.34
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 6014101.29
+      },
+      "6": {
+        "valores_gastos": 6386387.07
+      },
+      "7": {
+        "valores_gastos": 10885057.420000002
+      },
+      "8": {
+        "valores_gastos": 4182076.96
+      },
+      "9": {
+        "valores_gastos": 10230890.86
+      },
+      "10": {
+        "valores_gastos": 2176084.7199999997
+      },
+      "11": {
+        "valores_gastos": 18371549.75
+      },
+      "12": {
+        "valores_gastos": 110712825.47
+      }
+    }
+  }
+}

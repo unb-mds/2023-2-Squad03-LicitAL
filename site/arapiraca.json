@@ -1,0 +1,44 @@
+{
+  "id": "arapiraca",
+  "nome": "ARAPIRACA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 786899750.9000003
+      },
+      "2": {
+        "valores_gastos": 125551588.55
+      },
+      "3": {
+        "valores_gastos": 70458892.15
+      },
+      "4": {
+        "valores_gastos": 636083866.7399999
+      },
+      "5": {
+        "valores_gastos": 582110601.4999999
+      },
+      "6": {
+        "valores_gastos": 265144455.06
+      },
+      "7": {
+        "valores_gastos": 521074249.1
+      },
+      "8": {
+        "valores_gastos": 423969018.66999996
+      },
+      "9": {
+        "valores_gastos": 57005420.89999998
+      },
+      "10": {
+        "valores_gastos": 89948223.54
+      },
+      "11": {
+        "valores_gastos": 513803755.69000006
+      },
+      "12": {
+        "valores_gastos": 100126546.89
+      }
+    }
+  }
+}

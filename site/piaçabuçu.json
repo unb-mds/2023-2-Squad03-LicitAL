@@ -1,0 +1,44 @@
+{
+  "id": "piaçabuçu",
+  "nome": "PIAÇABUÇU",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 12531445.14
+      },
+      "2": {
+        "valores_gastos": 6309650.72
+      },
+      "3": {
+        "valores_gastos": 28537156.02
+      },
+      "4": {
+        "valores_gastos": 6502410.959999999
+      },
+      "5": {
+        "valores_gastos": 70257404.49
+      },
+      "6": {
+        "valores_gastos": 4540524.5
+      },
+      "7": {
+        "valores_gastos": 11722760.86
+      },
+      "8": {
+        "valores_gastos": 10528662.8
+      },
+      "9": {
+        "valores_gastos": 21123353.3
+      },
+      "10": {
+        "valores_gastos": 24424375.94
+      },
+      "11": {
+        "valores_gastos": 13046095.020000001
+      },
+      "12": {
+        "valores_gastos": 28102838.29
+      }
+    }
+  }
+}

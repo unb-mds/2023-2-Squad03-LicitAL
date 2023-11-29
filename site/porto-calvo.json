@@ -1,0 +1,44 @@
+{
+  "id": "porto-calvo",
+  "nome": "PORTO CALVO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 2438352.52
+      },
+      "2": {
+        "valores_gastos": 7379499.2700000005
+      },
+      "3": {
+        "valores_gastos": 347430.0
+      },
+      "4": {
+        "valores_gastos": 5384407.86
+      },
+      "5": {
+        "valores_gastos": 639630.54
+      },
+      "6": {
+        "valores_gastos": 7533587.13
+      },
+      "7": {
+        "valores_gastos": 1231868.8800000001
+      },
+      "8": {
+        "valores_gastos": 1967193.56
+      },
+      "9": {
+        "valores_gastos": 140937.72999999998
+      },
+      "10": {
+        "valores_gastos": 2915568.24
+      },
+      "11": {
+        "valores_gastos": 9480159.790000001
+      },
+      "12": {
+        "valores_gastos": 4420184.71
+      }
+    }
+  }
+}

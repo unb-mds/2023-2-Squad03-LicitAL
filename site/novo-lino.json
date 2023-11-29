@@ -1,0 +1,44 @@
+{
+  "id": "novo-lino",
+  "nome": "NOVO LINO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 760105.0
+      },
+      "2": {
+        "valores_gastos": 2594021.24
+      },
+      "3": {
+        "valores_gastos": 9745698.01
+      },
+      "4": {
+        "valores_gastos": 2852235.63
+      },
+      "5": {
+        "valores_gastos": 5062557.99
+      },
+      "6": {
+        "valores_gastos": 15074389.48
+      },
+      "7": {
+        "valores_gastos": 4295126.44
+      },
+      "8": {
+        "valores_gastos": 22768520.57
+      },
+      "9": {
+        "valores_gastos": 10361530.709999999
+      },
+      "10": {
+        "valores_gastos": 29083755.439999998
+      },
+      "11": {
+        "valores_gastos": 2282749.63
+      },
+      "12": {
+        "valores_gastos": 17605302.16
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dois-riachos",
+  "nome": "DOIS RIACHOS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 409690.0
+      },
+      "3": {
+        "valores_gastos": 39194550.44000001
+      },
+      "4": {
+        "valores_gastos": 21618625.29
+      },
+      "5": {
+        "valores_gastos": 1458984.7599999998
+      },
+      "6": {
+        "valores_gastos": 1049735.67
+      },
+      "7": {
+        "valores_gastos": 11108274.48
+      },
+      "8": {
+        "valores_gastos": 1420297.2
+      },
+      "9": {
+        "valores_gastos": 8151818.500000001
+      },
+      "10": {
+        "valores_gastos": 6483385.62
+      },
+      "11": {
+        "valores_gastos": 21273897.980000004
+      },
+      "12": {
+        "valores_gastos": 4514362.58
+      }
+    }
+  }
+}

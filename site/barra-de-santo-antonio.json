@@ -1,0 +1,44 @@
+{
+  "id": "barra-de-santo-antonio",
+  "nome": "BARRA DE SANTO ANTONIO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 74097038.9
+      },
+      "2": {
+        "valores_gastos": 55383.200000000004
+      },
+      "3": {
+        "valores_gastos": 476719.29000000004
+      },
+      "4": {
+        "valores_gastos": 568000.0
+      },
+      "5": {
+        "valores_gastos": 8985349.6
+      },
+      "6": {
+        "valores_gastos": 10252321.069999998
+      },
+      "7": {
+        "valores_gastos": 1631884.23
+      },
+      "8": {
+        "valores_gastos": 1865010.0
+      },
+      "9": {
+        "valores_gastos": 6690131.62
+      },
+      "10": {
+        "valores_gastos": 7732606.100000001
+      },
+      "11": {
+        "valores_gastos": 4290461.38
+      },
+      "12": {
+        "valores_gastos": 4233454.640000001
+      }
+    }
+  }
+}

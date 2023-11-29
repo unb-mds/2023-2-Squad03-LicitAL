@@ -1,0 +1,44 @@
+{
+  "id": "maragogi",
+  "nome": "MARAGOGI",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 248208.0
+      },
+      "2": {
+        "valores_gastos": 8191710.81
+      },
+      "3": {
+        "valores_gastos": 16504888.819999998
+      },
+      "4": {
+        "valores_gastos": 76521.45
+      },
+      "5": {
+        "valores_gastos": 17555.0
+      },
+      "6": {
+        "valores_gastos": 15634063.01
+      },
+      "7": {
+        "valores_gastos": 854474.51
+      },
+      "8": {
+        "valores_gastos": 3674727031.370004
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 1388484.470000001
+      },
+      "11": {
+        "valores_gastos": 226600.0
+      },
+      "12": {
+        "valores_gastos": 1139551782.8099992
+      }
+    }
+  }
+}

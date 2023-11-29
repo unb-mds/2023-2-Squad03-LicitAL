@@ -1,0 +1,44 @@
+{
+  "id": "estrela-de-alagoas",
+  "nome": "ESTRELA DE ALAGOAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 675760.26
+      },
+      "2": {
+        "valores_gastos": 2359216.39
+      },
+      "3": {
+        "valores_gastos": 32915.6
+      },
+      "4": {
+        "valores_gastos": 25115250.689999998
+      },
+      "5": {
+        "valores_gastos": 17351906.64
+      },
+      "6": {
+        "valores_gastos": 383615.6
+      },
+      "7": {
+        "valores_gastos": 4697660.98
+      },
+      "8": {
+        "valores_gastos": 349190.0
+      },
+      "9": {
+        "valores_gastos": 3927115.16
+      },
+      "10": {
+        "valores_gastos": 3268248.75
+      },
+      "11": {
+        "valores_gastos": 1336430.1400000001
+      },
+      "12": {
+        "valores_gastos": 29686350.32
+      }
+    }
+  }
+}

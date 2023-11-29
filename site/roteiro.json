@@ -1,0 +1,44 @@
+{
+  "id": "roteiro",
+  "nome": "ROTEIRO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 1622255.06
+      },
+      "2": {
+        "valores_gastos": 303559.81
+      },
+      "3": {
+        "valores_gastos": 17764060.240000002
+      },
+      "4": {
+        "valores_gastos": 2152871.31
+      },
+      "5": {
+        "valores_gastos": 3894222.5900000003
+      },
+      "6": {
+        "valores_gastos": 1819462.65
+      },
+      "7": {
+        "valores_gastos": 3561391.12
+      },
+      "8": {
+        "valores_gastos": 1089012.04
+      },
+      "9": {
+        "valores_gastos": 1796277.22
+      },
+      "10": {
+        "valores_gastos": 119072.72
+      },
+      "11": {
+        "valores_gastos": 2480290.5300000003
+      },
+      "12": {
+        "valores_gastos": 71805.5
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "pindoba",
+  "nome": "PINDOBA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 84095.64
+      },
+      "2": {
+        "valores_gastos": 18800.0
+      },
+      "3": {
+        "valores_gastos": 1439051.29
+      },
+      "4": {
+        "valores_gastos": 152500.0
+      },
+      "5": {
+        "valores_gastos": 812535.84
+      },
+      "6": {
+        "valores_gastos": 5515411.47
+      },
+      "7": {
+        "valores_gastos": 513520.22
+      },
+      "8": {
+        "valores_gastos": 5024257.04
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 478000.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 148876244.73999998
+      }
+    }
+  }
+}

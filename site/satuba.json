@@ -1,0 +1,44 @@
+{
+  "id": "satuba",
+  "nome": "SATUBA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 39240726.8
+      },
+      "2": {
+        "valores_gastos": 10692861.72
+      },
+      "3": {
+        "valores_gastos": 9976221.27
+      },
+      "4": {
+        "valores_gastos": 7112613.4
+      },
+      "5": {
+        "valores_gastos": 22051793.97
+      },
+      "6": {
+        "valores_gastos": 11235539.48
+      },
+      "7": {
+        "valores_gastos": 1188983.12
+      },
+      "8": {
+        "valores_gastos": 21443791.01
+      },
+      "9": {
+        "valores_gastos": 5314544.529999999
+      },
+      "10": {
+        "valores_gastos": 12729320.89
+      },
+      "11": {
+        "valores_gastos": 21727833.5
+      },
+      "12": {
+        "valores_gastos": 2749753.8400000003
+      }
+    }
+  }
+}

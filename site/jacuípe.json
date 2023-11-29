@@ -1,0 +1,44 @@
+{
+  "id": "jacuípe",
+  "nome": "JACUÍPE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 1234459.24
+      },
+      "3": {
+        "valores_gastos": 108310.0
+      },
+      "4": {
+        "valores_gastos": 1332549.7799999996
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 1641185.36
+      },
+      "7": {
+        "valores_gastos": 847743.74
+      },
+      "8": {
+        "valores_gastos": 2829125.37
+      },
+      "9": {
+        "valores_gastos": 1603510.94
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 7769616.18
+      },
+      "12": {
+        "valores_gastos": 1058572.0
+      }
+    }
+  }
+}

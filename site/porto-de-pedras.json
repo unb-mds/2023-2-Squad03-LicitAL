@@ -1,0 +1,44 @@
+{
+  "id": "porto-de-pedras",
+  "nome": "PORTO DE PEDRAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 40000.0
+      },
+      "2": {
+        "valores_gastos": 223268.35
+      },
+      "3": {
+        "valores_gastos": 4991951.16
+      },
+      "4": {
+        "valores_gastos": 270900.0
+      },
+      "5": {
+        "valores_gastos": 1220144.91
+      },
+      "6": {
+        "valores_gastos": 4516695.46
+      },
+      "7": {
+        "valores_gastos": 5103296.16
+      },
+      "8": {
+        "valores_gastos": 119286.0
+      },
+      "9": {
+        "valores_gastos": 1378000.0
+      },
+      "10": {
+        "valores_gastos": 104989370.24000001
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 479059.14
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "atalaia",
+  "nome": "ATALAIA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 428158.48
+      },
+      "2": {
+        "valores_gastos": 237399.27
+      },
+      "3": {
+        "valores_gastos": 8742509.11
+      },
+      "4": {
+        "valores_gastos": 5584320.9
+      },
+      "5": {
+        "valores_gastos": 3379488.68
+      },
+      "6": {
+        "valores_gastos": 45668326.13
+      },
+      "7": {
+        "valores_gastos": 14109405.1
+      },
+      "8": {
+        "valores_gastos": 8434807.24
+      },
+      "9": {
+        "valores_gastos": 1169432.06
+      },
+      "10": {
+        "valores_gastos": 17991488.97
+      },
+      "11": {
+        "valores_gastos": 7257066.58
+      },
+      "12": {
+        "valores_gastos": 2706115.19
+      }
+    }
+  }
+}

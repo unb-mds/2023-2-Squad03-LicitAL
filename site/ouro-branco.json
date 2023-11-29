@@ -1,0 +1,44 @@
+{
+  "id": "ouro-branco",
+  "nome": "OURO BRANCO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 7199083.170000001
+      },
+      "2": {
+        "valores_gastos": 4793425.58
+      },
+      "3": {
+        "valores_gastos": 2319500.04
+      },
+      "4": {
+        "valores_gastos": 6111510.0600000005
+      },
+      "5": {
+        "valores_gastos": 2322956.89
+      },
+      "6": {
+        "valores_gastos": 264742430.12
+      },
+      "7": {
+        "valores_gastos": 2013732.9
+      },
+      "8": {
+        "valores_gastos": 6374863.9399999995
+      },
+      "9": {
+        "valores_gastos": 8746510.98
+      },
+      "10": {
+        "valores_gastos": 8501809.13
+      },
+      "11": {
+        "valores_gastos": 864621.62
+      },
+      "12": {
+        "valores_gastos": 238037562.18
+      }
+    }
+  }
+}

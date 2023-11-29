@@ -1,0 +1,44 @@
+{
+  "id": "junqueiro",
+  "nome": "JUNQUEIRO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 6170880.100000001
+      },
+      "2": {
+        "valores_gastos": 3952291.14
+      },
+      "3": {
+        "valores_gastos": 6802505.800000001
+      },
+      "4": {
+        "valores_gastos": 16646868.870000001
+      },
+      "5": {
+        "valores_gastos": 39538038.730000004
+      },
+      "6": {
+        "valores_gastos": 20319031.770000003
+      },
+      "7": {
+        "valores_gastos": 18700066.979999997
+      },
+      "8": {
+        "valores_gastos": 67546068978.51001
+      },
+      "9": {
+        "valores_gastos": 19931147.37
+      },
+      "10": {
+        "valores_gastos": 10763618.16
+      },
+      "11": {
+        "valores_gastos": 4302913.64
+      },
+      "12": {
+        "valores_gastos": 67923052844.79
+      }
+    }
+  }
+}

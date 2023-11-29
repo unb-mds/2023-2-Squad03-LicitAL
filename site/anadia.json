@@ -1,0 +1,44 @@
+{
+  "id": "anadia",
+  "nome": "ANADIA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 179901.23
+      },
+      "2": {
+        "valores_gastos": 3174519.7
+      },
+      "3": {
+        "valores_gastos": 2121365.32
+      },
+      "4": {
+        "valores_gastos": 4481267.38
+      },
+      "5": {
+        "valores_gastos": 5616836.289999999
+      },
+      "6": {
+        "valores_gastos": 1173138.71
+      },
+      "7": {
+        "valores_gastos": 7390006.65
+      },
+      "8": {
+        "valores_gastos": 19490853.5
+      },
+      "9": {
+        "valores_gastos": 2168727.97
+      },
+      "10": {
+        "valores_gastos": 21262314.740000002
+      },
+      "11": {
+        "valores_gastos": 2880410.45
+      },
+      "12": {
+        "valores_gastos": 4081910.42
+      }
+    }
+  }
+}

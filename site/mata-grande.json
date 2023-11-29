@@ -1,0 +1,44 @@
+{
+  "id": "mata-grande",
+  "nome": "MATA GRANDE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 48005426.63000001
+      },
+      "2": {
+        "valores_gastos": 8531376.600000001
+      },
+      "3": {
+        "valores_gastos": 10793483.77
+      },
+      "4": {
+        "valores_gastos": 23733117.979999997
+      },
+      "5": {
+        "valores_gastos": 4306998.5
+      },
+      "6": {
+        "valores_gastos": 9957208.45
+      },
+      "7": {
+        "valores_gastos": 23731950.099999998
+      },
+      "8": {
+        "valores_gastos": 8145687.0
+      },
+      "9": {
+        "valores_gastos": 4601884.71
+      },
+      "10": {
+        "valores_gastos": 8907738.099999998
+      },
+      "11": {
+        "valores_gastos": 17788548.200000003
+      },
+      "12": {
+        "valores_gastos": 4902246.65
+      }
+    }
+  }
+}

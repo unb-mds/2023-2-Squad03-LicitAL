@@ -1,0 +1,41 @@
+{
+  "id": "capela",
+  "nome": "CAPELA",
+  "detalhe": {
+    "2022": {
+      "2": {
+        "valores_gastos": 300852.8
+      },
+      "3": {
+        "valores_gastos": 2174767.85
+      },
+      "4": {
+        "valores_gastos": 5167.2
+      },
+      "5": {
+        "valores_gastos": 1915127.5000000002
+      },
+      "6": {
+        "valores_gastos": 1316484.46
+      },
+      "7": {
+        "valores_gastos": 13032839.120000001
+      },
+      "8": {
+        "valores_gastos": 4501578.0600000005
+      },
+      "9": {
+        "valores_gastos": 2747544.0000000005
+      },
+      "10": {
+        "valores_gastos": 866423.0
+      },
+      "11": {
+        "valores_gastos": 1667250.8
+      },
+      "12": {
+        "valores_gastos": 691012.06
+      }
+    }
+  }
+}

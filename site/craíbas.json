@@ -1,0 +1,44 @@
+{
+  "id": "craíbas",
+  "nome": "CRAÍBAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 48695.82
+      },
+      "2": {
+        "valores_gastos": 2047684.0
+      },
+      "3": {
+        "valores_gastos": 5100539.9
+      },
+      "4": {
+        "valores_gastos": 3473454.53
+      },
+      "5": {
+        "valores_gastos": 92300.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 13976392.619999986
+      },
+      "9": {
+        "valores_gastos": 2250095.5599999996
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 683593126.0
+      },
+      "12": {
+        "valores_gastos": 5332.410000000001
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "piranhas",
+  "nome": "PIRANHAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 445878445.8
+      },
+      "2": {
+        "valores_gastos": 30395.55
+      },
+      "3": {
+        "valores_gastos": 855000.0
+      },
+      "4": {
+        "valores_gastos": 5983027.8
+      },
+      "5": {
+        "valores_gastos": 4655074.2
+      },
+      "6": {
+        "valores_gastos": 10870761.04
+      },
+      "7": {
+        "valores_gastos": 6941379.64
+      },
+      "8": {
+        "valores_gastos": 7048837.99
+      },
+      "9": {
+        "valores_gastos": 44628025.03999999
+      },
+      "10": {
+        "valores_gastos": 2142900.95
+      },
+      "11": {
+        "valores_gastos": 9842499.860000001
+      },
+      "12": {
+        "valores_gastos": 642233884.81
+      }
+    }
+  }
+}

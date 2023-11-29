@@ -1,0 +1,44 @@
+{
+  "id": "são-sebastião",
+  "nome": "SÃO SEBASTIÃO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 6764498.81
+      },
+      "2": {
+        "valores_gastos": 1060699.2
+      },
+      "3": {
+        "valores_gastos": 1241625.5
+      },
+      "4": {
+        "valores_gastos": 3969265.4000000004
+      },
+      "5": {
+        "valores_gastos": 2215320.37
+      },
+      "6": {
+        "valores_gastos": 2574155.46
+      },
+      "7": {
+        "valores_gastos": 3975006.27
+      },
+      "8": {
+        "valores_gastos": 1593047.4300000002
+      },
+      "9": {
+        "valores_gastos": 2732749.3499999996
+      },
+      "10": {
+        "valores_gastos": 7101635.91
+      },
+      "11": {
+        "valores_gastos": 2198357.59
+      },
+      "12": {
+        "valores_gastos": 2433680.0
+      }
+    }
+  }
+}

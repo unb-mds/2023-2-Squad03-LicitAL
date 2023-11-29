@@ -1,0 +1,44 @@
+{
+  "id": "palestina",
+  "nome": "PALESTINA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 75610.0
+      },
+      "2": {
+        "valores_gastos": 703139.3999999999
+      },
+      "3": {
+        "valores_gastos": 4833369.2
+      },
+      "4": {
+        "valores_gastos": 1266713.92
+      },
+      "5": {
+        "valores_gastos": 5248482.92
+      },
+      "6": {
+        "valores_gastos": 3391796.9
+      },
+      "7": {
+        "valores_gastos": 819938.05
+      },
+      "8": {
+        "valores_gastos": 3081041.8400000003
+      },
+      "9": {
+        "valores_gastos": 343510.16
+      },
+      "10": {
+        "valores_gastos": 343663.63
+      },
+      "11": {
+        "valores_gastos": 1218895.36
+      },
+      "12": {
+        "valores_gastos": 1324127.8399999999
+      }
+    }
+  }
+}

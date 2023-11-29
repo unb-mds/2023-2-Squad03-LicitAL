@@ -1,0 +1,44 @@
+{
+  "id": "inhapi",
+  "nome": "INHAPI",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 11420605.399999999
+      },
+      "2": {
+        "valores_gastos": 2858055.8
+      },
+      "3": {
+        "valores_gastos": 652780.4
+      },
+      "4": {
+        "valores_gastos": 47495604.63
+      },
+      "5": {
+        "valores_gastos": 71750021.75999999
+      },
+      "6": {
+        "valores_gastos": 37809668.33
+      },
+      "7": {
+        "valores_gastos": 40913334.75
+      },
+      "8": {
+        "valores_gastos": 46438209.14
+      },
+      "9": {
+        "valores_gastos": 28242921.819999993
+      },
+      "10": {
+        "valores_gastos": 55125175.510000005
+      },
+      "11": {
+        "valores_gastos": 58840790.76999998
+      },
+      "12": {
+        "valores_gastos": 387554850.65
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "santa-luzia-do-norte",
+  "nome": "SANTA LUZIA DO NORTE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 336032935.06
+      },
+      "2": {
+        "valores_gastos": 524332.0
+      },
+      "3": {
+        "valores_gastos": 6999503.28
+      },
+      "4": {
+        "valores_gastos": 11144685.1
+      },
+      "5": {
+        "valores_gastos": 9281652.14
+      },
+      "6": {
+        "valores_gastos": 1295156.7
+      },
+      "7": {
+        "valores_gastos": 22565178.209999997
+      },
+      "8": {
+        "valores_gastos": 4315467.38
+      },
+      "9": {
+        "valores_gastos": 6155405.44
+      },
+      "10": {
+        "valores_gastos": 5271450.3100000005
+      },
+      "11": {
+        "valores_gastos": 341999194.89
+      },
+      "12": {
+        "valores_gastos": 1611.0
+      }
+    }
+  }
+}

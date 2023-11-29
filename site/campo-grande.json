@@ -1,0 +1,44 @@
+{
+  "id": "campo-grande",
+  "nome": "CAMPO GRANDE",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 95531519.04000004
+      },
+      "3": {
+        "valores_gastos": 309540.05
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 112828.5
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 2424.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 6005761.779999999
+      }
+    }
+  }
+}

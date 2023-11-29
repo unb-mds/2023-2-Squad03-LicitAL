@@ -1,0 +1,44 @@
+{
+  "id": "feliz-deserto",
+  "nome": "FELIZ DESERTO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 4477778.390000001
+      },
+      "2": {
+        "valores_gastos": 375169.98
+      },
+      "3": {
+        "valores_gastos": 14772.96
+      },
+      "4": {
+        "valores_gastos": 858844.4700000001
+      },
+      "5": {
+        "valores_gastos": 1087819.16
+      },
+      "6": {
+        "valores_gastos": 939872.08
+      },
+      "7": {
+        "valores_gastos": 558965.33
+      },
+      "8": {
+        "valores_gastos": 616992.0
+      },
+      "9": {
+        "valores_gastos": 1891652.4300000002
+      },
+      "10": {
+        "valores_gastos": 1752876.42
+      },
+      "11": {
+        "valores_gastos": 490310.0
+      },
+      "12": {
+        "valores_gastos": 121500.0
+      }
+    }
+  }
+}

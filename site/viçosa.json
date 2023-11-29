@@ -1,0 +1,44 @@
+{
+  "id": "viçosa",
+  "nome": "VIÇOSA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 4023886.19
+      },
+      "2": {
+        "valores_gastos": 3504507.9
+      },
+      "3": {
+        "valores_gastos": 2922488.0300000003
+      },
+      "4": {
+        "valores_gastos": 7857958.14
+      },
+      "5": {
+        "valores_gastos": 2326254.58
+      },
+      "6": {
+        "valores_gastos": 26312726.68
+      },
+      "7": {
+        "valores_gastos": 5443020.66
+      },
+      "8": {
+        "valores_gastos": 6459513.589999999
+      },
+      "9": {
+        "valores_gastos": 35212557.879999995
+      },
+      "10": {
+        "valores_gastos": 4511943.59
+      },
+      "11": {
+        "valores_gastos": 18306877.220000003
+      },
+      "12": {
+        "valores_gastos": 113234755.53999999
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "igaci",
+  "nome": "IGACI",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 346664.77
+      },
+      "2": {
+        "valores_gastos": 2413838.04
+      },
+      "3": {
+        "valores_gastos": 140242.3
+      },
+      "4": {
+        "valores_gastos": 34920.0
+      },
+      "5": {
+        "valores_gastos": 9913136.29
+      },
+      "6": {
+        "valores_gastos": 3819854.25
+      },
+      "7": {
+        "valores_gastos": 387180.0
+      },
+      "8": {
+        "valores_gastos": 621000.0
+      },
+      "9": {
+        "valores_gastos": 141053.85
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 1067454.98
+      },
+      "12": {
+        "valores_gastos": 12822895.38
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "canapi",
+  "nome": "CANAPI",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 16087858.21
+      },
+      "2": {
+        "valores_gastos": 14275180.759999998
+      },
+      "3": {
+        "valores_gastos": 10348010.72
+      },
+      "4": {
+        "valores_gastos": 19702168.41
+      },
+      "5": {
+        "valores_gastos": 5319090.57
+      },
+      "6": {
+        "valores_gastos": 6936017.359999999
+      },
+      "7": {
+        "valores_gastos": 3273055.58
+      },
+      "8": {
+        "valores_gastos": 4071894.85
+      },
+      "9": {
+        "valores_gastos": 16986983.0
+      },
+      "10": {
+        "valores_gastos": 12674373.230000002
+      },
+      "11": {
+        "valores_gastos": 10227921.36
+      },
+      "12": {
+        "valores_gastos": 13122192.12
+      }
+    }
+  }
+}
