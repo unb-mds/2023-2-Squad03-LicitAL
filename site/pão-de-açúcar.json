@@ -1,5 +1,5 @@
 {
-  "id": "pao-de-acucar",
+  "id": "pão-de-açúcar",
   "nome": "PÃO DE AÇÚCAR",
   "detalhe": {
     "2022": {
@@ -7,7 +7,7 @@
         "valores_gastos": 2149279.84
       },
       "2": {
-        "valores_gastos": 7321391.390000001
+        "valores_gastos": 7547174.670000001
       },
       "3": {
         "valores_gastos": 12228684.93
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 475107897.23
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 17108206.5
+      },
+      "2": {
+        "valores_gastos": 4702447.9
+      },
+      "3": {
+        "valores_gastos": 11788271.43
+      },
+      "4": {
+        "valores_gastos": 20762457.56
+      },
+      "5": {
+        "valores_gastos": 74000753.63999999
+      },
+      "6": {
+        "valores_gastos": 21776323.59
+      },
+      "7": {
+        "valores_gastos": 1121946.92
+      },
+      "8": {
+        "valores_gastos": 1250.0
+      },
+      "9": {
+        "valores_gastos": 4650.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 703603442.1599998
   }
 }

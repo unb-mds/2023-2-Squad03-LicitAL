@@ -1,5 +1,5 @@
 {
-  "id": "sao-miguel-dos-milagres",
+  "id": "são-miguel-dos-milagres",
   "nome": "SÃO MIGUEL DOS MILAGRES",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 228905690.66
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 236937829.02000004
+      },
+      "2": {
+        "valores_gastos": 12772743.06
+      },
+      "3": {
+        "valores_gastos": 733172.8500000001
+      },
+      "4": {
+        "valores_gastos": 10794412.77
+      },
+      "5": {
+        "valores_gastos": 4533339.72
+      },
+      "6": {
+        "valores_gastos": 7554357.08
+      },
+      "7": {
+        "valores_gastos": 951604.83
+      },
+      "8": {
+        "valores_gastos": 5947136.86
+      },
+      "9": {
+        "valores_gastos": 990990.19
+      },
+      "10": {
+        "valores_gastos": 13485110.95
+      },
+      "11": {
+        "valores_gastos": 1186626.63
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 735669094.0600003
   }
 }

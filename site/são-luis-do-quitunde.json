@@ -1,5 +1,5 @@
 {
-  "id": "sao-luis-do-quitunde",
+  "id": "são-luis-do-quitunde",
   "nome": "SÃO LUIS DO QUITUNDE",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 5909123.55
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 5449804.4
+      },
+      "2": {
+        "valores_gastos": 1257289.27
+      },
+      "3": {
+        "valores_gastos": 23624042.27
+      },
+      "4": {
+        "valores_gastos": 10898986.46
+      },
+      "5": {
+        "valores_gastos": 11836131.0
+      },
+      "6": {
+        "valores_gastos": 6858768.38
+      },
+      "7": {
+        "valores_gastos": 4458970.24
+      },
+      "8": {
+        "valores_gastos": 3425865.18
+      },
+      "9": {
+        "valores_gastos": 1810696.25
+      },
+      "10": {
+        "valores_gastos": 3137204.95
+      },
+      "11": {
+        "valores_gastos": 7109856.3
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 201314903.76000002
   }
 }

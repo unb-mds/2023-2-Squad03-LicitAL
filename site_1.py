@@ -1,6 +1,7 @@
 import json
 import os
 
+
 # Certifique-se de que a pasta 'site' existe
 if not os.path.exists('site'):
     os.makedirs('site')
@@ -22,7 +23,8 @@ for item in data:
         municipios[id_municipio] = {
             "id": id_municipio,
             "nome": item["municipio"],
-            "detalhe": {}
+            "detalhe": {},
+            "resumo": {"valores_gastos": 0}  # Inicializar o resumo com valores_gastos como 0
         }
 
     # Adicionar os valores gastos ao município
@@ -32,6 +34,9 @@ for item in data:
     municipios[id_municipio]["detalhe"][str(item["ano"])][str(item["mes"])] = {
         "valores_gastos": item["valores_gastos"]
     }
+
+    # Adicionar os valores gastos ao resumo
+    municipios[id_municipio]["resumo"]["valores_gastos"] += item["valores_gastos"]
 
 # Salvar cada município em um arquivo separado na pasta 'site'
 for id_municipio, municipio in municipios.items():

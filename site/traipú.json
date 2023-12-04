@@ -1,5 +1,5 @@
 {
-  "id": "traipu",
+  "id": "traipú",
   "nome": "TRAIPÚ",
   "detalhe": {
     "2022": {
@@ -7,7 +7,7 @@
         "valores_gastos": 0.0
       },
       "2": {
-        "valores_gastos": 15890982.2
+        "valores_gastos": 17464042.8
       },
       "3": {
         "valores_gastos": 364663.43
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 4676359.25
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 1412477.66
+      },
+      "2": {
+        "valores_gastos": 1268324.29
+      },
+      "3": {
+        "valores_gastos": 6592860.55
+      },
+      "4": {
+        "valores_gastos": 8534826.61
+      },
+      "5": {
+        "valores_gastos": 3739786.2100000004
+      },
+      "6": {
+        "valores_gastos": 2726696.3
+      },
+      "7": {
+        "valores_gastos": 7233308.6
+      },
+      "8": {
+        "valores_gastos": 15154205.950000001
+      },
+      "9": {
+        "valores_gastos": 16216158.72
+      },
+      "10": {
+        "valores_gastos": 39362499.64
+      },
+      "11": {
+        "valores_gastos": 11318998.75
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 179420426.65999997
   }
 }

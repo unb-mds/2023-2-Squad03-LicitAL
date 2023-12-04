@@ -1,0 +1,44 @@
+{
+  "id": "passo-de-camaragibe",
+  "nome": "PASSO DE CAMARAGIBE",
+  "detalhe": {
+    "2023": {
+      "1": {
+        "valores_gastos": 3000.0
+      },
+      "2": {
+        "valores_gastos": 457000.0
+      },
+      "3": {
+        "valores_gastos": 5253441.01
+      },
+      "4": {
+        "valores_gastos": 1157568.74
+      },
+      "5": {
+        "valores_gastos": 1056593.8599999999
+      },
+      "6": {
+        "valores_gastos": 2935745.8299999996
+      },
+      "7": {
+        "valores_gastos": 1948734.4
+      },
+      "8": {
+        "valores_gastos": 455922.22
+      },
+      "9": {
+        "valores_gastos": 1465492.7899999998
+      },
+      "10": {
+        "valores_gastos": 4237605.550000001
+      },
+      "11": {
+        "valores_gastos": 180000.0
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 19151104.4
+  }
+}

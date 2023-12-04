@@ -1,5 +1,5 @@
 {
-  "id": "coite-do-noia",
+  "id": "coité-do-nóia",
   "nome": "COITÉ DO NÓIA",
   "detalhe": {
     "2022": {
@@ -13,7 +13,7 @@
         "valores_gastos": 2844429.73
       },
       "4": {
-        "valores_gastos": 3690217.88
+        "valores_gastos": 4978239.720000001
       },
       "5": {
         "valores_gastos": 11783397.73
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 6600167.600000001
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 23416207.9
+      },
+      "2": {
+        "valores_gastos": 9824962.98
+      },
+      "3": {
+        "valores_gastos": 11635513.590000002
+      },
+      "4": {
+        "valores_gastos": 3393196.6399999997
+      },
+      "5": {
+        "valores_gastos": 5778269.65
+      },
+      "6": {
+        "valores_gastos": 319894.74
+      },
+      "7": {
+        "valores_gastos": 2558066.7
+      },
+      "8": {
+        "valores_gastos": 17834844.4
+      },
+      "9": {
+        "valores_gastos": 1869311.5
+      },
+      "10": {
+        "valores_gastos": 1176062.61
+      },
+      "11": {
+        "valores_gastos": 3297179.7199999997
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 158769062.53000003
   }
 }

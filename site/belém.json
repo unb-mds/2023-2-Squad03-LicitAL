@@ -1,5 +1,5 @@
 {
-  "id": "belem",
+  "id": "belém",
   "nome": "BELÉM",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 41081.8
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 4565727.49
+      },
+      "2": {
+        "valores_gastos": 1186274.5
+      },
+      "3": {
+        "valores_gastos": 6272839.62
+      },
+      "4": {
+        "valores_gastos": 526674.1000000001
+      },
+      "5": {
+        "valores_gastos": 2000732.21
+      },
+      "6": {
+        "valores_gastos": 8110570.99
+      },
+      "7": {
+        "valores_gastos": 1906941.61
+      },
+      "8": {
+        "valores_gastos": 5957917.25
+      },
+      "9": {
+        "valores_gastos": 736562.7100000001
+      },
+      "10": {
+        "valores_gastos": 5820815.57
+      },
+      "11": {
+        "valores_gastos": 90928.26999999999
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 76494901.92
   }
 }

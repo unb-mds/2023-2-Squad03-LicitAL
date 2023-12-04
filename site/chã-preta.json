@@ -1,5 +1,5 @@
 {
-  "id": "cha-preta",
+  "id": "chã-preta",
   "nome": "CHÃ PRETA",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 1551.36
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 165.24
+      },
+      "2": {
+        "valores_gastos": 3863770.74
+      },
+      "3": {
+        "valores_gastos": 881885.37
+      },
+      "4": {
+        "valores_gastos": 38133.11
+      },
+      "5": {
+        "valores_gastos": 3594943.1000000006
+      },
+      "6": {
+        "valores_gastos": 14589.81
+      },
+      "7": {
+        "valores_gastos": 70000.0
+      },
+      "8": {
+        "valores_gastos": 2276395.39
+      },
+      "9": {
+        "valores_gastos": 369818.03
+      },
+      "10": {
+        "valores_gastos": 723608.98
+      },
+      "11": {
+        "valores_gastos": 18786538.259999998
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 57080847.88999999
   }
 }

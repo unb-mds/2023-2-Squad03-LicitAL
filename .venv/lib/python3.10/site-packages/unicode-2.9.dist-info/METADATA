@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unicode
+Version: 2.9
+Summary: Display unicode character properties
+Home-page: http://kassiopeia.juls.savba.sk/~garabik/software/unicode.html
+Author: Radovan Garabik
+Author-email: radovan.garabik@kassiopeia.juls.savba.sk
+License: GNU GPL v3
+Keywords: unicode,character properties,encoding
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Utilities
+
+
+Display unicode character properties:
+Enter regular expression, hexadecimal number or some characters as an
+argument. unicode will try to guess what you want to look up.
+Use four-digit hexadecimal number followed by two dots to display
+given unicode block in a nice tabular format.
+
+

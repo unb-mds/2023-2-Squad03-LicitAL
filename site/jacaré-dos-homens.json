@@ -1,5 +1,5 @@
 {
-  "id": "jacare-dos-homens",
+  "id": "jacaré-dos-homens",
   "nome": "JACARÉ DOS HOMENS",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 120000.0
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 230407.84
+      },
+      "2": {
+        "valores_gastos": 118928.19
+      },
+      "3": {
+        "valores_gastos": 5778063.4799999995
+      },
+      "4": {
+        "valores_gastos": 150000.0
+      },
+      "5": {
+        "valores_gastos": 2669416.76
+      },
+      "6": {
+        "valores_gastos": 1268465.2
+      },
+      "7": {
+        "valores_gastos": 680251.85
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 210266.16
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 22694020.519999996
   }
 }

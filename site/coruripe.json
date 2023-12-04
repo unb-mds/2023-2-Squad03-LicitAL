@@ -15,6 +15,17 @@
       "11": {
         "valores_gastos": 0.0
       }
+    },
+    "2023": {
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 0.0
   }
 }

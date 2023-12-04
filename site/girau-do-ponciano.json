@@ -1,0 +1,44 @@
+{
+  "id": "girau-do-ponciano",
+  "nome": "GIRAU DO PONCIANO",
+  "detalhe": {
+    "2023": {
+      "1": {
+        "valores_gastos": 17921010.46
+      },
+      "2": {
+        "valores_gastos": 38145139.68
+      },
+      "3": {
+        "valores_gastos": 26925170.439999998
+      },
+      "4": {
+        "valores_gastos": 10154057.1
+      },
+      "5": {
+        "valores_gastos": 1624437.5
+      },
+      "6": {
+        "valores_gastos": 12409120.200000001
+      },
+      "7": {
+        "valores_gastos": 21835063.96
+      },
+      "8": {
+        "valores_gastos": 79034942.47
+      },
+      "9": {
+        "valores_gastos": 116300398.33
+      },
+      "10": {
+        "valores_gastos": 57655711.370000005
+      },
+      "11": {
+        "valores_gastos": 21300103.64
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 403305155.15
+  }
+}

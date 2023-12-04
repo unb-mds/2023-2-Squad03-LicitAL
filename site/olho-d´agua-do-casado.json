@@ -1,5 +1,5 @@
 {
-  "id": "olho-d agua-do-casado",
+  "id": "olho-d´agua-do-casado",
   "nome": "OLHO D´AGUA DO CASADO",
   "detalhe": {
     "2022": {
@@ -7,13 +7,13 @@
         "valores_gastos": 29988689.060000002
       },
       "2": {
-        "valores_gastos": 29011346.470000003
+        "valores_gastos": 36362977.57
       },
       "3": {
         "valores_gastos": 28667882.13
       },
       "4": {
-        "valores_gastos": 8015435.729999999
+        "valores_gastos": 10854825.389999999
       },
       "5": {
         "valores_gastos": 25943951.53
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 13132080.649999999
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 1652238.04
+      },
+      "2": {
+        "valores_gastos": 14173552.72
+      },
+      "3": {
+        "valores_gastos": 7083745.159999999
+      },
+      "4": {
+        "valores_gastos": 8715105.12
+      },
+      "5": {
+        "valores_gastos": 22463743.769999996
+      },
+      "6": {
+        "valores_gastos": 24241271.939999998
+      },
+      "7": {
+        "valores_gastos": 12286890.57
+      },
+      "8": {
+        "valores_gastos": 23978754.53
+      },
+      "9": {
+        "valores_gastos": 16053459.21
+      },
+      "10": {
+        "valores_gastos": 24296461.070000004
+      },
+      "11": {
+        "valores_gastos": 2163497.8000000003
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 555608125.06
   }
 }

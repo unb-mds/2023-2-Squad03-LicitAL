@@ -1,0 +1,41 @@
+{
+  "id": "matriz-de-camaragibe",
+  "nome": "MATRIZ DE CAMARAGIBE",
+  "detalhe": {
+    "2023": {
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 286000.0
+      },
+      "4": {
+        "valores_gastos": 504000.0
+      },
+      "5": {
+        "valores_gastos": 6864583.600000001
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 188520.0
+      },
+      "8": {
+        "valores_gastos": 9126987.19
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 47496540.0
+      },
+      "11": {
+        "valores_gastos": 16999978.8
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 81466609.59
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "id": "sao-jose-da-tapera",
+  "id": "são-josé-da-tapera",
   "nome": "SÃO JOSÉ DA TAPERA",
   "detalhe": {
     "2022": {
       "1": {
-        "valores_gastos": 1206601.13
+        "valores_gastos": 1241601.13
       },
       "2": {
-        "valores_gastos": 2184662.0
+        "valores_gastos": 2193762.0
       },
       "3": {
         "valores_gastos": 567657.0
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 2836449537.44
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 233316.0
+      },
+      "2": {
+        "valores_gastos": 1031784.0
+      },
+      "3": {
+        "valores_gastos": 9675240.01
+      },
+      "4": {
+        "valores_gastos": 12119735.5
+      },
+      "5": {
+        "valores_gastos": 8513897.13
+      },
+      "6": {
+        "valores_gastos": 582330.0
+      },
+      "7": {
+        "valores_gastos": 216066.82
+      },
+      "8": {
+        "valores_gastos": 150334.97
+      },
+      "9": {
+        "valores_gastos": 187000.0
+      },
+      "10": {
+        "valores_gastos": 342820.0
+      },
+      "11": {
+        "valores_gastos": 2423445.8100000005
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 6192404592.42
   }
 }

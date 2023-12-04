@@ -1,5 +1,5 @@
 {
-  "id": "agua-branca",
+  "id": "água-branca",
   "nome": "ÁGUA BRANCA",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 217500.0
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 5067322.17
+      },
+      "2": {
+        "valores_gastos": 16298544.75
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 7700.0
+      },
+      "6": {
+        "valores_gastos": 80000.0
+      },
+      "7": {
+        "valores_gastos": 33744364.239999995
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 26034287.219999995
+      },
+      "10": {
+        "valores_gastos": 1784000.0
+      },
+      "11": {
+        "valores_gastos": 447940.51000000007
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 298890550.81999993
   }
 }

@@ -1,5 +1,5 @@
 {
-  "id": "monteiropolis",
+  "id": "monteirópolis",
   "nome": "MONTEIRÓPOLIS",
   "detalhe": {
     "2022": {
@@ -39,6 +39,44 @@
       "12": {
         "valores_gastos": 2033795.74
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 538806.05
+      },
+      "4": {
+        "valores_gastos": 56173.16
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 197715.46000000002
+      },
+      "7": {
+        "valores_gastos": 12000.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 1067026.34
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 6405232.89
   }
 }

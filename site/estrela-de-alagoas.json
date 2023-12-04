@@ -4,7 +4,7 @@
   "detalhe": {
     "2022": {
       "1": {
-        "valores_gastos": 675760.26
+        "valores_gastos": 773260.26
       },
       "2": {
         "valores_gastos": 2359216.39
@@ -13,7 +13,7 @@
         "valores_gastos": 32915.6
       },
       "4": {
-        "valores_gastos": 25115250.689999998
+        "valores_gastos": 25208296.689999998
       },
       "5": {
         "valores_gastos": 17351906.64
@@ -39,6 +39,26 @@
       "12": {
         "valores_gastos": 29686350.32
       }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 10957999.67
+      },
+      "2": {
+        "valores_gastos": 2772179.46
+      },
+      "3": {
+        "valores_gastos": 13356810.77
+      },
+      "4": {
+        "valores_gastos": 3111763.82
+      },
+      "5": {
+        "valores_gastos": 331052.0
+      }
     }
+  },
+  "resumo": {
+    "valores_gastos": 119904012.24999999
   }
 }
