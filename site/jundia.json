@@ -1,0 +1,82 @@
+{
+  "id": "jundia",
+  "nome": "JUNDIÁ",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 1752488.7999999998
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 6833891.58
+      },
+      "4": {
+        "valores_gastos": 2213787.8
+      },
+      "5": {
+        "valores_gastos": 12003378.0
+      },
+      "6": {
+        "valores_gastos": 3916099.54
+      },
+      "7": {
+        "valores_gastos": 233607.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 21836603.32
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 14386222.32
+      },
+      "12": {
+        "valores_gastos": 3412566.8
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 347243.3
+      },
+      "2": {
+        "valores_gastos": 4461116.8
+      },
+      "3": {
+        "valores_gastos": 10147033.969999999
+      },
+      "4": {
+        "valores_gastos": 51824.0
+      },
+      "5": {
+        "valores_gastos": 197752.25
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 628826.7
+      },
+      "8": {
+        "valores_gastos": 10439791.72
+      },
+      "9": {
+        "valores_gastos": 1568274.0
+      },
+      "10": {
+        "valores_gastos": 1829176.16
+      },
+      "11": {
+        "valores_gastos": 989374.2
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 97249058.25999999
+  }
+}

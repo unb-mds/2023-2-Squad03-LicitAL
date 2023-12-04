@@ -1,0 +1,82 @@
+{
+  "id": "santana-do-mundau",
+  "nome": "SANTANA DO MUNDAÚ",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 795513.42
+      },
+      "2": {
+        "valores_gastos": 8804299.51
+      },
+      "3": {
+        "valores_gastos": 4832630.27
+      },
+      "4": {
+        "valores_gastos": 157950.0
+      },
+      "5": {
+        "valores_gastos": 25043442.34
+      },
+      "6": {
+        "valores_gastos": 7170528.08
+      },
+      "7": {
+        "valores_gastos": 4197645.289999999
+      },
+      "8": {
+        "valores_gastos": 4583823.4
+      },
+      "9": {
+        "valores_gastos": 16579454.27
+      },
+      "10": {
+        "valores_gastos": 797228.9299999999
+      },
+      "11": {
+        "valores_gastos": 12160933.030000001
+      },
+      "12": {
+        "valores_gastos": 20942105.85
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 3538777.96
+      },
+      "2": {
+        "valores_gastos": 7177123.180000001
+      },
+      "3": {
+        "valores_gastos": 7992782.900000001
+      },
+      "4": {
+        "valores_gastos": 47612.8
+      },
+      "5": {
+        "valores_gastos": 5220934.77
+      },
+      "6": {
+        "valores_gastos": 978252.2
+      },
+      "7": {
+        "valores_gastos": 23832179.970000003
+      },
+      "8": {
+        "valores_gastos": 2131842.42
+      },
+      "9": {
+        "valores_gastos": 8535656.97
+      },
+      "10": {
+        "valores_gastos": 3606761.25
+      },
+      "11": {
+        "valores_gastos": 2893691.33
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 172021170.14000002
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "viosa",
+  "nome": "VIÇOSA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 4243252.99
+      },
+      "2": {
+        "valores_gastos": 3504507.9
+      },
+      "3": {
+        "valores_gastos": 2922488.0300000003
+      },
+      "4": {
+        "valores_gastos": 7857958.14
+      },
+      "5": {
+        "valores_gastos": 2326254.58
+      },
+      "6": {
+        "valores_gastos": 26312726.68
+      },
+      "7": {
+        "valores_gastos": 5443020.66
+      },
+      "8": {
+        "valores_gastos": 6459513.589999999
+      },
+      "9": {
+        "valores_gastos": 35212557.879999995
+      },
+      "10": {
+        "valores_gastos": 4511943.59
+      },
+      "11": {
+        "valores_gastos": 18306877.220000003
+      },
+      "12": {
+        "valores_gastos": 113234755.53999999
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 19493108.880000003
+      },
+      "2": {
+        "valores_gastos": 19756928.439999998
+      },
+      "3": {
+        "valores_gastos": 7629306.15
+      },
+      "4": {
+        "valores_gastos": 5113442.6
+      },
+      "5": {
+        "valores_gastos": 18268494.29
+      },
+      "6": {
+        "valores_gastos": 18016553.090000004
+      },
+      "7": {
+        "valores_gastos": 8684798.47
+      },
+      "8": {
+        "valores_gastos": 24608464.77
+      },
+      "9": {
+        "valores_gastos": 2703642.7299999995
+      },
+      "10": {
+        "valores_gastos": 1776086.77
+      },
+      "11": {
+        "valores_gastos": 6463669.399999999
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 362850352.39
+  }
+}

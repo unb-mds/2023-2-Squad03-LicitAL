@@ -1,0 +1,82 @@
+{
+  "id": "monteiropolis",
+  "nome": "MONTEIRÓPOLIS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 162220.0
+      },
+      "3": {
+        "valores_gastos": 337142.29000000004
+      },
+      "4": {
+        "valores_gastos": 17455.0
+      },
+      "5": {
+        "valores_gastos": 270737.78
+      },
+      "6": {
+        "valores_gastos": 209725.8
+      },
+      "7": {
+        "valores_gastos": 8730.0
+      },
+      "8": {
+        "valores_gastos": 10000.0
+      },
+      "9": {
+        "valores_gastos": 1447555.27
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 36150.0
+      },
+      "12": {
+        "valores_gastos": 2033795.74
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 538806.05
+      },
+      "4": {
+        "valores_gastos": 56173.16
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 197715.46000000002
+      },
+      "7": {
+        "valores_gastos": 12000.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 1067026.34
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 6405232.89
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "tanque-darca",
+  "nome": "TANQUE D´ARCA",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 1554840.24
+      },
+      "2": {
+        "valores_gastos": 4469393.609999999
+      },
+      "3": {
+        "valores_gastos": 8197391.47
+      },
+      "4": {
+        "valores_gastos": 4344392.3
+      },
+      "5": {
+        "valores_gastos": 5720892.529999999
+      },
+      "6": {
+        "valores_gastos": 2326611.84
+      },
+      "7": {
+        "valores_gastos": 16223535.07
+      },
+      "8": {
+        "valores_gastos": 6466916.18
+      },
+      "9": {
+        "valores_gastos": 4860165.989999999
+      },
+      "10": {
+        "valores_gastos": 3301403.3600000003
+      },
+      "11": {
+        "valores_gastos": 11605588.120000001
+      },
+      "12": {
+        "valores_gastos": 72664833.24000001
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 5102740.06
+      },
+      "2": {
+        "valores_gastos": 6211912.62
+      },
+      "3": {
+        "valores_gastos": 5660781.2
+      },
+      "4": {
+        "valores_gastos": 2129100.06
+      },
+      "5": {
+        "valores_gastos": 113500.0
+      },
+      "6": {
+        "valores_gastos": 2739055.75
+      },
+      "7": {
+        "valores_gastos": 1113335.25
+      },
+      "8": {
+        "valores_gastos": 2263605.62
+      },
+      "9": {
+        "valores_gastos": 770490.7
+      },
+      "10": {
+        "valores_gastos": 1588703.45
+      },
+      "11": {
+        "valores_gastos": 784141.0
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 170213329.66
+  }
+}

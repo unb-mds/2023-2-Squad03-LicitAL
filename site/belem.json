@@ -1,0 +1,82 @@
+{
+  "id": "belem",
+  "nome": "BELÉM",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 7078412.55
+      },
+      "2": {
+        "valores_gastos": 7950121.149999999
+      },
+      "3": {
+        "valores_gastos": 1325953.6800000002
+      },
+      "4": {
+        "valores_gastos": 1436778.4
+      },
+      "5": {
+        "valores_gastos": 10265261.760000002
+      },
+      "6": {
+        "valores_gastos": 255059.23
+      },
+      "7": {
+        "valores_gastos": 2267332.48
+      },
+      "8": {
+        "valores_gastos": 614308.75
+      },
+      "9": {
+        "valores_gastos": 1405455.08
+      },
+      "10": {
+        "valores_gastos": 5673480.5200000005
+      },
+      "11": {
+        "valores_gastos": 1005672.2
+      },
+      "12": {
+        "valores_gastos": 41081.8
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 4565727.49
+      },
+      "2": {
+        "valores_gastos": 1186274.5
+      },
+      "3": {
+        "valores_gastos": 6272839.62
+      },
+      "4": {
+        "valores_gastos": 526674.1000000001
+      },
+      "5": {
+        "valores_gastos": 2000732.21
+      },
+      "6": {
+        "valores_gastos": 8110570.99
+      },
+      "7": {
+        "valores_gastos": 1906941.61
+      },
+      "8": {
+        "valores_gastos": 5957917.25
+      },
+      "9": {
+        "valores_gastos": 736562.7100000001
+      },
+      "10": {
+        "valores_gastos": 5820815.57
+      },
+      "11": {
+        "valores_gastos": 90928.26999999999
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 76494901.92
+  }
+}

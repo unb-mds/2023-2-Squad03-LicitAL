@@ -1,0 +1,82 @@
+{
+  "id": "barra-de-sao-miguel",
+  "nome": "BARRA DE SÃO MIGUEL",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 3875154.22
+      },
+      "2": {
+        "valores_gastos": 4161946.01
+      },
+      "3": {
+        "valores_gastos": 10128209.74
+      },
+      "4": {
+        "valores_gastos": 16099911.360000001
+      },
+      "5": {
+        "valores_gastos": 7014484.460000001
+      },
+      "6": {
+        "valores_gastos": 7649269.9399999995
+      },
+      "7": {
+        "valores_gastos": 2163902.65
+      },
+      "8": {
+        "valores_gastos": 7071343.39
+      },
+      "9": {
+        "valores_gastos": 14921421.29
+      },
+      "10": {
+        "valores_gastos": 16500.0
+      },
+      "11": {
+        "valores_gastos": 12286531.700000001
+      },
+      "12": {
+        "valores_gastos": 18568440.939999998
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 517181.70999999996
+      },
+      "2": {
+        "valores_gastos": 1061650.0
+      },
+      "3": {
+        "valores_gastos": 51462859.120000005
+      },
+      "4": {
+        "valores_gastos": 3627697.78
+      },
+      "5": {
+        "valores_gastos": 18604395.1
+      },
+      "6": {
+        "valores_gastos": 26643378.18
+      },
+      "7": {
+        "valores_gastos": 13131984.46
+      },
+      "8": {
+        "valores_gastos": 5930811.0200000005
+      },
+      "9": {
+        "valores_gastos": 6471677.710000001
+      },
+      "10": {
+        "valores_gastos": 3121749.54
+      },
+      "11": {
+        "valores_gastos": 14910443.059999999
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 249440943.38000003
+  }
+}

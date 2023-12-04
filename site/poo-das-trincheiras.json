@@ -1,0 +1,82 @@
+{
+  "id": "poo-das-trincheiras",
+  "nome": "POÇO DAS TRINCHEIRAS",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 178664535.0
+      },
+      "2": {
+        "valores_gastos": 1712988.38
+      },
+      "3": {
+        "valores_gastos": 432388.0
+      },
+      "4": {
+        "valores_gastos": 5414714.75
+      },
+      "5": {
+        "valores_gastos": 1482633.9000000001
+      },
+      "6": {
+        "valores_gastos": 7810213.390000001
+      },
+      "7": {
+        "valores_gastos": 180100.0
+      },
+      "8": {
+        "valores_gastos": 13650009.93
+      },
+      "9": {
+        "valores_gastos": 9554699.28
+      },
+      "10": {
+        "valores_gastos": 1177106.7
+      },
+      "11": {
+        "valores_gastos": 17818977.68
+      },
+      "12": {
+        "valores_gastos": 3971030.66
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 10909345.809999999
+      },
+      "2": {
+        "valores_gastos": 11917838.399999999
+      },
+      "3": {
+        "valores_gastos": 858950.0
+      },
+      "4": {
+        "valores_gastos": 5429435.140000001
+      },
+      "5": {
+        "valores_gastos": 4229790.02
+      },
+      "6": {
+        "valores_gastos": 9158172.91
+      },
+      "7": {
+        "valores_gastos": 2520561.0
+      },
+      "8": {
+        "valores_gastos": 5619300.5
+      },
+      "9": {
+        "valores_gastos": 512073.70999999996
+      },
+      "10": {
+        "valores_gastos": 995690.17
+      },
+      "11": {
+        "valores_gastos": 4922882.22
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 298943437.5500001
+  }
+}

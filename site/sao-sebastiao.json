@@ -1,0 +1,82 @@
+{
+  "id": "sao-sebastiao",
+  "nome": "SÃO SEBASTIÃO",
+  "detalhe": {
+    "2022": {
+      "1": {
+        "valores_gastos": 6883797.81
+      },
+      "2": {
+        "valores_gastos": 1060699.2
+      },
+      "3": {
+        "valores_gastos": 1241625.5
+      },
+      "4": {
+        "valores_gastos": 3969265.4000000004
+      },
+      "5": {
+        "valores_gastos": 2215320.37
+      },
+      "6": {
+        "valores_gastos": 2574155.46
+      },
+      "7": {
+        "valores_gastos": 3975006.27
+      },
+      "8": {
+        "valores_gastos": 1593047.4300000002
+      },
+      "9": {
+        "valores_gastos": 2732749.3499999996
+      },
+      "10": {
+        "valores_gastos": 7101635.91
+      },
+      "11": {
+        "valores_gastos": 2198357.59
+      },
+      "12": {
+        "valores_gastos": 2433680.0
+      }
+    },
+    "2023": {
+      "1": {
+        "valores_gastos": 4591152.0
+      },
+      "2": {
+        "valores_gastos": 17010661.5
+      },
+      "3": {
+        "valores_gastos": 19497236.31
+      },
+      "4": {
+        "valores_gastos": 9533188.99
+      },
+      "5": {
+        "valores_gastos": 4929106.04
+      },
+      "6": {
+        "valores_gastos": 2108440.0
+      },
+      "7": {
+        "valores_gastos": 1951759.6099999996
+      },
+      "8": {
+        "valores_gastos": 1618833.97
+      },
+      "9": {
+        "valores_gastos": 2294851.7199999997
+      },
+      "10": {
+        "valores_gastos": 2769611.8
+      },
+      "11": {
+        "valores_gastos": 24551982.7
+      }
+    }
+  },
+  "resumo": {
+    "valores_gastos": 128836164.92999999
+  }
+}
