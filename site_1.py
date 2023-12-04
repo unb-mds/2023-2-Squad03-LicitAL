@@ -1,6 +1,6 @@
 import json
 import os
-
+import re
 
 # Certifique-se de que a pasta 'site' existe
 if not os.path.exists('site'):
@@ -14,9 +14,21 @@ with open('api.json', 'r', encoding='utf-8') as f:
 municipios = {}
 
 # Iterar sobre cada item no JSON
+def remover_acentos_e_espacos(input_str):
+    # Substituir espaços por hífen
+    str_com_hifen = input_str.replace(" ", "-")
+    # Utilizar expressões regulares para substituir acentos por suas letras correspondentes
+    str_sem_acentos = re.sub(r'[áãâàä]', 'a', str_com_hifen, flags=re.IGNORECASE)
+    str_sem_acentos = re.sub(r'[éêèë]', 'e', str_sem_acentos, flags=re.IGNORECASE)
+    str_sem_acentos = re.sub(r'[íîìï]', 'i', str_sem_acentos, flags=re.IGNORECASE)
+    str_sem_acentos = re.sub(r'[óõôòö]', 'o', str_sem_acentos, flags=re.IGNORECASE)
+    str_sem_acentos = re.sub(r'[úûùü]', 'u', str_sem_acentos, flags=re.IGNORECASE)
+    # Utilizar expressões regulares para remover outros caracteres especiais
+    return re.sub(r'[^a-zA-Z0-9-]', '', str_sem_acentos)
+
 for item in data:
-    # Obter o id do município (nome em minúsculas e sem espaços)
-    id_municipio = item["municipio"].lower().replace(" ", "-")
+    # Obter o id do município (nome em minúsculas, sem espaços, sem acentos)
+    id_municipio = remover_acentos_e_espacos(item["municipio"].lower())
 
     # Se o município ainda não está no dicionário, adicionar
     if id_municipio not in municipios:
