@@ -3,6 +3,9 @@
   "nome": "POÇO DAS TRINCHEIRAS",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 241869397.67000002
+      },
       "1": {
         "valores_gastos": 178664535.0
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 57074039.88
+      },
       "1": {
         "valores_gastos": 10909345.809999999
       },

@@ -3,6 +3,9 @@
   "nome": "FELIZ DESERTO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 13186553.22
+      },
       "1": {
         "valores_gastos": 4477778.390000001
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 18900268.199999996
+      },
       "1": {
         "valores_gastos": 1656904.8499999999
       },

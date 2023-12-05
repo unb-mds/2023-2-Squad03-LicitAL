@@ -3,6 +3,9 @@
   "nome": "OLHO D´ÁGUA GRANDE",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 31472469.83
+      },
       "2": {
         "valores_gastos": 31472469.83
       },
@@ -29,6 +32,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 23500391.959999997
+      },
       "1": {
         "valores_gastos": 0.0
       },

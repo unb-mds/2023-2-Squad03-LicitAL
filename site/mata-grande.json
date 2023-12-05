@@ -3,6 +3,9 @@
   "nome": "MATA GRANDE",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 184928734.02
+      },
       "1": {
         "valores_gastos": 56964033.260000005
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 120382329.56
+      },
       "1": {
         "valores_gastos": 14357393.67
       },

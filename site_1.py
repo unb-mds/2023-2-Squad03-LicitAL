@@ -40,12 +40,20 @@ for item in data:
         }
 
     # Adicionar os valores gastos ao município
-    if str(item["ano"]) not in municipios[id_municipio]["detalhe"]:
-        municipios[id_municipio]["detalhe"][str(item["ano"])] = {}
+    # Adicionar os valores gastos ao município
+    ano = str(item["ano"])
+    if ano not in municipios[id_municipio]["detalhe"]:
+        municipios[id_municipio]["detalhe"][ano] = {
+            "resumo": {"valores_gastos": 0}  # Inicializar o resumo do ano com valores_gastos como 0
+        }
 
     municipios[id_municipio]["detalhe"][str(item["ano"])][str(item["mes"])] = {
         "valores_gastos": item["valores_gastos"]
     }
+
+    # Adicionar os valores gastos ao resumo do ano
+    municipios[id_municipio]["detalhe"][ano]["resumo"]["valores_gastos"] += item["valores_gastos"]
+
 
     # Adicionar os valores gastos ao resumo
     municipios[id_municipio]["resumo"]["valores_gastos"] += item["valores_gastos"]

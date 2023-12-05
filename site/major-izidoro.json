@@ -3,6 +3,9 @@
   "nome": "MAJOR IZIDORO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 47911263.79
+      },
       "1": {
         "valores_gastos": 3088586.79
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 117357180.28000002
+      },
       "1": {
         "valores_gastos": 8526623.56
       },

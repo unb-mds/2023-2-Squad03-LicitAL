@@ -3,6 +3,9 @@
   "nome": "CRAÍBAS",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 710587620.8399999
+      },
       "1": {
         "valores_gastos": 48695.82
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 3393735.049999999
+      },
       "1": {
         "valores_gastos": 123006.37
       },

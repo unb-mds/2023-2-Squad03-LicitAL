@@ -3,6 +3,9 @@
   "nome": "CAJUEIRO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 45138424.56
+      },
       "1": {
         "valores_gastos": 11913224.98
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 20633006.150000002
+      },
       "1": {
         "valores_gastos": 560975.9
       },

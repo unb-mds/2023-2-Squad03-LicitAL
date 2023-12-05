@@ -3,6 +3,9 @@
   "nome": "JEQUIÁ DA PRAIA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 940481526.18
+      },
       "1": {
         "valores_gastos": 791557343.9200001
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 108395862.77
+      },
       "1": {
         "valores_gastos": 6752944.0
       },

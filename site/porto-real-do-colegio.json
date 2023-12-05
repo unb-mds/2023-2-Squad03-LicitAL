@@ -3,6 +3,9 @@
   "nome": "PORTO REAL DO COLÉGIO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 206760264.59999996
+      },
       "1": {
         "valores_gastos": 190977060.0
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 902365088.3900001
+      },
       "1": {
         "valores_gastos": 1784662.8499999999
       },

@@ -3,6 +3,9 @@
   "nome": "PASSO DE CAMARAGIBE",
   "detalhe": {
     "2023": {
+      "resumo": {
+        "valores_gastos": 19151104.4
+      },
       "1": {
         "valores_gastos": 3000.0
       },

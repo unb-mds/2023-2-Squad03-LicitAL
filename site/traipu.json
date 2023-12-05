@@ -3,6 +3,9 @@
   "nome": "TRAIPÚ",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 65860283.379999995
+      },
       "1": {
         "valores_gastos": 0.0
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 113560143.28
+      },
       "1": {
         "valores_gastos": 1412477.66
       },

@@ -3,6 +3,9 @@
   "nome": "TANQUE D´ARCA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 141735963.95000002
+      },
       "1": {
         "valores_gastos": 1554840.24
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 28477365.709999997
+      },
       "1": {
         "valores_gastos": 5102740.06
       },

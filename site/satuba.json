@@ -3,6 +3,9 @@
   "nome": "SATUBA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 165463983.53
+      },
       "1": {
         "valores_gastos": 39240726.8
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 79419953.35
+      },
       "1": {
         "valores_gastos": 10712964.34
       },

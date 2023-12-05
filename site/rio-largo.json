@@ -3,6 +3,9 @@
   "nome": "RIO LARGO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 1683729967.76
+      },
       "1": {
         "valores_gastos": 27073436.57
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 1682163802.4499996
+      },
       "1": {
         "valores_gastos": 1380009673.9999998
       },

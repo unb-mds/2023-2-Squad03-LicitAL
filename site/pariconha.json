@@ -3,6 +3,9 @@
   "nome": "PARICONHA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 84426289.02999999
+      },
       "1": {
         "valores_gastos": 12466354.11
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 368014061.25
+      },
       "1": {
         "valores_gastos": 49092693.089999996
       },

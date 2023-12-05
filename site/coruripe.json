@@ -3,6 +3,9 @@
   "nome": "CORURIPE",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 0.0
+      },
       "2": {
         "valores_gastos": 0.0
       },
@@ -17,6 +20,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 0.0
+      },
       "2": {
         "valores_gastos": 0.0
       },

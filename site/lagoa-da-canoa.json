@@ -3,6 +3,9 @@
   "nome": "LAGOA DA CANOA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 58066581.22999999
+      },
       "1": {
         "valores_gastos": 3433730.0
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 27015988.130000003
+      },
       "1": {
         "valores_gastos": 2436932.0
       },

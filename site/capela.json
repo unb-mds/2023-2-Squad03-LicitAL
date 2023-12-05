@@ -3,6 +3,9 @@
   "nome": "CAPELA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 29219046.85
+      },
       "2": {
         "valores_gastos": 300852.8
       },
@@ -38,6 +41,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 17419568.189999998
+      },
       "1": {
         "valores_gastos": 200000.0
       },

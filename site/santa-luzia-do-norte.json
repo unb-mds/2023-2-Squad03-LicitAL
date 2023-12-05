@@ -3,6 +3,9 @@
   "nome": "SANTA LUZIA DO NORTE",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 745586571.51
+      },
       "1": {
         "valores_gastos": 336032935.06
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 64274504.92
+      },
       "1": {
         "valores_gastos": 5100654.760000001
       },

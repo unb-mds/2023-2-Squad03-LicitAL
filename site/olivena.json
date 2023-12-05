@@ -3,6 +3,9 @@
   "nome": "OLIVENÇA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 1386017.37
+      },
       "1": {
         "valores_gastos": 549712.98
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 10630689.580000002
+      },
       "1": {
         "valores_gastos": 0.0
       },

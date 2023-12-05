@@ -3,6 +3,9 @@
   "nome": "PALESTINA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 23104326.22
+      },
       "1": {
         "valores_gastos": 75610.0
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 38564776.18999999
+      },
       "1": {
         "valores_gastos": 1164646.63
       },

@@ -3,6 +3,9 @@
   "nome": "FEIRA GRANDE RATIFICAÇÃO",
   "detalhe": {
     "2023": {
+      "resumo": {
+        "valores_gastos": 20000.0
+      },
       "9": {
         "valores_gastos": 20000.0
       }

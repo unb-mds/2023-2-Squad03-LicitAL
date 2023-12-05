@@ -3,6 +3,9 @@
   "nome": "COITÉ DO NÓIA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 77665552.1
+      },
       "1": {
         "valores_gastos": 1764825.96
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 81103510.42999999
+      },
       "1": {
         "valores_gastos": 23416207.9
       },

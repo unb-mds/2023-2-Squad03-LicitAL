@@ -3,6 +3,9 @@
   "nome": "MESSIAS",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 498779167.87
+      },
       "1": {
         "valores_gastos": 454766531.3
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 89380114.49000001
+      },
       "1": {
         "valores_gastos": 14604728.769999998
       },

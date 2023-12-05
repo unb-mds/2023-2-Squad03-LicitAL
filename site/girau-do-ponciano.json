@@ -3,6 +3,9 @@
   "nome": "GIRAU DO PONCIANO",
   "detalhe": {
     "2023": {
+      "resumo": {
+        "valores_gastos": 403305155.15
+      },
       "1": {
         "valores_gastos": 17921010.46
       },

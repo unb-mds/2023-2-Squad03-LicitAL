@@ -3,6 +3,9 @@
   "nome": "COQUEIRO SECO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 208901774.85999995
+      },
       "1": {
         "valores_gastos": 486262.57
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 83766039.69999999
+      },
       "1": {
         "valores_gastos": 1472976.3499999999
       },

@@ -3,6 +3,9 @@
   "nome": "ATALAIA",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 123540844.16999999
+      },
       "1": {
         "valores_gastos": 6104566.859999999
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 121160912.73999998
+      },
       "1": {
         "valores_gastos": 797153.78
       },

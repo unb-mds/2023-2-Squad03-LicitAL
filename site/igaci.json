@@ -3,6 +3,9 @@
   "nome": "IGACI",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 33525573.36
+      },
       "1": {
         "valores_gastos": 2163998.27
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 37754715.660000004
+      },
       "1": {
         "valores_gastos": 178800.5
       },

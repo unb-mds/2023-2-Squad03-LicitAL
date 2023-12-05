@@ -3,6 +3,9 @@
   "nome": "OURO BRANCO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 552028006.61
+      },
       "1": {
         "valores_gastos": 7199083.170000001
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 52970834.730000004
+      },
       "1": {
         "valores_gastos": 2091378.87
       },

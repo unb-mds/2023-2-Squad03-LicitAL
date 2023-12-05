@@ -3,6 +3,9 @@
   "nome": "OLHO D´AGUA DO CASADO",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 398499405.13
+      },
       "1": {
         "valores_gastos": 29988689.060000002
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 157108719.93
+      },
       "1": {
         "valores_gastos": 1652238.04
       },

@@ -3,6 +3,9 @@
   "nome": "SÃO LUIS DO QUITUNDE",
   "detalhe": {
     "2022": {
+      "resumo": {
+        "valores_gastos": 121447289.06
+      },
       "1": {
         "valores_gastos": 4322305.8
       },
@@ -41,6 +44,9 @@
       }
     },
     "2023": {
+      "resumo": {
+        "valores_gastos": 79867614.7
+      },
       "1": {
         "valores_gastos": 5449804.4
       },
