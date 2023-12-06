@@ -30,7 +30,6 @@ def extrair_valores(caminho_arquivo, resultado_json):
         for item_json in dados_json:
             # Converte a string JSON em um objeto Python (dicionário)
             data = json.loads(item_json)
-
             # Obtém o texto associado a cada cidade
             texto = data.get('texto', '')
             municipio = data['municipio']
@@ -42,9 +41,7 @@ def extrair_valores(caminho_arquivo, resultado_json):
                 # Verifica se o bloco contém palavras-chave relacionadas a licitações
                 if any(palavra_chave in bloco for palavra_chave in ['Licitação', 'licitação', 'licitacao', 'Licitacao']):
                     valor_total_cidade = 0.0
-                    # Realiza a lógica de extrair valores do bloco (adapte conforme necessário)
-                    # Aqui, por exemplo, você poderia utilizar expressões regulares para encontrar valores específicos.
-                    # Substitua essa lógica pela sua necessidade.
+
                     matches = re.finditer(r'R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)', bloco)
                     for match in matches:
                         valor_encontrado = match.group(1).replace('.', '').replace(',', '.')
