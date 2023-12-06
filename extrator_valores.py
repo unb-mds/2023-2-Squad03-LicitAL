@@ -23,43 +23,50 @@ def extrair_valores(caminho_arquivo, resultado_json):
         with open(caminho_arquivo, 'r', encoding='utf-8') as arquivo:
             dados_json = json.load(arquivo)
 
+        # Inicializa a lista de resultados para este arquivo
+        resultados_arquivo = []
+
         # Itera sobre os itens do JSON
         for item_json in dados_json:
             # Converte a string JSON em um objeto Python (dicionário)
             data = json.loads(item_json)
 
-            # Obtém o município de cada item
-            municipio = data['municipio']
-
             # Obtém o texto associado a cada cidade
-            texto = data['texto']
+            texto = data.get('texto', '')
+            municipio = data['municipio']
+            # Divide o texto em blocos usando "\nPublicado por:"
+            blocos = re.split(r'\nPublicado por:', texto)
 
-            # Inicializa uma variável para armazenar o valor total da cidade
-            valor_total_cidade = 0.0
+            # Itera sobre os blocos
+            for bloco in blocos:
+                # Verifica se o bloco contém palavras-chave relacionadas a licitações
+                if any(palavra_chave in bloco for palavra_chave in ['Licitação', 'licitação', 'licitacao', 'Licitacao']):
+                    valor_total_cidade = 0.0
+                    # Realiza a lógica de extrair valores do bloco (adapte conforme necessário)
+                    # Aqui, por exemplo, você poderia utilizar expressões regulares para encontrar valores específicos.
+                    # Substitua essa lógica pela sua necessidade.
+                    matches = re.finditer(r'R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)', bloco)
+                    for match in matches:
+                        valor_encontrado = match.group(1).replace('.', '').replace(',', '.')
+                        valor_float = float(valor_encontrado)
+                        valor_total_cidade += valor_float
+                    
+                    resultado_existente = next((result for result in resultados_existente if result["municipio"] == municipio and result["ano"] == int(mes_ano[:4]) and result["mes"] == int(mes_ano[5:])), None)
 
-            # Procura por valores no formato "R$ X.XXX,XX" ou "R$ XX.XXX,XX" ou ...
-            matches = re.finditer(r'R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)', texto)
-            for match in matches:
-                valor_encontrado = match.group(1).replace('.', '').replace(',', '.')
-                valor_float = float(valor_encontrado)
+                    if resultado_existente:
+                    # Se já existe, atualiza o valor
+                        resultado_existente["valores_gastos"] += valor_total_cidade
+                    else:
+                    # Adiciona um resultado à lista
+                        resultados_existente.append({
+                            "municipio": municipio,
+                            "valores_gastos": valor_total_cidade,
+                            "ano": int(mes_ano[:4]),
+                            "mes": int(mes_ano[5:])
+                        })
 
-                # Soma o valor ao total da cidade
-                valor_total_cidade += valor_float
-
-            # Verifica se já existe um resultado para o mesmo município no mesmo mês
-            resultado_existente = next((result for result in resultados_existente if result["municipio"] == municipio and result["ano"] == int(mes_ano[:4]) and result["mes"] == int(mes_ano[5:])), None)
-
-            if resultado_existente:
-                # Se já existe, atualiza o valor
-                resultado_existente["valores_gastos"] += valor_total_cidade
-            else:
-                # Se não existe, adiciona um novo resultado à lista
-                resultados_existente.append({
-                    "municipio": municipio,
-                    "valores_gastos": valor_total_cidade,
-                    "ano": int(mes_ano[:4]),
-                    "mes": int(mes_ano[5:])
-                })
+        # Adiciona os resultados deste arquivo aos resultados existentes
+        resultados_existente.extend(resultados_arquivo)
 
         # Salva os resultados no arquivo JSON com formatação de duas casas decimais
         with open(resultado_json, 'w', encoding='utf-8') as output_file:
