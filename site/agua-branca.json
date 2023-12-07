@@ -2,21 +2,62 @@
   "id": "agua-branca",
   "nome": "ÁGUA BRANCA",
   "detalhe": {
-    "2022": {
+    "2021": {
       "resumo": {
-        "valores_gastos": 215426391.93
+        "valores_gastos": 0.0
       },
       "1": {
-        "valores_gastos": 2716737.33
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 205753831.32
+      },
+      "1": {
+        "valores_gastos": 0.0
       },
       "2": {
         "valores_gastos": 200000000.0
       },
       "3": {
-        "valores_gastos": 341892.0
+        "valores_gastos": 0.0
       },
       "4": {
-        "valores_gastos": 198403.38
+        "valores_gastos": 0.0
       },
       "5": {
         "valores_gastos": 0.0
@@ -28,30 +69,30 @@
         "valores_gastos": 0.0
       },
       "8": {
-        "valores_gastos": 5854340.32
+        "valores_gastos": 5753831.32
       },
       "9": {
-        "valores_gastos": 343687.58
+        "valores_gastos": 0.0
       },
       "10": {
         "valores_gastos": 0.0
       },
       "11": {
-        "valores_gastos": 5753831.32
+        "valores_gastos": 0.0
       },
       "12": {
-        "valores_gastos": 217500.0
+        "valores_gastos": 0.0
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 83464158.89
+        "valores_gastos": 13412833.58
       },
       "1": {
-        "valores_gastos": 5067322.17
+        "valores_gastos": 78000.0
       },
       "2": {
-        "valores_gastos": 16298544.75
+        "valores_gastos": 0.0
       },
       "3": {
         "valores_gastos": 0.0
@@ -60,29 +101,26 @@
         "valores_gastos": 0.0
       },
       "5": {
-        "valores_gastos": 7700.0
+        "valores_gastos": 0.0
       },
       "6": {
         "valores_gastos": 80000.0
       },
       "7": {
-        "valores_gastos": 33744364.239999995
+        "valores_gastos": 0.0
       },
       "8": {
         "valores_gastos": 0.0
       },
       "9": {
-        "valores_gastos": 26034287.219999995
-      },
-      "10": {
-        "valores_gastos": 1784000.0
+        "valores_gastos": 13254833.58
       },
       "11": {
-        "valores_gastos": 447940.51000000007
+        "valores_gastos": 0.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 298890550.81999993
+    "valores_gastos": 219166664.9
   }
 }

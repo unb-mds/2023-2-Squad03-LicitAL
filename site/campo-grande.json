@@ -2,38 +2,135 @@
   "id": "campo-grande",
   "nome": "CAMPO GRANDE",
   "detalhe": {
-    "2022": {
+    "2017": {
       "resumo": {
-        "valores_gastos": 101962073.37000003
+        "valores_gastos": 2922435.51
+      },
+      "5": {
+        "valores_gastos": 134594.81
+      },
+      "8": {
+        "valores_gastos": 203066.7
+      },
+      "9": {
+        "valores_gastos": 994841.0
+      },
+      "11": {
+        "valores_gastos": 1589933.0
+      }
+    },
+    "2018": {
+      "resumo": {
+        "valores_gastos": 7536969.92
+      },
+      "1": {
+        "valores_gastos": 3900000.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 598000.0
+      },
+      "4": {
+        "valores_gastos": 155167.94
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 2717822.26
+      },
+      "9": {
+        "valores_gastos": 165979.72
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2019": {
+      "resumo": {
+        "valores_gastos": 1385485.58
       },
       "1": {
         "valores_gastos": 0.0
       },
       "2": {
-        "valores_gastos": 95531519.04000004
+        "valores_gastos": 494591.18
       },
       "3": {
-        "valores_gastos": 309540.05
-      },
-      "4": {
-        "valores_gastos": 0.0
-      },
-      "5": {
-        "valores_gastos": 0.0
-      },
-      "6": {
-        "valores_gastos": 112828.5
-      },
-      "7": {
         "valores_gastos": 0.0
       },
       "8": {
         "valores_gastos": 0.0
       },
-      "9": {
-        "valores_gastos": 2424.0
+      "11": {
+        "valores_gastos": 890894.4
+      }
+    },
+    "2020": {
+      "resumo": {
+        "valores_gastos": 3750219.49
       },
-      "10": {
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 3477741.73
+      },
+      "6": {
+        "valores_gastos": 137400.0
+      },
+      "7": {
+        "valores_gastos": 135077.76
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2021": {
+      "resumo": {
+        "valores_gastos": 15500.0
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 15500.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 51650109.32000001
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 45531519.04000001
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 112828.5
+      },
+      "8": {
         "valores_gastos": 0.0
       },
       "11": {
@@ -45,38 +142,17 @@
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 88952507.92
+        "valores_gastos": 0.0
       },
       "1": {
         "valores_gastos": 0.0
       },
-      "2": {
-        "valores_gastos": 0.0
-      },
-      "3": {
-        "valores_gastos": 0.0
-      },
       "4": {
-        "valores_gastos": 0.0
-      },
-      "5": {
-        "valores_gastos": 88952507.92
-      },
-      "8": {
-        "valores_gastos": 0.0
-      },
-      "9": {
-        "valores_gastos": 0.0
-      },
-      "10": {
-        "valores_gastos": 0.0
-      },
-      "11": {
         "valores_gastos": 0.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 190914581.29000002
+    "valores_gastos": 67260719.82000001
   }
 }

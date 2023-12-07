@@ -2,69 +2,101 @@
   "id": "estrela-de-alagoas",
   "nome": "ESTRELA DE ALAGOAS",
   "detalhe": {
-    "2022": {
+    "2021": {
       "resumo": {
-        "valores_gastos": 89374206.53
-      },
-      "1": {
-        "valores_gastos": 773260.26
-      },
-      "2": {
-        "valores_gastos": 2359216.39
-      },
-      "3": {
-        "valores_gastos": 32915.6
+        "valores_gastos": 1490776.73
       },
       "4": {
-        "valores_gastos": 25208296.689999998
+        "valores_gastos": 151680.0
       },
       "5": {
-        "valores_gastos": 17351906.64
+        "valores_gastos": 136077.2
       },
       "6": {
-        "valores_gastos": 383615.6
+        "valores_gastos": 0.0
       },
       "7": {
-        "valores_gastos": 4697660.98
+        "valores_gastos": 0.0
       },
       "8": {
-        "valores_gastos": 349190.0
+        "valores_gastos": 428896.35
       },
       "9": {
-        "valores_gastos": 3927115.16
+        "valores_gastos": 81756.24
       },
       "10": {
-        "valores_gastos": 3268248.75
+        "valores_gastos": 0.0
       },
       "11": {
-        "valores_gastos": 1336430.1400000001
+        "valores_gastos": 692366.94
       },
       "12": {
-        "valores_gastos": 29686350.32
+        "valores_gastos": 0.0
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 30578112.54
+      },
+      "1": {
+        "valores_gastos": 615265.45
+      },
+      "2": {
+        "valores_gastos": 59382.31
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 7873983.35
+      },
+      "5": {
+        "valores_gastos": 732999.74
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 520815.23
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 20775666.46
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 30529805.72
+        "valores_gastos": 11909133.740000002
       },
       "1": {
-        "valores_gastos": 10957999.67
+        "valores_gastos": 10674711.520000001
       },
       "2": {
-        "valores_gastos": 2772179.46
+        "valores_gastos": 0.0
       },
       "3": {
-        "valores_gastos": 13356810.77
+        "valores_gastos": 253722.22
       },
       "4": {
-        "valores_gastos": 3111763.82
+        "valores_gastos": 980700.0
       },
       "5": {
-        "valores_gastos": 331052.0
+        "valores_gastos": 0.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 119904012.24999999
+    "valores_gastos": 43978023.010000005
   }
 }

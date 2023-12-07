@@ -2,87 +2,150 @@
   "id": "tanque-darca",
   "nome": "TANQUE D´ARCA",
   "detalhe": {
+    "2019": {
+      "resumo": {
+        "valores_gastos": 7396510.640000001
+      },
+      "10": {
+        "valores_gastos": 5241785.600000001
+      },
+      "11": {
+        "valores_gastos": 2154725.04
+      }
+    },
+    "2020": {
+      "resumo": {
+        "valores_gastos": 4969311.69
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 234448.15000000002
+      },
+      "12": {
+        "valores_gastos": 4734863.54
+      }
+    },
+    "2021": {
+      "resumo": {
+        "valores_gastos": 27941796.410000004
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 1214230.72
+      },
+      "4": {
+        "valores_gastos": 2406691.4
+      },
+      "5": {
+        "valores_gastos": 497916.5
+      },
+      "6": {
+        "valores_gastos": 902148.16
+      },
+      "7": {
+        "valores_gastos": 2636127.5599999996
+      },
+      "8": {
+        "valores_gastos": 5358867.62
+      },
+      "9": {
+        "valores_gastos": 3155909.46
+      },
+      "10": {
+        "valores_gastos": 1190688.51
+      },
+      "11": {
+        "valores_gastos": 406268.06
+      },
+      "12": {
+        "valores_gastos": 10172948.42
+      }
+    },
     "2022": {
       "resumo": {
-        "valores_gastos": 141735963.95000002
+        "valores_gastos": 128990033.23
       },
       "1": {
-        "valores_gastos": 1554840.24
+        "valores_gastos": 763511.62
       },
       "2": {
         "valores_gastos": 4469393.609999999
       },
       "3": {
-        "valores_gastos": 8197391.47
+        "valores_gastos": 1641590.8199999998
       },
       "4": {
-        "valores_gastos": 4344392.3
+        "valores_gastos": 3211171.2
       },
       "5": {
-        "valores_gastos": 5720892.529999999
+        "valores_gastos": 3118892.5300000003
       },
       "6": {
-        "valores_gastos": 2326611.84
+        "valores_gastos": 1575103.79
       },
       "7": {
         "valores_gastos": 16223535.07
       },
       "8": {
-        "valores_gastos": 6466916.18
+        "valores_gastos": 6461916.179999999
       },
       "9": {
-        "valores_gastos": 4860165.989999999
+        "valores_gastos": 4732768.6899999995
       },
       "10": {
-        "valores_gastos": 3301403.3600000003
+        "valores_gastos": 3276403.3600000003
       },
       "11": {
-        "valores_gastos": 11605588.120000001
+        "valores_gastos": 10861778.120000001
       },
       "12": {
-        "valores_gastos": 72664833.24000001
+        "valores_gastos": 72653968.24000001
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 28477365.709999997
+        "valores_gastos": 17320234.23
       },
       "1": {
         "valores_gastos": 5102740.06
       },
       "2": {
-        "valores_gastos": 6211912.62
+        "valores_gastos": 1214659.62
       },
       "3": {
-        "valores_gastos": 5660781.2
+        "valores_gastos": 4485156.0200000005
       },
       "4": {
-        "valores_gastos": 2129100.06
+        "valores_gastos": 1089209.0
       },
       "5": {
-        "valores_gastos": 113500.0
+        "valores_gastos": 38500.0
       },
       "6": {
-        "valores_gastos": 2739055.75
+        "valores_gastos": 1350255.75
       },
       "7": {
-        "valores_gastos": 1113335.25
+        "valores_gastos": 670547.96
       },
       "8": {
-        "valores_gastos": 2263605.62
+        "valores_gastos": 2260405.62
       },
       "9": {
-        "valores_gastos": 770490.7
+        "valores_gastos": 243015.71999999997
       },
       "10": {
-        "valores_gastos": 1588703.45
+        "valores_gastos": 482603.48
       },
       "11": {
-        "valores_gastos": 784141.0
+        "valores_gastos": 383141.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 170213329.66
+    "valores_gastos": 186617886.20000002
   }
 }

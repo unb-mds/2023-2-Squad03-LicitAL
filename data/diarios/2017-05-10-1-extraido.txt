@@ -1,0 +1,797 @@
+
+ 
+ 
+ 
+
+Alagoas , 10 de Maio de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0528 
+ 
+
+www.diariomunicipal.com.br/ama                                                                                1 
+ 
+
+Expediente: 
+Associação dos Municípios Alagoanos -AMA 
+
+ 
+ 
+
+DIRETORIA EXECUTIVA  
+  
+Presidente: Hugo Wanderley Cajú - Cacimbinhas 
+Vice-presidente: Joaquim Beltrão Siqueira – Coruripe 
+  
+Secretário Geral: Marcelo Ricardo Vasconcelos Lima – Quebrangulo 
+1º Secretário: Júlio Cezar da Silva – Palmeira dos Índios 
+2º Secretário: Emanuella Corado Acioli de Moura – Barra de Santo Antônio 
+1º Tesoureiro: João José Pereira Filho – Teotônio Vilela 
+2º Tesoureiro: Bruno Rodrigo Valença de Araújo – São José da Laje 
+ 
+  
+CONSELHO FISCAL 
+Titular: 
+Vinicius José Mariano de Lima – Canapi 
+Ramon Camilo Silva – Dois Riachos 
+Klever Rego Loureiro Júnior – Japaratinga 
+  
+Suplente: 
+Ana Paula Antero Santa Rosa Barbosa - Belém 
+Jairon Maia Fernandes Neto – Branquinha 
+Carlos Augusto Lima de Almeida – Junqueiro 
+ 
+  
+COORDENADORIAS REGIONAIS 
+Região Central: Adelmo Moreira Calheiros – Capela 
+Região Norte: Nielson Mendes da Silva – Campestre 
+Região Metropolitana: Renato Rezende Rocha Filho – Pilar 
+Região do Sertão: Jeane Oliveira Moura Silva Chagas – Senador Rui 
+Palmeira 
+Região Agreste/Baixo São Francisco: Oliveiro Torres Piancó – Igaci 
+ 
+
+ 
+O Diário Oficial dos Municípios do Estado de Alagoas é uma solução voltada à 
+
+modernização e transparência da gestão municipal. 
+ 
+
+ESTADO DE ALAGOAS 
+PREFEITURA MUNICIPAL DE ARAPIRACA 
+
+ 
+PREFEITURA MUNICIPAL DE ARAPIRACA 
+DECRETO Nº 2.493 DE 05 DE MAIO DE 2017 
+
+ 
+REGULAMENTA E DISCIPLINA A OBRIGAÇÃO 
+ACESSÓRIA RELATIVA À DECLARAÇÃO 
+ELETRÔNICA DE SERVIÇOS DE INSTITUIÇÕES 
+FINANCEIRAS – DIF E DÁ OUTRAS 
+PROVIDÊNCIAS. 
+
+  
+O PREFEITO DO MUNICÍPIO DE ARAPIRACA /AL , no uso da 
+atribuição que lhe confere o art. 51, inciso IX, da Lei Orgânica do 
+Município, o Art. 129, §§ 1º ao 8º, art. 156 e art. 325 incisos I e III, da 
+Lei nº 2.342, de 30 de dezembro de 2003 – Código Tributário 
+Municipal, 
+  
+Considerando a necessidade de facilitar a rotina das Instituições 
+Financeiras e equiparadas, autorizadas a funcionar pelo Banco Central 
+- BACEN, e das demais pessoas jurídicas obrigadas a utilizar o Plano 
+de Contas das Instituições do Sistema Financeiro Nacional - COSIF, 
+em torno de uma ferramenta para declararem o movimento econômico 
+tributável e apuração do ISSQN, utilizando a padronização 
+desenvolvida pela Associação Brasileira das Secretarias de Finanças 
+das Capitais - ABRASF e pela Federação Brasileira de Bancos - 
+FEBRABAN; a necessidade de aprimorar as ações do Fisco 
+
+Municipal, primando pela eficiência e buscando a melhor forma de 
+propiciar ao contribuinte, através de ferramentas informatizadas, o 
+cumprimento de suas obrigações tributárias; ainda a necessidade de 
+maior agilidade nos processos de homologação do ISSQN das 
+Instituições Financeiras, 
+  
+DECRETA:  
+  
+Art. 1º Para as instituições financeiras e equiparadas autorizadas a 
+funcionar pelo Banco central do Brasil – BACEN, obrigadas a utilizar 
+o Plano Contábil das Instituições Financeiras do Sistema Financeiro 
+Nacional – COSIF, é criada a Declaração Eletrônica de Serviços de 
+Instituições Financeiras – DIF. 
+  
+Parágrafo único. A Declaração Eletrônica de Serviços de Instituições 
+Financeiras – DIF, fica estabelecida conforme Modelo Conceitual 
+definido pela Associação Brasileira das Secretarias de Finanças das 
+Capitais – ABRASF, ficando resguardado ao Município o direito de 
+promover as adequações que entender necessárias para o atendimento 
+das normas e preceitos da legislação. 
+  
+Art. 2º A Declaração Eletrônica de Serviços de Instituições 
+Financeiras – DIF será entregue por cada estabelecimento localizado 
+no território deste Município, podendo, sob autorização deste 
+município, ser centralizada pela matriz ou pela agência ou 
+estabelecimento centralizador das instituições financeiras, desde que 
+contenha as informações de todas as agências, dependências ou 
+estabelecimentos localizados no território deste Município, 
+individualizadas. 
+  
+§ 1º A Declaração Eletrônica de Serviços de Instituições Financeiras – 
+DIF deverá ser enviada por meio de software disponibilizado pelo 
+Município, com a finalidade de importação dos dados, validação da 
+declaração de serviços prestados, transmissão e registro dos arquivos 
+que compõem a declaração. 
+  
+§ 2º O cumprimento da obrigação acessória de entrega da DIF só se 
+completa com a geração do protocolo de entrega a ser emitido por 
+meio do software de envio e entrega, após a validação e recepção dos 
+arquivos correspondentes à declaração enviada. 
+  
+§ 3º Constitui-se como parte integrante do cumprimento da obrigação 
+acessória prevista neste Decreto, a geração, entrega e guarda da DIF 
+em meio digital, acompanhado do protocolo de entrega da mesma. 
+  
+Art. 3º A DIF contemplará todos os serviços prestados, acobertados 
+ou não por documentos fiscais, sujeitos ou não à incidência do 
+ISSQN, devidos ou não ao Município, assim como à apuração dos 
+valores devidos de ISSQN pelo contribuinte. 
+  
+§ 1º A DIF é um documento exclusivamente digital, transmitida por 
+arquivo de dados conforme layout do software de envio e entrega, e 
+constituído por 04 (quatro) módulos: 
+  
+I – O Módulo de Apuração Mensal do ISSQN, que deverá ser 
+entregue, mensalmente, até o dia 5 (cinco) do mês subsequente ao da 
+competência dos dados declarados, com as seguintes informações: 
+  
+a) identificação da competência da declaração; 
+b) demonstração de apuração da receita de serviços e do ISSQN 
+mensal devido por conta e subconta contábil; 
+c) demonstrativo do ISSQN a recolher; 
+d) declaração de todas as contas e subcontas, por dependência e por 
+instituição, que não tenham registrado movimento econômico, com 
+indicação do saldo zerado; 
+e) identificação das dependências da instituição financeira. 
+
+
+
+Alagoas , 10 de Maio de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0528 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                2 
+ 
+
+ II - O Módulo de Demonstrativo Contábil, que deverá ser entregue 
+anualmente, até o dia 30 (trinta) de abril do ano subsequente ao ano de 
+referência, com informações relativas: 
+  
+a) à indicação da competência da declaração; 
+b) à identificação das dependências da instituição financeira; 
+c) ao balancete analítico mensal, que deverá conter todas as contas 
+com movimentação no período; 
+d) ao demonstrativo de rateio de resultados internos por dependência, 
+que será obrigatório para todas as dependências cuja conta "Rateio de 
+Resultados Internos" possuir lançamentos em seus balancetes e deve 
+demonstrar os valores por natureza de receita, subdividindo os valores 
+lançados de forma consolidada na conta ou nos relatórios gerenciais 
+de rateio. 
+III - O Módulo com as Informações Gerais e Comuns, que deverá ser 
+entregue anualmente, até o dia 31 de janeiro do ano de referência e, 
+sempre que houver alterações das informações, contendo: 
+  
+a) a indicação da competência da declaração; 
+b) o Plano Geral de Contas Comentado (PGCC), que deverá ser 
+analítico, contendo todas as contas de resultado credoras, em todos os 
+níveis em que se apresentam essas contas (Grupo, Subgrupo, 
+Desdobramento do Subgrupo, Título, Subtítulo e, sempre que 
+presentes desdobramentos dos Subtítulos), bem como as devidas 
+vinculações à codificação do COSIF, o correspondente 
+enquadramento das contas tributáveis na Lista de Serviços constante 
+no Código Tributário Municipal e a descrição detalhada, e sem 
+abreviações, da natureza das operações registradas nos subtítulos; 
+c) a tabela de tarifas de serviços da instituição financeira, que será 
+obrigatória apenas para os contribuintes que têm o dever de possuí-la, 
+conforme norma do BACEN, e deverá conter as vinculações dos 
+serviços aos respectivos subtítulos de contas de lançamento contábil. 
+d) a tabela da indicação de serviços de remuneração variável. 
+  
+IV - O Módulo Demonstrativo das Partidas de Lançamentos 
+Contábeis, que deverá ser entregue sob demanda, em meio digital, 
+conforme solicitação Fiscalização Tributária do Município, no prazo 
+de 10 (dez) dias, contatos da ciência da solicitação, com todos os 
+lançamentos, somente com os lançamentos a crédito ou somente os 
+lançamentos a débito, e deverá conter informações do razão analítico 
+ou ficha de lançamentos, conforme os seguintes critérios: 
+  
+a) para um período; 
+b) para um conjunto de subtítulos; 
+c) para o tipo de partida; 
+  
+§ 2º O Fisco Municipal se reserva ao direito de solicitar outros dados 
+e informações, sempre que entender ser necessário para a verificação 
+na homologação do ISSQN. 
+  
+§ 3º A administração Tributária Municipal poderá solicitar o Plano 
+Geral de Contas Comentado (PGCC) relativo a outras contas no 
+padrão COSIF. 
+  
+Art. 4º O contribuinte obrigado a entrega da DIF deverá retificar a 
+escrituração sempre que contiver erro ou omissão nos dados 
+declarados, ainda que já encerrada. 
+  
+Parágrafo único. Caso haja necessidade de retificação de alguma 
+informação escriturada em declaração já transmitida, o contribuinte 
+deverá gerar e enviar nova declaração, que passará a ser assumida na 
+apuração do imposto sobre serviços. 
+  
+Art. 5º A DIF, no formato definido neste Decreto, deverá ser gerada e 
+entregue, tornando-se obrigatória sua entrega referente a todos os 
+meses de 2017, anteriores a JUNHO de 2017. 
+  
+§ 1º O módulo de Informações Gerais e Comuns, para o ano de 
+referência 2017, poderá ser enviado até 30 de JUNHO de 2017. 
+  
+§ 2º As instituições financeiras e assemelhadas de que trata este 
+Decreto, ficam obrigadas a entregar a DIF, de períodos anteriores, na 
+seguinte conformidade: 
+  
+
+Período de incidência (competência) Prazo de entrega 
+
+1º e 2º semestre de 2016 até 30 de setembro de 2017 
+
+1º e 2º semestre de 2015 até 31 de outubro de 2017 
+
+1º e 2º semestre de 2014 até 31 de outubro de 2017 
+
+1º e 2º semestre de 2013 até 30 de novembro de 2017 
+
+1º e 2º semestre de 2012 até 30 de novembro de 2017 
+
+  
+§ 3º A obrigação de que trata o § 2º deste artigo, refere-se somente ao 
+módulo de Informações Gerais e Comuns e ao módulo de 
+Demonstrativo Contábil. 
+  
+Art. 6º Este Decreto entra em vigor na data de sua publicação. 
+  
+Arapiraca, 05 de maio de 2017 
+  
+ROGÉRIO AUTO TEÓFILO, 
+Prefeito. 
+  
+ANTÔNIO FERNANDO COSTA LÔBO, 
+Secretário Municipal da Fazenda. 
+  
+ANTONIO LENINE PEREIRA FILHO,  
+Secretário Municipal de Planejamento, Orçamento e Gestão 
+  
+Este Decreto foi publicado e registrado no Departamento 
+Administrativo da Secretaria Municipal de Gestão de Pessoas, 
+Patrimônio e Documentos, aos 05 dias do mês de maio de 2017, 
+conforme os termos do art. 9º do Ato das Disposições Constitucionais 
+Transitórias da Lei Orgânica do Município. 
+  
+MARIA ROSÂNGELA BRITO FERREIRA SILVA, 
+Chefe de Departamento de Gestão de Documentos. 
+
+Publicado por: 
+Gean Fábio Carvalho de Oliveira 
+Código Identificador:4E575FE1 
+
+ 
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CACIMBINHAS  
+ 
+
+PREFEITURA MUNICIPAL DE CACIMBINHAS 
+ESTADO DE ALAGOAS  
+
+ 
+EXTRATO DA ATA DE REGISTRO DE PREÇOS Nº 
+002/2017/PMC  
+  
+O PREFEITO DO MUNICIPIO DE CACIMBINHAS (AL) , no 
+uso de suas atribuições legais e o que consta no processo 
+administrativo nº. 0126-0014/2017. MODALIDADE: PREGÃO 
+(PRESENCIAL) Nº 002/2017 – SRP. OBJETO: Contratação de 
+Empresa Especializada na prestação de serviços para o 
+fornecimento de refeições prontas (desjejum, almoço e jantar), 
+tipo marmitex e coffee break para realização de eventos a serem 
+organizados por este Município, conforme especificações e 
+quantidades estimadas, constantes no Termo de Referência, que 
+integra o Edital como ANEXO I . RESOLVE: Registrar os Preços da 
+Empresa: 
+  
+DETENTORA: REGINALDO BARBOZA DE LIMA 
+45371032487, inscrita no CNPJ/MF nº 24.075.643/0001-62, com 
+sede na Praça José Caetano de Moraes, n° 188 B, Centro, 
+Cacimbinhas (AL), CEP 57.570-000, neste ato, representada pelo 
+Sr. º Reginaldo Barboza de Lima, brasileiro, casado, portador da 
+Cédula de identidade RG nº 873.912 SSP/AL, inscrito (a) no CPF/MF 
+sob n. º 453.710.324-87, vencedora dos itens 01, 03 e 04 desta 
+licitação, no Valor Total de R$ 80.000,00 (Oitenta Mil Reais), 
+conforme constam na Ata da sessão de julgamento. 
+  
+VIGÊNCIA: 12 (DOZE) MESES contados a partir da data de sua 
+assinatura, com efeitos a partir da publicação no Diário Oficial. 
+DATA DE ASSINATURA: 09 DE MAIO DE 2017. 
+OBSERVAÇÕES: o teor completo do documento, as tabelas dos 
+valores e qualquer esclarecimento em face do disposto em tela 
+poderão ser obtidos através de o endereço a seguir: Sala de Reuniões 
+
+
+
+Alagoas , 10 de Maio de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0528 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                3 
+ 
+
+da Prefeitura, Situada na Praça 19 de Setembro, nº 101 - Centro, 
+Cacimbinhas (AL). Fone: (0xx82) 3422-1192. E-Mail:  
+cpl.cacimbinhas@gmail.com. 
+  
+HUGO WANDERLEY CAJU 
+Prefeito 
+
+Publicado por: 
+Syntia Emanuela Correia França 
+
+Código Identificador:BF29BB6E 
+ 
+
+PREFEITURA MUNICIPAL DE CACIMBINHAS 
+ESTADO DE ALAGOAS  
+
+ 
+EXTRATO DA ATA DE REGISTRO DE PREÇOS Nº 
+003/2017/PMC  
+  
+O PREFEITO DO MUNICIPIO DE CACIMBINHAS (AL) , no 
+uso de suas atribuições legais e o que consta no processo 
+administrativo nº. 0203-0019/2017. MODALIDADE: PREGÃO 
+(PRESENCIAL) Nº 006/2017 – SRP. OBJETO: Aquisição de Gás 
+Liquefeito de Petróleo (GLP), composto de propano e butano, 
+acondicionados em botijões de 13 KG, para Suprir As Necessidades 
+da Secretaria Municipal de Administração e demais Secretarias do 
+Município de Cacimbinhas, Estado de Alagoas, com entrega parcelada 
+pelo período de 12 (doze) meses, conforme especificações e 
+quantidades dos produtos e preços, constantes no Termo de 
+Referência, que integra o Edital como ANEXO I . RESOLVE: 
+Registrar os Preços da Empresa: 
+  
+DETENTORA: IGACI GÁS LTDA,  inscrita no CNPJ/MF nº 
+11.793.616/0001-83, com sede na Rua Olinda, n° 20, Novo Igaci, 
+Igaci (AL), CEP 57.620-000, neste ato, representada pelo Sr. º Diego 
+Araújo de Souza Silva, brasileiro, solteiro, portador da Cédula de 
+identidade RG nº 2.061.438 SSP/AL, inscrito (a) no CPF/MF sob n. º 
+070.795.534-31, vencedora desta licitação, no Valor Total de R$ 
+26.750,00 (Vinte e Seis Mil e Setecentos e Cinquenta Reais), 
+conforme constam na Ata da sessão de julgamento. 
+  
+VIGÊNCIA: 12 (DOZE) MESES contados a partir da data de sua 
+assinatura, com efeitos a partir da publicação no Diário Oficial. 
+DATA DE ASSINATURA: 09 DE MAIO DE 2017. 
+OBSERVAÇÕES: o teor completo do documento, as tabelas dos 
+valores e qualquer esclarecimento em face do disposto em tela 
+poderão ser obtidos através de o endereço a seguir: Sala de Reuniões 
+da Prefeitura, Situada na Praça 19 de Setembro, nº 101 - Centro, 
+Cacimbinhas (AL). Fone: (0xx82) 3422-1192. E-Mail:  
+cpl.cacimbinhas@gmail.com. 
+  
+HUGO WANDERLEY CAJU 
+Prefeito 
+
+Publicado por: 
+Syntia Emanuela Correia França 
+
+Código Identificador:5833ADE5 
+
+ 
+PREFEITURA MUNICIPAL DE CACIMBINHAS 
+
+ESTADO DE ALAGOAS  
+ 
+EXTRATO DA ATA DE REGISTRO DE PREÇOS Nº 
+004/2017/PMC  
+  
+O PREFEITO DO MUNICÍPIODE CACIMBINHAS (AL) , no uso 
+de suas atribuições legais e o que consta no processo administrativo 
+nº. 0203-0037/2017. MODALIDADE: PREGÃO (PRESENCIAL) Nº 
+009/2017 – SRP. OBJETO: Aquisição de Urnas Funerárias, para 
+distribuição gratuita as Famílias Vulneráveis deste Município, visando 
+atender aos programas, projetos, ações e benefícios de proteção social, 
+com entrega parcelada pelo período de 12 (doze) meses, conforme as 
+necessidades da Secretaria Municipal de Assistência Social, para 
+atender aos programas, projetos, ações e benefícios de proteção social, 
+conforme especificações e quantidades dos produtos e preços 
+descritos no Termo de Referência, que integra o Edital como ANEXO 
+I . RESOLVE: Registrar os Preços da Empresa: 
+  
+
+DETENTORA: AC SERVIÇOS E ARTIGOS FUNERÁRIOS 
+LTDA - EPP, inscrita no CNPJ/MF nº 09.065.969/0001-15, com sede 
+na Rua do Comércio, n° 176, Centro, Novo Lino (AL), CEP 57.970-
+000, neste ato, representada pelo Sr. º Cristiano José Correia de 
+Vasconcelos, brasileiro, casado, portador da Cédula de identidade RG 
+nº 3.994.016 SDS/PE, inscrito (a) no CPF/MF sob n. º 748.469.224-
+72, que apresentou o menor preço para os itens 01, 02, 03, 04, 05, 06, 
+07 e 08 desta licitação, perfazendo o Valor Total de R$ 209.860,00 
+(Duzentos e Nove Mil e Oitocentos e Sessenta Reais), conforme 
+constam na Ata da sessão de julgamento. 
+  
+VIGÊNCIA: 12 (DOZE) MESES contados a partir da data de sua 
+assinatura, com efeitos a partir da publicação no Diário Oficial. 
+DATA DE ASSINATURA: 09 DE MAIO DE 2017. 
+OBSERVAÇÕES: o teor completo do documento, as tabelas dos 
+valores e qualquer esclarecimento em face do disposto em tela 
+poderão ser obtidos através de o endereço a seguir: Sala de Reuniões 
+da Prefeitura, Situada na Praça 19 de Setembro, nº 101 - Centro, 
+Cacimbinhas (AL). Fone: (0xx82) 3422-1192. E-Mail:  
+cpl.cacimbinhas@gmail.com. 
+
+  
+HUGO WANDERLEY CAJU 
+Prefeito 
+
+Publicado por: 
+Syntia Emanuela Correia França 
+
+Código Identificador:2EEF1831 
+ 
+
+ESTADO DE ALAGOAS 
+PREFEITURA MUNICIPAL DE TEOTONIO VILELA  
+
+ 
+GABINETE DO PREFEITO 
+
+DECRETO Nº 013/2017 - DECLARA DE UTILIDADE 
+PÚBLICA, PARA FINS DE DESAPROPRIAÇÃO, O IMÓVEL 
+
+QUE MENCIONA E DÁ OUTRAS PROVIDÊNCIAS.  
+ 
+Teotônio Villela/AL, 08 de maio de 2017. 
+Decreto nº 013/2017. 
+
+  
+Declara de utilidade pública, para fins de 
+desapropriação, o imóvel que menciona e dá outras 
+providências. 
+
+  
+O PREFEITO DO MUNICÍPIO DE TEOTÔNIO VILELA , no 
+uso de suas atribuições conferidas pelo inciso XII do artigo 73 da Lei 
+Orgânica do Município, artigo 5º, XXIV da Constituição Federal, e de 
+acordo com o disposto nos artigos 5º, alínea “d ” e 6º, do Decreto Lei 
+nº 3.365, de 21 de junho de 1941: 
+CONSIDERANDOque as Administrações Públicas devem assegurar 
+a todos um meio ambiente ecologicamente saudável e equilibrado, 
+essencial à qualidade de vida; 
+CONSIDERANDOque é de responsabilidade do Município ter uma 
+área que atenda, rigorosamente, os dispositivos de proteção ambiental 
+em vigor, para a disposição final dos resíduos sólidos, domésticos, 
+industriais e hospitalares; 
+CONSIDERANDOque cabe ao Município a responsabilidade de 
+adquirir uma área para a localização do aterro sanitário; 
+DECRETA:  
+Art. 1º - Fica declarado de utilidade pública, para fins de 
+desapropriação, um terreno de propriedade do Senhor Samuel 
+Geraldo Nolasco Sampaio, brasileiro, casado, agropecuarista, 
+portador do RG nº 68726 SSP/AL e do CPF sob o nº 483.677.294-04, 
+residente e domiciliado à Rua Paulina Maria Mendonça, nº 310, Edif. 
+Évora, Apartamento nº 602, Mangabeiras, Maceió/AL, CEP: 57.037-
+600, um imóvel localizado na parte integrante da II da Fazenda São 
+Matheus, na Cidade de Teotônio Vilela, Estado de Alagoas, com os 
+seguintes limites e confrontações: NORTE: Com terras de Samuel 
+Sampaio; SUL Com terras de Samuel Sampaio; LESTE Com terras 
+de Eduardo Sampaio; OESTE Com terras de Samuel Sampaio, com 
+perímetro de 1.898.501 m e Área de 15.2252 há, com os seguintes 
+limites e confrontações: inicia-se a descrição deste perímetro no 
+vértice 1, de coordenadas N 8.900.644,0062m e E 789.148,2550m; 
+Estrada interna; deste, segue confrontando com Fazenda São Matheus 
+de Eduardo Sampaio, com os seguintes azimutes e distâncias: 
+140°13'56" e 136,917 m até o vértice 2, de coordenadas N 
+
+
+
+Alagoas , 10 de Maio de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0528 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                4 
+ 
+
+8.900.538,7659m e E 789.235,8373m; 143°50'08" e 45,968 m até o 
+vértice 3, de coordenadas N 8.900.501,6546m e E 789.262,9634m; 
+139°30'23" e 97,675 m até o vértice 4, de coordenadas N 
+8.900.427,3749m e E 789.326,3899m; 143°49'18" e 76,635 m até o 
+vértice 5, de coordenadas N 8.900.365,5168m e E 789.371,6275m; 
+140°54'39" e 71,809 m até o vértice 6, de coordenadas N 
+8.900.309,7811m e E 789.416,9051m; 141°59'10" e 58,823 m até o 
+vértice 7, de coordenadas N 8.900.263,4366m e E 789.453,1315m; 
+143°10'48" e 216,391 m até o vértice 8, de coordenadas N 
+8.900.090,2112m e E 789.582,8154m; 141°25'44" e 43,545 m até o 
+vértice 9, de coordenadas N 8.900.056,1664m e E 789.609,9650m; 
+Estrada interna; deste, segue confrontando com Fazenda São Matheus 
+de Samuel Sampaio, com os seguintes azimutes e distâncias: 
+225°00'37" e 12,983 m até o vértice 10, de coordenadas N 
+8.900.046,9877m e E 789.600,7830m; 268°46'29" e 103,708 m até o 
+vértice 11, de coordenadas N 8.900.044,7703m e E 789.497,0990m; 
+260°54'55" e 18,543 m até o vértice 12, de coordenadas N 
+8.900.041,8425m e E 789.478,7889m; 301°36'55" e 35,624 m até o 
+vértice 13, de coordenadas N 8.900.060,5173m e E 789.448,4517m; 
+255°55'20" e 110,207 m até o vértice 14, de coordenadas N 
+8.900.033,7106m e E 789.341,5550m; 262°13'15" e 21,544 m até o 
+vértice 15, de coordenadas N 8.900.030,7945m e E 789.320,2090m; 
+277°40'37" e 24,589 m até o vértice 16, de coordenadas N 
+8.900.034,0793m e E 789.295,8401m; 307°33'02" e 15,285 m até o 
+vértice 17, de coordenadas N 8.900.043,3949m e E 789.283,7219m; 
+315°40'16" e 25,978 m até o vértice 18, de coordenadas N 
+8.900.061,9780m e E 789.265,5690m; 334°06'14" e 20,592 m até o 
+vértice 19, de coordenadas N 8.900.080,5026m e E 789.256,5755m; 
+350°15'10" e 34,366 m até o vértice 20, de coordenadas N 
+8.900.114,3724m e E 789.250,7574m; 342°11'48" e 29,146 m até o 
+vértice 21, de coordenadas N 8.900.142,1222m e E 789.241,8461m; 
+325°07'29" e 26,381 m até o vértice 22, de coordenadas N 
+8.900.163,7648m e E 789.226,7618m; 315°43'23" e 38,974 m até o 
+vértice 23, de coordenadas N 8.900.191,6693m e E 789.199,5530m; 
+329°40'23" e 35,741 m até o vértice 24, de coordenadas N 
+8.900.222,5191m e E 789.181,5063m; 326°59'43" e 44,231 m até o 
+vértice 25, de coordenadas N 8.900.259,6122m e E 789.157,4134m; 
+325°41'26" e 37,426 m até o vértice 26, de coordenadas N 
+8.900.290,5263m e E 789.136,3176m; 315°42'22" e 17,303 m até o 
+vértice 27, de coordenadas N 8.900.302,9112m e E 789.124,2343m; 
+315°42'22" e 21,656 m até o vértice 28, de coordenadas N 
+8.900.318,4120m e E 789.109,1109m; 293°49'13" e 23,234 m até o 
+vértice 29, de coordenadas N 8.900.327,7953m e E 789.087,8565m; 
+283°48'36" e 53,259 m até o vértice 30, de coordenadas N 
+8.900.340,5084m e E 789.036,1373m; 314°41'19" e 26,460 m até o 
+vértice 31, de coordenadas N 8.900.359,1162m e E 789.017,3261m; 
+347°54'19" e 8,965 m até o vértice 32, de coordenadas N 
+8.900.367,8826m e E 789.015,4476m; 19°17'24" e 13,268 m até o 
+vértice 33, de coordenadas N 8.900.380,4060m e E 789.019,8307m; 
+50°03'14" e 65,341 m até o vértice 34, de coordenadas N 
+8.900.422,3593m e E 788.069,9242m; 22°37'12" e 24,421 m até o 
+vértice 35, de coordenadas N 8.900.444,9013m e E 789.079,3168m; 
+340°15'11" e 25,946 m até o vértice 36, de coordenadas N 
+8.900.469,3219m e E 789.070,5504m; 319°50'54" e 57,958 m até o 
+vértice 37, de coordenadas N 8.900.513,6215m e E 789.033,1782m; 
+Linha reta; deste, segue confrontando com Terras da Fazenda São 
+Matheus de Samuel Sampaio, com os seguintes azimutes e distâncias: 
+63º44’28’’ e 25,326m até o até o vértice 38, de coordenadas N 
+8.900.524,8266m e E 789.055,8910m; 45°12'29" e 82,257 m até o 
+vértice 39, de coordenadas N 8.900.582,7796m e E 789,114,2665m; 
+29º02’09’’ e 70,028m m até o vértice 1, ponto inicial da descrição 
+deste perímetro. Todas as coordenadas aqui descritas estão 
+georreferenciadas ao Sistema Geodésico Brasileiro, a partir, de 
+coordenadas N m e E m, e encontram-se representadas no Sistema U 
+T M, referenciadas ao Meridiano Central nº 45°00', fuso -23, tendo 
+como datum o WGS-84. Todos os azimutes e distâncias, área e 
+perímetro foram calculados no plano de projeção U T M. 
+Art. 2º - A desapropriação do aludido imóvel dar-se-á por via 
+amigável ou judicial, e em caráter de urgência, para efeito de imissão 
+na posse do imóvel, com depósito prévio no valor de indenização ou 
+pagamento na forma acordada entre expropriante e expropriado. 
+Art. 3º - As despesas com a execução deste decreto correrão por conta 
+de dotações orçamentárias próprias, suplementadas se necessário. 
+
+Art. 4º - Este Decreto entrará em vigor na data de sua publicação, 
+revogadas as disposições em contrário. 
+  
+Teotônio Vilela, 08 de maio de 2017. 
+  
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:B603EB21 
+ 
+
+GABINETE DO PREFEITO 
+DECRETO N°012 DE 05 DE MAIO DE 2017 - CONVOCA A XI 
+
+CONFERÊNCIA MUNICIPAL DE ASSISTÊNCIA SOCIAL.  
+ 
+DECRETO N°012 de 05 de Maio de 2017. 
+  
+
+Convoca a XI Conferência Municipal de assistência 
+social. 
+
+  
+O PREFEITO DO MUNICÍPIO DE TEOTÔNIO VILELA – 
+ESTADO DE ALAGOAS , no uso de atribuição que lhe confere a Lei 
+Orgânica Municipal e demais diplomas, juntamente com o Conselho 
+Municipal de Assistência Social, considerando a necessidade de 
+avaliar e propor diretrizes para a implementação da Política de 
+Assistência social no Município, DECRETA:  
+  
+Art. 1º Fica convocada a XI Conferência Municipal de Assistência 
+Social, a ser realizada no dia 11 de Julho de 2017, tendo como tema 
+central: “Garantia de direitos no Fortalecimento do SUAS”. 
+  
+Art. 2º As despesas decorrentes da aplicação deste decreto, correção 
+por conta de dotação própria do orçamento do órgão gestor municipal 
+de Assistência Social. 
+  
+Art. 3º Este Decreto entra em vigor na data de sua publicação. 
+  
+Gabinete do Prefeito em Teotônio Vilela – AL, 05 de Maio de 2017. 
+  
+Teotônio Vilela, 05 de Maio de 2017. 
+  
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:C61387B0 
+ 
+
+GABINETE DO PREFEITO 
+PORTARIA N° 196/2017 – GPTV, CONCEDE O SERVIDOR 
+
+PÚBLICO, GIOVANE SANTOS SILVA, DIÁRIA.  
+ 
+Teotônio Vilela – AL, 26 de Abril 2017. 
+  
+Portaria n° 196/2017 – GPTV. 
+  
+O Prefeito do Município de Teotônio Vilela, JOÃO JOSÉ PEREIRA 
+FILHO, usando das atribuições que lhes são conferidas pela Lei 
+Orgânica do Município e demais Diplomas Legais, com fundamento 
+na Lei Municipal nº 102/91, bem como, na Lei 913/2015, o qual Fixa 
+as Diárias para Agentes Políticos Servidores e Funcionários do Poder 
+Executivo Municipal deste Município, 
+  
+Resolve: 
+  
+Art. 1º Conceder o servidor público, Giovane Santos Silva, secretário 
+da Junta Militar, sob o CPF. N.º 038.329.274-33, que o serviço do 
+Município se deslocará para outro Município, 1(uma) diária paga no 
+valor de R$ 75,00 (setenta e cinco reais), uma vez que o servidor se 
+ausentará no dia 27 de Abril do ano corrente, para fazer os 
+alistamentos e imprimir os CDI (Certificado de Dispensa de 
+Incorporação), que ocorrerá no PRM 07-005, na cidade de 
+Maceió/AL. 
+  
+
+
+
+Alagoas , 10 de Maio de 2017   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO IV | Nº 0528 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                5 
+ 
+
+Art. 2º A concessão de que trata o art. 1º desta portaria deverá ser feita 
+nos moldes da Lei nº 913/2015. 
+  
+Art. 3º Esta Portaria entra em vigor na data de sua publicação. 
+  
+Dê-se ciência,  
+registre-se,  
+publique-se e  
+cumpra-se. 
+  
+Gabinete do Prefeito em Teotônio Vilela – AL, 26 de Abril de 2017. 
+  
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:40E8C187 
+ 
+
+GABINETE DO PREFEITO 
+PORTARIA N° 201/2017 – GPTV, CONCEDE A SERVIDORA 
+PÚBLICA, IZABEL CRISTINA DA SILVA TELES, DIÁRIAS.  
+
+ 
+Teotônio Vilela – AL, 28 de Abril 2017. 
+  
+Portaria n° 201/2017 – GPTV 
+  
+O Prefeito do Município de Teotônio Vilela, JOÃO JOSÉ PEREIRA 
+FILHO, usando das atribuições que lhes são conferidas pela Lei 
+Orgânica do Município e demais Diplomas Legais, com fundamento 
+na Lei Municipal nº 102/91, bem como, na Lei 913/2015, o qual Fixa 
+as Diárias para Agentes Políticos Servidores e Funcionários do Poder 
+Executivo Municipal deste Município, 
+  
+Resolve: 
+  
+Art. 1º Conceder a servidora pública, Izabel Cristina da Silva Teles, 
+Contadora do IPREVTEO, sob o CPF. N º. 425.528.504-72, que a 
+serviço do Município se deslocará para outro ponto do território 
+nacional, 5 (cinco) diárias pagas em dobro no valor de R$ 75,00 
+(setenta e cinco reais), totalizando o valor de 750,00 (setecentos e 
+cinquenta reais) uma vez que a servidora se ausentará nos dias 15 a 19 
+de Maio do ano corrente, para participar do Evento: Marcha dos 
+Prefeitos, realizado em Brasília. 
+  
+Art. 2º A concessão de que trata o art. 1º desta portaria deverá ser feita 
+nos moldes da Lei nº 913/2015. 
+  
+Art. 3º Esta Portaria entra em vigor na data de sua publicação. 
+  
+Dê-se ciência,  
+registre-se,  
+publique-se e 
+cumpra-se. 
+  
+Gabinete do Prefeito em Teotônio Vilela – AL, 28 de Abril de 2017. 
+  
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+  
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:68B296E4 
+ 
+
+GABINETE DO PREFEITO 
+PORTARIA N° 202/2017 – GPTV, CONCEDE A SERVIDORA 
+
+PÚBLICA, DEYSE SOUZA COEHT, DIÁRIAS.  
+ 
+Teotônio Vilela – AL, 28 de Abril 2017. 
+  
+Portaria n° 202/2017 – GPTV 
+  
+O Prefeito do Município de Teotônio Vilela, JOÃO JOSÉ PEREIRA 
+FILHO, usando das atribuições que lhes são conferidas pela Lei 
+Orgânica do Município e demais Diplomas Legais, com fundamento 
+
+na Lei Municipal nº 102/91, bem como, na Lei 913/2015, o qual Fixa 
+as Diárias para Agentes Políticos Servidores e Funcionários do Poder 
+Executivo Municipal deste Município, 
+  
+Resolve: 
+  
+Art. 1º Conceder a servidora pública, Deyse Souza Coeht, Gerente 
+Municipal de Convênio, sob o CPF. N º. 034.962.974-92, que a 
+serviço do Município se deslocará para outro ponto do território 
+nacional, 5 (cinco) diárias pagas em dobro no valor de R$ 75,00 
+(setenta e cinco reais), totalizando o valor de 750.00 (setecentos e 
+cinquenta reais) uma vez que a servidora se ausentará nos dias 15 a 19 
+de Maio do ano corrente, para participar do Evento: Marcha dos 
+Prefeitos, realizado em Brasília/DF. 
+  
+Art. 2º A concessão de que trata o art. 1º desta portaria deverá ser feita 
+nos moldes da Lei nº 913/2015. 
+  
+Art. 3º Esta Portaria entra em vigor na data de sua publicação. 
+  
+Dê-se ciência, 
+registre-se,  
+publique-se e 
+cumpra-se. 
+  
+Gabinete do Prefeito em Teotônio Vilela – AL, 28 de Abril de 2017. 
+  
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:A2E282DC 
+
+ 
+
+ 
+
+

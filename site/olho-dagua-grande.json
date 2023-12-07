@@ -2,6 +2,20 @@
   "id": "olho-dagua-grande",
   "nome": "OLHO D´ÁGUA GRANDE",
   "detalhe": {
+    "2021": {
+      "resumo": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      }
+    },
     "2022": {
       "resumo": {
         "valores_gastos": 31472469.83
@@ -18,59 +32,32 @@
       "8": {
         "valores_gastos": 0.0
       },
-      "9": {
-        "valores_gastos": 0.0
-      },
       "10": {
         "valores_gastos": 0.0
       },
       "11": {
-        "valores_gastos": 0.0
-      },
-      "12": {
         "valores_gastos": 0.0
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 23500391.959999997
-      },
-      "1": {
-        "valores_gastos": 0.0
+        "valores_gastos": 4125995.4
       },
       "2": {
-        "valores_gastos": 0.0
-      },
-      "3": {
         "valores_gastos": 0.0
       },
       "4": {
         "valores_gastos": 30761.84
       },
-      "5": {
-        "valores_gastos": 744853.0
-      },
       "6": {
-        "valores_gastos": 22687158.56
-      },
-      "7": {
-        "valores_gastos": 0.0
+        "valores_gastos": 4095233.56
       },
       "8": {
-        "valores_gastos": 37618.56
-      },
-      "9": {
-        "valores_gastos": 0.0
-      },
-      "10": {
-        "valores_gastos": 0.0
-      },
-      "11": {
         "valores_gastos": 0.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 54972861.79
+    "valores_gastos": 35598465.23
   }
 }

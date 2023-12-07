@@ -2,87 +2,110 @@
   "id": "barra-de-santo-antonio",
   "nome": "BARRA DE SANTO ANTONIO",
   "detalhe": {
-    "2022": {
+    "2021": {
       "resumo": {
-        "valores_gastos": 124026685.89
-      },
-      "1": {
-        "valores_gastos": 77245364.76
-      },
-      "2": {
-        "valores_gastos": 55383.200000000004
-      },
-      "3": {
-        "valores_gastos": 476719.29000000004
-      },
-      "4": {
-        "valores_gastos": 568000.0
-      },
-      "5": {
-        "valores_gastos": 8985349.6
+        "valores_gastos": 805130.44
       },
       "6": {
-        "valores_gastos": 10252321.069999998
-      },
-      "7": {
-        "valores_gastos": 1631884.23
+        "valores_gastos": 0.0
       },
       "8": {
-        "valores_gastos": 1865010.0
+        "valores_gastos": 102643.1
       },
       "9": {
-        "valores_gastos": 6690131.62
+        "valores_gastos": 64363.16
       },
       "10": {
-        "valores_gastos": 7732606.100000001
+        "valores_gastos": 591156.6799999999
       },
       "11": {
-        "valores_gastos": 4290461.38
+        "valores_gastos": 29502.5
       },
       "12": {
-        "valores_gastos": 4233454.640000001
+        "valores_gastos": 17465.0
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 3461115.3099999996
+      },
+      "1": {
+        "valores_gastos": 188942.3
+      },
+      "2": {
+        "valores_gastos": 18534.4
+      },
+      "3": {
+        "valores_gastos": 50488.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 69844.0
+      },
+      "6": {
+        "valores_gastos": 36350.0
+      },
+      "7": {
+        "valores_gastos": 938521.23
+      },
+      "8": {
+        "valores_gastos": 1318910.0
+      },
+      "9": {
+        "valores_gastos": 501056.58
+      },
+      "10": {
+        "valores_gastos": 4780.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 333688.80000000005
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 81081848.48000002
+        "valores_gastos": 5245885.5600000005
       },
       "1": {
-        "valores_gastos": 3615511.460000002
+        "valores_gastos": 789779.9599999997
       },
       "2": {
-        "valores_gastos": 1970603.2399999998
+        "valores_gastos": 350000.0
       },
       "3": {
-        "valores_gastos": 7043313.67
+        "valores_gastos": 101152.52
       },
       "4": {
-        "valores_gastos": 5483572.550000001
+        "valores_gastos": 0.0
       },
       "5": {
-        "valores_gastos": 42790665.660000004
+        "valores_gastos": 0.0
       },
       "6": {
-        "valores_gastos": 7515510.32
+        "valores_gastos": 79161.0
       },
       "7": {
-        "valores_gastos": 4023576.63
+        "valores_gastos": 1260000.0
       },
       "8": {
-        "valores_gastos": 3853207.0100000002
+        "valores_gastos": 1206329.6
       },
       "9": {
-        "valores_gastos": 3148811.31
+        "valores_gastos": 1120000.0
       },
       "10": {
-        "valores_gastos": 920650.98
+        "valores_gastos": 141570.47999999998
       },
       "11": {
-        "valores_gastos": 716425.65
+        "valores_gastos": 197892.0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 205108534.36999997
+    "valores_gastos": 9512131.31
   }
 }

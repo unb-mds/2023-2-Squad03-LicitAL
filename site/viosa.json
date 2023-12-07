@@ -2,87 +2,191 @@
   "id": "viosa",
   "nome": "VIÇOSA",
   "detalhe": {
-    "2022": {
+    "2018": {
       "resumo": {
-        "valores_gastos": 230335856.79999998
-      },
-      "1": {
-        "valores_gastos": 4243252.99
-      },
-      "2": {
-        "valores_gastos": 3504507.9
-      },
-      "3": {
-        "valores_gastos": 2922488.0300000003
-      },
-      "4": {
-        "valores_gastos": 7857958.14
-      },
-      "5": {
-        "valores_gastos": 2326254.58
-      },
-      "6": {
-        "valores_gastos": 26312726.68
-      },
-      "7": {
-        "valores_gastos": 5443020.66
-      },
-      "8": {
-        "valores_gastos": 6459513.589999999
-      },
-      "9": {
-        "valores_gastos": 35212557.879999995
-      },
-      "10": {
-        "valores_gastos": 4511943.59
-      },
-      "11": {
-        "valores_gastos": 18306877.220000003
+        "valores_gastos": 0.0
       },
       "12": {
-        "valores_gastos": 113234755.53999999
+        "valores_gastos": 0.0
+      }
+    },
+    "2019": {
+      "resumo": {
+        "valores_gastos": 138600.0
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 57000.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 81600.0
+      }
+    },
+    "2020": {
+      "resumo": {
+        "valores_gastos": 2624600.0
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 2624600.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2021": {
+      "resumo": {
+        "valores_gastos": 27488059.41
+      },
+      "2": {
+        "valores_gastos": 1320007.6
+      },
+      "3": {
+        "valores_gastos": 280230.97000000003
+      },
+      "4": {
+        "valores_gastos": 102100.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 719167.8400000001
+      },
+      "8": {
+        "valores_gastos": 4822199.76
+      },
+      "9": {
+        "valores_gastos": 6458550.370000001
+      },
+      "10": {
+        "valores_gastos": 2067318.55
+      },
+      "11": {
+        "valores_gastos": 5442075.09
+      },
+      "12": {
+        "valores_gastos": 6276409.2299999995
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 64718655.99
+      },
+      "1": {
+        "valores_gastos": 899529.92
+      },
+      "2": {
+        "valores_gastos": 2695457.2199999997
+      },
+      "3": {
+        "valores_gastos": 2358389.28
+      },
+      "4": {
+        "valores_gastos": 3710088.5299999993
+      },
+      "5": {
+        "valores_gastos": 928847.1599999999
+      },
+      "6": {
+        "valores_gastos": 11100692.17
+      },
+      "7": {
+        "valores_gastos": 1155061.1600000001
+      },
+      "8": {
+        "valores_gastos": 3289561.12
+      },
+      "9": {
+        "valores_gastos": 14413361.76
+      },
+      "10": {
+        "valores_gastos": 2640797.58
+      },
+      "11": {
+        "valores_gastos": 15298224.1
+      },
+      "12": {
+        "valores_gastos": 6228645.99
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 132514495.59
+        "valores_gastos": 72596428.11
       },
       "1": {
-        "valores_gastos": 19493108.880000003
+        "valores_gastos": 7395679.4
       },
       "2": {
-        "valores_gastos": 19756928.439999998
+        "valores_gastos": 12937895.79
       },
       "3": {
-        "valores_gastos": 7629306.15
+        "valores_gastos": 2973735.02
       },
       "4": {
-        "valores_gastos": 5113442.6
+        "valores_gastos": 2587159.77
       },
       "5": {
-        "valores_gastos": 18268494.29
+        "valores_gastos": 14645305.419999998
       },
       "6": {
-        "valores_gastos": 18016553.090000004
+        "valores_gastos": 10976411.6
       },
       "7": {
-        "valores_gastos": 8684798.47
+        "valores_gastos": 6001122.68
       },
       "8": {
-        "valores_gastos": 24608464.77
+        "valores_gastos": 9763547.24
       },
       "9": {
-        "valores_gastos": 2703642.7299999995
+        "valores_gastos": 936239.76
       },
       "10": {
-        "valores_gastos": 1776086.77
+        "valores_gastos": 716784.92
       },
       "11": {
-        "valores_gastos": 6463669.399999999
+        "valores_gastos": 3662546.51
       }
     }
   },
   "resumo": {
-    "valores_gastos": 362850352.39
+    "valores_gastos": 167566343.50999996
   }
 }

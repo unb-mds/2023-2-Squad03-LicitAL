@@ -2,27 +2,208 @@
   "id": "senador-rui-palmeira",
   "nome": "SENADOR RUI PALMEIRA",
   "detalhe": {
-    "2022": {
+    "2017": {
       "resumo": {
-        "valores_gastos": 79579115.48
+        "valores_gastos": 6488220.84
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 879174.3200000001
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 34800.0
+      },
+      "12": {
+        "valores_gastos": 5574246.52
+      }
+    },
+    "2018": {
+      "resumo": {
+        "valores_gastos": 3668941.96
       },
       "1": {
-        "valores_gastos": 5567725.35
+        "valores_gastos": 0.0
       },
       "2": {
-        "valores_gastos": 891876.0
+        "valores_gastos": 0.0
       },
       "3": {
-        "valores_gastos": 2528384.0
+        "valores_gastos": 0.0
       },
       "4": {
-        "valores_gastos": 3299980.9699999997
+        "valores_gastos": 2437016.54
+      },
+      "5": {
+        "valores_gastos": 167300.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 0.0
+      },
+      "10": {
+        "valores_gastos": 673931.86
+      },
+      "11": {
+        "valores_gastos": 301293.56
+      },
+      "12": {
+        "valores_gastos": 89400.0
+      }
+    },
+    "2019": {
+      "resumo": {
+        "valores_gastos": 4454723.4399999995
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 76800.0
+      },
+      "5": {
+        "valores_gastos": 261300.0
+      },
+      "6": {
+        "valores_gastos": 16000.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 2830211.8
+      },
+      "10": {
+        "valores_gastos": 784950.72
+      },
+      "11": {
+        "valores_gastos": 205793.41999999998
+      },
+      "12": {
+        "valores_gastos": 279667.5
+      }
+    },
+    "2020": {
+      "resumo": {
+        "valores_gastos": 588291.7
+      },
+      "1": {
+        "valores_gastos": 74699.93
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 263954.17
+      },
+      "8": {
+        "valores_gastos": 0.0
+      },
+      "9": {
+        "valores_gastos": 209620.0
+      },
+      "10": {
+        "valores_gastos": 40017.6
+      },
+      "12": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2021": {
+      "resumo": {
+        "valores_gastos": 8599642.04
+      },
+      "1": {
+        "valores_gastos": 835713.0
+      },
+      "2": {
+        "valores_gastos": 272950.08
+      },
+      "3": {
+        "valores_gastos": 271129.37
+      },
+      "4": {
+        "valores_gastos": 282702.88
+      },
+      "5": {
+        "valores_gastos": 593435.42
+      },
+      "6": {
+        "valores_gastos": 1175000.0
+      },
+      "7": {
+        "valores_gastos": 0.0
+      },
+      "8": {
+        "valores_gastos": 341764.16
+      },
+      "9": {
+        "valores_gastos": 701767.2799999999
+      },
+      "10": {
+        "valores_gastos": 2858548.0
+      },
+      "11": {
+        "valores_gastos": 475687.56
+      },
+      "12": {
+        "valores_gastos": 790944.29
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 51841981.029999994
+      },
+      "1": {
+        "valores_gastos": 2192872.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 1853492.0
+      },
+      "4": {
+        "valores_gastos": 3228204.3099999996
       },
       "5": {
         "valores_gastos": 1287878.51
       },
       "6": {
-        "valores_gastos": 23148681.06
+        "valores_gastos": 16703378.94
       },
       "7": {
         "valores_gastos": 2019218.4
@@ -31,13 +212,13 @@
         "valores_gastos": 4016129.26
       },
       "9": {
-        "valores_gastos": 14540051.41
+        "valores_gastos": 4703121.26
       },
       "10": {
-        "valores_gastos": 21624312.710000005
+        "valores_gastos": 15479511.82
       },
       "11": {
-        "valores_gastos": 556500.88
+        "valores_gastos": 259797.6
       },
       "12": {
         "valores_gastos": 98376.93000000001
@@ -45,37 +226,37 @@
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 133133859.73
+        "valores_gastos": 70617401.07
       },
       "1": {
-        "valores_gastos": 4983638.33
+        "valores_gastos": 3832553.43
       },
       "2": {
-        "valores_gastos": 6633295.580000001
+        "valores_gastos": 3386620.22
       },
       "3": {
-        "valores_gastos": 7625843.04
+        "valores_gastos": 3363053.23
       },
       "4": {
-        "valores_gastos": 38544.0
+        "valores_gastos": 0.0
       },
       "5": {
-        "valores_gastos": 3245514.21
+        "valores_gastos": 2773288.5300000003
       },
       "6": {
-        "valores_gastos": 22427462.22
+        "valores_gastos": 18691274.22
       },
       "7": {
-        "valores_gastos": 17406364.94
+        "valores_gastos": 12583459.97
       },
       "8": {
-        "valores_gastos": 3113346.18
+        "valores_gastos": 2404034.5
       },
       "9": {
-        "valores_gastos": 53539137.06
+        "valores_gastos": 14026421.2
       },
       "10": {
-        "valores_gastos": 13634176.21
+        "valores_gastos": 9070157.81
       },
       "11": {
         "valores_gastos": 486537.96
@@ -83,6 +264,6 @@
     }
   },
   "resumo": {
-    "valores_gastos": 212712975.21000004
+    "valores_gastos": 146259202.08
   }
 }

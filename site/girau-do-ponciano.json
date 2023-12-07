@@ -2,46 +2,100 @@
   "id": "girau-do-ponciano",
   "nome": "GIRAU DO PONCIANO",
   "detalhe": {
+    "2019": {
+      "resumo": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 0.0
+      }
+    },
+    "2020": {
+      "resumo": {
+        "valores_gastos": 11489695.809999999
+      },
+      "1": {
+        "valores_gastos": 0.0
+      },
+      "2": {
+        "valores_gastos": 0.0
+      },
+      "3": {
+        "valores_gastos": 0.0
+      },
+      "4": {
+        "valores_gastos": 5271902.359999999
+      },
+      "5": {
+        "valores_gastos": 2694972.56
+      },
+      "6": {
+        "valores_gastos": 357968.71
+      },
+      "7": {
+        "valores_gastos": 2053961.77
+      },
+      "8": {
+        "valores_gastos": 160942.95
+      },
+      "9": {
+        "valores_gastos": 179840.0
+      },
+      "10": {
+        "valores_gastos": 666329.46
+      },
+      "12": {
+        "valores_gastos": 103778.0
+      }
+    },
+    "2021": {
+      "resumo": {
+        "valores_gastos": 316983.91000000003
+      },
+      "1": {
+        "valores_gastos": 29700.0
+      },
+      "3": {
+        "valores_gastos": 287283.91000000003
+      }
+    },
     "2023": {
       "resumo": {
-        "valores_gastos": 403305155.15
+        "valores_gastos": 163331282.8
       },
       "1": {
         "valores_gastos": 17921010.46
       },
       "2": {
-        "valores_gastos": 38145139.68
+        "valores_gastos": 21297118.020000003
       },
       "3": {
-        "valores_gastos": 26925170.439999998
+        "valores_gastos": 868839.4
       },
       "4": {
-        "valores_gastos": 10154057.1
+        "valores_gastos": 7303600.0
       },
       "5": {
-        "valores_gastos": 1624437.5
-      },
-      "6": {
-        "valores_gastos": 12409120.200000001
+        "valores_gastos": 560000.0
       },
       "7": {
-        "valores_gastos": 21835063.96
+        "valores_gastos": 11263253.16
       },
       "8": {
-        "valores_gastos": 79034942.47
+        "valores_gastos": 31796948.96
       },
       "9": {
-        "valores_gastos": 116300398.33
+        "valores_gastos": 21213097.44
       },
       "10": {
-        "valores_gastos": 57655711.370000005
+        "valores_gastos": 47594816.56
       },
       "11": {
-        "valores_gastos": 21300103.64
+        "valores_gastos": 3512598.8
       }
     }
   },
   "resumo": {
-    "valores_gastos": 403305155.15
+    "valores_gastos": 175137962.52
   }
 }

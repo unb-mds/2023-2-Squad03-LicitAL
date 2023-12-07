@@ -2,18 +2,32 @@
   "id": "igaci",
   "nome": "IGACI",
   "detalhe": {
+    "2021": {
+      "resumo": {
+        "valores_gastos": 345000.0
+      },
+      "10": {
+        "valores_gastos": 0.0
+      },
+      "11": {
+        "valores_gastos": 0.0
+      },
+      "12": {
+        "valores_gastos": 345000.0
+      }
+    },
     "2022": {
       "resumo": {
-        "valores_gastos": 33525573.36
+        "valores_gastos": 27516326.07
       },
       "1": {
-        "valores_gastos": 2163998.27
+        "valores_gastos": 293940.0
       },
       "2": {
-        "valores_gastos": 2413838.04
+        "valores_gastos": 504578.15
       },
       "3": {
-        "valores_gastos": 140242.3
+        "valores_gastos": 0.0
       },
       "4": {
         "valores_gastos": 34920.0
@@ -24,57 +38,48 @@
       "6": {
         "valores_gastos": 3819854.25
       },
-      "7": {
-        "valores_gastos": 387180.0
-      },
       "8": {
-        "valores_gastos": 621000.0
+        "valores_gastos": 0.0
       },
       "9": {
-        "valores_gastos": 141053.85
+        "valores_gastos": 130440.0
       },
       "10": {
         "valores_gastos": 0.0
       },
       "11": {
-        "valores_gastos": 1067454.98
+        "valores_gastos": 0.0
       },
       "12": {
-        "valores_gastos": 12822895.38
+        "valores_gastos": 12819457.38
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 37754715.660000004
+        "valores_gastos": 11171082.530000001
       },
       "1": {
-        "valores_gastos": 178800.5
+        "valores_gastos": 35100.0
       },
       "2": {
-        "valores_gastos": 5428254.5600000005
+        "valores_gastos": 2759127.2800000003
       },
       "3": {
-        "valores_gastos": 7416782.47
+        "valores_gastos": 1849343.34
       },
       "4": {
-        "valores_gastos": 2669127.2800000003
+        "valores_gastos": 0.0
       },
       "5": {
         "valores_gastos": 1804221.03
       },
       "6": {
-        "valores_gastos": 4983290.88
+        "valores_gastos": 4723290.88
       },
       "7": {
-        "valores_gastos": 1054238.94
-      },
-      "8": {
-        "valores_gastos": 14220000.0
-      },
-      "9": {
         "valores_gastos": 0.0
       },
-      "10": {
+      "9": {
         "valores_gastos": 0.0
       },
       "11": {
@@ -83,6 +88,6 @@
     }
   },
   "resumo": {
-    "valores_gastos": 71280289.02000001
+    "valores_gastos": 39032408.6
   }
 }

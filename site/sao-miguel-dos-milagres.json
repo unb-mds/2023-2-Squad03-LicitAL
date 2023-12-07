@@ -2,87 +2,119 @@
   "id": "sao-miguel-dos-milagres",
   "nome": "SÃO MIGUEL DOS MILAGRES",
   "detalhe": {
-    "2022": {
+    "2021": {
       "resumo": {
-        "valores_gastos": 439781770.1
-      },
-      "1": {
-        "valores_gastos": 317617.0
-      },
-      "2": {
-        "valores_gastos": 55579.97
-      },
-      "3": {
-        "valores_gastos": 7690186.76
+        "valores_gastos": 1540642.47
       },
       "4": {
-        "valores_gastos": 140000.0
+        "valores_gastos": 0.0
       },
       "5": {
-        "valores_gastos": 520000.0
+        "valores_gastos": 120778.6
       },
       "6": {
-        "valores_gastos": 7618844.8
+        "valores_gastos": 0.0
       },
       "7": {
-        "valores_gastos": 11140985.18
+        "valores_gastos": 160418.89
       },
       "8": {
-        "valores_gastos": 162001939.29
+        "valores_gastos": 260000.0
       },
       "9": {
-        "valores_gastos": 7471672.22
+        "valores_gastos": 616667.98
       },
       "10": {
-        "valores_gastos": 6140685.630000001
+        "valores_gastos": 0.0
       },
       "11": {
-        "valores_gastos": 7778568.59
+        "valores_gastos": 328661.0
       },
       "12": {
-        "valores_gastos": 228905690.66
+        "valores_gastos": 54116.0
+      }
+    },
+    "2022": {
+      "resumo": {
+        "valores_gastos": 164172507.05
+      },
+      "1": {
+        "valores_gastos": 317592.0
+      },
+      "2": {
+        "valores_gastos": 41592.0
+      },
+      "3": {
+        "valores_gastos": 2472650.51
+      },
+      "4": {
+        "valores_gastos": 0.0
+      },
+      "5": {
+        "valores_gastos": 0.0
+      },
+      "6": {
+        "valores_gastos": 0.0
+      },
+      "7": {
+        "valores_gastos": 1191302.79
+      },
+      "8": {
+        "valores_gastos": 153584637.84
+      },
+      "9": {
+        "valores_gastos": 791389.73
+      },
+      "10": {
+        "valores_gastos": 5580260.180000001
+      },
+      "11": {
+        "valores_gastos": 41800.0
+      },
+      "12": {
+        "valores_gastos": 151282.0
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 295887323.96000004
+        "valores_gastos": 5045157.06
       },
       "1": {
-        "valores_gastos": 236937829.02000004
+        "valores_gastos": 755512.7499999999
       },
       "2": {
-        "valores_gastos": 12772743.06
+        "valores_gastos": 131922.44
       },
       "3": {
-        "valores_gastos": 733172.8500000001
+        "valores_gastos": 291871.0
       },
       "4": {
-        "valores_gastos": 10794412.77
+        "valores_gastos": 100000.0
       },
       "5": {
-        "valores_gastos": 4533339.72
+        "valores_gastos": 377800.0
       },
       "6": {
-        "valores_gastos": 7554357.08
+        "valores_gastos": 0.0
       },
       "7": {
-        "valores_gastos": 951604.83
+        "valores_gastos": 89696.42
       },
       "8": {
-        "valores_gastos": 5947136.86
+        "valores_gastos": 3273643.08
       },
       "9": {
-        "valores_gastos": 990990.19
+        "valores_gastos": 0.0
       },
       "10": {
-        "valores_gastos": 13485110.95
+        "valores_gastos": 11000.0
       },
       "11": {
-        "valores_gastos": 1186626.63
+        "valores_gastos": 13711.369999999999
       }
     }
   },
   "resumo": {
-    "valores_gastos": 735669094.0600003
+    "valores_gastos": 170758306.58
   }
 }

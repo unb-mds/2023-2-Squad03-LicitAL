@@ -1,0 +1,3616 @@
+
+ 
+ 
+ 
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+ 
+
+www.diariomunicipal.com.br/ama                                                                                1 
+
+ 
+
+Expediente: 
+
+Associação dos Municípios Alagoanos -AMA 
+
+ 
+
+ 
+
+DIRETORIA EXECUTIVA 
+  
+
+Presidente: Hugo Wanderley Cajú - Cacimbinhas 
+
+Vice-presidente: Joaquim Beltrão Siqueira – Coruripe 
+
+  
+
+Secretário Geral: Marcelo Ricardo Vasconcelos Lima – Quebrangulo 
+
+1º Secretário: Júlio Cezar da Silva – Palmeira dos Índios 
+
+2º Secretário: Emanuella Corado Acioli de Moura – Barra de Santo Antônio 
+
+1º Tesoureiro: João José Pereira Filho – Teotônio Vilela 
+
+2º Tesoureiro: Bruno Rodrigo Valença de Araújo – São José da Laje 
+
+ 
+
+  
+
+CONSELHO FISCAL 
+
+Titular: 
+
+Vinicius José Mariano de Lima – Canapi 
+
+Ramon Camilo Silva – Dois Riachos 
+
+Klever Rego Loureiro Júnior – Japaratinga 
+
+  
+
+Suplente: 
+
+Ana Paula Antero Santa Rosa Barbosa - Belém 
+
+Jairon Maia Fernandes Neto – Branquinha 
+
+Carlos Augusto Lima de Almeida – Junqueiro 
+
+ 
+
+  
+
+COORDENADORIAS REGIONAIS 
+
+Região Central: Adelmo Moreira Calheiros – Capela 
+
+Região Norte: Nielson Mendes da Silva – Campestre 
+
+Região Metropolitana: Renato Rezende Rocha Filho – Pilar 
+
+Região do Sertão: Jeane Oliveira Moura Silva Chagas – Senador Rui 
+
+Palmeira 
+
+Região Agreste/Baixo São Francisco: Oliveiro Torres Piancó – Igaci 
+
+ 
+ 
+
+O Diário Oficial dos Municípios do Estado de Alagoas é uma solução voltada à 
+
+modernização e transparência da gestão municipal. 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE ARAPIRACA 
+
+ 
+
+PREFEITURA MUNICIPAL DE ARAPIRACA 
+
+ACORDO DE COOPERAÇÃO TECNICA PARA 
+
+OPERACIONALIZAÇÃO DO CONTROLE DAS 
+
+CONSIGNAÇÕES DA PREFEITURA MUNICIPAL DE 
+
+ARAPIRACA, POR MEIO DO SISTEMA GREEN CONSIG, 
+
+CONTRATADO PELAS CONSGINATÁRIAS 
+
+CREDENCIADAS. 
+ 
+
+ACORDO DE COOPERAÇÃO TECNICA PARA 
+
+OPERACIONALIZAÇÃO DO CONTROLE DAS 
+
+CONSIGNAÇÕES DA PREFEITURA MUNICIPAL 
+
+DE ARAPIRACA, POR MEIO DO SISTEMA 
+
+GREEN CONSIG, CONTRATADO PELAS 
+
+CONSGINATÁRIAS CREDENCIADAS. 
+
+  
+
+O MUNICÍPIO DE ARAPIRACA, Pessoa Jurídica de Direito 
+
+Público Interno, inscrito no CNPJ sob o n°. 12.198.693/0001-58, 
+
+sediada na Rua Samaritana, 1185, Bairro Santa Edwiges, CEP 57.310-
+
+245, Arapiraca/AL, neste ato representado por seu Prefeito, Sr. 
+
+ROGÉRIO AUTO TEÓFILO, Brasileiro, casado, Gestor Público, 
+
+portador da cédula de identidade nº 262.494 SSP/AL, inscrito no 
+
+Cadastro de Pessoas Físicas sob o n°. 209.092.764-04, adiante 
+
+denominado CESSIONÁRIO e a “GREEN - SOLUÇÕES EM 
+
+SOFTWARE LTDA”, sociedade limitada, com sede na Avenida 
+
+Getúlio Vargas, 1219, Conjunto 08, Casa Caiada, Olinda/PE, CEP 
+
+53.030-010, inscrito no CNPJ sob o nº 21.483.053/0001-80 com seu 
+
+Contrato Social arquivado na Junta Comercial do Estado de 
+
+Pernambuco sob o NIRE 262.0222530-7, representada neste ato pelo 
+
+seu Diretor Presidente Professor Dr. Jonaldo Janguiê Bezerra Diniz, 
+
+casado, advogado, portador do CPF/MF 801.372.374-72 e RG nº 
+
+4172082 SDS-PE com residência na cidade do Recife, Estado de 
+
+Pernambuco; doravante denominado simplesmente CEDENTE, 
+
+resolvem firmar o presente ACORDO DE COOPERAÇÃO 
+
+TECNICA conforme objeto e cláusulas que se seguem: 
+
+  
+
+Os CONTRATANTES têm entre si justos e avençados, e celebram o 
+
+presente ACORDO DE COOPERAÇÃO TECNICA. Sujeitando-se 
+
+as partes aos artigos 579 a 585 do Código Civil, às normas 
+
+disciplinares da Lei nº 8.666, de 21 de junho de 1993, e às seguintes 
+
+cláusulas: 
+
+CLÁUSULA PRIMEIRA – DO OBJETO 
+  
+
+O presente Acordo de Cooperação tem como objeto o licenciamento 
+
+de uso do programa de computador GreenConsig - Sistema 
+
+Eletrônico, via Internet, de Reserva de Margem e Controle de 
+
+Consignações, com desconto em Folha de Pagamento, e Outras 
+
+Avençadas, de prioridade do CEDENTE, descrito e caracterizado no 
+
+Anexo I, o qual é parte integrante deste instrumento. 
+
+  
+
+O programa de computador cujo licenciamento de uso constitui o bem 
+
+objeto do presente Acordo de Cooperação Técnica tem por objetivo 
+
+possibilitar o controle efetivo da realização de descontos em folha de 
+
+pagamento dos servidores do Município de Arapiraca. 
+
+  
+
+CLÁUSULA SEGUNDA – DA VIGÊNCIA 
+  
+
+A vigência deste Acordo de Cooperação é de 30 (trinta) meses, 
+
+contados da data de publicação do ato. 
+
+  
+
+CLÁUSULA TERCEIRA – DA INFRA-ESTRUTURA E 
+
+MANUTENÇÃO 
+  
+
+Durante o período de vigência do presente instrumento, o CEDENTE 
+
+será responsável pelos bens necessários ao uso do programa de 
+
+computador, conforme especificações contidas no Anexo I, bem como 
+
+dos custos e despesas relativas à instalação e manutenção do programa 
+
+de computador cujo licenciamento de uso constitui o objeto do 
+
+presente acordo. 
+
+  
+
+Não haverá repasse de recursos entre as partes para fins de execução 
+
+do presente Acordo, ficando sob a responsabilidade de cada Ente arcar 
+
+com os custos operacionais. 
+
+  
+
+O CEDENTE se obriga a guardar sigilo sobre os dados registrados no 
+
+Sistema GreenConsig, relativos aos servidores do CESSIONÁRIO. 
+
+  
+
+CLÁUSULA QUARTA – DO LICENCIAMENTO DO USO DO 
+
+SISTEMA 
+  
+
+O CESSIONÁRIO não poderá, em hipótese alguma, ceder, emprestar 
+
+ou dar em sub-cessão no todo ou em parte, o programa do computador 
+
+objeto do presente instrumento. 
+
+  
+
+CLÁUSULA QUINTA – DAS OBRIGAÇÕES DO 
+
+CESSIONÁRIO 
+São obrigações DO CESSIONÁRIO: 
+
+  
+
+Efetuar a gestão e uso do Sistema GreenConsig; 
+
+  
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                2 
+
+ 
+
+Manter os dados cadastrais do Sistema GreenConsig, das empresas, 
+
+das consignatárias, usuários e respectivos perfis de acesso, bem como 
+
+de margens consignáveis, conforme detalhado no Anexo I; 
+
+  
+
+Compartilhar, para a operação do Sistema GreenConsig, os seguintes 
+
+dados dos servidores: 
+
+  
+
+Matrícula; 
+
+  
+
+Nome; 
+
+  
+
+CPF; 
+
+  
+
+Identidade; 
+
+  
+
+Data de admissão; 
+
+  
+
+Cargo; 
+
+  
+
+Tipo de Cargo; 
+
+  
+
+Função; 
+
+  
+
+Margem disponível; 
+
+  
+
+Extrato de margem; 
+
+  
+
+Histórico de margem; 
+
+  
+
+Variação de margem; 
+
+  
+
+Obrigações averbadas no sistema; 
+
+  
+
+Foto digital (se houver). 
+
+  
+
+Executar rotinas periódicas de Integração entre o Sistema 
+
+GreenConsig e o Sistema de Folha de Pagamento do 
+
+CESSIONÁRIO, conforme detalhado do anexo I; 
+
+  
+
+Alimentar o Sistema GreenConsig com todas as informações 
+
+necessárias para a sua devida utilização, tais como o cadastro de: 
+
+  
+
+Empresas Consignatárias; 
+
+  
+
+Órgãos / Secretarias; 
+
+  
+
+Matrículas e margens de servidores; 
+
+  
+
+Contratos existentes. 
+
+  
+
+Responsabilizar-se por utilizar o Sistema GreenConsig de acordo com 
+
+o que estabelecem as normas contidas no Anexo I, em consonância 
+
+com as especificações técnicas, funcionalidades e operação do 
+
+programa de computador, com estrita observância das disposições 
+
+legais e dos bons costumes; 
+
+  
+
+Observar rigorosamente as normas contidas no Anexo I, relativas à 
+
+segurança do programa de computador, ao seu escopo de utilização e 
+
+aos procedimentos que devem ser adotados caso ocorra necessidades 
+
+de alterações no mesmo; 
+
+  
+
+Promover, sempre que julgar necessário, a fiscalização documental e 
+
+digital relativa ao presente Acordo. 
+
+  
+
+CLÁUSULA SEXTA – DAS OBRIGAÇÕES DO CEDENTE 
+São obrigações do CEDENTE: 
+
+  
+
+Garantir a disponibilidade do Sistema GreenConsig; 
+
+  
+
+Garantir a integridade, sigilo e segurança dos dados armazenados em 
+
+seu datacenter, inclusive a execução e guarda de cópias de segurança 
+
+de dados e sistemas. Garantir igualmente a impossibilidade de uso das 
+
+informações para outros propósitos não previstos no presente acordo; 
+
+  
+
+Disponibilizar versões atualizadas do sistema GreenConsig, cujas 
+
+implantações deverão ser programadas em conjunto com o 
+
+CESSIONÁRIO; 
+  
+
+Manter o CESSIONÁRIO informado de qualquer alteração de rotinas 
+
+do sistema GreenConsig; 
+
+  
+
+Manter o CESSIONÁRIO informado de eventuais problemas no sítio 
+
+da internet que possam causar interrupção do uso do sistema 
+
+GreenConsig; 
+
+  
+
+Informar ao CESSIONÁRIO, com antecedência, eventual 
+
+manutenção do sistema GreenConsig ou sítio da internet onde está 
+
+hospedado; 
+
+  
+
+Promover os treinamentos dos usuários indicados pelo 
+
+CESSIONÁRIO: 
+  
+
+Fornecer suporte ao CESSIONÁRIO na utilização do sistema 
+
+GreenConsig em horário comercial, nos dias úteis das 08:00 às 18:00, 
+
+horário de Brasília; 
+
+  
+
+O prazo para atendimento às solicitações realizadas pelo 
+
+CESSIONÁRIO será, via de regra, de 4 (quatro) horas, nunca 
+
+devendo exceder 48 (quarenta e oito) horas quando este não envolva 
+
+mudanças estruturais no sistema informatizado ou de estrutura física; 
+
+  
+
+No caso de mudanças estruturais no sistema informatizado ou de 
+
+estrutura física deverá ser obedecido um cronograma definido em 
+
+conjunto entre as partes, sendo o prazo máximo de 45 (quarenta e 
+
+cinco) dias para solução. 
+
+  
+
+Fornecer tempestivamente as informações a serem lançadas na folha 
+
+de pagamento do CESSIONÁRIO, em cronograma pré-estabelecido 
+
+entre as partes; 
+
+  
+
+Manter uma infraestrutura adequada com certificado digital para 
+
+garantir a segurança e integridade dos dados no datacenter em que 
+
+será instalado o GreenConsig; 
+
+  
+
+Disponibilizar mensalmente uma cópia de segurança dos dados 
+
+contidos no Sistema GreenConsig; 
+
+  
+
+Implementar sugestões e solicitações de alteração do sistema 
+
+GreenConsig visando atender às exigências de segurança, 
+
+confiabilidade e agilidade pretendidas pelo CESSIONÁRIO; 
+
+  
+
+Providenciar a correção de falhas de segurança identificadas nos 
+
+sistemas ou nos equipamentos promovidos pela contratante, tão logo 
+
+seja descoberta; 
+
+  
+
+Obedecer criteriosamente o cronograma estabelecido pelo 
+
+CESSIONÁRIO, visando não gerar atrasos no processo de geração 
+
+da folha de pagamento; 
+
+  
+
+Garantir a integridade e fidelidade das informações geradas para a 
+
+folha de pagamento advindas de seu sistema informatizado; 
+
+  
+
+Orientar, prestar consultoria, prevenir e solucionar possíveis fraudes, 
+
+administrar e buscar soluções em processos administrativos judiciais 
+
+e/ou judiciais que tenham sua origem nas consignações em folha, bem 
+
+como manter o CESSIONÁRIO permanentemente informado; 
+
+  
+
+Gerar logs de consulta e modificação dos dados pertencentes ao 
+
+CESSIONÁRIO, retendo-os durante toda a relação contratual; 
+
+  
+
+Garantir a integridade dos logs, por meio de controles que minimizem 
+
+o risco de modificação indevida ou acidental; 
+
+  
+
+Entregar ao CESSIONÁRIO cópias em mídias de todo e qualquer 
+
+log armazenado ao final do Acordo ou a qualquer tempo, mediante 
+
+solicitação; 
+
+  
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                3 
+
+ 
+
+Garantir acesso de servidores indicados pelo CESSIONÁRIO, a 
+
+qualquer tempo, às instalações da empresa, as instalações do 
+
+datacenter, ao sistema e as instalações de software básico que o 
+
+suportem e ao inventário que permita localizar todas as aplicações do 
+
+cliente, para fins de auditoria em todo e qualquer aspecto concernente 
+
+à segurança dos dados do CESSIONÁRIO; 
+
+  
+
+Controlar as transações dos usuários, com o registro de todas as 
+
+operações efetuadas; 
+
+  
+
+Implementar controles que minimizem o risco de repúdio de 
+
+transações pelos usuários do sistema; 
+
+  
+
+Implementar controles de acesso dos usuários, incluindo a previsão de 
+
+bloqueio automático do usuário após determinado número de 
+
+tentativas de login mal-sucedidas ou após dias de inatividade, 
+
+bloqueio na utilização de senhas repetidas, teste de força das senhas 
+
+geradas e bloqueio de acesso simultâneo de mesmo usuário ao 
+
+sistema; 
+
+  
+
+Garantir que as consultas à margem consignável de clientes sejam 
+
+restritas aos interessados em consignar; 
+
+  
+
+Responsabilizar-se pela administração e suporte de qualquer tipo de 
+
+máquina de comunicação, assim como a compra, manutenção, 
+
+atualização e propriedade de todas as licenças nela instaladas; 
+
+  
+
+Antes do início da operação do sistema GreenConsig: 
+
+  
+
+Definir expressamente quais são as informações mínimas a serem 
+
+compartilhadas pelo CESSIONÁRIO, necessárias ao perfeito 
+
+funcionamento do sistema GreenConsig; 
+
+  
+
+Detalhar, expressamente o procedimento de envio e recebimento de 
+
+informações sobre as averbações, bem como de seus logs; 
+
+  
+
+Detalhar, em parceria com o CESSIONÁRIO, as informações a 
+
+serem armazenadas em logs, permitindo a identificação unívoca do 
+
+evento, quando e onde ocorreu, além dos registros e usuários 
+
+envolvidos; 
+
+  
+
+Ao final do presente Acordo: 
+
+  
+
+Entregar ao CESSIONÁRIO todas as informações mantidas no 
+
+sistema GreenConsig, de forma que seja possível recuperar as 
+
+informações das consignações já realizadas; 
+
+  
+
+Entregar ao CESSIONÁRIO todos os registros de logs de transações 
+
+ocorridas durante a vigência deste instrumento contratual; 
+
+  
+
+Remover todos os dados do CESSIONÁRIO de seu datacenter de 
+
+forma a diminuir os riscos de acessos indevidos e vazamento de 
+
+informações. 
+
+  
+
+CLÁUSULA SÉTIMA – DAS RESPONSABILIDADES DO 
+
+CESSIONÁRIO E DO CEDENTE  
+  
+
+A comunicação entre os sistemas do CESSIONÁRIO e do 
+
+CEDENTE será realizada mediante troca de arquivos em formato 
+
+texto, com estrutura de dados a ser negociada entre as partes; 
+
+  
+
+Os arquivos para a troca de dados serão disponibilizados em diretório 
+
+para esse fim, em sistema de arquivos do ambiente interno do 
+
+CESSIONÁRIO, em periodicidade a ser negociada entre as partes; 
+
+  
+
+O CEDENTE será responsável pela criptografia e captura dos dados 
+
+para ele destinados, antes da transmissão para o seu datacenter, onde 
+
+os dados serão processados. Da mesma forma, o CEDENTE deverá 
+
+criptografar os arquivos de retorno antes da transmissão para o 
+
+ambiente do CESSIONÁRIO, entregando-o em formato 
+
+criptografado no diretório de arquivos para esse fim reservado no 
+
+ambiente interno do CESSIONÁRIO; 
+
+  
+
+Para a realização dos procedimentos de troca de arquivos, o 
+
+CEDENTE deverá instalar e configurar no ambiente de datacenter do 
+
+CESSIONÁRIO uma máquina virtual, aqui denominada máquina de 
+
+comunicação. Todas as licenças de softwares básicos e de sistemas e 
+
+ferramentas necessárias para essa finalidade, incluindo as ferramentas 
+
+de segurança e VPN que se mostrarem pertinentes deverão ser 
+
+promovidas pelo CEDENTE, sem ônus para o CESSIONÁRIO; 
+
+  
+
+A instalação definida no ambiente do CESSIONÁRIO deverá ser 
+
+realizada sob a supervisão da equipe técnica do CESSIONÁRIO; 
+
+  
+
+A máquina de comunicação deverá ser compatível plenamente 
+
+funcional no ambiente de virtualização corporativo do 
+
+CESSIONÁRIO. Não obstante, a compatibilidade da máquina de 
+
+comunicação deverá ser mantida pela contratada em futuras versões 
+
+ou no caso de mudança para outra solução corporativa; 
+
+  
+
+A transmissão deverá ser realizada pelos links de Internet do 
+
+CESSIONÁRIO, ou outro para esse fim destinado, a critério do 
+
+CESSIONÁRIO, por meio de VPN estabelecida entre a Máquina de 
+
+Comunicação e solução equivalente residente no ”datacenter" do 
+
+CEDENTE sob a responsabilidade dessa última; 
+
+  
+
+O CESSIONÁRIO poderá a qualquer momento, caso julgue 
+
+necessário por razões de segurança ou outros, desligar a Máquina de 
+
+Comunicação. Caso isso venha a acontecer, não contará o tempo em 
+
+que a Máquina de Comunicação ficar fora do ar para fins dos 
+
+indicadores de disponibilidade, apenas se os motivos que deram causa 
+
+a ocorrência não forem de responsabilidade do CEDENTE. Para fins 
+
+do aqui disposto, esclarece-se que razões de segurança que não 
+
+tenham sido imediatamente sanadas pela contratada são consideradas 
+
+como sendo de responsabilidade do CEDENTE. 
+
+  
+
+Será franqueado ao pessoal da área de TI do CESSIONÁRIO, 
+
+ininterruptamente o acesso amplo e irrestrito à máquina de 
+
+comunicação para fins de auditoria, monitoramento e desligamento 
+
+caso necessários; 
+
+  
+
+A equipe de TI indicada pelo CESSIONÁRIO poderá solicitar, a 
+
+qualquer tempo, mudanças de configuração na máquina de 
+
+comunicação que julgar necessárias, para fins de segurança ou 
+
+compatibilização com os ambientes e ferramentas de rede e de 
+
+monitoração corporativas adotadas pelo CESSIONÁRIO. Essas 
+
+solicitações, a serem realizadas mediante e-mail ou ofício, quando 
+
+ocorrerem deverão ser atendidas, sem custo para o CESSIONÁRIO, 
+
+no prazo máximo de 48 horas corridas, descontadas os dias não úteis; 
+
+  
+
+O prazo para o descarte das informações no Sistema GreenConsig 
+
+deverá ser de 90 (noventa) dias, contado da rescisão deste acordo. 
+
+Antes do descarte, todas as informações do sistema GreenConsig 
+
+deverão ser enviadas para a carga e conferência no módulo 
+
+Consignações do Sistema de Folha do CESSIONÁRIO. 
+
+  
+
+CLÁUSULA OITAVA – DA RESCISÃO 
+  
+
+É permitida a rescisão do contrato nos termos do art. 581 do Código 
+
+Civil, bem como em caso de descumprimento pelo CESSIONÁRIO 
+
+de qualquer de suas cláusulas ou condições, após ser concedida, por 
+
+escrito, oportunidade de solução dentro do prazo de 30 (trinta) dias da 
+
+data da respectiva notificação; 
+
+  
+
+O contrato poderá ainda ser rescindido em decorrência das hipóteses 
+
+previstas nos artigos 77 a 79 da Lei n º 8.666/1993. 
+
+  
+
+CLÁUSULA NONA – DA RELAÇÃO TRABALHISTA 
+  
+
+O presente Acordo não enseja a criação de qualquer vínculo 
+
+trabalhista entre o CESSIONÁRIO e o CEDENTE. 
+
+  
+
+CLÁUSULA DÉCIMA – DO ACOMPANHAMENTO DA 
+
+FISCALIZAÇÃO 
+  
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                4 
+
+ 
+
+Durante a vigência deste Acordo de Cooperação, a execução do objeto 
+
+será acompanhada e fiscalizada pela Diretoria Administrativa, unidade 
+
+gestora do Sistema GreenConsig; 
+
+  
+
+CLÁUSULA DÉCIMA PRIMEIRA – DA PUBLICAÇÃO 
+  
+
+O presente Acordo de Cooperação será publicado, por extrato, no 
+
+Diário Oficial dos Municípios Alagoanos, nos termos do parágrafo 
+
+único do artigo 61 da Lei nº 8.666 de 21 de junho de 1993. 
+
+  
+
+CLÁUSULA DÉCIMA SEGUNDA – DO FORO 
+  
+
+As questões decorrentes da execução deste instrumento, que não 
+
+possam ser dirimidas administrativamente, serão processadas e 
+
+julgadas no Foro da cidade de Arapiraca, com exclusão de qualquer 
+
+outro, por mais privilegiado que seja, salvo nos casos previstos no art. 
+
+102, inciso I, alínea “d”, da Constituição Federal. 
+
+  
+
+Arapiraca, 01 de junho de 2017 
+
+  
+
+ROGÉRIO ATO TEOFILO 
+Prefeito de Arapiraca 
+
+  
+
+MARCYO HERMAN PEREIRA DE LYRA 
+GREEN - Soluções em Software LTDA  
+
+Publicado por: 
+Gean Fábio Carvalho de Oliveira 
+
+Código Identificador:DA461874 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CACIMBINHAS 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+HOMOLOGAÇÃO/EXTRATO DE CONTRATO 
+ 
+
+DISPENSA DE LICITAÇÃO Nº 007/2018 
+
+AVISO DE HOMOLOGAÇÃO 
+  
+
+Face ao constante nos autos do processo administrativo, com base no 
+
+parecer da procuradoria e dos outros que compõem o procedimento 
+
+licitatório, HOMOLOGO com fundamento no Art. 24º, Inciso II da 
+
+Lei Federal n° 8.666/93 e demais normas aplicáveis à espécie e as 
+
+disposições contidas na DISPENSA DE LICITAÇÃO nele contida 
+
+produza seus efeitos jurídicos e legais, o resultado do procedimento 
+
+licitatório em epigrafe, tendo por objeto a Contratação de Empresa 
+
+Especializada para Prestação de Serviços de laboratório de solos, 
+
+para analise geotécnica do aterro já executado para futura 
+
+construção de uma praça multe eventos, conforme descriminação 
+
+constante no Termo de Referência anexo ao oficio oriunda da 
+
+Secretaria Municipal de Obras e Infraestrutura, tendo como vencedora 
+
+da melhor proposta de mercado, melhor preço da empresa: 
+
+TECNOSENGE TECNOLOGIA E SERVIÇOS DDE 
+
+ENGENHARIA LTDA, inscrita no CNPJ/MF Nº 04.214.831/0001-
+
+17, com sede na Rua Doutor Abelardo Pontes Lima, n° 499, Gruta de 
+
+Lourdes, Maceió (AL), CEP 57.052-695, neste ato representado pelo 
+
+Senhor André da Costa Colatino, residente e domiciliado na Cidade 
+
+de Maceió – Estado de Alagoas. 
+
+  
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CACIMBINHAS 
+  
+
+EXTRATO DO CONTRATO P.M.C Nº 007/.2018/PMC 
+
+DISPENSA DE LICITAÇÃO Nº 007/2018 
+  
+
+OBJETO: Contratação de Empresa Especializada para Prestação 
+
+de Serviços de laboratório de solos, para analise geotécnica do 
+
+aterro já executado para futura construção de uma praça multe 
+
+eventos, conforme descriminação constante no Termo de Referência 
+
+anexo ao oficio oriunda da Secretaria Municipal de Obras e 
+
+Infraestrutura. CONTRANTE: PREFEITURA MUNICIPAL DE 
+
+CACIMBINHAS, pessoa jurídica de direito público interno, inscrita 
+
+no CNPJ/MF sob o nº 12.227.971/0001-58, com sede administrativa 
+
+na Praça 19 de Setembro, nº 101, Centro, Cacimbinhas, Estado de 
+
+Alagoas, CEP. 57.570-000. CONTRATADA: TECNOSENGE 
+
+TECNOLOGIA E SERVIÇOS DDE ENGENHARIA LTDA, 
+
+inscrita no CNPJ/MF Nº 04.214.831/0001-17, com sede na Rua 
+
+Doutor Abelardo Pontes Lima, n° 499, Gruta de Lourdes, Maceió 
+
+(AL), CEP 57.052-695, neste ato representado pelo Senhor André da 
+
+Costa Colatino, residente e domiciliado na Cidade de Maceió – 
+
+Estado de Alagoas, no Valor Total de R$ 3.600,00 (três mil e 
+
+seiscentos reais). Vigência do Contrato: 30 (trinta) dias. DATA DE 
+
+ASSINATURA: 08 de fevereiro de 2018. 
+
+  
+
+Cacimbinhas/AL, 08 de fevereiro de 2018. 
+
+  
+
+HUGO WANDERLEY CAJU 
+Prefeito  
+
+Publicado por: 
+Syntia Emanuela Correia França 
+
+Código Identificador:90972F1B 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CAJUEIRO 
+ 
+
+GABINETE DO PREFEITO 
+
+AVISOS DE LICITAÇÕES 
+ 
+
+Aviso de Pregão Presencial nº 001/2018. Objeto: Aquisição de 
+
+Material de Limpeza. Data: 23/02/2018, às 10h00min. 
+
+  
+
+Aviso de Pregão Presencial nº 002/2018. Objeto: Serviços de 
+
+Manutenção de prédios, logradouros e outros espaços públicos. Data: 
+
+27/02/2018, às 10h00min. 
+
+  
+
+Aviso de Tomada de Preços nº 001/2018. Objeto: Reforma da 
+
+Unidade Mista Dr. Augusto Dias Cardoso. Data: 28/02/2018, às 
+
+10h00min. 
+
+  
+
+Editais Disponíveis na Av. Antônio de Miranda Cabral, n° 150, 
+
+Centro, Cajueiro/AL.  
+
+  
+
+HUGO SANTOS DE OLIVEIRA  
+Presidente da CPL. 
+
+Publicado por: 
+Amanda Santos de Oliveira 
+
+Código Identificador:78EF3172 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CAMPO ALEGRE 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+PROCESSO ADMINISTRATIVO Nº 02263/2017 - EDITAL Nº 
+
+003/2018.2 - PREGÃO PRESENCIAL 
+ 
+
+OBJETO: Registro de Preços para Futura Aquisição de Fardamentos, 
+
+com itens exclusivos e cota reservada para ME, EPP e demais pessoas 
+
+jurídicas definidas pelo art. 3º da Lei Complementar nº 123/2006. 
+
+Abertura: 27 de Fevereiro de 2018, às 08:30h. Local: Sala de 
+
+Reuniões da Comissão Permanente de Licitação. 
+
+FUNDAMENTAÇÃO LEGAL: Lei 10.520/02, subsidiada pela Lei 
+
+8.666/93 e suas alterações, Dec. Mun. nº 01/2007, Dec. Mun. 
+
+007/2013, LC 123/2006 e 147/2014. DISPONIBILIDADE DO 
+
+EDITAL E INFORMAÇÕES: Comissão Permanente de Licitação, na 
+
+Avenida Monsenhor Hidelbrando Veríssimo Guimarães, n. 02, 
+
+Centro, das 08:00 às 12:00 horas ou site www.campoalegre.al.gov.br. 
+
+  
+
+Campo Alegre, 08 de Fevereiro de 2018. 
+
+  
+
+EVANDSON DE MORAIS SANTOS 
+Pregoeiro 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:AC7500F9 
+
+ 
+ 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                5 
+
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+PROCESSO ADMINISTRATIVO Nº 02452/2017 - EDITAL Nº 
+
+008/2018.1 - PREGÃO PRESENCIAL 
+ 
+
+OBJETO: Registro de Preços para Futura Aquisição de Fardamentos 
+
+para o SAAE, com itens exclusivos para ME, EPP e demais pessoas 
+
+jurídicas definidas pelo art. 3º da Lei Complementar nº 123/2006. 
+
+Abertura: 27 de Fevereiro de 2018, às 13:00h. Local: Sala de 
+
+Reuniões da Comissão Permanente de Licitação. 
+
+FUNDAMENTAÇÃO LEGAL: Lei 10.520/02, subsidiada pela Lei 
+
+8.666/93 e suas alterações, Dec. Mun. nº 01/2007, Dec. Mun. 
+
+007/2013, LC 123/2006 e 147/2014. DISPONIBILIDADE DO 
+
+EDITAL E INFORMAÇÕES: Comissão Permanente de Licitação, na 
+
+Avenida Monsenhor Hidelbrando Veríssimo Guimarães, n. 02, 
+
+Centro, das 08:00 às 12:00 horas ou site www.campoalegre.al.gov.br. 
+
+  
+
+Campo Alegre, 08 de Fevereiro de 2018. 
+
+  
+
+EVANDSON DE MORAIS SANTOS 
+Pregoeiro 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:063A872C 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+PROCESSO ADMINISTRATIVO Nº 00046/2018 - EDITAL Nº 
+
+004/2018.2 - PREGÃO PRESENCIAL 
+ 
+
+OBJETO: Registro de Preços para Futura Aquisição de Materiais de 
+
+Higiene Bucal, com itens exclusivos e cota reservada para ME, EPP e 
+
+demais pessoas jurídicas definidas pelo art. 3º da Lei Complementar 
+
+nº 123/2006. Abertura: 28 de Fevereiro de 2018, às 09:00h. Local: 
+
+Sala de Reuniões da Comissão Permanente de Licitação. 
+
+FUNDAMENTAÇÃO LEGAL: Lei 10.520/02, subsidiada pela Lei 
+
+8.666/93 e suas alterações, Dec. Mun. nº 01/2007, Dec. Mun. 
+
+007/2013, LC 123/2006 e 147/2014. DISPONIBILIDADE DO 
+
+EDITAL E INFORMAÇÕES: Comissão Permanente de Licitação, na 
+
+Avenida Monsenhor Hidelbrando Veríssimo Guimarães, n. 02, 
+
+Centro, das 08:00 às 12:00 horas ou site www.campoalegre.al.gov.br. 
+
+  
+
+Campo Alegre, 08 de Fevereiro de 2018. 
+
+  
+
+EVANDSON DE MORAIS SANTOS 
+Pregoeiro 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:3DB85514 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+RESULTADO DA ANÁLISE DOS DOCUEMNTOS 
+
+RELATIVOS AS PROPOSTAS DE PREÇOS - TOMADA DE 
+
+PREÇOS Nº 008/2017 – AMPLIAÇAO DA UNIDADE BÁSICA 
+
+DE SAÚDE LUIZ VIEIRA 
+ 
+
+Após análise da CPL em consonância com o parecer técnico do Setor 
+
+de Engenharia foi constatado o seguinte resultado: a licitante a 
+
+CONSTRUTORA CONCEBER EIRELI EPP, inscrita no CNPJ/MF 
+
+sob o nº 26.075.644/0001-32 ofertou o valor global na ordem de R$ 
+
+473.480,83 (quatrocentos e setenta e três mil quatrocentos e oitenta 
+
+reais e oitenta e três centavos), a licitante CONSTRUTORA RAIZ 
+
+LTDA, inscrita no CNPJ/MF sob o nº 14.862.181/0001-70 ofertou o 
+
+valor global na ordem de R$ 475.394,13 (quatrocentos e setenta e 
+
+cinco mil trezentos e noventa e quatro reais e treze centavos) e 
+
+METRO ENGENHARIA EIRELI EPP, inscrita no CNPJ/MF sob o nº 
+
+15.294.331/0001-59, ofertou o valor global na ordem de R$ 
+
+550.524,80 (quinhentos e cinquenta mil quinhentos e vinte e quatro 
+
+reais e oitenta centavos), e por apresentar o menor preço e ausência de 
+
+vícios a licitante CONSTRUTORA CONCEBER EIRELI EPP, é 
+
+declarada vencedora do certame licitatório com o valor de R$ 
+
+473.480,83 (quatrocentos e setenta e três mil quatrocentos e oitenta 
+
+reais e oitenta e três centavos). 
+
+Considerando os resultados, o Presidente da Comissão abre vistas ao 
+
+processo e determina o início da contagem de prazos estabelecidos no 
+
+artigo 109 da Lei 8.666/93. 
+
+Campo Alegre, 08 de Fevereiro de 2018 
+
+  
+
+THIAGO SANTOS DE SOUZA 
+Presidente da CPL 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:6801C293 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+RATIFICAÇÃO - DISPENSA DE LICITAÇÃO Nº 004/2018 
+ 
+
+Consoante as informações procedentes da Procuradoria Geral do 
+
+Município, RATIFICO a Dispensa de nº 004/2018 e os 
+
+entendimentos firmados ao tempo em que AUTORIZO a elaboração 
+
+de Ordem de Fornecimento em favor da empresa D E A FARMA 
+
+DISTRIBUIDORA DE PRODUTOS FARMACÊUTICOS EIRELI, 
+
+C.N.P.J./M.F. sob o nº 04.362.282/0001-28, no valor R$ 269,00 
+
+(duzentos e sessenta e nove reais), referente a aquisição de 
+
+Medicamentos, sob os fundamentos do artigo 24, incisos III e VII, 
+
+artigo 62 caput, §4º da Lei Federal Nº. 8.666 de 21 de junho de 1993. 
+
+   
+
+Campo Alegre, 02 de Fevereiro de 2018. 
+
+  
+
+PAULINE DE FÁTIMA PEREIRA ALBUQUERQUE 
+Prefeita 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:5C8FDBDE 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+RATIFICAÇÃO - INEXIGIBILIDADE 002/2018 
+ 
+
+Consoante as informações procedentes da Procuradoria Geral do 
+
+Município, RATIFICO a Inexigibilidade de nº 002/2018 e os 
+
+entendimentos firmados ao tempo em que AUTORIZO a celebração 
+
+dos contratos com as empresas F. DE A. MOURA, C.N.P.J./M.F. sob 
+
+o nº 11.978.279/0001-07, no valor R$ 14.000,00 (quatorze mil reais), 
+
+referente aos shows artísticos das bandas Bi Lua Nua e Ronald 
+
+Baiano, G S COSTA – ME, C.N.P.J./M.F. sob o nº 16.642.064/0001-
+
+26, no valor de R$ 30.000,00 (trinta mil reais), referente ao show do 
+
+artista Galã do Brega, AP EVENTOS E PRODUÇÕES ARTÍSTICAS 
+
+LTDA - ME, C.N.P.J./M.F. sob o nº 07.191.072/0001-02, no valor de 
+
+R$ 35.000,00 (trinta e cinco mil reais), referente ao show da banda 
+
+Banana Nativa, EXPRESSO FORRONEJO PRODUÇÕES E 
+
+EVENTOS LTDA – ME, C.N.P.J./M.F. sob o nº 14.798.064/0001-
+
+94, no valor de R$ 15.000,00 (quinze mil reais), referente ao show 
+
+artístico da banda Expresso Forronejo, sob os fundamentos do 
+
+artigo 25, inciso III da Lei Federal Nº. 8.666 de 21 de junho de 1993. 
+
+  
+
+Campo Alegre, 08 de Fevereiro de 2018. 
+
+   
+
+PAULINE DE FÁTIMA PEREIRA ALBUQUERQUE 
+Prefeita 
+
+Publicado por: 
+Thiago Santos de Souza 
+
+Código Identificador:BDBD8888 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE CORURIPE 
+ 
+
+GABINETE DO PREFEITO 
+
+DESPACHO RATIFICADOR 
+ 
+
+Consoante as informações contidas no processo administrativo, 
+
+RATIFICO a INEXIGIBILIDADE de Licitação ao tempo em que 
+
+AUTORIZO a celebração do contrato para prestação de serviços 
+
+jurídicos com o objeto: serviços técnicos especializados em 
+
+consultoria e assessoria advocatícia necessários à defesa dos direitos e 
+
+interesses do CONTRATANTE, única e exclusivamente, na 
+
+proposição e acompanhamento de ações ordinárias com pedido de 
+
+tutela antecipada, em favor do Contratante, visando a 
+
+correção/enquadramento visando a obtenção dos royalites, e ainda a 
+
+eventual correção de parcelas em que estejam sendo afetadas por 
+
+reduções indevidas, haja vista a presença de instalação de embarque e 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                6 
+
+ 
+
+desembarque de petróleo bruto e gás natural em seu território, de 
+
+origem terrestres e marítima, conforme Resoluções da Agência 
+
+Nacional de Petróleo (ANP) e legislação pertinente, com o objetivo 
+
+final ainda de recuperação do montante que deveria ter sido recebido 
+
+pela edilidade, a título de royalites de petróleo ou gás natural, no 
+
+período não alcançado peal prescrição quinquenal, com o escritório 
+
+jurídico PARAGUAY RIBEIRO ADVOGADOS ASSOCIADOS, 
+
+CNPJ Nº24.573.630/0001-13, sob os fundamentos do artigo 13 inciso 
+
+I, II e V c/c art.25, inciso II da Lei Federal Nº. 8.666 de 21 de junho 
+
+de 1993. 
+
+  
+
+Coruripe, 07 de fevereiro de 2018. 
+
+  
+
+JOAQUIM BELTRÃO SIQUEIRA 
+Prefeito 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:CCDD4CA4 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 1º (PRIMEIRO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 57, § 1º, II 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 5º, §3º e 5º do Contrato em 
+
+epígrafe; Prazo: Fica acrescido em 180 (cento e oitenta) dias ao prazo 
+
+de execução contado a partir do dia 13 de agosto 2016. Celebração: 
+
+13/07/2016; Signatários: Joaquim Beltrão Siqueira e Mário Vieira 
+
+Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:2F15FEEF 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 2º (SEGUNDO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 57, § 1º, II 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 5º, §3º e 5º do Contrato em 
+
+epígrafe; Prazo: Fica prorrogado o prazo de vigência por mais 270 
+
+(duzentos e setenta) dias a contar do dia 06 de setembro de 2016. 
+
+Celebração: 05/06/2016; Signatários: Joaquim Beltrão Siqueira e 
+
+Mário Vieira Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:22913920 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 3º (TERCEIRO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 57, § 1º, II 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 5º, §3º e 5º do Contrato em 
+
+epígrafe; Prazo: Fica acrescido em 180 (cento e oitenta) dias ao prazo 
+
+de execução contado a partir do dia 09 de fevereiro 2017. 
+
+Celebração: 09/01/2017; Signatários: Joaquim Beltrão Siqueira e 
+
+Mário Vieira Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:594E9EC3 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 4º (QUARTO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 57, § 1º, II 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 5º, §3º e 5º do Contrato em 
+
+epígrafe; Prazo: Fica prorrogado o prazo de vigência por mais 270 
+
+(duzentos e setenta) dias a contar do dia 03 de junho de 2017. 
+
+Celebração: 03/05/2017; Signatários: Joaquim Beltrão Siqueira e 
+
+Mário Vieira Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:F111468A 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 5º (QUINTO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 57, § 1º, II 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 5º, §3º e 5º do Contrato em 
+
+epígrafe; Prazo: Fica acrescido em 180 (cento e oitenta) dias ao prazo 
+
+de execução contado a partir do dia 07 de agosto 2017.Celebração: 
+
+07/07/2017; Signatários: Joaquim Beltrão Siqueira e Mário Vieira 
+
+Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:163ED338 
+
+ 
+GABINETE DO PREFEITO 
+
+EXTRATO DE TERMO ADITIVO 
+ 
+
+EXTRATO DO 6º (SEXTO) TERMO ADITIVO 
+
+CONTRATO P.M.C Nº 090044/2015 
+
+  
+
+Proc.: Tomada de Preço nº12/2015; Partes: Município de 
+
+Coruripe/AL e Makri Construções Ltda; Fund. Legal: art. 65, I, “b” 
+
+da Lei Federal nº 8.666/93, c/c a Cláusula 4º, §1º do Contrato em 
+
+epígrafe; Do Valor: Fica suprimido do Contrato PMC Nº090044/2015 
+
+quantitativos de material e de serviço, conforme planilha orçamentária 
+
+reprogramada, em anexo, contendo a discriminação dos itens 
+
+suprimidos, referentes ao objeto contratado, reduzindo o valor 
+
+contratual. 
+
+PARÁGRAO ÚNICO – A redução total é no valor de R$33.746,40 
+
+(trinta e três mil, setecentos e quarenta e seis reais e quarenta 
+
+centavos). 
+
+CLAUSULA SEGUNDA – O valor contratual passa a ser de 
+
+R$700.160,65 (setecentos mil, cento e sessenta reais e sessenta e 
+
+cinco centavos).  
+
+Celebração: 04/09/2017; Signatários: Joaquim Beltrão Siqueira e 
+
+Mário Vieira Barros Júnior. 
+
+Publicado por: 
+Sergio do Nascimento Targino da Conceição 
+
+Código Identificador:476BF9C1 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE INHAPI 
+ 
+
+PREFEITURA MUNICIPAL DE INHAPI 
+
+PORTARIA Nº27, DE 08 DE FEVEREIRO DE 2018. 
+ 
+
+Exonera ocupante de cargo de provimento efetivo de 
+
+Professora, constante no quadro de pessoal desse 
+
+município. 
+
+  
+
+O Prefeito do Município de INHAPI, no uso das atribuições que lhe 
+
+conferem a Lei Orgânica do Município, e 
+
+Considerando o requerimento formulado, escrito e protocolado pela 
+
+servidora Maria da Paz Lira, junto a Prefeitura Municipal de Inhapi/Al 
+
+em 06/02/2018, autuado sobre o processo administrativo 574/2018. 
+
+  
+
+RESOLVE: 
+  
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                7 
+
+ 
+
+Art. 1º EXONERAR a pedido, a senhora Maria da Paz Lira, 
+
+portador (a) do RG 4119969-3 e CPF 352.127.481-00 do cargo de 
+
+Professora, portadora da matricula nº2078 no quadro de funcionários 
+
+deste município, lotado na Secretaria de Educação. 
+
+  
+
+Art. 2º Esta Portaria entra em vigor na data de sua publicação, 
+
+revogadas as disposições em contrário. 
+
+  
+
+JOSÉ CÍCERO VIEIRA 
+Prefeito  
+
+Publicado por: 
+Tiago do Nascimento Guerra 
+
+Código Identificador:C1279540 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE JUNQUEIRO 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+TERMO DE RATIFICAÇÃO 
+ 
+
+O Prefeito de Junqueiro/AL, no uso de suas atribuições e 
+
+prerrogativas legais, na forma do parecer da procuradoria jurídica do 
+
+município e demais peças que compõe os autos do processo 
+
+administrativo de nº00179/2018, nos termos do art. 25 inciso III da 
+
+Lei 8.666/93, e suas posteriores alterações, RATIFICA A 
+
+INEXIGIBLIDADE DE LICITAÇÃO, objetivando a contratação da 
+
+Banda Babalú, para animação das festividades Carnavalesca de 
+
+Junqueiro, no dia 13/02/2018. 
+
+Contratada: Empresa TEO SANTANA EMPREENDIMENTOS 
+
+PROPAGANDA E EVENTOS LTDA - ME, inscrita no CNPJ sob nº 
+
+11.339.486/0001-03, valor R$ 6.000,00 (seis mil reais). 
+
+  
+
+Prefeitura Municipal de Junqueiro em 07 de Fevereiro de 2018. 
+
+  
+
+CARLOS AUGUSTO LIMA DE ALMEIDA 
+Prefeitura Municipal de Junqueiro/AL 
+
+Publicado por: 
+Juliana Madeiro 
+
+Código Identificador:3B258BCA 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+TERMO DE RATIFICAÇÃO 
+ 
+
+O Prefeito de Junqueiro/AL, no uso de suas atribuições e 
+
+prerrogativas legais, na forma do parecer da procuradoria jurídica do 
+
+município e demais peças que compõe os autos do processo 
+
+administrativo de nº00181/2018, nos termos do art. 25 inciso III da 
+
+Lei 8.666/93, e suas posteriores alterações, RATIFICA A 
+
+INEXIGIBLIDADE DE LICITAÇÃO, objetivando a contratação da 
+
+Banda Timbatuq, para animação das festividades Carnavalesca de 
+
+Junqueiro, no dia 11/02/2018. 
+
+Contratada: Empresa EDSON LUIZ DA SILVA BISPO 
+
+04768599486, inscrita no CNPJ sob nº 29.183.073/0001-48, valor R$ 
+
+4.000,00(quatro mil reais). 
+
+  
+
+Prefeitura Municipal de Junqueiro em 07 de Fevereiro de 2018. 
+
+  
+
+CARLOS AUGUSTO LIMA DE ALMEIDA 
+Prefeitura Municipal de Junqueiro/AL 
+
+Publicado por: 
+Juliana Madeiro 
+
+Código Identificador:7FFFB6B8 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+TERMO DE RATIFICAÇÃO 
+ 
+
+O Prefeito de Junqueiro/AL, no uso de suas atribuições e 
+
+prerrogativas legais, na forma do parecer da procuradoria jurídica do 
+
+município e demais peças que compõe os autos do processo 
+
+administrativo de nº00182/2018, nos termos do art. 25 inciso III da 
+
+Lei 8.666/93, e suas posteriores alterações, RATIFICA A 
+
+INEXIGIBLIDADE DE LICITAÇÃO, objetivando a contratação da 
+
+Banda Swing do Ara, para animação das festividades Carnavalesca de 
+
+Junqueiro, no dia 11/02/2018. 
+
+Contratada: Empresa F DE A DE MOURA - ME, inscrita no CNPJ 
+
+sob nº 11.978.279/0001-07, valor R$ 4.000,00(quatro mil reais). 
+
+  
+
+Prefeitura Municipal de Junqueiro em 07 de Fevereiro de 2018. 
+
+  
+
+CARLOS AUGUSTO LIMA DE ALMEIDA 
+Prefeitura Municipal de Junqueiro/AL 
+
+  
+
+Publicado por: 
+Juliana Madeiro 
+
+Código Identificador:64EAECC9 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+AVISO DE LICITAÇÃO PREGÃO PRESENCIAL N° 01/2018- 
+
+TIPO MENOR PREÇO POR ITEM 
+ 
+
+OBJETO: Formalização de Ata de Registro de Preços para futura e 
+
+eventual instalação de FORRO E PAREDE DE GESSO, visando 
+
+atender as Secretarias Municipais de Junqueiro/AL.LOCAL/DATA: 
+
+Sala de Licitaçõesda Prefeitura, situada na Praça Professor Agnelo 
+
+Alves, nº 10, 1º Andar, Centro, Junqueiro/AL, no edifício da 
+
+Secretaria Municipal de Finanças, dia 01 de março de 2018, às 10:00 
+
+horas. FUNDAMENTAÇÃO LEGAL: Lei Federal nº 10.520, Lei 
+
+Complementar n.º 123/06 e suas alterações, e, subsidiariamente, das 
+
+disposições da Lei n.° 8.666/93 e demais 
+
+alterações.INFORMAÇÕES: O edital encontra-se à disposição dos 
+
+interessados das 09:00 às 13:00 horas na sala de Licitações.Telefone: 
+
+(82) 3541-1232.  
+
+Email: licitacaojunqueiro@gmail.com, 
+
+www.prefeiturajunqueiro.com.br. 
+
+  
+
+Junqueiro/AL, 05de fevereiro de 2018. 
+
+  
+
+DEISE FRANCINE DE OLIVEIRA PEREIRA 
+Pregoeira 
+
+  
+
+Publicado por: 
+Juliana Madeiro 
+
+Código Identificador:A8A0FE7E 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE LAGOA DA CANOA 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+RATIFICAÇÃO INEXIGIBILIDADE 001/2018 
+ 
+
+Consoante às informações procedentes da Procuradoria Geral do 
+
+Município, RATIFICO os entendimentos firmados ao tempo em que 
+
+AUTORIZO a celebração do contrato com FLAVIANA DANTAS 
+
+DE BARROS, pessoa física, inscrita no C.P.F. sob o nº 061.965.094-
+
+03, no valor de R$ 3.740,00 (dois mil setecentos reais), sob os 
+
+fundamentos do artigo 25, inciso III da Lei Federal Nº. 8.666 de 21 de 
+
+junho de 1993. 
+
+  
+
+Lagoa da Canoa/AL, 08 de Fevereiro de 2018. 
+
+  
+
+TAINÁ CORREA DE SÁ LUCIO DA SILVA 
+Prefeita 
+
+  
+
+COMISSÃO PERMANENTE DE LICITAÇÕES 
+
+EXTRATO DE CONTRATO 
+
+Contrato P.M.L.C. nº 001-INEX01/2018-I.L. SMC.–
+
+CONTRATADO:FLAVIANA DANTAS DE BARROS, pessoa física, 
+
+inscrita no C.P.F. sob o nº 061.965.094-03, no valor de R$ 3.740,00 
+
+(dois mil setecentos reais). Objeto: A Contratada se compromete a 
+
+realizar os serviços artísticos pertinentes à apresentação artística 
+
+musical com a atração Dani Kebrança, na ocasião do 2º Carnaval de 
+
+Rua – A festa é do Povo, no dia 12 de Fevereiro de 2018. Validade: 
+
+60 (sessenta) dias. Signatários: TAINÁ CORREA DE SÁ LUCIO DA 
+
+SILVA e FLAVIANA DANTAS DE BARROS. 
+
+  
+
+Lagoa da Canoa/AL, 08 de Fevereiro de 2018. 
+
+  
+
+ 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                8 
+
+ 
+
+TAINÁ CORREA DE SÁ LUCIO DA SILVA 
+Prefeita  
+
+Publicado por: 
+Beatriz Caetano da Silva 
+
+Código Identificador:A43C6D30 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE MAR VERMELHO 
+ 
+
+PREFEITURA MUNICIPAL DE MAR VERMELHO 
+
+TORNAR SEM EFEITO EXTRATO DE CONTRATO 
+ 
+
+TORNAR SEM EFEITO A PUBLICAÇÃO DO  
+
+EXTRATO DE CONTRATO Nº 002/2017-TP 
+  
+
+A Prefeita Municipal de Mar Vermelho, no uso de suas atribuições, 
+
+torna público para conhecimento dos interessados que decidiu tornar 
+
+sem efeito a Publicação do Extrato de Contrato 002/2017-TP. 
+
+Motivo: Erro de Publicação. 
+
+Circulação: Diário Oficial dos Municípios do Estado de Alagoas 
+
+ANO V | nº 0715, dia 06 de fevereiro de 2018, pag. 7. 
+
+  
+
+Mar Vermelho/AL, 07 de fevereiro de 2018. 
+
+  
+
+JULIANA LOPES DE FARIAS ALMEIDA 
+Prefeita 
+
+Publicado por: 
+Arnaldo de Araujo Alecio 
+
+Código Identificador:ACD257DD 
+
+ 
+PREFEITURA MUNICIPAL DE MAR VERMELHO 
+
+EXTRATO DE CONTRATO 
+ 
+
+EXTRATO DO CONTRATO N° 002/2017-TP 
+CONTRATANTE: MUNICIPIO DE MAR VERMELHO, CNPJ nº 
+
+12.333.761/0001-44. CONTRATADA: MDM CONSTRUÇÃO E 
+
+LOCAÇÃO EIRELI-EPP, CNPJ nº 26.399.954/0001-02. OBJETO: - 
+
+SERVIÇOS DE MANUTENÇÃO DE PAVIMENTAÇÃO LOTE 01; 
+
+LOTE 02 - MANUTENÇÃO E PINTURA DE PRÉDIOS 
+
+PÚBLICOS. VALOR: LOTE 01-R$ 109.798,56 (cento e nove mil, 
+
+setecentos e noventa e oito reais e cinquenta e seis centavos); LOTE 
+
+02-R$ 206.631,10 (duzentos e seis mil, seiscentos e trinta e um reais e 
+
+dez centavos). VALOR TOTAL: R$ 316.429,66 (trezentos e dezesseis 
+
+mil, quatrocentos e vinte e nove reais e sessenta e seis centavos). 
+
+DATA DA CELEBRAÇÃO: 02/02/2018. VIGÊNCIA: 02/09/2018. 
+
+FUNDAMENTAÇÃO: Lei nº 8.666/93 (com as alterações 
+
+introduzidas pela Lei nº 8883/94 e 9.648/98). SIGNATÁRIOS: Pela 
+
+Contratante: Juliana Lopes de Farias Almeida-Prefeita. Pela 
+
+Contratada: Julliany Tavares Machado dos Santos -Sócio 
+
+Administrador. 
+
+  
+
+Mar Vermelho (AL), 02 de fevereiro de 2018. 
+
+  
+
+JULIANA LOPES DE FARIAS ALMEIDA 
+Prefeita 
+
+  
+
+Publicado por: 
+Arnaldo de Araujo Alecio 
+
+Código Identificador:5943948A 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE MONTEIRÓPOLIS 
+ 
+
+PREFEITURA MUNICIPAL DE MOTEIRÓPOLIS 
+
+EXTRATO DE ATA DE REGISTRO DE PREÇOS 
+ 
+
+Espécie: Ata de Registro de Preços nº 015/2017, firmada em 
+
+27/12/2017; Fornecedor Registrado: LOURDENIA MATOS 
+
+VALENCIA - ME, CNPJ nº 05.594.617/0001-04, Valor Global 
+
+Registrado: R$ 67.580,00 (sessenta e sete mil e quinhentos e oitenta 
+
+reais). Objeto: Aquisição de fogos de artifício, incluindo o 
+
+fornecimento dos materiais e serviços técnicos necessários para 
+
+execução da queima de fogos (serviço de pirotecnia). Amparo: Pregão 
+
+Presencial 021/2017 - SRP; Vigência: 12 meses; Recursos: Próprios. 
+
+Signatário: pelo Registrante, Maílson de Mendonça Lima e, pela 
+
+Registrada, Marcos Rafael Matos Valença. 
+
+  
+
+Monteirópolis/AL 07 de fevereiro de 2018. 
+
+  
+
+MAÍLSON DE MENDONÇA LIMA 
+Prefeito 
+
+Publicado por: 
+Rafael Lima da Cruz 
+
+Código Identificador:AC8C3C3A 
+
+ 
+PREFEITURA MUNICIPAL DE MOTEIRÓPOLIS 
+
+EXTRATO DE CONTRATO 
+ 
+
+CONTRATANTE: PREFEITURA MUNICIPAL DE 
+
+MONTEIRÓPOLIS - AL, localizada na Travessa Municipal nº S/N, 
+
+Bairro Centro, CEP: 57440-000, Monteirópolis - AL, inscrita no 
+
+CNPJ sob nº 12.251.450/0001-36, neste ato representada por seu 
+
+Prefeito Sr.(a) Mailson de Mendonca Lima. 
+
+CONTRATADA: FASITEC DESENVOLVIMENTO E 
+
+TECNOLOGIA LTDA – ME, pessoa jurídica de direito privado, com 
+
+sede na Rua Delmiro Gouveia, nº 1382, Sala Térreo, Bairro Coroa do 
+
+Meio, CEP: 49035-810, Aracaju – SE, inscrita no CNPJ nº. 
+
+00.483.195/0001-78, neste ato, representado por seu sócio 
+
+proprietário, Everaldo Aparecido Pavan, brasileiro, casado, 
+
+empresário, portador da Cédula de Identidade RG nº 5.775.044-8 
+
+SSP/PR, inscrita no CPF/MF sob o nº 829.619.569-00. 
+
+OBJETO: TERMO DE CESSÃO NÃO ONEROSA, Termo de 
+
+Cooperação Técnica, para regulamentar a cessão não onerosa do 
+
+licenciamento de uso do software Sicon, contratado pelas 
+
+consignatárias credenciadas, liberado pela Fasitec Desenvolvimento e 
+
+Tecnologia LTDA - ME a Prefeitura Municipal de Monteirópolis - 
+
+AL, objetivando a operacionalização da gestão e controle das 
+
+consignações em folha de pagamento. 
+
+O presente instrumento particular de contrato possui amparo legal no 
+
+Código Civil Brasileiro, respectivamente nos art. 421 e seguintes e 
+
+579 e 585, bem como o objeto deste contrato possui previsão legal nos 
+
+termos de art. 24 de Lei nº 8.666/93. A Lei nº 8.666/93(Lei das 
+
+Licitações), em seu art. 24. autoriza a contratação de serviço 
+
+dispensando a licitação, em seus termos. 
+
+VALOR: O presente contrato de CESSÃO NÃO ONEROSA, ou seja, 
+
+SEM ÔNUS quaisquer para a CONTRATANTE e seus servidores. 
+
+VIGÊNCIA: O presente termo vigorará pelo prazo de 60 (sessenta) 
+
+meses, contados a partir da data de sua assinatura. 
+
+  
+
+Monteirópolis, 08 de fevereiro de 2018. 
+
+  
+
+MAILSON DE MENDONCA LIMA 
+Prefeito 
+
+Publicado por: 
+Rafael Lima da Cruz 
+
+Código Identificador:9FBDF687 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE OLHO D'ÁGUA DAS FLORES 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+AVISO DE LICITAÇÃO 
+ 
+
+PREGÃO PRESENCIAL Nº 003/2018 
+
+Modalidade/Nº: Pregão Presencial nº 003/2018 – Tipo: Menor Preço – 
+
+Objeto: Aquisição de brinquedos – Data/Horário: 28 de fevereiro de 
+
+2018 às 09:00hs (nove horas) – Local: Praça José Amorim, nº 118, 
+
+Centro, CEP 57.442-000 – Edital e Informações: No endereço acima, 
+
+de 08 às 12 horas em dias úteis, ou mediante solicitação enviada ao e-
+
+mail cplodf@gmail.com, ou ainda, através do sítio eletrônico  
+
+www.olhodaguadasflores.al.gov.br/licitacoes. 
+
+  
+
+HUGO RAFAEL DA SILVA FEITOZA 
+Pregoeiro 
+
+ 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                9 
+
+ 
+
+Publicado por: 
+Hugo Rafael da Silva Feitoza 
+
+Código Identificador:26994CAE 
+
+ 
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+EDITAL DE COVOCAÇÃO 
+ 
+
+CHAMADA PÚBLICA Nº 001/2018 
+
+Modalidade/Nº: Chamada Pública nº 001/2018 – Objeto: Aquisição de 
+
+Gêneros Alimentícios da Agricultura Familiar e do Empreendedor 
+
+Familiar Rural (Grupo Formal e informal), para o atendimento do 
+
+Programa Nacional de Alimentação – PNAE – Data/Horário: 14 de 
+
+março de 2018 às 09:00hs ( nove horas) – Local: Praça José Amorim, 
+
+nº 118, Centro, Olho d’Água das Flores/AL – Edital e Informações: 
+
+No endereço acima, de 08 às 12 horas em dias úteis, ou mediante 
+
+solicitação enviada ao e-mail cplodf@gmail.com, ou ainda, através do 
+
+sítio eletrônico  
+
+www.olhodaguadasflores.al.gov.br/licitacoes. 
+
+  
+
+FLÁVIO CARLOS DE SOUZA 
+
+Presidente da CPL 
+
+Publicado por: 
+Hugo Rafael da Silva Feitoza 
+
+Código Identificador:79A28874 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE PÃO DE AÇÚCAR 
+ 
+
+COMISSÃO PERMANENTE DE LICITAÇÃO 
+
+CONCORRÊNCIA 01/2018 
+ 
+
+CONCORRENCIA N. º 001/2018 
+
+TIPO MELHOR TECNICA 
+  
+
+Objeto: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA 
+
+NA PRESTAÇÃO DE SERVIÇOS DE PUBLICIDADE PARA A 
+
+ADMINISTRAÇÃO PÚBLICA MUNICIPAL, POR 
+
+INTERMÉDIO DE AGÊNCIA DE PROPAGANDA. 
+
+ABERTURA: 03 de abril de 2018 as 10:00 horas, na sede da 
+
+Prefeitura Municipal de Pão de Açúcar sediada à Rua Bráulio 
+
+Cavalcante, 493- Centro – Pão de Açúcar/AL. 
+
+FUNDAMENTAÇÃO LEGAL: Lei 8.666/93 e suas alterações 
+
+posteriores. Edital disponível através do e-mail: 
+
+cpl@paodeacucar.al.gov.br. Informações no endereço acima citado. 
+
+  
+
+Pão de Açúcar, 08 de FEVEREIRO de 2018. 
+
+  
+
+MELANIA FONTES DE DEUS LEÃO 
+Presidente da CPL 
+
+Publicado por: 
+Melania Fontes de Deus Leão 
+
+Código Identificador:CCADAC2B 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE PILAR 
+ 
+
+SECRETARIA MUNICIPAL DE ADMINISTRACAO 
+
+PREGÃO PRESENCIAL 01/2018 
+ 
+
+PREGÃO PRESENCIAL 01/2018 
+
+  
+
+Objeto: CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA 
+
+PRESTAÇÃO DE SERVIÇOS DE COMUNICAÇÃO VISUAL 
+
+DESTINADOS A PREFEITURA MUNICIPAL DE PILAR/AL. 
+
+LOCAL/DATA:na sala da Comissão Permanente de Licitações, 
+
+situada na Praça Floriano Peixoto, Pilar/AL, no dia 27 de Fevereiro de 
+
+2018, as 14:00 horas. (Horário LOCAL). 
+
+  
+
+Pilar/AL, 08 de Fevereiro de 2018. 
+
+  
+
+ESTEFANIA ALVES 
+Equipe de Apoio 
+
+CPL. 
+
+Publicado por: 
+Sérgio Lira de Oliveira 
+
+Código Identificador:134E3063 
+
+ 
+SECRETARIA MUNICIPAL DE ADMINISTRACAO 
+
+PREGÃO ELETRÔNICO 07/2018 
+ 
+
+PREGÃO ELETRÔNICO 07/2018 
+
+Processo: 1219-0008/2018 
+
+  
+
+Modalidade: Pregão Eletrônico n.º - 07/2018 
+
+Tipo: Menor preço por item. 
+
+Objeto: Registro de preços para eventuais e futuras Aquisições de 
+
+Gêneros Alimentícios para compor a Merenda Escolar da Secretaria 
+
+de Educação Município de Pilar/AL. 
+
+Data de realização: 27 de Fevereiro de 2018 às :09:30h, horário de 
+
+Brasília 
+
+Disponibilidade: endereço eletrônico www.licitacoes-e.com.br. Todas 
+
+as referências de tempo obedecerão ao horário de Brasília/DF. 
+
+Informações:equipelicipilar2016@gmail.com 
+
+ID: 708007 
+
+  
+
+Pilar/AL, 08 de Fevereiro de 2018. 
+
+  
+
+ESTEFANIA ALVES  
+Equipe de Apoio 
+
+CPL 
+
+  
+
+Publicado por: 
+Sérgio Lira de Oliveira 
+
+Código Identificador:7F6A24A2 
+
+ 
+SECRETARIA MUNICIPAL DE ADMINISTRACAO 
+
+PREGÃO ELETRÔNICO 03/2018 
+ 
+
+PREGÃO ELETRÔNICO 03/2018 
+
+  
+
+ DESPACHO DE HOMOLOGAÇÃO 
+
+  
+
+O PREFEITO DO MUNICÍPIO DE PILAR/AL, no uso de suas 
+
+atribuições legais, e em cumprimento ao artigo 43, inciso VI da Lei 
+
+Federal Nº 8.666/93, resolve HOMOLOGAR o certame, as empresas 
+
+ALAGOANA DISTRIBUIDORA DE ALIMENTOS E 
+
+SANEANTES LTDA EPP, inscrita no CNPJ sob nº 
+
+26.126.404/0001-96, Vencedora dos itens: 
+
+03,05,06,07,11,12,13,15,16,17,19,20,23,30,31,33,45,51,52 
+
+,53,54,60,62,63,64,65,66,68,69,70,71,72 no Valor total: R$ 
+
+316.619,59; DIRECT DISTRIBUIDORA BIANOR E 
+
+CANSANÇÃO LTDA ME, inscrita no CNPJ sob nº 
+
+20.481.218/0001-12, vencedora dos itens: 
+
+01,02,04,08,09,10,14,18,21,22,24,25,26,27,28,29,32,34,35 
+
+,36,37,38,39,40,41,42,43,44,46,47,48,49,55,56,57,58,59,61 
+
+,67 no valor total R$ 611.240,24. Certame Licitatório modalidade 
+
+Pregão Eletrônico sob o nº 03/2018, processo administrativo nº 0929-
+
+0732/2017, com base no parecer emitido na fase interna pela 
+
+Procuradoria Geral deste Município, considerando sua plena 
+
+regularidade. 
+
+  
+
+Pilar/AL, 08 de fevereiro de 2018. 
+
+  
+
+RENATO REZENDE ROCHA FILHO 
+Prefeito do Município de Pilar/AL 
+
+Publicado por: 
+Sérgio Lira de Oliveira 
+
+Código Identificador:0D7D4E33 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE PORTO REAL DO COLÉGIO 
+ 
+
+SETOR DE LICITAÇÕES 
+
+CHAMADA PÚBLICA 
+ 
+
+AVISO DE LICITAÇÃO – CHAMADA PUBLICA Nº 01/2018  
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                10 
+
+ 
+
+OBJETO: Chamada Pública para Aquisição de Gêneros Alimentícios 
+
+da Agricultura Familiar e do Empreendedor Familiar Rural, 
+
+destinados à Merenda Escolar. 
+
+DATA DE RECEBIMENTO DAS PROPOSTAS E DISPUTA DE 
+
+LANCES: 07 de Março de 2018. O Edital e informações 
+
+complementares encontram-se à disposição dos interessados, na sala 
+
+da Comissão Permanente de Licitações, situada à Rua São José, S/N - 
+
+Bairro Centro, de segunda-feira à sexta-feira, em dias de expediente, 
+
+no horário das 08:00 às 12:00hs, pelos telefones: (82) 3553-1317. E-
+
+mail: licitacoes.portorealdocolegio@gmail.com 
+
+  
+
+Porto Real do Colégio (AL), 08 de Fevereiro de 2018. 
+
+  
+
+NADJA RAMOS DOS SANTOS  
+Presidente da CPL 
+
+Publicado por: 
+Priscila Souza Moura 
+
+Código Identificador:566CBC86 
+
+ 
+SETOR DE LICITAÇÕES 
+
+AVISO DE LICITAÇÃO 
+ 
+
+FUNDO MUNICIPAL DE ASSISTENCIA SOCIAL DE PORTO 
+
+REAL DO COLÉGIO 
+
+AVISO DE LICITAÇÃO – CHAMADA PUBLICA Nº 01/2018- 
+
+FMAS 
+
+OBJETO: Chamada Pública para Aquisição de Gêneros Alimentícios 
+
+da Agricultura Familiar e do Empreendedor Familiar Rural, 
+
+destinados à Merenda Escolar. 
+
+DATA DE RECEBIMENTO DAS PROPOSTAS E DISPUTA DE 
+
+LANCES: 07 de Março de 2018. O Edital e informações 
+
+complementares encontram-se à disposição dos interessados, na sala 
+
+da Comissão Permanente de Licitações, situada à Rua São José, S/N - 
+
+Bairro Centro, de segunda-feira à sexta-feira, em dias de expediente, 
+
+no horário das 08:00 às 12:00hs, pelos telefones: (82) 3553-1317. E-
+
+mail: licitacoes.portorealdocolegio@gmail.com 
+
+  
+
+Porto Real do Colégio (AL), 08 de Fevereiro de 2018. 
+
+  
+
+NADJA RAMOS DOS SANTOS  
+Presidente da CPL 
+
+Publicado por: 
+Priscila Souza Moura 
+
+Código Identificador:FAA34F20 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE SANTA LUZIA DO NORTE 
+ 
+
+GABINETE PREFEITO 
+
+DECRETO Nº 006 DE 08 DE FEVEREIRO DE 2018 
+ 
+
+DECRETO Nº 006, DE 08 DE FEVEREIRO DE 2018.  
+  
+
+DECRETA EXPEDIENTE INTERNO DA 
+
+PREFEITURA MUNICIPAL NOS DIAS 15 E 16 
+
+DE FEVEREIRO DE 2018 E DÁ OUTRAS 
+
+PROVIDÊNCIAS. 
+
+  
+
+O PREFEITO DO MUNICÍPIO DE SANTA LUZIA DO NORTE-
+
+AL, no uso das atribuições que lhe confere o Artigo 63, inciso VI, 
+
+combinado com o Artigo 84, inciso I, da Lei Orgânica Municipal, 
+
+DECRETA:  
+
+Art. 1º - Fica decretado o funcionamento da Prefeitura Municipal, em 
+
+caráter excepcional, nos dias 15 e 16 de fevereiro de 2018, apenas 
+
+para expediente interno, sem prejuízo da análise de questões urgentes 
+
+e inadiáveis.  
+
+Art. 2º - O disposto no caput aplica-se apenas as secretarias e órgãos 
+
+sediados no prédio desta Prefeitura Municipal, as demais secretarias 
+
+deverão obedecer aos horários habituais. 
+
+  
+
+Art. 3º - Este Decreto entra em vigor na data de sua publicação. 
+
+Prefeitura Municipal de Santa Luzia do Norte, 08 de Fevereiro de 
+
+2018. 
+
+JOSÉ ALBERTO HERMENEGILDO DA SILVA 
+Prefeito   
+
+ 
+
+Publicado por: 
+Givanilda Maria Nascimento Araujo 
+
+Código Identificador:D0AC62A0 
+
+ 
+
+ESTADO DE ALAGOAS 
+
+PREFEITURA MUNICIPAL DE TEOTONIO VILELA 
+ 
+
+DEPARTAMENTO DE LICITAÇÕES E CONTRATOS 
+
+HOMOLOGAÇÃO DO PREGÃO PRESENCIAL Nº 059/2017 
+ 
+
+O PREFEITO DO MUNICÍPIO DE TEOTÔNIO VILELA/AL, no 
+
+uso de suas atribuições legais, e em cumprimento ao Art. 43, inciso VI 
+
+da Lei Federal nº 8.666/93 e com a previsão do inciso XXII da Lei 
+
+Federal nº 10.520/02, resolve HOMOLOGAR os itens do Certame 
+
+Licitatório modalidade Pregão Presencial sob o nº 059/2017, que tem 
+
+por objeto o Registro de Preços para Aquisição de Merenda Escolar, 
+
+em favor das Empresas: BERNARDI E GUEDES LTDA EPP, 
+
+inscrita no CNPJ nº 16.986.881/0001-00, vencedora dos itens 05, 06, 
+
+07, 10, 14, 15, 17, 18, 22, 23, 24, 26, 27, 28, 30, 32, 33, 35, 36, 37, 38, 
+
+39, 42, 44, 45, 46, 47, 48, 51, 53, 54 e 55, perfazendo o valor total na 
+
+ordem de R$ 1.613.552,00 (um milhão, seiscentos e treze mil, 
+
+quinhentos e cinquenta e dois reais) e J FLOR DOS SANTOS EPP, 
+
+inscrita no CNPJ nº 26.827.694/0001-29, vencedora dos itens 01, 02, 
+
+04, 08, 11, 12, 13, 16, 20, 21, 25, 29, 34, 41 e 50, perfazendo o valor 
+
+total na ordem de R$ 392.320,00 (trezentos e noventa e dois mil, 
+
+trezentos e vinte reais) e considerando, com base nas informações 
+
+contidas nos autos, sua plena regularidade. 
+
+  
+
+Teotônio Vilela/AL, 24 de janeiro de 2018. 
+
+  
+
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+Publicado por: 
+Ricardo Lima Torres 
+
+Código Identificador:26E49500 
+
+ 
+GABINETE DO PREFEITO 
+
+DECRETO Nº 002/2018 
+ 
+
+Fixa calendário de feriados e pontos facultativos 
+
+referentes as festas carnavalescas do ano civil de 
+
+2018, no município de Teotônio Vilela/AL, e dá 
+
+outras providências correlatas. 
+
+  
+
+JOÃO JOSÉ PEREIRA FILHO, prefeito do município de Teotônio 
+
+Vilela, Estado de Alagoas, no uso de suas atribuições legais 
+
+conferidas pela Lei Orgânica do Município; 
+
+CONSIDERANDO a necessidade de disciplinar os feriados e pontos 
+
+facultativos durante o período carnavalesco do ano civil de 2018; 
+
+DECRETA: 
+
+Art. 1º. Fixa o calendário de feriados municipais e pontos facultativos 
+
+durante o período carnavalesco referente ao ano civil de 2018 nas 
+
+repartições públicas municipais pertencentes à Administração Direta, 
+
+Indireta e Autárquica, na seguinte conformidade: 
+
+I – fevereiro: 
+
+12/02 (segunda-feira) – carnaval (feriado); 
+
+13/02 (terça-feira) - carnaval (feriado); 
+
+14/02 (quarta-feira) – quarta-feira de cinzas (ponto facultativo). 
+
+Art. 2º. Este Decreto entra em vigor na data de sua publicação. 
+
+  
+
+Dê-se ciência, publique-se, registre-se e cumpra-se. 
+
+  
+
+Gabinete do Prefeito em Teotônio Vilela – AL, 8 de fevereiro de 
+
+2018. 
+
+ 
+
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito  
+
+Publicado por: 
+Suely Cristiane da Silva 
+
+Código Identificador:45331B75 
+
+ 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                11 
+
+ 
+
+DEPARTAMENTO DE LICITAÇÕES E CONTRATOS 
+
+EXTRATO DA ATA DE REGISTRO DE PREÇOS Nº 007/2018 
+ 
+
+PREGÃO PRESENCIAL 059/2017 
+
+ATA DE REGISTRO DE PREÇOS Nº 007/2018 
+
+FORNECEDORA REGISTRADA: J FLOR DOS SANTOS EPP, inscrita no CNPJ sob n.º 26.827.694/0001-29 – Objeto: o Registro de Preços 
+
+para Aquisição de Merenda Escolar. Perfazendo o valor total da ata de registro de preços na ordem de R$ 392.320,00 (trezentos e noventa e dois mil, 
+
+trezentos e vinte reais). Conforme abaixo: 
+
+  
+Item Descrição Unid Qnt. Vl Unit. Valor Total Marca 
+
+01 
+
+Adoçante líquido – Embalagem íntegra; Dietético; Rótulo contendo: identificação do produto, 
+
+ingredientes, valor nutricional, peso, fabricante, data de fabricação; O produto deverá apresentar 
+
+validade mínima de 12 meses da entrega. Referência: Frasco de 100ml. 
+
+Unidade 100 2,10 210,00 MARATÁ 
+
+02 
+
+Amido de milho – Embalagem íntegra; sem sujidades, livre de bolores; Rótulo contendo: 
+
+identificação do produto, ingredientes, valor nutricional, peso, fabricante, data de fabricação; O 
+
+produto deverá apresentar validade mínima de 9 meses da entrega. Referência: Embalagem de 
+
+200g. 
+
+Unidade 5.000 1,68 8.400,00 APTI 
+
+04 
+
+Biscoito Cream Cracker – Biscoito com sal, elaborado com composição básica de farinha de 
+
+trigo, sal, enriquecida com ferro e ácido fólico, outras substâncias permitidas, acondicionado em 
+
+embalagem primária plástica atóxica, íntegra, transparente; Rótulo contendo: identificação do 
+
+produto, ingredientes, valor nutricional, peso, fabricante, data de fabricação; O produto deverá 
+
+apresentar validade mínima de 6 meses da entrega. Referência: Pacotes de 400g. 
+
+Pacote 6.000 2,81 16.860,00 VITAMASSA 
+
+08 
+
+Canela em pó – Especiaria em pó; Primeira qualidade; Acondicionado em embalagem plástica 
+
+transparente, íntegra e atóxica, resistente e hermeticamente vedada; Rótulo contendo: 
+
+identificação do produto, ingredientes, valor nutricional, peso, fabricante, data de fabricação; O 
+
+produto deverá apresentar validade mínima de 12 meses da entrega. Referência: Pacotes de 50g. 
+
+Unidade 1.000 0,92 920,00 PURA PUPA 
+
+11 
+
+Condimento Colorau – Calorífico em pó fino homogêneo elaborado a partir de Urucum; 
+
+Acondicionado em embalagem plástica transparente e atóxica, resistente e hermeticamente 
+
+vedada; Rótulo contendo: identificação do produto, ingredientes, valor nutricional, peso, 
+
+fabricante, data de fabricação; O produto deverá apresentar validade mínima de 6 meses da 
+
+entrega. Referência: Embalagem 100g. Fardo com 10 unidades totalizando 1 kg. 
+
+Fardo 5.000 4,25 21.250,00 CORINGA 
+
+12 
+
+Creme de arroz – Farinha de arroz, vitaminas, ácido fólico, D, B12 e minerais. Contém Glúten, 
+
+embalagem íntegra; sem sujidades, livre de bolores; Rótulo contendo: identificação do produto, 
+
+ingredientes, valor nutricional, peso, fabricante, data de fabricação; O produto deverá apresentar 
+
+validade mínima de 9 meses da entrega. Referência: Embalagem de 200g. 
+
+Unidade 6.000 2,25 13.500,00 YOKI 
+
+13 
+
+Extrato de tomate – A base de: tomate, açúcar (máximo de 1%), sal (máximo de 5% de cloreto 
+
+de sódio). Isento de fermentações. Sache com 340 g. Embalagem íntegra. O produto deverá 
+
+apresentar validade mínima de 12 meses da entrega. Referência: 340g. 
+
+Unidade 14.000 1,70 23.800,00 BONARE 
+
+16 
+Farinha de trigo com fermento – Especial de 1ª qualidade. Embalagem íntegra. O produto 
+
+deverá apresentar validade mínima de 4 meses da entrega. Referência: 1kg. 
+Quilo 3.000 2,30 6.900,00 SARANDI 
+
+20 
+
+Formula infantil – Fórmula infantil a partir do nascimento até os 6 meses de idade. Favorece as 
+
+defesas imunológicas no momento da introdução da alimentação complementar. Carboidratos: 
+
+100% lactose. Lactose, leite desnatado*, concentrado protéico de soro do leite, oleína de palma, 
+
+óleo de canola, óleo de palmiste, óleo de milho, sais minerais (citrato de cálcio, sulfato ferroso, 
+
+sulfato de zinco, sulfato de cobre, iodeto de potássio), lecitina de soja, vitaminas (vitamina C, 
+
+niacina, vitamina E, pantotenato de cálcio, vitamina A, vitamina B6, vitamina B1, vitamina D, 
+
+vitamina B2, ácido fólico, vitamina K, biotina, vitamina B12), óleo de peixe**, cultura de 
+
+lactobacillus e bifidus. NÃO CONTÉM GLÚTEN. *fonte protéica. ** óleo de peixe é fonte de 
+
+ácido docosahexaenóico (DHA). O produto deverá apresentar validade mínima de 6 meses da 
+
+entrega. Referencia: Embalagem de 400g. 
+
+Unidade 1.000 25,50 25.500,00 NESTLÉ 
+
+21 
+
+Fórmula infantil – Fórmula infantil a partir dos 6 meses de idade. Favorece as defesas 
+
+imunológicas no momento da introdução da alimentação complementar. Carboidratos: 100% 
+
+lactose. Lactose, leite desnatado*, concentrado protéico de soro do leite, oleína de palma, óleo de 
+
+canola, óleo de palmiste, óleo de milho, sais minerais (citrato de cálcio, sulfato ferroso, sulfato 
+
+de zinco, sulfato de cobre, iodeto de potássio), lecitina de soja, vitaminas (vitamina C, niacina, 
+
+vitamina E, pantotenato de cálcio, vitamina A, vitamina B6, vitamina B1, vitamina D, vitamina 
+
+B2, ácido fólico, vitamina K, biotina, vitamina B12), óleo de peixe**, cultura de lactobacillus e 
+
+bifidus. NÃO CONTÉM GLÚTEN. *fonte protéica. ** óleo de peixe é fonte de ácido 
+
+docosahexaenóico (DHA), O produto deverá apresentar validade mínima de 6 meses da entrega. 
+
+Referencia: Embalagem de 400g. 
+
+Unidade 400 23,40 9.360,00 NESTLÉ 
+
+25 
+
+Macarrão tipo Espaguete – Massa instantânea tipo Espaguete. Ingredientes: Farinha de trigo 
+
+comum enriquecida com ferro e ácido fólico. Contém glúten. O produto deverá apresentar 
+
+validade mínima de 6 meses da entrega. Referência: pacote 500g. 
+
+Pacote 30.000 1,54 46.200,00 BOM SABOR 
+
+29 
+
+Milho verde – Milho verde em conserva, grãos não amassados, com identificação do produto, 
+
+peso, fabricante, data de fabricação e validade. O produto deverá apresentar validade mínima de 
+
+6 meses da entrega. Referência: 200g. 
+
+Unidade 4.000 1,62 6.480,00 QUERO 
+
+34 
+Sal Refinado – Refinado e Iodado, acondicionados em embalagens transparentes. O produto 
+
+deverá apresentar validade mínima de 9 meses da entrega. Referência: 1kg. 
+Quilo 4.000 0,56 2.240,00 PURO SAL 
+
+41 
+
+Carne moída 1ª qualidade – Tipo alcatra, coxão mole ou patinho; Resfriada ou congelada; 
+
+Isenta de cartilagem e com 5% e no máximo 10% de gordura. Sem adição de temperos; Aspecto, 
+
+cor, cheiro e sabor próprio, sem manchas esverdeadas ou aparência pegajoso; Livre de parasitas, 
+
+sujidades e qualquer substância contaminante que possa alterá-la; Embalagem plástica sem 
+
+acumulo de líquido em seu interior, com identificação do produto; Rótulo contendo data de 
+
+abate, peso, validade de resfriamento e congelamento, temperatura de estocagem; Inspecionado 
+
+pelo MAPA (Ministério da Agricultura), que tenha SIF (Serviço de Inspeção Federal). Empresa 
+
+com Alvará da Vigilância Sanitária Municipal atualizado. Referência: Embalagem plástica de 
+
+500g. 
+
+Pacote 8.750 6,02 52.675,00 SUIFRIGO 
+
+50 
+
+Carne moída 1ª qualidade – Tipo alcatra, coxão mole ou patinho; Resfriada ou congelada; 
+
+Isenta de cartilagem e com 5% e no máximo 10% de gordura. Sem adição de temperos; Aspecto, 
+
+cor, cheiro e sabor próprio, sem manchas esverdeadas ou aparência pegajoso; Livre de parasitas, 
+
+sujidades e qualquer substância contaminante que possa alterá-la; Embalagem plástica sem 
+
+acumulo de líquido em seu interior, com identificação do produto; Rótulo contendo data de 
+
+abate, peso, validade de resfriamento e congelamento, temperatura de estocagem; Inspecionado 
+
+pelo MAPA (Ministério da Agricultura), que tenha SIF (Serviço de Inspeção Federal). Empresa 
+
+com Alvará da Vigilância Sanitária Municipal atualizado. Referência: Embalagem plástica de 
+
+500g. 
+
+Pacote 26.250 6,02 158.025,00 SUIFRIGO 
+
+  
+
+Data de Assinatura: 24 de janeiro de 2018. Validade de 06 meses a partir de sua assinatura. 
+
+ 
+
+A íntegra da ata de registro de preços poderá ser obtida na sede do Setor de Licitações de Teotônio Vilela. 
+
+  
+
+Teotônio Vilela-AL, 24 de janeiro de 2018. 
+
+  
+
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                12 
+
+ 
+
+Publicado por: 
+Ricardo Lima Torres 
+
+Código Identificador:5FE70A47 
+
+ 
+DEPARTAMENTO DE LICITAÇÕES E CONTRATOS 
+
+EXTRATO DA ATA DE REGISTRO DE PREÇOS Nº 008/2018 
+ 
+
+PREGÃO PRESENCIAL 059/2017 
+
+ 
+
+ATA DE REGISTRO DE PREÇOS Nº 007/2018 
+
+ 
+
+FORNECEDORA REGISTRADA: BERNARDI E GUEDES LTDA EPP, inscrita no CNPJ sob n.º 16.986.881/0001-00 – Objeto: o Registro de 
+
+Preços para Aquisição de Merenda Escolar. Perfazendo o valor total da ata de registro de preços na ordem de R$ 1.613.552,00 (um milhão, 
+
+seiscentos e treze mil, quinhentos e cinquenta e dois reais). Conforme abaixo: 
+
+  
+Item Descrição Unid Qnt. Vl Unit. Valor Total Marca 
+
+05 
+
+Biscoito Cream Cracker Integral – Biscoito com sal, elaborado com composição básica de 
+
+farinha de trigo e fibras, com sal, enriquecido com ferro e ácido fólico, outras substâncias 
+
+permitidas; Acondicionado em embalagem primária plástica atóxica, íntegra, transparente; 
+
+Rótulo contendo: identificação do produto, ingredientes, valor nutricional, peso, fabricante, 
+
+data de fabricação; O produto deverá apresentar validade mínima de 6 meses da entrega. 
+
+Referência: Pacotes de 400g. 
+
+Pacote 100 2,76 276,00 VITAMASSA 
+
+06 
+
+Biscoito Leite – Tipo Maria, sabor e cor característicos, textura crocante; Acondicionado 
+
+em embalagem primária plástica atóxica, íntegra, transparente; Rótulo contendo: 
+
+identificação do produto, ingredientes, valor nutricional, peso, fabricante, data de 
+
+fabricação; O produto deverá apresentar validade mínima de 6 meses da entrega. Referência: 
+
+Pacotes de 400g. 
+
+Pacote 6.000 3,04 18.240,00 MAURICEA 
+
+07 
+
+Café em Pó – Primeira qualidade, com selo da ABIC, isenta de grãos, torrado e moído, 
+
+aroma e sabor característicos de regular a intenso; Acondicionado em embalagem primária 
+
+plástica atóxica, íntegra, transparente, hermeticamente, vedada; Rótulo contendo: 
+
+identificação do produto, ingredientes, valor nutricional, peso, fabricante, data de 
+
+fabricação; O produto deverá apresentar validade mínima de 3 meses da entrega. Referência: 
+
+Pacotes de 250g. 
+
+Pacote 1.000 4,10 4.100,00 NORDESTINO 
+
+10 
+
+Cominho Sem Pimenta – Pó fino homogêneo com aspecto, cor, cheiro e sabor próprio, 
+
+isento de materiais estranhos. Acondicionado em embalagem plástica transparente e atóxica, 
+
+resistente e hermeticamente vedada; Rótulo contendo: identificação do produto, 
+
+ingredientes, valor nutricional, peso, fabricante, data de fabricação; O produto deverá 
+
+apresentar validade mínima de 6 meses da entrega. Referência: Embalagem 100g. Fardo 
+
+com 10 unidades totalizando 1 kg. 
+
+Fardo 4.000 7,13 28.520,00 NORDESTINO 
+
+14 
+
+Farinha de Mandioca – Torrada, fina, acondicionada em embalagem plástica transparente 
+
+e atóxica, resistente e hermeticamente vedada. O produto deverá apresentar validade mínima 
+
+de 6 meses da entrega. Referência: 1 kg. 
+
+Quilo 4.500 3,78 17.010,00 BOM SABOR 
+
+15 
+
+Farinha de Milho – Fubá de milho (massa para cuscuz), simples, do grão de milho moído; 
+
+de cor amarela; com aspecto cor, cheiro e sabor próprios; com ausência de umidade, 
+
+fermentação, ranço; isento de sujidades, parasitas e larvas; validade mínima 3 meses a 
+
+contar da entrega. Suas condições deverão estar de acordo com a portaria RDC 263 de 22 de 
+
+setembro de 2005. Referência: 500g. 
+
+Pacote 34.000 0,75 25.500,00 MARATÁ 
+
+17 
+
+Farinha Láctea – Farinha de trigo, enriquecida com Ferro e ácido fólico, vitaminas e 
+
+minerais. Contém açúcar, leite em pó integral, sal e aromatizantes. Contém Glúten. O 
+
+produto deverá apresentar validade mínima de 6 meses da entrega. Referência: Sache de 
+
+210g. 
+
+Pacote 7.000 3,48 24.360,00 MARATÁ 
+
+18 
+
+Feijão Carioca TIPO I – Composição: Grupo feijão comum classe tipo 1. Não contém 
+
+Glúten. O produto deverá apresentar validade mínima de 6 meses da entrega. Referência: 
+
+Pacote 1Kg. 
+
+Quilo 15.000 2,60 39.000,00 TIO FERREIRA 
+
+22 
+
+Formula infantil isenta de lactose – A formula infantil para lactentes com intolerância 
+
+primária ou secundária à lactose e/ou alergia às proteínas do leite. sólidos de xarope de 
+
+milho; óleos vegetais, sacarose, isolado de proteínas de soja, minerais, vitaminas (ácido 
+
+ascórbico, cloreto de colina, acetato de alfatocoferol, nicotinamida, pantotenato de cálcio, 
+
+cloridrato de tiamina, palmitato de vitamina A, cloridrato de piridoxina, riboflavina, ácido 
+
+fólico, filoquinona, biotina, concentrado de vitamina1 D3 cianocobalamina), L- metionina, 
+
+taurina e L-carnitina. Contem ácido cítrico como acidulante. O produto deverá apresentar 
+
+validade mínima de 6 meses da entrega. Referencia: Embalagem a partir de 350g. 
+
+Unidade 400 18,64 7.456,00 NINHO 
+
+23 
+
+Leite em Pó Desnatado – Leite em pó desnatado. Embalagem com dizeres de rotulagem, 
+
+contendo informações dos ingredientes, composição nutricional, data de fabricação e prazo 
+
+de validade de no mínimo 12 meses. Registro no MA, inspecionado pelo SIF. Referência: 
+
+200g. 
+
+Pacote 500 5,18 2.590,00 CAMPONESA 
+
+24 
+
+Macarrão tipo argolinha – Massa para sopa. Ingredientes: Farinha de trigo comum 
+
+enriquecida com ferro e ácido fólico. Contém glúten. O produto deverá apresentar validade 
+
+mínima de 6 meses da entrega. Referência: pacote 500g. 
+
+Unidade 15.000 3,00 45.000,00 BRANDINI 
+
+26 
+
+Margarina com sal – Com sal; até 60% de lipídios em sua composição nutricional, 
+
+embalado em potes plásticos, fechados, e proveniente de estabelecimento sob inspeção 
+
+oficial. Embalagem íntegra. O produto deverá apresentar validade mínima de 3 meses da 
+
+entrega. Referência: 15 kg. 
+
+Balde 60 95,50 5.730,00 PRIMOR 
+
+27 
+
+Margarina com sal 500g – Com sal; até 60% de lipídios em sua composição nutricional, 
+
+embalado em potes plásticos, fechados, e proveniente de estabelecimento sob inspeção 
+
+oficial. Embalagem íntegra. O produto deverá apresentar validade mínima de 3 meses da 
+
+entrega. Referência: 500g. 
+
+Unidade 9.000 3,56 32.040,00 PRIMOR 
+
+28 
+
+Milho para mungunzá – Grãos de milho amarelo, com aspecto, cor, cheiro e sabor próprios 
+
+com ausência de umidade, fermentação, ranço, isento de sujidades, parasitas e larvas. O 
+
+produto deverá apresentar validade mínima de 6 meses da entrega. Referência: 500g. 
+
+Pacote 12.000 1,09 13.080,00 GOSTOMIL 
+
+30 
+
+Mistura à base de milho para o preparo de mingau – Amido em pó sabor, diversos 
+
+sabores (tradicional, banana, chocolate e morango); Enriquecido com vitaminas e minerais, 
+
+embalado em caixas de papelão individual; Rótulo contendo: embalagem íntegra; sem 
+
+sujidades, livre de bolores; Rótulo contendo: identificação do produto, ingredientes, valor 
+
+nutricional, peso, fabricante, data de fabricação; O produto deverá apresentar validade 
+
+mínima de 9 meses da entrega. Referência: Embalagem de 200. 
+
+Unidade 5.000 2,09 10.450,00 CREMOZINA 
+
+32 
+Proteína de soja texturizada – Carne extraída de grão de soja, sabor carne. O produto 
+
+deverá apresentar validade mínima de 6 meses da entrega. Referência: Embalagem de 400 g. 
+Unidade 8.000 2,69 21.520,00 SUPRE SOY 
+
+33 
+Proteína de soja texturizada – Carne extraída de grão de soja, sabor frango. O produto 
+
+deverá apresentar validade mínima de 6 meses da entrega. Referência: Embalagem de 400 g. 
+Unidade 8.000 2,69 21.520,00 SUPRE SOY 
+
+35 
+
+Suco de frutas concentrado sabor caju – Suco e/ ou polpa de concentrado de caju, com 
+
+água potável, submetido a processo tecnológico adequado, isento de fragmentos das partes 
+
+não comestíveis, com aspecto em cor, cheiro e sabor próprio. Rendimento de 5 litros. 
+
+Validade mínima de 12 meses a contar da data de entrega. Referência: Garrafa de 500 ml. 
+
+Unidade 10.000 2,21 22.100,00 IMPERIAL 
+
+36 
+
+Suco de frutas concentrado sabor goiaba – Suco e/ ou polpa de concentrado de goiaba, 
+
+com água potável, submetido a processo tecnológico adequado, isento de fragmentos das 
+
+partes não comestíveis, com aspecto em cor, cheiro e sabor próprio. Rendimento de 2 litros. 
+
+Validade mínima de 12 meses a contar da data de entrega. Referência: Garrafa de 500 ml. 
+
+Unidade 14.000 2,74 38.360,00 IMPERIAL 
+
+http://www.diariomunicipal.com.br/aam
+
+
+Alagoas , 09 de Fevereiro de 2018   •   Diário Oficial dos Municípios do Estado de Alagoas   •    ANO V | Nº 0718 
+
+ 
+
+www.diariomunicipal.com.br/ama                                                                                13 
+
+ 
+
+37 
+Vinagre de Álcool – Embalagem íntegra. O produto deverá apresentar validade mínima de 
+
+6 meses da entrega. Referência: 900ml. 
+Unidade 3.000 1,00 3.000,00 SABOR 
+
+38 
+
+Arroz Branco – Tipo 1; Embalagem íntegra; longo, fino, sem sujidades, parasitas, larvas e 
+
+bolores; Constituído de grãos inteiros, acondicionados em saco plástico atóxico e 
+
+transparente; Rótulo contendo: identificação do produto, ingredientes, valor nutricional, 
+
+peso, fabricante, data de fabricação; O produto deverá apresentar validade mínima de 6 
+
+meses da entrega. Referência: Embalagem de 1kg. 
+
+Quilo 8.000 2,66 21.280,00 TIO MANOEL 
+
+39 
+
+Bebida láctea sabor chocolate – Embalagem íntegra; Enriquecida com vitaminas A, C, D e 
+
+Ferro. O produto poderá conter outras vitaminas e minerais e outros ingredientes permitidos 
+
+na legislação vigente que não o descaracterizem. Armazenado em refrigeração de 4º; Rótulo 
+
+contendo: identificação do produto, ingredientes, valor nutricional, gramatura/ml, fabricante, 
+
+data de fabricação; O produto deverá apresentar validade mínima de 30 dias da entrega. 
+
+Referência: Embalagem de 1litro. 
+
+Litro 5.000 4,34 21.700,00 VALEDOURADO 
+
+42 
+
+Carne moída de frango de 1ª qualidade – Tipo filé de peito de frango; Resfriada ou 
+
+congelada; Sem adição de temperos; Embalagem plástica sem acumulo de líquido em seu 
+
+interior, com identificação do produto; Rótulo contendo data de abate, peso, validade de 
+
+resfriamento e congelamento, temperatura de estocagem; Inspecionado pelo MAPA 
+
+(Ministério da Agricultura), que tenha SIF (Serviço de Inspeção Federal) e com baixo teor 
+
+de sódio. Empresa com Alvará da Vigilância Sanitária Municipal atualizado. Referência: 
+
+Embalagem plástica de 500 g 
+
+Pacote 8.750 5,09 44.537,50 CARRER 
+
+44 
+
+Frango inteiro – Frango inteiro com miúdo resfriado ou congelado; Sem adição de 
+
+temperos; Embalagem plástica sem acumulo de líquido em seu interior, com identificação 
+
+do produto; Rótulo contendo data de abate, peso, validade de resfriamento e congelamento, 
+
+temperatura de estocagem; Inspecionado pelo MAPA (Ministério da Agricultura), que tenha 
+
+SIF (Serviço de Inspeção Federal) e com baixo teor de sódio. Empresa com Alvará da 
+
+Vigilância Sanitária Municipal atualizado. Referência: Embalagem plástica de 2,5 kg; 
+
+Quilo 8.000 6,34 50.720,00 SOMAVE 
+
+45 
+
+Leite em Pó Integral – Leite em pó integral. Embalagem com dizeres de rotulagem, 
+
+contendo informações dos ingredientes, composição nutricional, data de fabricação e prazo 
+
+de validade de no mínimo 12 meses. Registro no MA, inspecionado pelo SIF. Referência: 
+
+200g. 
+
+Pacote 25.000 4,22 105.500,00 LASERENISSIMA 
+
+46 
+
+Ovos de Galinha – Tipo Jumbo; De primeira qualidade; Tamanho uniforme; Embalagem 
+
+adequada para acondicionamento do produto, isenta de corpos estranhos aderidos a 
+
+superfície externa; Rótulo contendo data de validade, peso e temperatura de estocagem; 
+
+Inspecionado pelo MAPA (Ministério da Agricultura), que tenha SIF (Serviço de Inspeção 
+
+Federal); Empresa com Alvará da Vigilância Sanitária Municipal atualizado; O produto 
+
+deverá apresentar validade mínima de 10 dias da entrega. Referência: Embalagem com 30 
+
+unidades (65 a 75g). 
+
+Bandeja 6.250 10,35 64.687,50 LUNA 
+
+47 
+
+Arroz Branco – Tipo 1; Embalagem íntegra; longo, fino, sem sujidades, parasitas, larvas e 
+
+bolores; Constituído de grãos inteiros, acondicionados em saco plástico atóxico e 
+
+transparente; Rótulo contendo: identificação do produto, ingredientes, valor nutricional, 
+
+peso, fabricante, data de fabricação; O produto deverá apresentar validade mínima de 6 
+
+meses da entrega. Referência: Embalagem de 1kg. 
+
+Quilo 24.000 2,66 63.840,00 TIO MANOEL 
+
+48 
+
+Bebida láctea sabor chocolate – Embalagem íntegra; Enriquecida com vitaminas A, C, D e 
+
+Ferro. O produto poderá conter outras vitaminas e minerais e outros ingredientes permitidos 
+
+na legislação vigente que não o descaracterizem. Armazenado em refrigeração de 4º; Rótulo 
+
+contendo: identificação do produto, ingredientes, valor nutricional, gramatura/ml, fabricante, 
+
+data de fabricação; O produto deverá apresentar validade mínima de 30 dias da entrega. 
+
+Referência: Embalagem de 1litro. 
+
+Litro 15.000 4,34 65.100,00 VALEDOURADO 
+
+51 
+
+Carne moída de frango de 1ª qualidade – Tipo filé de peito de frango; Resfriada ou 
+
+congelada; Sem adição de temperos; Embalagem plástica sem acumulo de líquido em seu 
+
+interior, com identificação do produto; Rótulo contendo data de abate, peso, validade de 
+
+resfriamento e congelamento, temperatura de estocagem; Inspecionado pelo MAPA 
+
+(Ministério da Agricultura), que tenha SIF (Serviço de Inspeção Federal) e com baixo teor 
+
+de sódio. Empresa com Alvará da Vigilância Sanitária Municipal atualizado. Referência: 
+
+Embalagem plástica de 500 g 
+
+Pacote 26.250 5,09 133.612,50 CARRER 
+
+53 
+
+Frango inteiro – Frango inteiro com miúdo resfriado ou congelado; Sem adição de 
+
+temperos; Embalagem plástica sem acumulo de líquido em seu interior, com identificação 
+
+do produto; Rótulo contendo data de abate, peso, validade de resfriamento e congelamento, 
+
+temperatura de estocagem; Inspecionado pelo MAPA (Ministério da Agricultura), que tenha 
+
+SIF (Serviço de Inspeção Federal) e com baixo teor de sódio. Empresa com Alvará da 
+
+Vigilância Sanitária Municipal atualizado. Referência: Embalagem plástica de 2,5 kg; 
+
+Quilo 24.000 6,34 152.160,00 SOMAVE 
+
+54 
+
+Leite em Pó Integral – Leite em pó integral. Embalagem com dizeres de rotulagem, 
+
+contendo informações dos ingredientes, composição nutricional, data de fabricação e prazo 
+
+de validade de no mínimo 12 meses. Registro no MA, inspecionado pelo SIF. Referência: 
+
+200g. 
+
+Pacote 75.000 4,22 316.500,00 LASERENISSIMA 
+
+55 
+
+Ovos de Galinha – Tipo Jumbo; De primeira qualidade; Tamanho uniforme; Embalagem 
+
+adequada para acondicionamento do produto, isenta de corpos estranhos aderidos a 
+
+superfície externa; Rótulo contendo data de validade, peso e temperatura de estocagem; 
+
+Inspecionado pelo MAPA (Ministério da Agricultura), que tenha SIF (Serviço de Inspeção 
+
+Federal); Empresa com Alvará da Vigilância Sanitária Municipal atualizado; O produto 
+
+deverá apresentar validade mínima de 10 dias da entrega. Referência: Embalagem com 30 
+
+unidades (65 a 75g). 
+
+Bandeja 18.750 10,35 194.062,50 LUNA 
+
+  
+
+Data de Assinatura: 24 de janeiro de 2018. Validade de 06 meses a partir de sua assinatura. 
+
+ 
+
+A íntegra da ata de registro de preços poderá ser obtida na sede do Setor de Licitações de Teotônio Vilela. 
+
+  
+
+Teotônio Vilela-AL, 24 de janeiro de 2018. 
+
+  
+
+JOÃO JOSÉ PEREIRA FILHO 
+Prefeito 
+
+ 
+
+Publicado por: 
+Ricardo Lima Torres 
+
+Código Identificador:35580FE0 
+
+ 
+ 
+
+http://www.diariomunicipal.com.br/aam
+
+		2018-02-08T21:27:08-0200
+	VOX SOLUCOES TECNOLOGICAS LTDA ME:00684621000131
+
+
+
+
