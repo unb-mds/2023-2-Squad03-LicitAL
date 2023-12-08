@@ -81,6 +81,7 @@ def cidades_json():
         if mes not in geral["detalhe"][ano]:
             geral["detalhe"][ano][mes] = {"valores_gastos": 0, "quantidade_licitacoes": 0}
         geral["detalhe"][ano][mes]["valores_gastos"] += item["valores_gastos"]
+        geral["detalhe"][ano][mes]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
 
 
     # Salvar cada município em um arquivo separado na pasta 'site'
@@ -92,5 +93,5 @@ def cidades_json():
     with open(os.path.join('site', 'geral.json'), 'w', encoding='utf-8') as f:
         json.dump(geral, f, ensure_ascii=False, indent=2)
 
-if __name__ == "__main__":
+if __name_ == "_main_":
     cidades_json()
