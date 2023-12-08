@@ -4,14 +4,17 @@
   "detalhe": {
     "2023": {
       "resumo": {
-        "valores_gastos": 20000.0
+        "valores_gastos": 20000.0,
+        "quantidade_licitacoes": 1
       },
       "9": {
-        "valores_gastos": 20000.0
+        "valores_gastos": 20000.0,
+        "quantidade_licitacoes": 1
       }
     }
   },
   "resumo": {
-    "valores_gastos": 20000.0
+    "valores_gastos": 20000.0,
+    "quantidade_licitacoes": 1
   }
 }

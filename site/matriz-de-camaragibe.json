@@ -4,32 +4,41 @@
   "detalhe": {
     "2023": {
       "resumo": {
-        "valores_gastos": 24044405.0
+        "valores_gastos": 24044405.0,
+        "quantidade_licitacoes": 17
       },
       "2": {
-        "valores_gastos": 0.0
+        "valores_gastos": 0.0,
+        "quantidade_licitacoes": 0
       },
       "3": {
-        "valores_gastos": 286000.0
+        "valores_gastos": 286000.0,
+        "quantidade_licitacoes": 14
       },
       "5": {
-        "valores_gastos": 0.0
+        "valores_gastos": 0.0,
+        "quantidade_licitacoes": 0
       },
       "7": {
-        "valores_gastos": 0.0
+        "valores_gastos": 0.0,
+        "quantidade_licitacoes": 0
       },
       "8": {
-        "valores_gastos": 7135.0
+        "valores_gastos": 7135.0,
+        "quantidade_licitacoes": 1
       },
       "10": {
-        "valores_gastos": 23748270.0
+        "valores_gastos": 23748270.0,
+        "quantidade_licitacoes": 1
       },
       "11": {
-        "valores_gastos": 3000.0
+        "valores_gastos": 3000.0,
+        "quantidade_licitacoes": 1
       }
     }
   },
   "resumo": {
-    "valores_gastos": 24044405.0
+    "valores_gastos": 24044405.0,
+    "quantidade_licitacoes": 17
   }
 }
