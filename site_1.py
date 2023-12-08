@@ -93,5 +93,5 @@ def cidades_json():
     with open(os.path.join('site', 'geral.json'), 'w', encoding='utf-8') as f:
         json.dump(geral, f, ensure_ascii=False, indent=2)
 
-if __name_ == "_main_":
+if __name__ == "__main__":
     cidades_json()
