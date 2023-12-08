@@ -1,69 +1,43 @@
 import unittest
-import tempfile
-import os
-import json
-from extrator_valores import extrair_valores
+from diario_municipal import Municipio, Diario  
 
-class TestExtratorValores(unittest.TestCase):
+class TestMunicipio(unittest.TestCase):
+    def test_criacao_municipio(self):
+        nome_municipio = "Maceió"
+        municipio = Municipio(nome_municipio)
+        
+        self.assertEqual(municipio.nome, nome_municipio)
+        self.assertEqual(municipio.id, "maceio")
 
-    def setUp(self):
-        # Cria arquivos temporários para os testes
-        self.arquivo_temporario_uma_licitacao = tempfile.NamedTemporaryFile(delete=False, mode='w+', encoding='utf-8')
-        self.arquivo_temporario_multiplas_licitacoes = tempfile.NamedTemporaryFile(delete=False, mode='w+', encoding='utf-8')
+    def test_criacao_municipio_com_caracteres_especiais(self):
+        nome_municipio = "São Miguel dos Campos"
+        municipio = Municipio(nome_municipio)
 
-        # Caminhos para os arquivos temporários
-        self.caminho_temporario_uma_licitacao = self.arquivo_temporario_uma_licitacao.name
-        self.caminho_temporario_multiplas_licitacoes = self.arquivo_temporario_multiplas_licitacoes.name
+        self.assertEqual(municipio.nome, nome_municipio)
+        self.assertEqual(municipio.id, "sao-miguel-dos-campos")
 
-    def tearDown(self):
-        # Remove os arquivos temporários após os testes
-        os.remove(self.caminho_temporario_uma_licitacao)
-        os.remove(self.caminho_temporario_multiplas_licitacoes)
+    def test_criacao_municipio_com_barra_AL(self):
+        nome_municipio = "Viçosa/AL"
+        municipio = Municipio(nome_municipio)
 
-    def test_extrair_valores_uma_licitacao(self):
-        # Cria o arquivo de resultado
-        resultado_json = self.caminho_temporario_uma_licitacao
+        self.assertEqual(municipio.nome, "Viçosa")
+        self.assertEqual(municipio.id, "vicosa")
 
-        # Executa a função de teste
-        extrair_valores(self.caminho_temporario, resultado_json)
+class TestDiario(unittest.TestCase):
+    def test_criacao_diario(self):
+        municipio = Municipio("Maceió")
+        cabecalho = "17 de Janeiro de 2023"
+        texto = "Conteúdo do diário..."
 
-        # Verifica se o arquivo de resultado foi criado corretamente
-        self.assertTrue(os.path.exists(resultado_json))
+        diario = Diario(municipio, cabecalho, texto)
 
-        # Carrega os resultados como JSON
-        with open(resultado_json, 'r', encoding='utf-8') as arquivo_resultado:
-            resultados_obtidos = json.load(arquivo_resultado)
-
-        # Resultados esperados para um caso com uma licitação
-        resultados_esperados = [
-            {"municipio": "Cidade1", "valores_gastos": 1000.0, "quantidade_licitacoes": 1},
-        ]
-
-        # Verifica se os resultados obtidos são iguais aos resultados esperados
-        self.assertEqual(resultados_obtidos, resultados_esperados)
-
-    def test_extrair_valores_multiplas_licitacoes(self):
-        # Cria o arquivo de resultado
-        resultado_json = self.caminho_temporario_multiplas_licitacoes
-
-        # Executa a função de teste
-        extrair_valores(self.caminho_temporario, resultado_json)
-
-        # Verifica se o arquivo de resultado foi criado corretamente
-        self.assertTrue(os.path.exists(resultado_json))
-
-        # Carrega os resultados como JSON
-        with open(resultado_json, 'r', encoding='utf-8') as arquivo_resultado:
-            resultados_obtidos = json.load(arquivo_resultado)
-
-        # Resultados esperados para um caso com múltiplas licitações
-        resultados_esperados = [
-            {"municipio": "Cidade1", "valores_gastos": 1500.0, "quantidade_licitacoes": 2},
-            {"municipio": "Cidade2", "valores_gastos": 2500.0, "quantidade_licitacoes": 1},
-        ]
-
-        # Verifica se os resultados obtidos são iguais aos resultados esperados
-        self.assertEqual(resultados_obtidos, resultados_esperados)
+        self.assertEqual(diario.municipio, "Maceió")
+        self.assertEqual(diario.id, "maceio")
+        self.assertEqual(diario.cabecalho, cabecalho)
+        self.assertEqual(diario.texto, texto)
+        self.assertEqual(diario.data_publicacao.year, 2023)
+        self.assertEqual(diario.data_publicacao.month, 1)
+        self.assertEqual(diario.data_publicacao.day, 17)
 
 if __name__ == '__main__':
     unittest.main()
