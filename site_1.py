@@ -87,6 +87,31 @@ def cidades_json():
         geral["detalhe"][ano][mes]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
         geral["detalhe"][ano][mes]["qtd_dispensa"] += item["qtd_dispensa"]
 
+        ranking_dispensas = {}
+
+        # Iterar sobre os municípios para coletar dados para o ranking
+        for id_municipio, municipio in municipios.items():
+            # Adicione o município ao ranking com o número de dispensas de licitações
+            ranking_dispensas[id_municipio] = {
+                "nome": municipio["nome"],
+                "num": municipio["resumo"]["qtd_dispensa"]
+            }
+
+        # Ordene o ranking com base no número de dispensas de licitações
+        ranking_dispensas = dict(sorted(ranking_dispensas.items(), key=lambda x: x[1]["num"], reverse=True))
+
+        # Limitar o ranking aos primeiros 5 e agrupar o restante como "Outros"
+        ranking_limitado = {}
+        outros_total = 0
+        for idx, (municipio_id, dados) in enumerate(ranking_dispensas.items(), start=1):
+            if idx <= 5:
+                ranking_limitado[str(idx)] = {
+                    "nome": dados["nome"],
+                    "num": dados["num"]
+                }
+
+        # Adicionar o ranking ao arquivo geral
+        geral["ranking_dispensas"] = ranking_limitado
 
     # Salvar cada município em um arquivo separado na pasta 'site'
     for id_municipio, municipio in municipios.items():

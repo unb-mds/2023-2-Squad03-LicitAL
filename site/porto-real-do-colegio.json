@@ -4,421 +4,356 @@
   "detalhe": {
     "2015": {
       "resumo": {
-        "valores_gastos": 494852.61,
-        "quantidade_licitacoes": 14
-      },
-      "2": {
-        "valores_gastos": 236295.61,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 1086328.6099999999,
+        "quantidade_licitacoes": 12,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "4": {
-        "valores_gastos": 60000.0,
-        "quantidade_licitacoes": 1
-      },
-      "5": {
-        "valores_gastos": 5590.0,
-        "quantidade_licitacoes": 1
-      },
-      "7": {
-        "valores_gastos": 61000.0,
-        "quantidade_licitacoes": 1
-      },
-      "8": {
-        "valores_gastos": 15000.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 239295.61,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 116966.0,
-        "quantidade_licitacoes": 8
-      },
-      "10": {
-        "valores_gastos": 1.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 847033.0,
+        "quantidade_licitacoes": 11,
+        "qtd_dispensa": 0
       }
     },
     "2016": {
       "resumo": {
-        "valores_gastos": 40056000.0,
-        "quantidade_licitacoes": 5
-      },
-      "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "2": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "4": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "5": {
-        "valores_gastos": 40000000.0,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 810881.64,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "6": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 509901.61,
+        "quantidade_licitacoes": 3,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 52000.0,
-        "quantidade_licitacoes": 1
-      },
-      "8": {
         "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "quantidade_licitacoes": 0,
+        "qtd_dispensa": 0
       },
-      "11": {
-        "valores_gastos": 4000.0,
-        "quantidade_licitacoes": 2
-      },
-      "12": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+      "9": {
+        "valores_gastos": 300980.03,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       }
     },
     "2017": {
       "resumo": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 2539043.8,
+        "quantidade_licitacoes": 31,
+        "qtd_dispensa": 0
       },
-      "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "2": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "9": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "11": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "12": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+      "10": {
+        "valores_gastos": 2539043.8,
+        "quantidade_licitacoes": 31,
+        "qtd_dispensa": 0
       }
     },
     "2018": {
       "resumo": {
-        "valores_gastos": 2630541.08,
-        "quantidade_licitacoes": 6
-      },
-      "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "2": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 7891170.43,
+        "quantidade_licitacoes": 50,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "5": {
-        "valores_gastos": 123269.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 511664.6,
+        "quantidade_licitacoes": 3,
+        "qtd_dispensa": 0
       },
       "6": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 561700.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 4124274.08,
+        "quantidade_licitacoes": 7,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 702102.0,
+        "quantidade_licitacoes": 13,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 261800.0,
+        "quantidade_licitacoes": 17,
+        "qtd_dispensa": 0
       },
       "10": {
-        "valores_gastos": 532154.91,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 15000.0,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "11": {
-        "valores_gastos": 1975117.17,
-        "quantidade_licitacoes": 4
+        "valores_gastos": 1494129.75,
+        "quantidade_licitacoes": 3,
+        "qtd_dispensa": 0
       },
       "12": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 220500.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       }
     },
     "2019": {
       "resumo": {
-        "valores_gastos": 1874032.67,
-        "quantidade_licitacoes": 8
+        "valores_gastos": 3436136.55,
+        "quantidade_licitacoes": 68,
+        "qtd_dispensa": 0
       },
       "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 3500.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "2": {
-        "valores_gastos": 1440604.2,
-        "quantidade_licitacoes": 5
+        "valores_gastos": 1125375.7,
+        "quantidade_licitacoes": 21,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 48500.0,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "4": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 20712.0,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "5": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 143680.05,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "6": {
-        "valores_gastos": 241403.42,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 858327.0,
+        "quantidade_licitacoes": 17,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 143680.05,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 656666.76,
+        "quantidade_licitacoes": 7,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 191400.0,
+        "quantidade_licitacoes": 6,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 48345.0,
-        "quantidade_licitacoes": 1
-      },
-      "10": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 237975.04,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "11": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "12": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 150000.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       }
     },
     "2020": {
       "resumo": {
-        "valores_gastos": 5661727.359999999,
-        "quantidade_licitacoes": 22
+        "valores_gastos": 4914498.41,
+        "quantidade_licitacoes": 45,
+        "qtd_dispensa": 0
       },
       "1": {
-        "valores_gastos": 952995.9,
-        "quantidade_licitacoes": 5
+        "valores_gastos": 2460688.58,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "2": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 142550.0,
+        "quantidade_licitacoes": 10,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 3053198.6399999997,
-        "quantidade_licitacoes": 10
-      },
-      "4": {
-        "valores_gastos": 41800.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 1551188.8399999999,
+        "quantidade_licitacoes": 9,
+        "qtd_dispensa": 0
       },
       "5": {
-        "valores_gastos": 348400.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 41800.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
+      },
+      "6": {
+        "valores_gastos": 134454.37,
+        "quantidade_licitacoes": 16,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 43443.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 465412.82,
-        "quantidade_licitacoes": 3
+        "valores_gastos": 448061.32,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 799920.0,
-        "quantidade_licitacoes": 2
-      },
-      "12": {
         "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "quantidade_licitacoes": 0,
+        "qtd_dispensa": 0
+      },
+      "10": {
+        "valores_gastos": 92312.3,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       }
     },
     "2021": {
       "resumo": {
-        "valores_gastos": 3631551.32,
-        "quantidade_licitacoes": 34
+        "valores_gastos": 5012305.670000001,
+        "quantidade_licitacoes": 88,
+        "qtd_dispensa": 0
       },
       "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "2": {
-        "valores_gastos": 13116.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 39632.0,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 183300.0,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "4": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 886914.9,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "5": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 30964.58,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "6": {
-        "valores_gastos": 1317648.38,
-        "quantidade_licitacoes": 22
+        "valores_gastos": 542360.47,
+        "quantidade_licitacoes": 28,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 30000.0,
-        "quantidade_licitacoes": 4
+        "valores_gastos": 588911.5,
+        "quantidade_licitacoes": 28,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 1475553.62,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 1866558.32,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 624263.52,
-        "quantidade_licitacoes": 3
+        "valores_gastos": 125791.9,
+        "quantidade_licitacoes": 7,
+        "qtd_dispensa": 0
       },
       "10": {
-        "valores_gastos": 170969.8,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 3000.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
       "11": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 8000.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "12": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 736872.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       }
     },
     "2022": {
       "resumo": {
-        "valores_gastos": 3378459.6799999997,
-        "quantidade_licitacoes": 18
-      },
-      "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 1605538.72,
+        "quantidade_licitacoes": 26,
+        "qtd_dispensa": 0
       },
       "2": {
-        "valores_gastos": 144000.0,
-        "quantidade_licitacoes": 2
-      },
-      "3": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 263836.0,
+        "quantidade_licitacoes": 15,
+        "qtd_dispensa": 0
       },
       "4": {
-        "valores_gastos": 268292.68,
-        "quantidade_licitacoes": 4
+        "valores_gastos": 168080.72,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
-      "6": {
-        "valores_gastos": 190000.0,
-        "quantidade_licitacoes": 1
+      "5": {
+        "valores_gastos": 450000.0,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "7": {
-        "valores_gastos": 1556206.08,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 6000.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 205179.92,
-        "quantidade_licitacoes": 1
-      },
-      "9": {
-        "valores_gastos": 13400.0,
-        "quantidade_licitacoes": 1
-      },
-      "10": {
-        "valores_gastos": 209764.75999999998,
-        "quantidade_licitacoes": 5
+        "valores_gastos": 302622.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
       "11": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "12": {
-        "valores_gastos": 791616.24,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 415000.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 580070.54,
-        "quantidade_licitacoes": 54
+        "valores_gastos": 4360886.04,
+        "quantidade_licitacoes": 12,
+        "qtd_dispensa": 0
       },
       "1": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "2": {
-        "valores_gastos": 200000.0,
-        "quantidade_licitacoes": 1
+        "valores_gastos": 356850.0,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "3": {
-        "valores_gastos": 29930.0,
-        "quantidade_licitacoes": 6
+        "valores_gastos": 13000.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
       "4": {
-        "valores_gastos": 11000.0,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 0.0,
+        "quantidade_licitacoes": 0,
+        "qtd_dispensa": 0
       },
       "5": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 990000.0,
+        "quantidade_licitacoes": 4,
+        "qtd_dispensa": 0
       },
       "6": {
-        "valores_gastos": 89440.54000000001,
-        "quantidade_licitacoes": 40
-      },
-      "7": {
-        "valores_gastos": 6150.0,
-        "quantidade_licitacoes": 3
+        "valores_gastos": 1030200.01,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       },
       "8": {
-        "valores_gastos": 243550.0,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 1590836.03,
+        "quantidade_licitacoes": 1,
+        "qtd_dispensa": 0
       },
       "9": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "10": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "11": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "valores_gastos": 380000.0,
+        "quantidade_licitacoes": 2,
+        "qtd_dispensa": 0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 58307235.26,
-    "quantidade_licitacoes": 161
+    "valores_gastos": 31656789.869999997,
+    "quantidade_licitacoes": 336,
+    "qtd_dispensa": 0
   }
 }

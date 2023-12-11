@@ -2,155 +2,34 @@
   "id": "sao-miguel-dos-milagres",
   "nome": "SÃO MIGUEL DOS MILAGRES",
   "detalhe": {
-    "2021": {
-      "resumo": {
-        "valores_gastos": 1540642.47,
-        "quantidade_licitacoes": 49
-      },
-      "4": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "5": {
-        "valores_gastos": 120778.6,
-        "quantidade_licitacoes": 8
-      },
-      "6": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "7": {
-        "valores_gastos": 160418.89,
-        "quantidade_licitacoes": 15
-      },
-      "8": {
-        "valores_gastos": 260000.0,
-        "quantidade_licitacoes": 2
-      },
-      "9": {
-        "valores_gastos": 616667.98,
-        "quantidade_licitacoes": 17
-      },
-      "10": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "11": {
-        "valores_gastos": 328661.0,
-        "quantidade_licitacoes": 5
-      },
-      "12": {
-        "valores_gastos": 54116.0,
-        "quantidade_licitacoes": 2
-      }
-    },
     "2022": {
       "resumo": {
-        "valores_gastos": 164172507.05,
-        "quantidade_licitacoes": 54
-      },
-      "1": {
-        "valores_gastos": 317592.0,
-        "quantidade_licitacoes": 4
-      },
-      "2": {
-        "valores_gastos": 41592.0,
-        "quantidade_licitacoes": 2
-      },
-      "3": {
-        "valores_gastos": 2472650.51,
-        "quantidade_licitacoes": 7
-      },
-      "4": {
         "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
+        "quantidade_licitacoes": 0,
+        "qtd_dispensa": 0
       },
       "5": {
         "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "6": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "7": {
-        "valores_gastos": 1191302.79,
-        "quantidade_licitacoes": 4
-      },
-      "8": {
-        "valores_gastos": 153584637.84,
-        "quantidade_licitacoes": 13
-      },
-      "9": {
-        "valores_gastos": 791389.73,
-        "quantidade_licitacoes": 11
-      },
-      "10": {
-        "valores_gastos": 5580260.180000001,
-        "quantidade_licitacoes": 5
-      },
-      "11": {
-        "valores_gastos": 41800.0,
-        "quantidade_licitacoes": 1
-      },
-      "12": {
-        "valores_gastos": 151282.0,
-        "quantidade_licitacoes": 7
+        "quantidade_licitacoes": 0,
+        "qtd_dispensa": 0
       }
     },
     "2023": {
       "resumo": {
-        "valores_gastos": 5045157.06,
-        "quantidade_licitacoes": 59
+        "valores_gastos": 555999.46,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       },
       "1": {
-        "valores_gastos": 755512.7499999999,
-        "quantidade_licitacoes": 12
-      },
-      "2": {
-        "valores_gastos": 131922.44,
-        "quantidade_licitacoes": 6
-      },
-      "3": {
-        "valores_gastos": 291871.0,
-        "quantidade_licitacoes": 16
-      },
-      "4": {
-        "valores_gastos": 100000.0,
-        "quantidade_licitacoes": 1
-      },
-      "5": {
-        "valores_gastos": 377800.0,
-        "quantidade_licitacoes": 6
-      },
-      "6": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "7": {
-        "valores_gastos": 89696.42,
-        "quantidade_licitacoes": 1
-      },
-      "8": {
-        "valores_gastos": 3273643.08,
-        "quantidade_licitacoes": 13
-      },
-      "9": {
-        "valores_gastos": 0.0,
-        "quantidade_licitacoes": 0
-      },
-      "10": {
-        "valores_gastos": 11000.0,
-        "quantidade_licitacoes": 2
-      },
-      "11": {
-        "valores_gastos": 13711.369999999999,
-        "quantidade_licitacoes": 2
+        "valores_gastos": 555999.46,
+        "quantidade_licitacoes": 5,
+        "qtd_dispensa": 0
       }
     }
   },
   "resumo": {
-    "valores_gastos": 170758306.58,
-    "quantidade_licitacoes": 162
+    "valores_gastos": 555999.46,
+    "quantidade_licitacoes": 5,
+    "qtd_dispensa": 0
   }
 }

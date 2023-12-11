@@ -62,7 +62,7 @@ def extrair_valores(caminho_arquivo, resultado_json):
                         # Se já existe, atualiza o valor, a quantidade e a contagem de dispensa
                         resultado_existente["valores_gastos"] += valor_total_cidade
                         resultado_existente["quantidade_licitacoes"] += quantidade_licitacoes
-                        resultado_existente["qtd_dispensa"] += qtd_dispensa
+                        resultado_existente["qtd_dispensa"] = resultado_existente.get("qtd_dispensa", 0) + qtd_dispensa
                     else:
                         # Adiciona um resultado à lista
                         resultados_existente.append({
