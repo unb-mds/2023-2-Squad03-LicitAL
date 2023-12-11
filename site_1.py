@@ -43,45 +43,49 @@ def cidades_json():
                 "id": id_municipio,
                 "nome": item["municipio"],
                 "detalhe": {},
-                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0}  # Inicializar o resumo com valores_gastos como 0
+                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0, "qtd_dispensa": 0}  # Inicializar o resumo com valores_gastos como 0
             }
 
         # Adicionar os valores gastos ao município
         ano = str(item["ano"])
         if ano not in municipios[id_municipio]["detalhe"]:
             municipios[id_municipio]["detalhe"][ano] = {
-                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0},  # Inicializar o resumo do ano com valores_gastos como 0
+                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0, "qtd_dispensa": 0},  # Inicializar o resumo do ano com valores_gastos como 0
             }
 
         municipios[id_municipio]["detalhe"][str(item["ano"])][str(item["mes"])] = {
             "valores_gastos": item["valores_gastos"],
-            "quantidade_licitacoes": item["quantidade_licitacoes"]
+            "quantidade_licitacoes": item["quantidade_licitacoes"],
+            "qtd_dispensa": item["qtd_dispensa"]
         }
 
         # Adicionar os valores gastos ao resumo do ano
         municipios[id_municipio]["detalhe"][ano]["resumo"]["valores_gastos"] += item["valores_gastos"]
         municipios[id_municipio]["detalhe"][ano]["resumo"]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
-        
+        municipios[id_municipio]["detalhe"][ano]["resumo"]["qtd_dispensa"] += item["qtd_dispensa"]
 
 
         # Adicionar os valores gastos ao resumo
         municipios[id_municipio]["resumo"]["valores_gastos"] += item["valores_gastos"]
         municipios[id_municipio]["resumo"]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
+        municipios[id_municipio]["resumo"]["qtd_dispensa"] += item["qtd_dispensa"]
 
         # Adicionar os valores gastos ao resumo geral
         if ano not in geral["detalhe"]:
             geral["detalhe"][ano] = {
-                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0}
+                "resumo": {"valores_gastos": 0, "quantidade_licitacoes": 0, "qtd_dispensa": 0}
             }
         geral["detalhe"][ano]["resumo"]["valores_gastos"] += item["valores_gastos"]
         geral["detalhe"][ano]["resumo"]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
+        geral["detalhe"][ano]["resumo"]["qtd_dispensa"] += item["qtd_dispensa"]
 
         # Adicionar os valores gastos de cada mês ao geral
         mes = str(item["mes"])
         if mes not in geral["detalhe"][ano]:
-            geral["detalhe"][ano][mes] = {"valores_gastos": 0, "quantidade_licitacoes": 0}
+            geral["detalhe"][ano][mes] = {"valores_gastos": 0, "quantidade_licitacoes": 0, "qtd_dispensa": 0}
         geral["detalhe"][ano][mes]["valores_gastos"] += item["valores_gastos"]
         geral["detalhe"][ano][mes]["quantidade_licitacoes"] += item["quantidade_licitacoes"]
+        geral["detalhe"][ano][mes]["qtd_dispensa"] += item["qtd_dispensa"]
 
 
     # Salvar cada município em um arquivo separado na pasta 'site'

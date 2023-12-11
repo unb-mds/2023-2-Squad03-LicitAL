@@ -39,29 +39,37 @@ def extrair_valores(caminho_arquivo, resultado_json):
             # Itera sobre os blocos
             for bloco in blocos:
                 # Verifica se o bloco contém palavras-chave relacionadas a licitações
-                if any(palavra_chave in bloco for palavra_chave in ['Licitação', 'licitação', 'licitacao', 'Licitacao']):
+                if any(palavra_chave in bloco for palavra_chave in ['EXTRATO DE CONTRATO']):
                     valor_total_cidade = 0.0
                     quantidade_licitacoes = 0
-
+                    qtd_dispensa = 0  # Inicializa a contagem de "Dispensa de Licitação"
+                    
+                    valor_float = 0.0
                     matches = re.finditer(r'R\$\s?(\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?)', bloco)
                     for match in matches:
                         valor_encontrado = match.group(1).replace('.', '').replace(',', '.')
                         valor_float = float(valor_encontrado)
                         valor_total_cidade += valor_float
                         quantidade_licitacoes += 1
-                    
+
+                    # Verifica se o bloco contém "Dispensa de Licitação"
+                    if 'Dispensa de Licitação' in bloco and valor_float > 50000:
+                        qtd_dispensa += 1
+
                     resultado_existente = next((result for result in resultados_existente if result["municipio"] == municipio and result["ano"] == int(mes_ano[:4]) and result["mes"] == int(mes_ano[5:])), None)
 
                     if resultado_existente:
-                        # Se já existe, atualiza o valor e a quantidade
+                        # Se já existe, atualiza o valor, a quantidade e a contagem de dispensa
                         resultado_existente["valores_gastos"] += valor_total_cidade
                         resultado_existente["quantidade_licitacoes"] += quantidade_licitacoes
+                        resultado_existente["qtd_dispensa"] += qtd_dispensa
                     else:
                         # Adiciona um resultado à lista
                         resultados_existente.append({
                             "municipio": municipio,
                             "valores_gastos": valor_total_cidade,
                             "quantidade_licitacoes": quantidade_licitacoes,
+                            "qtd_dispensa": qtd_dispensa,
                             "ano": int(mes_ano[:4]),
                             "mes": int(mes_ano[5:])
                         })
