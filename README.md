@@ -67,7 +67,7 @@ Esse script irá processar o arquivo `api.json` e gerar arquivos `nome-da-cidade
 Os arquivos de dados de cada cidade podem ser encontrados no diretório `site`.
 
 ## Disponível no Site
-[LicitAL](unb-mds.github.io/squad03-r2/)
+[LicitAL](https://unb-mds.github.io/squad03-r2/)
 
 ## 👨‍💻 Desenvolvedores
 
