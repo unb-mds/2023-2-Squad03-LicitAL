@@ -28,8 +28,13 @@ O primeiro passo consistem em:
 
 Por exemplo, para coletar e processar os diários entre 01/06/2022 e 31/12/2022, basta executar o seguinte comando.
 
+EM LINUX OU MAC:
 ```
 START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
+```
+EM WINDOWS:
+```
+START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador_windows.sh
 ```
 
 Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições extras. Isso é tratado com a adição de um número depois da data 
@@ -39,30 +44,30 @@ Essa execução irá gerar um conjunto de arquivos no diretório `/data/diarios`
 - `-extraido.txt`: versão texto do diário da AMA;
 - `-resumo-extracao.json`: resultado da segmentação do diário da AMA em diferentes diários municipais.
 
-Após a coleta, transformação em texto e segmentação do diário em diários, o próximo passo é dividir cada diário municipal em atos (ou ações executivas). Além disso, o script também processa o texto dos atos, por exemplo, realizando a identificação de valores gastos com licitações.
+Após a coleta, transformação em texto e segmentação do diário em diários, o próximo passo é utilizar o nosso extrator de valores referentes a licitações existentes nos diarios.
 
-O script `extrair_atos.sh` processa todos os arquivos `-resumo-extracao.json`. Ele extrairá os atos de todos os diários municipais segmentados.
-
-```
-./extrair_atos.sh
-```
-
-A execução desse script gerará um arquivo `-atos.json` para cada resumo de extração.
-
-### Gerando base de dados para análise
-
-Após realizar a extração dos atos dos diários municipais, basta executar:
+O script `extrator.sh` processa todos os arquivos `-resumo-extracao.json`. Ele extrairá os valores licitados de todos os diários municipais segmentados nos json.
 
 ```
-python3 criar_dataset_atos.py
+./extrator.sh
 ```
 
-Esse script irá processar todos os arquivos `-atos.json` e gerar o arquivo `df.zip` contendo um resumo de todos os dados necessários para análise.
+A execução desse script gerará um arquivo `api.json` contendo os valores de cada cidade em cada mês e ano.
 
-Os arquivos de análise podem ser encontrados no diretório `analise`.
+### Gerando dados para envio ao front-end
+
+Após realizar a extração das licitações dos diários municipais, basta executar:
+
+```
+python3 site_1.py
+```
+
+Esse script irá processar o arquivo `api.json` e gerar arquivos `nome-da-cidade.json` e um `geral.json` contendo um resumo de todos os dados necessários para gerar a visualização em site.
+
+Os arquivos de dados de cada cidade podem ser encontrados no diretório `site`.
 
 ## Disponível no Site
-[LicitAL](https://licital.web.app)
+[LicitAL](unb-mds.github.io/squad03-r2/)
 
 ## 👨‍💻 Desenvolvedores
 
@@ -73,7 +78,9 @@ Os arquivos de análise podem ser encontrados no diretório `analise`.
 		<td align="center"><a href="https://github.com/omascara2"><img src="https://github.com/omascara2.png?size=460" width="100px;" alt=""/><br /><sub><b>Marco</b></sub></a><br /><a href="https://github.com/omascara2"></a></td>
 		<td align="center"><a href="https://github.com/Paxxaglia"><img src="https://github.com/Paxxaglia.png?size=460" width="100px;" alt=""/><br /><sub><b>Iago</b></sub></a><br /><a href="https://github.com/Paxxaglia"></a></td>
 		<td align="center"><a href="https://github.com/PedroHenrique061"><img src="https://github.com/PedroHenrique061.png?size=460" width="100px;" alt=""/><br /><sub><b>Pedro Henrique </b></sub></a><br /><a href="https://github.com/PedroHenrique061"></a></td>
-        <td align="center"><a href="https://github.com/Sooties"><img src="https://github.com/Sooties.png?size=460" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><a href="https://github.com/Sooties"></a></td>
+        <td align="center"><a href="https://github.com/brunocva"><img src="https://github.com/brunocva.png?size=460" width="100px;" alt=""/><br /><sub><b>Bruno</b></sub></a><br /><a href="https://github.com/Sooties"></a></td>
+		<td align="center"><a href="https://github.com/Sooties"><img src="https://github.com/Sooties.png?size=460" width="100px;" alt=""/><br /><sub><b>Diego</b></sub></a><br /><a href="https://github.com/Sooties"></a></td>
+		<td align="center"><a href="https://github.com/EstherSousa"><img src="https://github.com/EstherSousa.png?size=460" width="100px;" alt=""/><br /><sub><b>Esther</b></sub></a><br /><a href="https://github.com/Sooties"></a></td>
 	</tr>
 </table>
 
