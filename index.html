@@ -400,8 +400,12 @@
                         <li>Segmentar o diário da AMA() em diversos diários municipais usando o script <code>extrair_diarios.py</code>.</li>
                      </ol>
                      <p>Por exemplo, para coletar e processar os diários entre 01/06/2022 e 31/12/2022, basta executar o seguinte comando.</p>
+                     <p>EM LINUX ou MAC</p>
                      <pre><code>START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador.sh
 </code></pre>
+                     <p>EM WINDOWS</p>
+                     <pre><code>START_DATE=2022-01-06 END_DATE=2022-12-31 ./coletador_windows.sh
+                     </code></pre>
                      <p>Vale notar que um mesmo dia pode ter mais de um diário, pois existem edições extras. Isso é tratado com a adição de um número depois da data </p>
                      <p>Essa execução irá gerar um conjunto de arquivos no diretório <code>/data/diarios</code>. Listamos 2 tipos de arquivos:</p>
                      <ul>
@@ -417,10 +421,10 @@
                      <p>Após realizar a extração dos atos dos diários municipais, basta executar:</p>
                      <pre><code>python3 criar_dataset_atos.py
 </code></pre>
-                     <p>Esse script irá processar todos os arquivos <code>-atos.json</code> e gerar o arquivo <code>df.zip</code> contendo um resumo de todos os dados necessários para análise.</p>
-                     <p>Os arquivos de análise podem ser encontrados no diretório <code>analise</code>.</p>
+                     <p>Esse script irá processar todos os arquivos <code>api.json</code> e gerar os arquivos <code>nome-da-cidade.json</code> e um <code>geral.json</code>contendo um resumo de todos os dados necessários para análise.</p>
+                     <p>Os arquivos de análise podem ser encontrados no diretório <code>/site</code>.</p>
                      <h2 id="disponivel-na-gitpage">Disponível na Gitpage</h2>
-                     <p><a href="https://unb-mds.github.io/squad03-r2/">LicitAL</a></p>
+                     <p><a href="https://licital-front-end.vercel.app/">LicitAL</a></p>
                      <h2 id="desenvolvedores">👨‍💻 Desenvolvedores</h2>
                      <table>
                         <tr>
