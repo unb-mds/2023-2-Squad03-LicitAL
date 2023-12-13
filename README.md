@@ -69,6 +69,9 @@ Os arquivos de dados de cada cidade podem ser encontrados no diretório `site`.
 ## Disponível no Site
 [LicitAL](https://licital-front-end.vercel.app/)
 
+## Documentação
+A documentação do projeto está disponivel [aqui](https://unb-mds.github.io/2023-2-Squad03-LicitAL/)
+
 ## 👨‍💻 Desenvolvedores
 
 <table>
